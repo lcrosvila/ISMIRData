@@ -1,0 +1,341 @@
+[
+    {
+        "title": "Content-based Identification of Audio Material Using MPEG-7 Low Level Description.",
+        "author": [
+            "Eric Allamanche"
+        ],
+        "year": "2001",
+        "doi": "10.5281/zenodo.1417853",
+        "url": "https://doi.org/10.5281/zenodo.1417853",
+        "ee": "https://zenodo.org/records/1417853/files/Allamanche01.pdf",
+        "abstract": "Along with investigating similarity metrics between audio material, the topic of robust matching of pairs of audio content has gained wide interest recently. In particular, if this matching process is carried out using a compact representation of the audio content (\"audio fingerprint\"), it is possible to identify unknown audio material by means of matching it to a database with the fingerprints of registered works. This paper presents a system for reliable, fast and robust identification of audio material which can be run on the resources provided by today's standard computing platforms. The system is based on a general pattern recognition paradigm and exploits low level signal features standardized within the MPEG-7 framework, thus enabling interoperability on a world-wide scale. Compared to similar systems, particular attention is given to issues of robustness with respect to common signal distortions, i.e. recognition performance for processed/modified audio signals. The system's current performance figures are benchmarked for a range of real-world signal distortions, including low bitrate coding and transmission over an acoustic channel. A number of interesting applications are discussed.",
+        "zenodo_id": 1417853,
+        "dblp_key": "conf/ismir/Allamanche01"
+    },
+    {
+        "title": "Figured Bass and Tonality Recognition.",
+        "author": [
+            "Jérôme Barthélemy"
+        ],
+        "year": "2001",
+        "doi": "10.5281/zenodo.1417161",
+        "url": "https://doi.org/10.5281/zenodo.1417161",
+        "ee": "https://zenodo.org/records/1417161/files/Barthelemy01.pdf",
+        "abstract": "In the course of the WedelMusic project [15], we are currently implementing retrieval engines based on musical content automatically extracted from a musical score. By musical content, we mean not only main melodic motives, but also harmony, or tonality. In this paper, we first review previous research in the domain of harmonic analysis of tonal music. We then present a method for automated harmonic analysis of a music score based on the extraction of a figured bass. The figured bass is determined by means of a template-matching algorithm, where templates for chords can be entirely and easily redefined by the end-user. We also address the problem of tonality recognition with a simple algorithm based on the figured bass. Limitations of the method are discussed. Results are shown and compared to previous research. Finally, potential uses for Music Information Retrieval are discussed.",
+        "zenodo_id": 1417161,
+        "dblp_key": "conf/ismir/Barthelemy01"
+    },
+    {
+        "title": "MUSART: Music Retrieval Via Aural Queries.",
+        "author": [
+            "William P. Birmingham"
+        ],
+        "year": "2001",
+        "doi": "10.5281/zenodo.1415810",
+        "url": "https://doi.org/10.5281/zenodo.1415810",
+        "ee": "https://zenodo.org/records/1415810/files/Birmingham01.pdf",
+        "abstract": "MUSART is a research project developing and studying new techniques for music information retrieval. The MUSART architecture uses a variety of representations to support multiple search modes. Progress is reported on the use of Markov modeling, melodic contour, and phonetic streams for music retrieval. To enable large-scale databases and more advanced searches, musical abstraction is studied. The MME subsystem performs theme extraction, and two other analysis systems are described that discover structure in audio representations of music. Theme extraction and structure analysis promise to improve search quality and support better browsing and “audio thumbnailing.” Integration of these components within a single architecture will enable scientific comparison of different techniques and, ultimately, their use in combination for improved performance and functionality.",
+        "zenodo_id": 1415810,
+        "dblp_key": "conf/ismir/Birmingham01"
+    },
+    {
+        "title": "Building a Platform for Performance Study of Various Music Information Retrieval Approaches.",
+        "author": [
+            "Arbee L. P. Chen"
+        ],
+        "year": "2001",
+        "doi": "10.5281/zenodo.1414822",
+        "url": "https://doi.org/10.5281/zenodo.1414822",
+        "ee": "https://zenodo.org/records/1414822/files/Chen01.pdf",
+        "abstract": "In this paper, we describe the Ultima project which aims to construct a platform for evaluating various approaches of music information retrieval. Three approaches with the corresponding tree-based, list-based, and (n-gram+tree)-based index structures are implemented. A series of experiments has been carried out. With the support of the experiment results, we compare the performance of index construction and query processing of the three approaches and give a summary for efficient content-based music information retrieval.",
+        "zenodo_id": 1414822,
+        "dblp_key": "conf/ismir/Chen01"
+    },
+    {
+        "title": "Computer Analysis of Musical Allusions.",
+        "author": [
+            "David Cope"
+        ],
+        "year": "2001",
+        "doi": "10.5281/zenodo.7679672",
+        "url": "https://doi.org/10.5281/zenodo.7679672",
+        "ee": null,
+        "abstract": "<p>The article imparts the information on religiously marked allusions, their symbolic representations in English literary texts and analysis from the perspectives of cognitive linguistics. Among its other aspects, the research places particular emphasis on symbolic functions outperformed by allusions and in order to reveal the symbolic significance generated in the semantic layer of religiously marked allusions, the methods of conceptual analysis and conceptual blending were applied. The results of the analysis show that religiously marked allusions activate religious knowledge structures, implicitly symbolize abstract phenomena, convey conceptual meaning and express the author&#39;s individual world picture.</p>",
+        "zenodo_id": 7679672,
+        "dblp_key": "conf/ismir/Cope01"
+    },
+    {
+        "title": "Music Information Retrieval as Music Understanding.",
+        "author": [
+            "Roger B. Dannenberg"
+        ],
+        "year": "2001",
+        "doi": "10.5281/zenodo.1418263",
+        "url": "https://doi.org/10.5281/zenodo.1418263",
+        "ee": "https://zenodo.org/records/1418263/files/Dannenberg01.pdf",
+        "abstract": "Much of the difficulty in Music Information Retrieval can be traced to problems of good music representations, understanding music structure, and adequate models of music perception. In short, the central problem of Music Information Retrieval is Music Understanding, a topic that also forms the basis for much of the work in the fields of Computer Music and Music Perception. It is important for all of these fields to communicate and share results. With this goal in mind, the author’s work on Music Understanding in interactive systems, including computer accompaniment and style recognition, is discussed.",
+        "zenodo_id": 1418263,
+        "dblp_key": "conf/ismir/Dannenberg01"
+    },
+    {
+        "title": "An Approach Towards A Polyphonic Music Retrieval System.",
+        "author": [
+            "Shyamala Doraisamy"
+        ],
+        "year": "2001",
+        "doi": "10.5281/zenodo.1415622",
+        "url": "https://doi.org/10.5281/zenodo.1415622",
+        "ee": "https://zenodo.org/records/1415622/files/Doraisamy01.pdf",
+        "abstract": "Most research on music retrieval systems is based on monophonic musical sequences.  In this paper, we investigate techniques for a full polyphonic music retrieval system.  A method for indexing polyphonic music data files using the pitch and rhythm dimensions of music information is introduced.  Our strategy is to use all combinations of monophonic musical sequences from polyphonic music data.  ‘Musical words’ are then obtained using the n-gram approach enabling text retrieval methods to be used for polyphonic music retrieval. Here we extend the n-gram technique to encode rhythmic as well as interval information, using the ratios of onset time differences between two adjacent pairs of pitch events.  In studying the precision in which intervals are to be represented, a mapping function is formulated in dividing intervals into smaller classes.  To overcome the quantisation problems that arise with using rhythmic information from performance data, an encoding mechanism using ratio bins is also adopted.  We present results from retrieval experiments with a database of 3096 polyphonic pieces.",
+        "zenodo_id": 1415622,
+        "dblp_key": "conf/ismir/Doraisamy01"
+    },
+    {
+        "title": "A Technique for Regular Expression Style Searching in Polyphonic Music.",
+        "author": [
+            "Matthew J. Dovey"
+        ],
+        "year": "2001",
+        "doi": "10.5281/zenodo.1416140",
+        "url": "https://doi.org/10.5281/zenodo.1416140",
+        "ee": "https://zenodo.org/records/1416140/files/Dovey01.pdf",
+        "abstract": "This paper discussed some of the ongoing investigative work on integrating these two systems conducted as part of the NSF/JISC funded OMRAS (Online Music Retrieval and Searching) project into polyphonic searching of music. It describes a simple and efficient “piano-roll” based algorithm for locating a polyphonic query within a large polyphonic text. It then describes ways in which this algorithm can be modified without affecting the performance to allow more freedom in the how a match is made, allowing queries which involve something akin to polyphonic regular expressions to be located in the text.",
+        "zenodo_id": 1416140,
+        "dblp_key": "conf/ismir/Dovey01"
+    },
+    {
+        "title": "Whither MIR Research: Thoughts about the Future.",
+        "author": [
+            "J. Stephen Downie"
+        ],
+        "year": "2001",
+        "doi": "10.5281/zenodo.4739972",
+        "url": "https://doi.org/10.5281/zenodo.4739972",
+        "ee": null,
+        "abstract": "<p>Human beings have participated in the evolution process by selectively breeding and domesticating certain kinds of plants and animals while crossbreeding others. Although it was never termed so, we were practising genetic engineering by keeping the ones that were desirable and eventually eliminating the other. Thanks to the many advances in genetics and genetic engineering today, we are in a position to treat or eliminate a disease from the very root itself, the genes. This is called gene therapy where the corrected genes are introduced into the affected cells either using a viral vector or nanoparticle. Depending on the target cell type, gene therapy can be divided into somatic cell gene therapy and germline gene therapy, which are non-transferable and transferable respectively, to future generations. There are many obstacles to the use of viral vectors, like the unnecessary immunogenic response that it stimulates in the patient and the potential uncertainties or the outcome of this novel therapy. Ethical issues involve sourcing&nbsp;embryonic cells for research, taking consent of the individual who is an embryo, clinical trials, the risk of misuse of this technology to create a superior human class, the affordability of such treatments and the regulations that will govern such therapies.&nbsp; In this essay we take a closer look at the various issues surrounding the use of stem cells and how we see it evolving in the future and if we could ever fully reap the benefits of this revolutionizing technology without compromising our &ldquo;humanness&rdquo;.</p>",
+        "zenodo_id": 4739972,
+        "dblp_key": "conf/ismir/Downie01"
+    },
+    {
+        "title": "Expressive and Efficient Retrieval of Symbolic Musical Data.",
+        "author": [
+            "Michael Droettboom"
+        ],
+        "year": "2001",
+        "doi": "10.5281/zenodo.1417741",
+        "url": "https://doi.org/10.5281/zenodo.1417741",
+        "ee": "https://zenodo.org/records/1417741/files/Droettboom01.pdf",
+        "abstract": "The ideal content-based musical search engine for large corpora must be both expressive enough to meet the needs of a diverse user base and efﬁcient enough to perform queries in a reasonable amount of time. In this paper, we present such a system, based on an existing advanced natural language search engine. In our design, musically meaningful searching is simply a special case of more general search techniques. This approach has allowed us to create an extremely powerful and fast search engine with minimal effort.",
+        "zenodo_id": 1417741,
+        "dblp_key": "conf/ismir/Droettboom01"
+    },
+    {
+        "title": "Melody Spotting Using Hidden Markov Models.",
+        "author": [
+            "Adriane Durey"
+        ],
+        "year": "2001",
+        "doi": "10.5281/zenodo.1415680",
+        "url": "https://doi.org/10.5281/zenodo.1415680",
+        "ee": "https://zenodo.org/records/1415680/files/Durey01.pdf",
+        "abstract": "\u0000\u0002\u0001\u0004\u0003\u0006\u0005\b\u0007 \u000e\r\u0010\u000f\u0012\u0011\u0013\u0005\u0015\u0014\u0017\u0016 \u0011\u0013\u0005\u0006\u0018\u0010\u000f\u0012\u0019 \u000f\u0012\u001a\u001b\u000f\u0012\u001c\f\u0005\u001d\u0018\u001e\t\u001f\u0016 \u0010\u000f\u0012\u0005\u001d\u0001\u0004\u0016 !\u0010\u0014\u001e\r\u0010\u0001\u001b\u000f\"\t#\u0007 $ \u0011\u0013\u0005\u001d\t\u001f\u0016 \u0011%\u0018'& \u000f\u0012()\u0019*\u0001\u001f+,\u000f\u0012\u001a\u0002-.\u0005/\t#\u00160\u0014\u0017\u0005\u001d\u00011\u000f\"()\t\u001f\u0011\u0013\u0005\u001d\u00072\u0001\u001b\u000f\"()\u0019*$435()\u0005\u001d\t\u001f\u0005\u001d\u0001\u001b\u00016\u0007/\u0011%37\u001a8\u0016:9)\u0007<;*\u0005\u0017\u001a\u001b9)\u0005 \u00072\u0001\u001b\u0001\u001b\u000f\"\u00016\u001a6\u00072(\u0010\t\u001f\u0005=\u0016 !>\u0007?\t#\u00160\u0014\u0017 @\r)\u001a8\u0005\u001d\u0011A\u000f\"(B\u00016\u00162\u0011%\u001a6\u000f\"()\u0019:\u001a69)\u0011\u0013\u0016*\r)\u0019*9C\u001a\u001b9)\u0005D\u000f\u0012('& !E\u0016 \u0011#\u0014\u0017\u0007/\u001a\u001b\u000f\u0012\u0016*(F\u001a\u001b9)\u00072\u001aG\u000f\u0012\u001aG\u00016\u001a6\u0016 \u0011\u0013\u0005\u001d\u0001\u001fHAIJ(F\u001a69\u0010\u000f\"\u0001G )\u00072 .\u0005<\u0011<+K\u0003\u0015\u0005L \u0010\u0011\u0013\u0016 .\u0016*\u00016\u0005 \u0007M()\u0005<\u0003N\u000163)\u00016\u001a6\u0005/\u0014O!P\u0016 \u0011=\u0014\u0017\u0005\u001d$\u0012\u0016\u000e\u0018)30&Q-\u0010\u0007 \u00016\u0005\u001d\u0018R\u0011\u0013\u0005<\u001a6\u0011%\u000f\u0012\u0005<;/\u00072$\u0006\u00162!S\u0007M\u00016\u0016 ()\u0019 !E\u0011\u0013\u00160\u0014T\u0007U\u0014L\r\u0010\u0001\u001b\u000f\u0012\t\u001f\u0007 $\u001e\u0018)\u0007/\u001a6\u00072-\u0010\u00072\u00016\u0005V\u0003W9)\u000f\"\t#9X\u0007 \u0018'\u00072 \u0010\u001a\u001b\u0001C\u0003\u0006\u0016 \u0011%\u0018\u0010\u00016 .\u0016 \u001a8& \u001a6\u000f\"()\u0019F\u001a6\u0005\u001d\t#9\u0010()\u000f\"\u000b'\r'\u0005/\u0001\u001e!E\u0011%\u0016*\u0014Y\u00072\r)\u001a6\u00160\u0014L\u00072\u001a\u001b\u000f\"\tZ\u00016 .\u0005<\u0005/\t%9R\u0011\u0013\u0005\u001d\t\u001f\u0016 \u0019*(\u0010\u000f4\u001a\u001b\u000f\u0012\u0016*( \u001a8\u0016B\t#\u0011%\u0005<\u0007/\u001a6\u0005?\u00077\u0014\u0017\u0005\u001d$\u0012\u0016\u000e\u0018)3[\u00016 .\u0016 \u001a6\u001a\u001b\u000f\u0012()\u00195\u000163'\u00016\u001a6\u0005/\u0014\\\u000f\"([\u001a\u001b9'\u0005M\u0014\u001e\r\u0010\u0001\u001b\u000f\"\t\u001f\u00072$ \u0018'\u00160\u0014\u0017\u0007 \u000f\u0012(]H_^\u00069\u0010\u000f\"\u0001_\u000163'\u00016\u001a6\u0005/\u0014`\u000f\"\u0001\b\u001a8\u0005/\u00016\u001a8\u0005/\u0018\u0017\r\u0010\u0001\u001b\u000f\"()\u0019a\u0007\u0002;\u001d\u00072\u0011%\u000f\u0012\u0005<\u001aJ3L\u0016 !b!P\u0005<\u0007\u001d& \u001a6\r)\u0011\u0013\u00055\u00016\u0005<\u001a\u001b\u0001D\u0018)\u0005<\u0011%\u000f\u0012;*\u0005\u001d\u0018V!E\u0011\u0013\u00160\u0014c\u0011\u0013\u0007\u001d\u0003d\u0007 \u0010\u0018\u0010\u000f4\u0016e\u0018)\u00072\u001a6\u0007\u000eHfIg\u001aD\u0011\u0013\u0005/\u0001\u001b\r)$\u0012\u001a\u001b\u0001 \u000f\u0012(h\u0007i\u0001\u001b\r\u0010\t\f\t\u001f\u0005\u001d\u0001\u001b\u00016!P\r\u0010$j \u0010\u0011\u0013\u0016\u000e\u00162!L\u00162!L\u001a69)\u0005[\u0014\u0017\u0005\u001d$\u0012\u0016\u000e\u0018)3U\u00016 .\u0016 \u001a6\u001a6\u000f\"()\u0019k\t\u001f\u0016 ('& #\u0005\u001d )\u001a:\u0003W9\u0010\u000f\u0012\t#9U\u00162lK\u0005<\u0011%\u0001?\u00192\u0011%\u0005<\u0007/\u001a: .\u0016 \u001a6\u0005\u001d(0\u001a\u001b\u000f\u0012\u0007 $G!P\u0016 \u0011C\u0018'\u0005\u001d;*\u0005\u001d$\u0012\u00162 .\u0014\u0017\u0005\u001d(\u000e\u001a \u000f\u0012(\u000e\u001a6\u0016\u0017\u0007=\u0014\u001e\r\u0010\u0001\u001b\u000f\"\t#\u0007 $b\u0018)\u00072\u001a6\u0007/-\u0010\u0007 \u00016\u0005\u001e\t#\u00072 \u0010\u0007/-@$\u0012\u0005a\u0016 !m-.\u0005\u001d\u000f\"()\u0019n\u000b'\r)\u0005<\u0011%\u000f\u0012\u0005\u001d\u0018?-\u000e3 \u0014L\u0005/$4\u0016'\u0018'3 H",
+        "zenodo_id": 1415680,
+        "dblp_key": "conf/ismir/Durey01"
+    },
+    {
+        "title": "Towards a Cognitive Model of Melodic Similarity.",
+        "author": [
+            "Ludger Hofmann-Engl"
+        ],
+        "year": "2001",
+        "doi": "10.5281/zenodo.1417359",
+        "url": "https://doi.org/10.5281/zenodo.1417359",
+        "ee": "https://zenodo.org/records/1417359/files/Hofmann-Engl01.pdf",
+        "abstract": "In recent years the interest in melodic similarity has mushroomed mainly due to the increased importance of music information retrieval (MIR). A great number of similarity models and algorithms have been developed, but little or no attention has been paid to cognitive or perceptual aspects to the issue at hand. Questions, about the relevant parameters and the appropriate implementation are under-researched as are experimental data. This paper focuses on the pitch aspect of melodic similarity, scrutinising the term pitch replacing it by a less ambivalent and overused term, which we will call meloton. Based on the term meloton the paper suggests to approach the issue of ‘melotonic’ similarity from a transformational angle, where transformations are executed as reflections and translations. ‘Melotonic’ similarity then is seen as related to the transformation process in form of a transpositional and interval vector. Finally, melotonic similarity as portrait in a psychological context emerges as a multi-facet phenomenon requiring the development of flexible models.",
+        "zenodo_id": 1417359,
+        "dblp_key": "conf/ismir/Hofmann-Engl01"
+    },
+    {
+        "title": "GUIDO/MIR an Experimental Musical Information Retrieval System based on GUIDO Music Notation.",
+        "author": [
+            "Holger H. Hoos",
+            "Kai Renz",
+            "Marko Görg"
+        ],
+        "year": "2001",
+        "doi": "10.5281/zenodo.1417517",
+        "url": "https://doi.org/10.5281/zenodo.1417517",
+        "ee": "https://zenodo.org/records/1417517/files/Holger01.pdf",
+        "abstract": "Musical databases are growing in number, size, and complexity, and they are becoming increasingly relevant for a broad range of academic as well as commercial applications. The features and performance of musical database systems critically depend on two factors: The nature and representation of the information stored in the database, and the search and retrieval mechanisms available to the user. In this paper, we present an experimental database and retrieval system for score-level musical information based on GUIDO Music Notation as the underlying music representation. We motivate and describe the database design as well as the ﬂexible and efﬁcient query and retrieval mechanism, a query-by-example technique based on probabilistic matching over a clustered dataset. This approach has numerous advantages, and based on experience with a ﬁrst, experimental implementation, we believe it provides a solid foundation for powerful, efﬁcient, and usable database and retrieval systems for structured musical information. 1",
+        "zenodo_id": 1417517,
+        "dblp_key": "conf/ismir/Holger01"
+    },
+    {
+        "title": "The JRing System for Computer-Assisted Musicological Analysis.",
+        "author": [
+            "Andreas Kornstädt"
+        ],
+        "year": "2001",
+        "doi": "10.5281/zenodo.1416100",
+        "url": "https://doi.org/10.5281/zenodo.1416100",
+        "ee": "https://zenodo.org/records/1416100/files/Kornstadt01.pdf",
+        "abstract": "Among other factors, high complexity and mandatory expert computer knowledge make many music IR and music analysis systems unsuitable for the majority of largely computer-illiterate musicologists. The JRing system offers highly flexible yet intuitively usable search and comparison operations.  to aid musicologists during score analysis. This paper discusses the requirement analysis that led to JRing’s inception, its IR tools and graphical user interface plus the kind of musical material it works on and the Humdrum-based technical realization of IR operations. 1 USER NEEDS JRing was conceived as set of tools to assist musicologists during that kind of score analysis which aims at: • a score in which all musicologically relevant elements are completely marked up • a catalogue which contains all occurrences of all of these elements in complete form plus an arbitrary set of annotations Depending on the type of work and / or analysis, the elements could be themes, leitmotivs or sets. At the beginning of the JRing development process, musicologists at the University of Hamburg and Stanford University were asked to specify the kind of computer assistance they would like to have during analysis. The five results that directly or indirectly pertain to IR were: (1) Print-like rendition of all musical materials (score, excerpts, search results) as the basis for identifying and comparing elements optically. (2) Search capabilities for finding elements by arbitrary combinations of musical features (pitch, harmony, and rhythm in various forms). (3) Tools that help to create catalogue entries, comprising (a) making excepts and (b) filling in information about the elements that can be automatically derived from the excerpt such as set class or position within the score. (4) Catalogue management capabilities to sort and filter catalogue entries according to certain criteria. (5) Customization of the structure of catalogue entries and consequently the search and comparison operations based on them. Other – non IR-related – requirements included the ability to switch back and forth between different kinds of analyses plus a maximum degree of platform independence. It becomes evident from the composition of the set of requirements what at least the musicologists that took part in the development of JRing do aim for. It is not a “big automaton” that can be fed with a score and some kind of theory description and that churns out a results that has to be interpreted by the musicologist [1, 7]. Instead, what is asked for is a set of tools that leaves the analyst permanently in charge of analysis decisions and that merely assist him in making choices faster and with less effort. The basic ways of traditional, manual analyses should not be changed. 2 SOLUTION COMPONENTS A comprehensive solution that meets all the above-mentioned requirements can hardly be furnished single-handedly. Although there is no adequate reusable and platform independent graphical user interface, many results in the area of data storage and retrieval can be incorporated and made accessible through a new user interface.",
+        "zenodo_id": 1416100,
+        "dblp_key": "conf/ismir/Kornstadt01"
+    },
+    {
+        "title": "Adventures in Standardization, or How We Learned to Stop Worrying and Love MPEG-7.",
+        "author": [
+            "Adam Lindsay",
+            "Youngmoo E. Kim"
+        ],
+        "year": "2001",
+        "doi": "10.5281/zenodo.1418071",
+        "url": "https://doi.org/10.5281/zenodo.1418071",
+        "ee": "https://zenodo.org/records/1418071/files/LindsayK01.pdf",
+        "abstract": "The authors give a brief account of their combined 7+ years in multimedia standardization, namely in the MPEG arena. They discuss specifics on musical content description in MPEG-7 Audio and other items relevant to Music Information Retrieval among the MPEG-7 Multimedia Description Schemes. In the presentation, they will give a historical overview of the MPEG-7 standard, its motivations, and what led to its current state.",
+        "zenodo_id": 1418071,
+        "dblp_key": "conf/ismir/LindsayK01"
+    },
+    {
+        "title": "Score Processing For MIR.",
+        "author": [
+            "Donncha Ó Maidín"
+        ],
+        "year": "2001",
+        "doi": "10.5281/zenodo.1416442",
+        "url": "https://doi.org/10.5281/zenodo.1416442",
+        "ee": "https://zenodo.org/records/1416442/files/Maidin01.pdf",
+        "abstract": "The focus of this paper is on the design and use of a music score representation. The structure of the representation is discussed and illustrated with sample algorithms, including some from music information retrieval. The score representation was designed for the development of general algorithms and applications. The common container-iterator paradigm is used, in which the score is modelled as a container of objects, such as clefs, key signatures, time signatures, notes, rests and barlines. Access to objects within the score is achieved through iterators. These iterators provide the developer with a mechanism for accessing the information content of the score. The iterators are designed to achieve a high level of data hiding, so that the user is shielded from the substantial underlying complexity of score representation, while at the same time, having access to the score’s full information content.",
+        "zenodo_id": 1416442,
+        "dblp_key": "conf/ismir/Maidin01"
+    },
+    {
+        "title": "Thematic Extractor.",
+        "author": [
+            "Colin Meek"
+        ],
+        "year": "2001",
+        "doi": "10.5281/zenodo.1414828",
+        "url": "https://doi.org/10.5281/zenodo.1414828",
+        "ee": "https://zenodo.org/records/1414828/files/Meek01.pdf",
+        "abstract": "We have created a system that identifies musical keywords or themes. The system searches for all patterns composed of melodic (intervallic for our purposes) repetition in a piece. This process generally uncovers a large number of patterns, many of which are either uninteresting or only superficially important. Filters reduce the number or prevalence, or both, of such patterns. Patterns are then rated according to perceptually significant characteristics. The top-ranked patterns correspond to important thematic or motivic musical content, as has been verified by comparisons with published musical thematic catalogs. The system operates robustly across a broad range of styles, and relies on no meta-data on its input, allowing it to independently and efficiently catalog multimedia data.",
+        "zenodo_id": 1414828,
+        "dblp_key": "conf/ismir/Meek01"
+    },
+    {
+        "title": "Music Signal Spotting Retrieval by a Humming Query Using Start Frame Feature Dependent Continuous Dynamic Programming.",
+        "author": [
+            "Takuichi Nishimura"
+        ],
+        "year": "2001",
+        "doi": "10.5281/zenodo.1417191",
+        "url": "https://doi.org/10.5281/zenodo.1417191",
+        "ee": "https://zenodo.org/records/1417191/files/Nishimura01.pdf",
+        "abstract": "We have developed a music retrieval method that takes a humming query and finds similar audio intervals (segments) in a music audio database. This method can also address a personally recorded video database containing melodies in its audio track. Our previous retrieving method took too much time to retrieve a segment: for example, a 60-minute database required about 10-minute computation on a personal computer. In this paper, we propose a new high-speed retrieving method, called start frame feature dependent continuous Dynamic Programming, which assumes that the pitch of the interval start point is accurate. Test results show that the proposed method reduces retrieval time to about 1/40 of present",
+        "zenodo_id": 1417191,
+        "dblp_key": "conf/ismir/Nishimura01"
+    },
+    {
+        "title": "A Naturalist Approach to Music File Name Analysis.",
+        "author": [
+            "François Pachet"
+        ],
+        "year": "2001",
+        "doi": "10.5281/zenodo.1415856",
+        "url": "https://doi.org/10.5281/zenodo.1415856",
+        "ee": "https://zenodo.org/records/1415856/files/Pachet01.pdf",
+        "abstract": "Music title identification is a key ingredient of contentbased electronic music distribution. Because of the lack of standards in music identification – or the lack of enforcement of existing standards – there is a huge amount of unidentified music files in the world. We propose here an identification mechanism that exploits the information possibly contained in the file name itself. We study large corpora of files whose names are decided by humans without particular constraints other than readability, and draw various hypotheses concerning the natural syntaxes that emerge from these corpora. A central hypothesis is the local syntactic consistency, which claims that file name syntaxes, whatever they are, are locally consistent within clusters of related music files. These heuristics allow to parse successfully file names without knowing their syntax a priori, using statistical measures on clusters of files, rather than on parsing files on a strict individual basis. Based on these validated hypothesis we propose a heuristics-based parsing system and illustrate it in the context of an Electronic Music Distribution project. 1",
+        "zenodo_id": 1415856,
+        "dblp_key": "conf/ismir/Pachet01"
+    },
+    {
+        "title": "An Audio Front End for Query-by-Humming Systems.",
+        "author": [
+            "Emanuele Pollastri"
+        ],
+        "year": "2001",
+        "doi": "10.5281/zenodo.1415056",
+        "url": "https://doi.org/10.5281/zenodo.1415056",
+        "ee": "https://zenodo.org/records/1415056/files/Pollastri01.pdf",
+        "abstract": "In this paper, the problem of processing audio signals is addressed in the context of query-by-humming systems. Since singing is naturally used as input, we aim to develop a front end dedicated to the symbolic translation of voice into a sequence of pitch and duration pairs. This operation is crucial for the effectiveness of searching for music by melodic similarity. In order to identify and segment a tune, well-known signal processing techniques are applied to the singing voice. After detecting pitch, a novel postprocessing stage is proposed to adjust the intonation of the user. A global refinement is based on a relative scale estimated out of the most frequent errors made by singers. Four rules are then employed to eliminate local errors. This front end has been tested with five subjects and four short tunes, detecting some 90% of right notes. Results have been compared to other approximation",
+        "zenodo_id": 1415056,
+        "dblp_key": "conf/ismir/Pollastri01"
+    },
+    {
+        "title": "Automated Rhythm Transcription.",
+        "author": [
+            "Christopher Raphael"
+        ],
+        "year": "2001",
+        "doi": "10.5281/zenodo.1416122",
+        "url": "https://doi.org/10.5281/zenodo.1416122",
+        "ee": "https://zenodo.org/records/1416122/files/Raphael01.pdf",
+        "abstract": "W e presen t a tec hnique that, giv en a sequence of m usical note onset times, p erforms sim ultaneous identi\fcation of the notated rh ythm and the v ariable temp o asso ciated with the times. Our form ulation is probabilistic: W e dev elop a sto c hastic mo del for the in terconnected ev olution of a rh ythm pro cess, a temp o pro cess, and an observ able pro cess. This mo del allo ws the globally optimal iden ti\fcation of the most lik ely rh ythm and temp o sequence, giv en the observ ed onset times. W e demonstrate applications to a sequence of times deriv ed from a sampled audio le and to MIDI data. \u0001 In tro duction A cen tral c hallenge of m usic IR is the generation of m usic databases in formats suitable for automated searc h and analysis [\u0001 ], [\u0002], [\u0003 ], [\u0004], [\u0005 ], [\u0006 ]. While a certain amoun t of information can alw a ys b e compiled b y hand, the though t of \\t yping in,\" for example, the complete w orks of Mozart seems daun ting, to sa y the least. Giv en the enormit y of suc h tasks w e exp ect that automatic m usic transcription will \u0003 This w ork is supp orted b y NSF gran t I IS-\t\t\b\u0007\b\t\b. pla y an imp ortan t role in the construction of m usic databases. W e address here a comp onen t of this automatic transcription task: Giv en a sequence of times, w e wish to iden tify the corresp onding m usical rh ythm. W e refer to this problem as \\Rh ythmic P arsing.\" The sequences of times that form the input to our system could come from a MIDI le or b e estimated from (sampled) audio data. On output, the rh ythmic parse assigns a score p osition, a (measure n um b er, measure p osition) pair, to eac h time. A trained m usician's rh ythmic understanding results from sim ultaneous iden ti\fcation of rh ythm, temp o, pitc h, v oicing, instrumen tation, dynamics, and other asp ects of m usic. The adv an tage of p osing the m usic recognition problem as one of sim ultaneous estimation is that eac h asp ect of the m usic can inform the recognition of an y other. F or instance, the estimation of rh ythm is greatly enhanced b y dynamic information since, for example, strong b eats are often p oin ts of dynamic emphasis. While w e ackno wledge that in restricting our atten tion to timing information w e exclude man y useful clues, w e feel that the basic approac h w e presen t is extendible to more complex inputs. W e are a w are of sev eral applications of rh ythmic parsing. Virtually ev ery commercial score-writing program no w o\u000bers the option of creating scores b y directly en tering MIDI data from a k eyb oard. Suc h programs m ust infer the rh ythmic con ten t from the time-tagged data and, hence, m ust address the rh ythmic parsing problem. When the input data is pla y ed with an ything less than mec hanical precision, the transcription degrades rapidly , due to the di\u000ecult y in computing the correct rh ythmic parse. 14 16 18 20 22 24 26 28 4",
+        "zenodo_id": 1416122,
+        "dblp_key": "conf/ismir/Raphael01"
+    },
+    {
+        "title": "Making Machines Palatable.",
+        "author": [
+            "Jef Raskin"
+        ],
+        "year": "2001",
+        "doi": "10.3390/healthcare12050574",
+        "url": "https://doi.org/10.3390/healthcare12050574",
+        "ee": "https://www.mdpi.com/2227-9032/12/5/574/pdf",
+        "abstract": "Background: Gaining knowledge of the various reasons behind people’s consumption of highly processed foods has the potential to enhance obesity prevention initiatives and open avenues to tailor treatment approaches for obesity and binge eating at a more personalized level. This contribution aimed to test the psychometric properties and factor structure of the Palatable Eating Motives Scale (PEMS-IT) in a community sample of Italian adults. Methods: A confirmatory factor analysis was performed to test the factor structure of the Italian version of the PEMS (PEMS-IT) on a total of 616 respondents. Furthermore, the reliability and convergent validity analysis of the tool were evaluated. Results: The analysis confirmed the four-factor structure of PEMS-IT [(YBχ2 (164) = 537.901; p < 0.001, the CFI = 0.918, RMSEA = 0.072; 90%CI [0.065–0.078]; p(RMSEA < 0.05) < 0.001, and SRMR = 0.080] and satisfactory reliability on its subscales (Cronbach’s α: 0.745–0.917). Positive correlations were also found with food addiction and binge-eating symptoms, compulsive eating behavior, and uncontrolled and emotional eating. Conclusions: The PEMS-IT appears to be an instrument with promising psychometric properties and potential applications in clinical settings. However, it also has some limitations, and future studies could focus on improving the semantic content of the elements to increase the overall utility and precision of the instrument.",
+        "zenodo_id": 10959602,
+        "dblp_key": "conf/ismir/Raskin01"
+    },
+    {
+        "title": "Efficient Multidimensional Searching Routines.",
+        "author": [
+            "Josh Reiss"
+        ],
+        "year": "2001",
+        "doi": "10.5281/zenodo.1415546",
+        "url": "https://doi.org/10.5281/zenodo.1415546",
+        "ee": "https://zenodo.org/records/1415546/files/Reiss01.pdf",
+        "abstract": "The problem of Music Information Retrieval can often be formalized as 'searching for multidimensional trajectories'. It is well known that string-matching techniques provide robust and effective theoretic solutions to this problem. However, for low dimensional searches, especially queries concerning a single vector as opposed to a series of vectors, there are a wide variety of other methods available. In this work we examine and benchmark those methods and attempt to determine if they may be useful in the field of information retrieval. Notably, we propose the use of KD-Trees for multidimensional nearneighbor searching. We show that a KD-Tree is optimized for multidimensional data, and is preferred over other methods that have been suggested, such as the K-Tree, the box-assisted sort and the multidimensional quick-sort.",
+        "zenodo_id": 1415546,
+        "dblp_key": "conf/ismir/Reiss01"
+    },
+    {
+        "title": "Musical Works as Information Retrieval Entities: Epistemological Perspectives.",
+        "author": [
+            "Richard P. Smiraglia"
+        ],
+        "year": "2001",
+        "doi": "10.5281/zenodo.1416512",
+        "url": "https://doi.org/10.5281/zenodo.1416512",
+        "ee": "https://zenodo.org/records/1416512/files/Smiraglia01.pdf",
+        "abstract": "Musical works form a key entity for music information retrieval. Explicit linkage of relationships among entities is critical for document-based information retrieval. Works contain representations of recorded knowledge. Core bodies of work— canons—function to preserve and disseminate the parameters of a culture. A musical work is an intellectual sonic conception. Musical works take documentary form in a variety of instantiations. Epistemology for documentary analysis provides key perceptual information about the objects of knowledge organization. Works are carriers of knowledge, representing deliberately-constructed packages of both rational and empirical evidence of human knowledge. Smiraglia (2001) suggests the parameters of a theory of the work, incorporating the tools of epistemology to comprehend works by expressing theoretical parameters in the context of a taxonomic definition. A work is a signifying, concrete set of ideational conceptions that finds realization through semantic or symbolic expression. Semiotic analysis suggests a variety of cultural and social roles for works. Musical works, defined as entities for information retrieval, are creations. Variability over time, demonstrated empirically, is an innate aspect of the set of all instantiations of a musical work, leading to complexity in the information retrieval domain.",
+        "zenodo_id": 1416512,
+        "dblp_key": "conf/ismir/Smiraglia01"
+    },
+    {
+        "title": "Automatic Musical Genre Classification of Audio Signals.",
+        "author": [
+            "George Tzanetakis"
+        ],
+        "year": "2001",
+        "doi": "10.5281/zenodo.1415058",
+        "url": "https://doi.org/10.5281/zenodo.1415058",
+        "ee": "https://zenodo.org/records/1415058/files/Tzanetakis01.pdf",
+        "abstract": "Musical genres are categorical descriptions that are used to describe music. They are commonly used to structure the increasing amounts of music available in digital form on the Web and are important for music information retrieval. Genre categorization for audio has traditionally been performed manually. A particular musical genre is characterized by statistical properties related to the instrumentation, rhythmic structure and form of its members. In this work, algorithms for the automatic genre categorization of audio signals are described.  More specifically, we propose a set of features for representing texture and instrumentation. In addition a novel set of features for representing rhythmic structure and strength is proposed. The performance of those feature sets has been evaluated by training statistical pattern recognition classifiers using real world audio collections.  Based on the automatic hierarchical genre classification two graphical user interfaces for browsing and interacting with large audio collections have been developed.",
+        "zenodo_id": 1415058,
+        "dblp_key": "conf/ismir/Tzanetakis01"
+    },
+    {
+        "title": "ISMIR 2001, 2nd International Symposium on Music Information Retrieval, Indiana University, Bloomington, Indiana, USA, October 15-17, 2001, Proceedings",
+        "author": [],
+        "year": "2001",
+        "doi": "10.5281/zenodo.3245327",
+        "url": "https://doi.org/10.5281/zenodo.3245327",
+        "ee": null,
+        "abstract": "Holtz, T. R. (2001): The phylogeny and taxonomy of the Tyrannosauridae. In: Tanke D. H., Carpenter K. (Eds): Mesozoic Vertebrate Life. Bloomington: Indiana University Press: 64-83, DOI: 10.5281/zenodo.3245327",
+        "zenodo_id": 3245327,
+        "dblp_key": "conf/ismir/2001"
+    }
+]
