@@ -38,7 +38,7 @@
         "doi": "10.5281/zenodo.3527936",
         "url": "https://doi.org/10.5281/zenodo.3527936",
         "ee": "http://archives.ismir.net/ismir2019/paper/000100.pdf",
-        "abstract": "Machine learning allows automatic construction of generative models for music. However, they are learned from only the succession of notes itself without explicitly employing domain knowledge of musical concepts such as rhythm, contour, and fragmentation &amp; consolidation. We approximate such musical domain knowledge as a function, and feed it into our model. Then, two decoupled spaces are learned: the extraction space that captures the target concept, and the residual space that captures the remainder. For monophonic symbolic music, our model exhibits high decoupling/modeling performance.  Controllability in generation is improved: (i) our interpolation enables concept-aware flexible control over blending two musical fragments, and (ii) our variation generation enables users to make concept-aware adjustable variations.",
+        "abstract": "Machine learning allows automatic construction of generative models for music. However, they are learned from only the succession of notes itself without explicitly employing domain knowledge of musical concepts such as rhythm, contour, and fragmentation  consolidation. We approximate such musical domain knowledge as a function, and feed it into our model. Then, two decoupled spaces are learned: the extraction space that captures the target concept, and the residual space that captures the remainder. For monophonic symbolic music, our model exhibits high decoupling/modeling performance.  Controllability in generation is improved: (i) our interpolation enables concept-aware flexible control over blending two musical fragments, and (ii) our variation generation enables users to make concept-aware adjustable variations.",
         "zenodo_id": 3527936,
         "dblp_key": "conf/ismir/Akama19"
     },
@@ -47,7 +47,7 @@
         "author": [
             "Stefan Balke",
             "Matthias Dorfer",
-            "Luís Carvalho",
+            "Lu\u00eds Carvalho",
             "Andreas Arzt",
             "Gerhard Widmer"
         ],
@@ -125,7 +125,7 @@
     {
         "title": "Multi-Task Learning of Tempo and Beat: Learning One to Improve the Other.",
         "author": [
-            "Sebastian Böck",
+            "Sebastian B\u00f6ck",
             "Matthew E. P. Davies",
             "Peter Knees"
         ],
@@ -143,7 +143,7 @@
             "Dmitry Bogdanov",
             "Alastair Porter",
             "Hendrik Schreiber 0001",
-            "Julián Urbano",
+            "Juli\u00e1n Urbano",
             "Sergio Oramas"
         ],
         "year": "2019",
@@ -171,7 +171,7 @@
     {
         "title": "Microtiming Analysis in Traditional Shetland Fiddle Music.",
         "author": [
-            "Estefanía Cano",
+            "Estefan\u00eda Cano",
             "Scott Beveridge"
         ],
         "year": "2019",
@@ -269,9 +269,9 @@
     {
         "title": "Supervised Symbolic Music Style Translation Using Synthetic Data.",
         "author": [
-            "Ondrej Cífka",
+            "Ondrej C\u00edfka",
             "Umut Simsekli",
-            "Gaël Richard"
+            "Ga\u00ebl Richard"
         ],
         "year": "2019",
         "doi": "10.5281/zenodo.3527878",
@@ -291,7 +291,7 @@
         "doi": "10.5281/zenodo.3527910",
         "url": "https://doi.org/10.5281/zenodo.3527910",
         "ee": "http://archives.ismir.net/ismir2019/paper/000087.pdf",
-        "abstract": "Musicology research is a fundamentally humanistic endeavor. However, despite the productive work of a small niche of humanities-trained computational musicologists, most cutting-edge digital music research is pursued by scholars whose primary training is scientific or computational, not humanistic. This unfortunate situation is prolonged, at least in part, by the daunting barrier that computer coding presents to humanities scholars with no technical training. In this paper, we present humdrumR (\"hum-drummer\"), a software package designed to afford computational musicology research for both advanced and novice computer coders. Humdrum is a powerful and influential existing computational musicology framework, including the humdrum syntax—a flexible text data format with tens of thousands of extant scores available (Kern Scores)—and the Bash-based humdrum toolkit. HumdrumR is a modern replacement for the humdrum toolkit, based in the data-analysis/statistical programming language R. By combining the flexibility and transparency of the humdrum syntax with the powerful data analysis tools and concise syntax of R, humdrumR offers an appealing new approach to would-be computational musicologists. HumdrumR leverages R's powerful metaprogramming capabilities to create an extremely expressive and composable syntax, allowing novices to achieve usable analyses quickly while avoiding many coding concepts that are commonly challenging for beginners.",
+        "abstract": "Musicology research is a fundamentally humanistic endeavor. However, despite the productive work of a small niche of humanities-trained computational musicologists, most cutting-edge digital music research is pursued by scholars whose primary training is scientific or computational, not humanistic. This unfortunate situation is prolonged, at least in part, by the daunting barrier that computer coding presents to humanities scholars with no technical training. In this paper, we present humdrumR (\"hum-drummer\"), a software package designed to afford computational musicology research for both advanced and novice computer coders. Humdrum is a powerful and influential existing computational musicology framework, including the humdrum syntax\u2014a flexible text data format with tens of thousands of extant scores available (Kern Scores)\u2014and the Bash-based humdrum toolkit. HumdrumR is a modern replacement for the humdrum toolkit, based in the data-analysis/statistical programming language R. By combining the flexibility and transparency of the humdrum syntax with the powerful data analysis tools and concise syntax of R, humdrumR offers an appealing new approach to would-be computational musicologists. HumdrumR leverages R's powerful metaprogramming capabilities to create an extremely expressive and composable syntax, allowing novices to achieve usable analyses quickly while avoiding many coding concepts that are commonly challenging for beginners.",
         "zenodo_id": 3527910,
         "dblp_key": "conf/ismir/Condit-SchultzA19"
     },
@@ -308,7 +308,7 @@
         "doi": "10.5281/zenodo.3527902",
         "url": "https://doi.org/10.5281/zenodo.3527902",
         "ee": "http://archives.ismir.net/ismir2019/paper/000083.pdf",
-        "abstract": "We are interested in the task of generating multi-instrumental music scores. The Transformer architecture has recently shown great promise for the task of piano score generation—here we adapt it to the multi-instrumental setting. Transformers are complex, high-dimensional language models which are capable of capturing long-term structure in sequence data, but require large amounts of data to fit. Their success on piano score generation is partially explained by the large volumes of symbolic data readily available for that domain. We leverage the recently-introduced NES-MDB dataset of four-voice scores from an early video game sound synthesis chip (the NES), which we find to be well-suited to training with the Transformer architecture. To further improve the performance of our model, we propose a pre-training technique to leverage the information in a large collection of heterogeneous music. Despite differences between the two corpora, we find that this pre-training procedure improves both quantitative and qualitative performance for our primary task.",
+        "abstract": "We are interested in the task of generating multi-instrumental music scores. The Transformer architecture has recently shown great promise for the task of piano score generation\u2014here we adapt it to the multi-instrumental setting. Transformers are complex, high-dimensional language models which are capable of capturing long-term structure in sequence data, but require large amounts of data to fit. Their success on piano score generation is partially explained by the large volumes of symbolic data readily available for that domain. We leverage the recently-introduced NES-MDB dataset of four-voice scores from an early video game sound synthesis chip (the NES), which we find to be well-suited to training with the Transformer architecture. To further improve the performance of our model, we propose a pre-training technique to leverage the information in a large collection of heterogeneous music. Despite differences between the two corpora, we find that this pre-training procedure improves both quantitative and qualitative performance for our primary task.",
         "zenodo_id": 3527902,
         "dblp_key": "conf/ismir/DonahueMLCM19"
     },
@@ -345,7 +345,7 @@
             "Jonathan Driedger",
             "Hendrik Schreiber 0001",
             "W. Bas de Haas",
-            "Meinard Müller"
+            "Meinard M\u00fcller"
         ],
         "year": "2019",
         "doi": "10.5281/zenodo.3527778",
@@ -358,7 +358,7 @@
     {
         "title": "Folded CQT RCNN For Real-time Recognition of Instrument Playing Techniques.",
         "author": [
-            "Jean-François Ducher",
+            "Jean-Fran\u00e7ois Ducher",
             "Philippe Esling"
         ],
         "year": "2019",
@@ -415,7 +415,7 @@
     {
         "title": "A Dataset of Rhythmic Pattern Reproductions and Baseline Automatic Assessment System.",
         "author": [
-            "Felipe Falcão",
+            "Felipe Falc\u00e3o",
             "Baris Bozkurt",
             "Xavier Serra",
             "Nazareno Andrade",
@@ -425,7 +425,7 @@
         "doi": "10.5281/zenodo.3299663",
         "url": "https://doi.org/10.5281/zenodo.3299663",
         "ee": "http://archives.ismir.net/ismir2019/paper/000052.pdf",
-        "abstract": "<p>This work presents a novel dataset comprised of audio and jury evaluations for rhythmic pattern reproduction performances by students applying for a conservatory. Data was collected in-loco during entrance exams where students were asked to imitate a set of rhythmic patterns played by teachers. In addition to the pass or fail grades provided by the members of the jury during the exam sessions, a subset of the data was also evaluated by external annotators on a 4-level scale. A baseline automatic assessment system is presented to demonstrate the usefulness of the dataset. Preliminary results deliver an accuracy of 76% for a simple pass/fail logistic regression classifier and a mean average error of 0.59 for a linear regression grade estimator. The implementation is also made publicly available to serve as baseline for alternative assessments systems that may leverage the dataset.</p>",
+        "abstract": "This work presents a novel dataset comprised of audio and jury evaluations for rhythmic pattern reproduction performances by students applying for a conservatory. Data was collected in-loco during entrance exams where students were asked to imitate a set of rhythmic patterns played by teachers. In addition to the pass or fail grades provided by the members of the jury during the exam sessions, a subset of the data was also evaluated by external annotators on a 4-level scale. A baseline automatic assessment system is presented to demonstrate the usefulness of the dataset. Preliminary results deliver an accuracy of 76% for a simple pass/fail logistic regression classifier and a mean average error of 0.59 for a linear regression grade estimator. The implementation is also made publicly available to serve as baseline for alternative assessments systems that may leverage the dataset.",
         "zenodo_id": 3299663,
         "dblp_key": "conf/ismir/FalcaoBSAB19"
     },
@@ -506,9 +506,9 @@
         "author": [
             "Magdalena Fuentes",
             "Lucas Maia",
-            "Martín Rocamora",
+            "Mart\u00edn Rocamora",
             "Luiz W. P. Biscainho",
-            "Hélène Camille Crayencour",
+            "H\u00e9l\u00e8ne Camille Crayencour",
             "Slim Essid",
             "Juan Pablo Bello"
         ],
@@ -863,7 +863,7 @@
         "title": "Learning Complex Basis Functions for Invariant Representations of Audio.",
         "author": [
             "Stefan Lattner",
-            "Monika Dörfler",
+            "Monika D\u00f6rfler",
             "Andreas Arzt"
         ],
         "year": "2019",
@@ -959,7 +959,7 @@
         "doi": "10.5281/zenodo.3932439",
         "url": "https://doi.org/10.5281/zenodo.3932439",
         "ee": "http://archives.ismir.net/ismir2019/paper/000002.pdf",
-        "abstract": "<p>This thesis aims to develop an automatic singing evaluation system specially suited to evaluate notes singing exercises. We build Hindustani singing datasets with a combined collection of audio samples of 349 reference and performance pairs. The samples are annotated with an overall grade based on pitch accuracy. For this purpose, we developed a GUI grading tool which provides a visual feedback for the performance. This tool helps reduce human biases in the grade annotations. The existing baseline system (BMCS) for singing assessment developed using Turkish Conservatory dataset (MAST dataset) is extensively studied to identify audio alignment as one of the possible areas of improvement. A methodology and appropriate metrics are devised to test the audio alignment performance. Using this methodology, different features are tested to demonstrate that an improved audio-to-audio alignment system can be achieved using a 120-dimensional HPCP feature. The second part of this study is focused on finding suitable features to assess a singing performance, given a good alignment of reference and student audio. A novel &#39;pitch-histogram cosine distance&#39; feature is devised to measure note-level accuracy of singing. The effectiveness of these features with respect to the baseline features is shown by linear regression models trained and tested using the Hindustani and MAST datasets. The effectiveness of &#39;pitch-histogram cosine distance&#39; is indicated by the low mean absolute errors and the interpretability of the linear models developed. These features are also used to provide a note-level accuracy visualization of student performance.</p>",
+        "abstract": "This thesis aims to develop an automatic singing evaluation system specially suited to evaluate notes singing exercises. We build Hindustani singing datasets with a combined collection of audio samples of 349 reference and performance pairs. The samples are annotated with an overall grade based on pitch accuracy. For this purpose, we developed a GUI grading tool which provides a visual feedback for the performance. This tool helps reduce human biases in the grade annotations. The existing baseline system (BMCS) for singing assessment developed using Turkish Conservatory dataset (MAST dataset) is extensively studied to identify audio alignment as one of the possible areas of improvement. A methodology and appropriate metrics are devised to test the audio alignment performance. Using this methodology, different features are tested to demonstrate that an improved audio-to-audio alignment system can be achieved using a 120-dimensional HPCP feature. The second part of this study is focused on finding suitable features to assess a singing performance, given a good alignment of reference and student audio. A novel &#39;pitch-histogram cosine distance&#39; feature is devised to measure note-level accuracy of singing. The effectiveness of these features with respect to the baseline features is shown by linear regression models trained and tested using the Hindustani and MAST datasets. The effectiveness of &#39;pitch-histogram cosine distance&#39; is indicated by the low mean absolute errors and the interpretability of the linear models developed. These features are also used to provide a note-level accuracy visualization of student performance.",
         "zenodo_id": 3932439,
         "dblp_key": "conf/ismir/LerchAPG19"
     },
@@ -1002,7 +1002,7 @@
             "Sayantan Polley",
             "Anustup Das",
             "Harald Sack",
-            "Andreas Nürnberger",
+            "Andreas N\u00fcrnberger",
             "Sebastian Stober"
         ],
         "year": "2019",
@@ -1077,7 +1077,7 @@
             "Lucas Maia",
             "Magdalena Fuentes",
             "Luiz W. P. Biscainho",
-            "Martín Rocamora",
+            "Mart\u00edn Rocamora",
             "Slim Essid"
         ],
         "year": "2019",
@@ -1119,7 +1119,7 @@
     {
         "title": "FMP Notebooks: Educational Material for Teaching and Learning Fundamentals of Music Processing.",
         "author": [
-            "Meinard Müller",
+            "Meinard M\u00fcller",
             "Frank Zalkow"
         ],
         "year": "2019",
@@ -1152,8 +1152,8 @@
         "title": "Contributing to New Musicological Theories with Computational Methods: The Case of Centonization in Arab-Andalusian Music.",
         "author": [
             "Thomas Nuttall",
-            "Miguel García-Casado",
-            "Víctor Núñez-Tarifa",
+            "Miguel Garc\u00eda-Casado",
+            "V\u00edctor N\u00fa\u00f1ez-Tarifa",
             "Rafael Caro Repetto",
             "Xavier Serra"
         ],
@@ -1161,7 +1161,7 @@
         "doi": "10.5281/zenodo.3527784",
         "url": "https://doi.org/10.5281/zenodo.3527784",
         "ee": "http://archives.ismir.net/ismir2019/paper/000025.pdf",
-        "abstract": "Arab-Andalusian music was formed in the medieval Islamic territories of Iberian Peninsula, drawing on local traditions and assuming Arabic influences. The expert performer and researcher of the Moroccan tradition of this music, Amin Chaachoo, is developing a theory, whose last formulation was recently published in La Mu-sique Hispano-Arabe, al-Ala (2016), which argues that centonization, a melodic composition technique used in Gregorian chant, was also utilized for the creation of this repertoire. In this paper we aim to contribute to Chaachoo's theory by means of tf-idf analysis. A highorder n-gram model is applied to a corpus of 149 prescriptive transcriptions of heterophonic recordings, representing each as an unordered multiset of patterns. Computing the tf-idf statistic of each pattern in this corpus provides a means by which we can rank and compare motivic content across nawabāt, distinct musical forms of the tradition. For each nawba, an empirical comparison is made between patterns identified as significant via our approach and those proposed by Chaachoo. Ultimately we observe considerable agreement between the two pattern sets and go further in proposing new, unique and as yet undocumented patterns that occur at least as frequently and with at least as much importance as those in Chaachoo's proposals.",
+        "abstract": "Arab-Andalusian music was formed in the medieval Islamic territories of Iberian Peninsula, drawing on local traditions and assuming Arabic influences. The expert performer and researcher of the Moroccan tradition of this music, Amin Chaachoo, is developing a theory, whose last formulation was recently published in La Mu-sique Hispano-Arabe, al-Ala (2016), which argues that centonization, a melodic composition technique used in Gregorian chant, was also utilized for the creation of this repertoire. In this paper we aim to contribute to Chaachoo's theory by means of tf-idf analysis. A highorder n-gram model is applied to a corpus of 149 prescriptive transcriptions of heterophonic recordings, representing each as an unordered multiset of patterns. Computing the tf-idf statistic of each pattern in this corpus provides a means by which we can rank and compare motivic content across nawab\u0101t, distinct musical forms of the tradition. For each nawba, an empirical comparison is made between patterns identified as significant via our approach and those proposed by Chaachoo. Ultimately we observe considerable agreement between the two pattern sets and go further in proposing new, unique and as yet undocumented patterns that occur at least as frequently and with at least as much importance as those in Chaachoo's proposals.",
         "zenodo_id": 3527784,
         "dblp_key": "conf/ismir/NuttallGNRS19"
     },
@@ -1185,13 +1185,13 @@
         "author": [
             "Emilia Parada-Cabaleiro",
             "Anton Batliner",
-            "Björn W. Schuller"
+            "Bj\u00f6rn W. Schuller"
         ],
         "year": "2019",
         "doi": "10.5281/zenodo.3527868",
         "url": "https://doi.org/10.5281/zenodo.3527868",
         "ee": "http://archives.ismir.net/ismir2019/paper/000067.pdf",
-        "abstract": "Early musical sources in white mensural notation—the most common notation in European printed music during the Renaissance—are nowadays preserved by libraries worldwide trough digitalisation. Still, the application of music information retrieval to this repertoire is restricted by the use of digitalisation techniques which produce an uncodified output. Optical Music Recognition (OMR) automatically generates a symbolic representation of image-based musical content, thus making this repertoire reachable from the computational point of view; yet, further improvements are often constricted by the limited ground truth available. We address this lacuna by presenting a symbolic representation in original notation of Il Lauro Secco, an anthology of Italian madrigals in white mensural notation. For musicological analytic purposes, we encoded the repertoire in **mens and MEI formats; for OMR ground truth, we automatically codified the repertoire in agnostic and semantic formats, via conversion from the **mens files.",
+        "abstract": "Early musical sources in white mensural notation\u2014the most common notation in European printed music during the Renaissance\u2014are nowadays preserved by libraries worldwide trough digitalisation. Still, the application of music information retrieval to this repertoire is restricted by the use of digitalisation techniques which produce an uncodified output. Optical Music Recognition (OMR) automatically generates a symbolic representation of image-based musical content, thus making this repertoire reachable from the computational point of view; yet, further improvements are often constricted by the limited ground truth available. We address this lacuna by presenting a symbolic representation in original notation of Il Lauro Secco, an anthology of Italian madrigals in white mensural notation. For musicological analytic purposes, we encoded the repertoire in **mens and MEI formats; for OMR ground truth, we automatically codified the repertoire in agnostic and semantic formats, via conversion from the **mens files.",
         "zenodo_id": 3527868,
         "dblp_key": "conf/ismir/Parada-Cabaleiro19"
     },
@@ -1264,7 +1264,7 @@
         "author": [
             "Ashis Pati",
             "Alexander Lerch 0001",
-            "Gaëtan Hadjeres"
+            "Ga\u00ebtan Hadjeres"
         ],
         "year": "2019",
         "doi": "10.5281/zenodo.3527814",
@@ -1279,7 +1279,7 @@
         "author": [
             "Johan Pauwels",
             "Ken O&apos;Hanlon",
-            "Emilia Gómez",
+            "Emilia G\u00f3mez",
             "Mark B. Sandler"
         ],
         "year": "2019",
@@ -1294,7 +1294,7 @@
         "title": "20 Years of Playlists: A Statistical Analysis on Popularity and Diversity.",
         "author": [
             "Lorenzo Porcaro",
-            "Emilia Gómez"
+            "Emilia G\u00f3mez"
         ],
         "year": "2019",
         "doi": "10.5281/zenodo.3527758",
@@ -1335,7 +1335,7 @@
     {
         "title": "A Holistic Approach to Polyphonic Music Transcription with Neural Networks.",
         "author": [
-            "Miguel A. Román",
+            "Miguel A. Rom\u00e1n",
             "Antonio Pertusa",
             "Jorge Calvo-Zaragoza"
         ],
@@ -1352,13 +1352,13 @@
         "author": [
             "Sebastian Rosenzweig",
             "Frank Scherbaum",
-            "Meinard Müller"
+            "Meinard M\u00fcller"
         ],
         "year": "2019",
         "doi": "10.5281/zenodo.3527816",
         "url": "https://doi.org/10.5281/zenodo.3527816",
         "ee": "http://archives.ismir.net/ismir2019/paper/000041.pdf",
-        "abstract": "While Georgia has a long history of orally transmitted polyphonic singing, there is still an ongoing controversial discussion among ethnomusicologists on the tuning system underlying this type of music. First attempts have been made to analyze tonal properties (e. g., harmonic and melodic intervals) based on fundamental frequency (F0) trajectories. One major challenge in F0-based tonal analysis is introduced by unstable regions in the trajectories due to pitch slides and other frequency fluctuations. In this paper, we describe two approaches for detecting stable regions in frequency trajectories: the first algorithm uses morphological operations inspired by image processing, and the second one is based on suitably defined binary time–frequency masks. To avoid undesired distortions in subsequent analysis steps, both approaches keep the original F0-values unmodified, while only removing F0-values in unstable trajectory regions. We evaluate both approaches against manually annotated stable regions and discuss their potential in the context of interval analysis for traditional three-part Georgian singing.",
+        "abstract": "While Georgia has a long history of orally transmitted polyphonic singing, there is still an ongoing controversial discussion among ethnomusicologists on the tuning system underlying this type of music. First attempts have been made to analyze tonal properties (e. g., harmonic and melodic intervals) based on fundamental frequency (F0) trajectories. One major challenge in F0-based tonal analysis is introduced by unstable regions in the trajectories due to pitch slides and other frequency fluctuations. In this paper, we describe two approaches for detecting stable regions in frequency trajectories: the first algorithm uses morphological operations inspired by image processing, and the second one is based on suitably defined binary time\u2013frequency masks. To avoid undesired distortions in subsequent analysis steps, both approaches keep the original F0-values unmodified, while only removing F0-values in unstable trajectory regions. We evaluate both approaches against manually annotated stable regions and discuss their potential in the context of interval analysis for traditional three-part Georgian singing.",
         "zenodo_id": 3527816,
         "dblp_key": "conf/ismir/RosenzweigSM19"
     },
@@ -1399,7 +1399,7 @@
         "title": "A Convolutional Approach to Melody Line Identification in Symbolic Scores.",
         "author": [
             "Federico Simonetta",
-            "Carlos Eduardo Cancino Chacón",
+            "Carlos Eduardo Cancino Chac\u00f3n",
             "Stavros Ntalampiras",
             "Gerhard Widmer"
         ],
@@ -1407,7 +1407,7 @@
         "doi": "10.5281/zenodo.3527966",
         "url": "https://doi.org/10.5281/zenodo.3527966",
         "ee": "http://archives.ismir.net/ismir2019/paper/000114.pdf",
-        "abstract": "In many musical traditions, the melody line is of primary significance in a piece. Human listeners can readily distinguish melodies from accompaniment; however, making this distinction given only the written score – i.e. without listening to the music performed – can be a difficult task. Solving this task is of great importance for both Music Information Retrieval and musicological applications.  In this paper, we propose an automated approach to identifying the most salient melody line in a symbolic score. The backbone of the method consists of a convolutional neural network (CNN) estimating the probability that each note in the score (more precisely: each pixel in a piano roll encoding of the score) belongs to the melody line. We train and evaluate the method on various datasets, using manual annotations where available and solo instrument parts where not. We also propose a method to inspect the CNN and to analyze the influence exerted by notes on the prediction of other notes; this method can be applied whenever the output of a neural network has the same size as the input.",
+        "abstract": "In many musical traditions, the melody line is of primary significance in a piece. Human listeners can readily distinguish melodies from accompaniment; however, making this distinction given only the written score \u2013 i.e. without listening to the music performed \u2013 can be a difficult task. Solving this task is of great importance for both Music Information Retrieval and musicological applications.  In this paper, we propose an automated approach to identifying the most salient melody line in a symbolic score. The backbone of the method consists of a convolutional neural network (CNN) estimating the probability that each note in the score (more precisely: each pixel in a piano roll encoding of the score) belongs to the melody line. We train and evaluate the method on various datasets, using manual annotations where available and solo instrument parts where not. We also propose a method to inspect the CNN and to analyze the influence exerted by notes on the prediction of other notes; this method can be applied whenever the output of a neural network has the same size as the input.",
         "zenodo_id": 3527966,
         "dblp_key": "conf/ismir/SimonettaCNW19"
     },
@@ -1415,7 +1415,7 @@
         "title": "Mapping Timing Strategies in Drum Performance.",
         "author": [
             "George Sioros",
-            "Guilherme Câmara",
+            "Guilherme C\u00e2mara",
             "Anne Danielsen"
         ],
         "year": "2019",
@@ -1445,10 +1445,10 @@
         "title": "Investigating CNN-based Instrument Family Recognition for Western Classical Music Recordings.",
         "author": [
             "Michael Taenzer",
-            "Jakob Abeßer",
+            "Jakob Abe\u00dfer",
             "Stylianos I. Mimilakis",
             "Christof Weiss",
-            "Meinard Müller"
+            "Meinard M\u00fcller"
         ],
         "year": "2019",
         "doi": "10.5281/zenodo.3527884",
@@ -1463,7 +1463,7 @@
         "author": [
             "Thitaree Tanprasert",
             "Teerapat Jenrungrot",
-            "Meinard Müller",
+            "Meinard M\u00fcller",
             "Timothy Tsai 0001"
         ],
         "year": "2019",
@@ -1478,7 +1478,7 @@
         "title": "Coupled Recurrent Models for Polyphonic Music Composition.",
         "author": [
             "John Thickstun",
-            "Zaïd Harchaoui",
+            "Za\u00efd Harchaoui",
             "Dean P. Foster",
             "Sham M. Kakade"
         ],
@@ -1562,7 +1562,7 @@
         "doi": "10.5281/zenodo.5744336",
         "url": "https://doi.org/10.5281/zenodo.5744336",
         "ee": "http://archives.ismir.net/ismir2019/paper/000099.pdf",
-        "abstract": "<p><em>CBFdataset</em>&nbsp;is<em>&nbsp;</em>a dataset of Chinese bamboo flute (CBF) performances, created for ecologically valid analysis of music playing techniques in context.</p>\n\n<p>The dataset comprises monophonic recordings of classic CBF pieces and isolated playing techniques, recorded by 10 professional CBF performers; and expert annotations of seven playing techniques: vibrato, tremolo, trill, flutter-tongue (FT), acciaccatura, portamento, and glissando. The recorded pieces include&nbsp;<em>Busy Delivering Harvest (BH)</em> 扬鞭催马运粮忙, <em>Jolly Meeting (JM)</em> 喜相逢, <em>Morning (Mo)</em> 早晨, <em>and Flying Partridge (FP)</em> 鹧鸪飞.&nbsp;All data was recorded in a professional recording studio using a Zoom H6 recorder at 44.1kHz/24-bits. The difference between different Versions 1.2, 1.1, and 1.0:</p>\n\n<ul>\n\t<li>V1.2 is the complete CBFdataset&nbsp;with a total duration of 2.6 hours.</li>\n\t<li>V1.1 splits the CBFdataset into two subsets according to playing technique types: CBF-periDB&nbsp;and CBF-petsDB. The former contains all the&nbsp;full-length pieces, isolated playing techniques, and annotations of four periodic modulations: vibrato, tremolo, trill, and flutter-tongue. The latter comprises the same full-length recordings, isolated playing techniques, and annotations of three pitch evolution-based techniques: acciaccatura, portamento, and glissando.</li>\n\t<li>V1.0 includes only the CBF-periDB.</li>\n</ul>\n\n<p>Related&nbsp;updates, demos, and code for reproducibility are available at&nbsp;<a href=\"http://c4dm.eecs.qmul.ac.uk/CBFdataset.html\">http://c4dm.eecs.qmul.ac.uk/CBFdataset.html</a>.&nbsp;Any queries, please feel free to contact Changhong at&nbsp;changhong.wang@telecom-paris.fr. Please cite the following paper when using this dataset:</p>\n\n<p>Changhong Wang, Emmanouil Benetos, Vincent Lostanlen, and Elaine Chew,&nbsp;&quot;Adaptive Scattering Transforms for Playing Technique Recognition,&quot;&nbsp;<em>IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP)</em>, 30 (2022): 1407-1421.</p>",
+        "abstract": "CBFdatasetisa dataset of Chinese bamboo flute (CBF) performances, created for ecologically valid analysis of music playing techniques in context.\n\nThe dataset comprises monophonic recordings of classic CBF pieces and isolated playing techniques, recorded by 10 professional CBF performers; and expert annotations of seven playing techniques: vibrato, tremolo, trill, flutter-tongue (FT), acciaccatura, portamento, and glissando. The recorded pieces includeBusy Delivering Harvest (BH) \u626c\u97ad\u50ac\u9a6c\u8fd0\u7cae\u5fd9, Jolly Meeting (JM) \u559c\u76f8\u9022, Morning (Mo) \u65e9\u6668, and Flying Partridge (FP) \u9e67\u9e2a\u98de.All data was recorded in a professional recording studio using a Zoom H6 recorder at 44.1kHz/24-bits. The difference between different Versions 1.2, 1.1, and 1.0:\n\n\n\tV1.2 is the complete CBFdatasetwith a total duration of 2.6 hours.\n\tV1.1 splits the CBFdataset into two subsets according to playing technique types: CBF-periDBand CBF-petsDB. The former contains all thefull-length pieces, isolated playing techniques, and annotations of four periodic modulations: vibrato, tremolo, trill, and flutter-tongue. The latter comprises the same full-length recordings, isolated playing techniques, and annotations of three pitch evolution-based techniques: acciaccatura, portamento, and glissando.\n\tV1.0 includes only the CBF-periDB.\n\n\nRelatedupdates, demos, and code for reproducibility are available athttp://c4dm.eecs.qmul.ac.uk/CBFdataset.html.Any queries, please feel free to contact Changhong atchanghong.wang@telecom-paris.fr. Please cite the following paper when using this dataset:\n\nChanghong Wang, Emmanouil Benetos, Vincent Lostanlen, and Elaine Chew,Adaptive Scattering Transforms for Playing Technique Recognition,IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP), 30 (2022): 1407-1421.",
         "zenodo_id": 5744336,
         "dblp_key": "conf/ismir/WangBLC19"
     },
@@ -1601,7 +1601,7 @@
             "Christof Weiss",
             "Sebastian J. Schlecht",
             "Sebastian Rosenzweig",
-            "Meinard Müller"
+            "Meinard M\u00fcller"
         ],
         "year": "2019",
         "doi": "10.5281/zenodo.3527798",
@@ -1699,14 +1699,14 @@
             "Albin Andrew Correya",
             "Diego Furtado Silva",
             "Philip Tovstogan",
-            "Emilia Gómez",
+            "Emilia G\u00f3mez",
             "Xavier Serra"
         ],
         "year": "2019",
         "doi": "10.5281/zenodo.4717628",
         "url": "https://doi.org/10.5281/zenodo.4717628",
         "ee": "http://archives.ismir.net/ismir2019/paper/000038.pdf",
-        "abstract": "<p>We present Da-TACOS: a dataset for cover song identification and understanding. It contains two subsets, namely&nbsp;<strong>the benchmark subset</strong>&nbsp;(for benchmarking cover song identification systems) and&nbsp;<strong>the cover analysis subset</strong>&nbsp;(for analyzing the links among cover songs), with&nbsp;<strong>pre-extracted features</strong>&nbsp;and&nbsp;<strong>metadata</strong>&nbsp;for&nbsp;<strong>15,000</strong>&nbsp;and&nbsp;<strong>10,000 songs</strong>, respectively. The annotations included in the metadata are obtained with the API of&nbsp;<a href=\"https://secondhandsongs.com/\">SecondHandSongs.com</a>. All audio files we use to extract features are encoded in MP3 format and their sample rate is 44.1 kHz. Da-TACOS does not contain any audio files. For&nbsp;<strong>the results</strong>&nbsp;of&nbsp;<strong>our analyses on modifiable musical characteristics</strong>&nbsp;using the cover analysis subset and&nbsp;<strong>our initial benchmarking of 7 state-of-the-art cover song identification algorithms</strong>&nbsp;on the benchmark subset, you can look at our&nbsp;<a href=\"http://archives.ismir.net/ismir2019/paper/000038.pdf\">publication</a>.</p>\n\n<p>For organizing the data, we use the structure of SecondHandSongs where each song is called a&nbsp;<strong>&lsquo;performance&rsquo;</strong>, and each clique (cover group) is called a&nbsp;<strong>&lsquo;work&rsquo;</strong>. Based on this, the file names of the songs are their unique performance IDs (PID, e.g.&nbsp;<code>P_22</code>), and their labels with respect to their cliques are their work IDs (WID, e.g.&nbsp;<code>W_14</code>).</p>\n\n<p>Metadata for each song includes</p>\n\n<ul>\n\t<li>performance title,</li>\n\t<li>performance artist,</li>\n\t<li>work title,</li>\n\t<li>work artist,</li>\n\t<li>release year,</li>\n\t<li>SecondHandSongs.com performance ID,</li>\n\t<li>SecondHandSongs.com work ID,</li>\n\t<li>whether the song is instrumental or not.</li>\n</ul>\n\n<p>In addition, we matched the original metadata with MusicBrainz to obtain MusicBrainz ID (MBID), song length and genre/style tags. We would like to note that MusicBrainz related information is not available for all the songs in Da-TACOS, and since we used just our metadata for matching, we include all possible MBIDs for a particular songs.</p>\n\n<p>For facilitating&nbsp;<strong>reproducibility</strong>&nbsp;in cover song identification (CSI) research, we propose&nbsp;<strong>a framework for feature extraction and benchmarking</strong>&nbsp;in our supplementary repository:&nbsp;<a href=\"https://github.com/furkanyesiler/acoss\">acoss</a>.&nbsp;<strong>The feature extraction component</strong>&nbsp;is designed to help CSI researchers to find&nbsp;<strong>the most commonly used features for CSI in a single address</strong>. The parameter values we used to extract the features in Da-TACOS are shared in the same repository. Moreover,&nbsp;<strong>the benchmarking component</strong>&nbsp;includes our implementations of&nbsp;<strong>7 state-of-the-art CSI systems</strong>. We provide the performance results of&nbsp;<strong>an initial benchmarking</strong>&nbsp;of those&nbsp;<strong>7 systems</strong>&nbsp;on the benchmark subset of Da-TACOS. We encourage other CSI researchers to contribute to acoss with implementing their favorite feature extraction algorithms and their CSI systems to build up a knowledge base where CSI research can reach larger audiences.</p>\n\n<p>The instructions for how to download and use the dataset are shared below. Please contact us if you have any questions or requests.</p>\n\n<p><strong>1. Structure</strong></p>\n\n<p><strong>1.1. Metadata</strong></p>\n\n<p>We provide two metadata files that contain information about the benchmark subset and the cover analysis subset. Both metadata files are stored as python dictionaries in&nbsp;<code>.json</code>&nbsp;format, and have the same hierarchical structure.</p>\n\n<p>An example to load the metadata files in python:</p>\n\n<pre><code>import json\n\nwith open('./da-tacos_metadata/da-tacos_benchmark_subset_metadata.json') as f:\n\tbenchmark_metadata = json.load(f)\n</code></pre>\n\n<p>The python dictionary obtained with the code above will have the respective WIDs as keys. Each key will provide the song dictionaries that contain the metadata regarding the songs that belong to their WIDs. An example can be seen below:</p>\n\n<pre><code>\"W_163992\": { # work id\n\t\"P_547131\": { # performance id of the first song belonging to the clique 'W_163992'\n\t\t\"work_title\": \"Trade Winds, Trade Winds\",\n\t\t\"work_artist\": \"Aki Aleong\",\n\t\t\"perf_title\": \"Trade Winds, Trade Winds\",\n\t\t\"perf_artist\": \"Aki Aleong\",\n\t\t\"release_year\": \"1961\",\n\t\t\"work_id\": \"W_163992\",\n\t\t\"perf_id\": \"P_547131\",\n\t\t\"instrumental\": \"No\",\n\t\t\"perf_artist_mbid\": \"9bfa011f-8331-4c9a-b49b-d05bc7916605\",\n\t\t\"mb_performances\": {\n\t\t\t\"4ce274b3-0979-4b39-b8a3-5ae1de388c4a\": {\n\t\t\t\t\"length\": \"175000\"\n\t\t\t},\n\t\t\t\"7c10ba3b-6f1d-41ab-8b20-14b2567d384a\": {\n\t\t\t\t\"length\": \"177653\"\n\t\t\t}\n\t\t}\n\t},\n\t\"P_547140\": { # performance id of the second song belonging to the clique 'W_163992'\n\t\t\"work_title\": \"Trade Winds, Trade Winds\",\n\t\t\"work_artist\": \"Aki Aleong\",\n\t\t\"perf_title\": \"Trade Winds, Trade Winds\",\n\t\t\"perf_artist\": \"Dodie Stevens\",\n\t\t\"release_year\": \"1961\",\n\t\t\"work_id\": \"W_163992\",\n\t\t\"perf_id\": \"P_547140\",\n\t\t\"instrumental\": \"No\"\n\t}\n}\n</code></pre>\n\n<p><strong>1.2. Pre-extracted features</strong></p>\n\n<p>The list of features included in Da-TACOS can be seen below. All the features are extracted with&nbsp;<a href=\"https://github.com/furkanyesiler/acoss/blob/master/acoss/features.py\">acoss</a>&nbsp;repository that uses open-source feature extraction libraries such as&nbsp;<a href=\"https://essentia.upf.edu/documentation/\">Essentia</a>,&nbsp;<a href=\"https://librosa.github.io/librosa/\">LibROSA</a>, and&nbsp;<a href=\"https://github.com/CPJKU/madmom\">Madmom</a>.</p>\n\n<p>To facilitate the use of the dataset, we provide two options regarding the file structure.</p>\n\n<p>1In&nbsp;<code>da-tacos_benchmark_subset_single_files</code>&nbsp;and&nbsp;<code>da-tacos_coveranalysis_subset_single_files</code>&nbsp;folders, we organize the data based on their respective cliques, and one file contains all the features for that particular song.</p>\n\n<pre><code>{\n\t\"chroma_cens\": numpy.ndarray,\n\t\"crema\": numpy.ndarray,\n\t\"hpcp\": numpy.ndarray,\n\t\"key_extractor\": {\n\t\t\"key\": numpy.str_,\n\t\t\"scale\": numpy.str_,_\n\t\t\"strength\": numpy.float64\n\t},\n\t\"madmom_features\": {\n\t\t\"novfn\": numpy.ndarray, \n\t\t\"onsets\": numpy.ndarray,\n\t\t\"snovfn\": numpy.ndarray,\n\t\t\"tempos\": numpy.ndarray\n\t}\n\t\"mfcc_htk\": numpy.ndarray,\n\t\"tags\": list of (numpy.str_, numpy.str_)\n\t\"label\": numpy.str_,\n\t\"track_id\": numpy.str_\n}\n\n\n</code></pre>\n\n<p>2In&nbsp;<code>da-tacos_benchmark_subset_FEATURE</code>&nbsp;and&nbsp;<code>da-tacos_coveranalysis_subset_FEATURE</code>&nbsp;folders, the data is organized based on their cliques as well, but each of these folders contain only one feature per song. For instance, if you want to test your system that uses HPCP features, you can download&nbsp;<code>da-tacos_benchmark_subset_hpcp</code>&nbsp;to access the pre-computed HPCP features. An example for the contents in those files can be seen below:</p>\n\n<pre><code>{\n\t\"hpcp\": numpy.ndarray,\n\t\"label\": numpy.str_,\n\t\"track_id\": numpy.str_\n}\n\n</code></pre>\n\n<p><strong>2. Using the dataset</strong></p>\n\n<p><strong>2.1. Requirements</strong></p>\n\n<ul>\n\t<li>Python 3.6+</li>\n\t<li>Create virtual environment and install requirements\n\t<pre><code>git clone https://github.com/MTG/da-tacos.git\ncd da-tacos\npython3 -m venv venv\nsource venv/bin/activate\npip install -r requirements.txt\n</code></pre>\n\t</li>\n</ul>\n\n<p><strong>2.2. Downloading the data</strong></p>\n\n<p>The dataset is currently stored in only in Google Drive (it will be uploaded to Zenodo soon), and can be downloaded from this&nbsp;<a href=\"https://drive.google.com/open?id=1GfFF_Kan_Qe69MF15i3-_LqE4wn3XNsb\">link</a>. We also provide a python script that automatically downloads the folders you specify. Basic usage of this script can be seen below:</p>\n\n<pre><code>python download_da-tacos.py -h\n</code></pre>\n\n<pre><code>usage: download_da-tacos.py [-h]\n                            [--dataset {benchmark,coveranalysis,da-tacos}]                                                                          \n                            [--type {single_files,cens,crema,hpcp,key,madmom,mfcc,tags}]   \n                            [--source {gdrive,zenodo}]                                                         \n                            [--outputdir OUTPUTDIR]\n                            [--unpack]\n                            [--remove]\n\nDownload script for Da-TACOS \n\noptional arguments:                                                                                                       \n  -h, --help            show this help message and exit                                                                   \n  --dataset {metadata,benchmark,coveranalysis,da-tacos}                                                                      \n                        which subset to download. 'da-tacos' option downloads\n                        both subsets. the options other than 'metadata' will\n                        download the metadata as well. (default: metadata)                                                                     \n  --type {single_files,cens,crema,hpcp,key,madmom,mfcc,tags} [{single_files,cens,crema,hpcp,key,madmom,mfcc,tags} ...]                                     \n                        which folder to download. for downloading multiple\n                        folders, you can enter multiple arguments (e.g. '--\n                        type cens crema'). for detailed explanation, please\n                        check https://mtg.github.io/da-tacos/ (default:\n                        single_files)                  \n  --source {gdrive,zenodo}\n                        from which source to download the files. you can\n                        either download from Google Drive (gdrive) or from\n                        Zenodo (zenodo) (default: gdrive)                                           \n  --outputdir OUTPUTDIR                                                               \n                        directory to store the dataset (default: ./)                   \n  --unpack              unpack the zip files (default: False)                        \n  --remove              remove zip files after unpacking (default: False) \n</code></pre>\n\n<p><strong>2.3. Loading the data in Python</strong></p>\n\n<p>All files (except the metadata) are stored in&nbsp;<code>.h5</code>&nbsp;format. We recommend using&nbsp;<code>deepdish</code>&nbsp;library for python to load the files. An example of how to load the data is shown below:</p>\n\n<pre><code>import deepdish as dd\n\nfile_path = './da-tacos_coveranalysis_subset_single_files/W_14/P_15.h5'\nP_15_data = dd.io.load(file_path)\n</code></pre>\n\n<p><strong>3. Citing the dataset</strong></p>\n\n<p>Please cite the following&nbsp;<a href=\"http://archives.ismir.net/ismir2019/paper/000038.pdf\">publication</a>&nbsp;when using the dataset:</p>\n\n<blockquote>\n<p>Furkan Yesiler, Chris Tralie, Albin Correya, Diego F. Silva, Philip Tovstogan, Emilia G&oacute;mez, and Xavier Serra. Da-TACOS: A Dataset for Cover Song Identification and Understanding. In Proc. of the 20th Int. Soc. for Music Information Retrieval Conf. (ISMIR), pages 327-334, Delft, The Netherlands, 2019.</p>\n</blockquote>\n\n<p>Bibtex version:</p>\n\n<pre><code>@inproceedings{yesiler2019,\n    author = \"Furkan Yesiler and Chris Tralie and Albin Correya and Diego F. Silva and Philip Tovstogan and Emilia G{\\'{o}}mez and Xavier Serra\",\n    title = \"{Da-TACOS}: {A} Dataset for Cover Song Identification and Understanding\",\n    booktitle = \"Proc. of the 20th Int. Soc. for Music Information Retrieval Conf. (ISMIR)\",\n    year = \"2019\",\n    pages = \"327--334\",\n    address = \"Delft, The Netherlands\"\n}\n</code></pre>\n\n<p><strong>4. License</strong></p>\n\n<ul>\n\t<li>The metadata and the pre-extracted features are licensed under&nbsp;<a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/\">CC BY-NC-SA 4.0</a></li>\n</ul>\n\n<p>Copyright 2019 Music Technology Group</p>\n\n<p><strong>5. Acknowledgments</strong></p>\n\n<p>This work has received funding from the European Union&rsquo;s Horizon 2020 research and innovation programme under the Marie Skłodowska-Curie grant agreement No. 765068 (MIP-Frontiers).</p>\n\n<p>This work has received funding from the European Union&rsquo;s Horizon 2020 research and innovation programme under grant agreement No. 770376 (TROMPA).</p>",
+        "abstract": "We present Da-TACOS: a dataset for cover song identification and understanding. It contains two subsets, namelythe benchmark subset(for benchmarking cover song identification systems) andthe cover analysis subset(for analyzing the links among cover songs), withpre-extracted featuresandmetadatafor15,000and10,000 songs, respectively. The annotations included in the metadata are obtained with the API ofSecondHandSongs.com. All audio files we use to extract features are encoded in MP3 format and their sample rate is 44.1 kHz. Da-TACOS does not contain any audio files. Forthe resultsofour analyses on modifiable musical characteristicsusing the cover analysis subset andour initial benchmarking of 7 state-of-the-art cover song identification algorithmson the benchmark subset, you can look at ourpublication.\n\nFor organizing the data, we use the structure of SecondHandSongs where each song is called aperformance, and each clique (cover group) is called awork. Based on this, the file names of the songs are their unique performance IDs (PID, e.g.P_22), and their labels with respect to their cliques are their work IDs (WID, e.g.W_14).\n\nMetadata for each song includes\n\n\n\tperformance title,\n\tperformance artist,\n\twork title,\n\twork artist,\n\trelease year,\n\tSecondHandSongs.com performance ID,\n\tSecondHandSongs.com work ID,\n\twhether the song is instrumental or not.\n\n\nIn addition, we matched the original metadata with MusicBrainz to obtain MusicBrainz ID (MBID), song length and genre/style tags. We would like to note that MusicBrainz related information is not available for all the songs in Da-TACOS, and since we used just our metadata for matching, we include all possible MBIDs for a particular songs.\n\nFor facilitatingreproducibilityin cover song identification (CSI) research, we proposea framework for feature extraction and benchmarkingin our supplementary repository:acoss.The feature extraction componentis designed to help CSI researchers to findthe most commonly used features for CSI in a single address. The parameter values we used to extract the features in Da-TACOS are shared in the same repository. Moreover,the benchmarking componentincludes our implementations of7 state-of-the-art CSI systems. We provide the performance results ofan initial benchmarkingof those7 systemson the benchmark subset of Da-TACOS. We encourage other CSI researchers to contribute to acoss with implementing their favorite feature extraction algorithms and their CSI systems to build up a knowledge base where CSI research can reach larger audiences.\n\nThe instructions for how to download and use the dataset are shared below. Please contact us if you have any questions or requests.\n\n1. Structure\n\n1.1. Metadata\n\nWe provide two metadata files that contain information about the benchmark subset and the cover analysis subset. Both metadata files are stored as python dictionaries in.jsonformat, and have the same hierarchical structure.\n\nAn example to load the metadata files in python:\n\nimport json\n\nwith open('./da-tacos_metadata/da-tacos_benchmark_subset_metadata.json') as f:\n\tbenchmark_metadata = json.load(f)\n\n\nThe python dictionary obtained with the code above will have the respective WIDs as keys. Each key will provide the song dictionaries that contain the metadata regarding the songs that belong to their WIDs. An example can be seen below:\n\n\"W_163992\": { # work id\n\t\"P_547131\": { # performance id of the first song belonging to the clique 'W_163992'\n\t\t\"work_title\": \"Trade Winds, Trade Winds\",\n\t\t\"work_artist\": \"Aki Aleong\",\n\t\t\"perf_title\": \"Trade Winds, Trade Winds\",\n\t\t\"perf_artist\": \"Aki Aleong\",\n\t\t\"release_year\": \"1961\",\n\t\t\"work_id\": \"W_163992\",\n\t\t\"perf_id\": \"P_547131\",\n\t\t\"instrumental\": \"No\",\n\t\t\"perf_artist_mbid\": \"9bfa011f-8331-4c9a-b49b-d05bc7916605\",\n\t\t\"mb_performances\": {\n\t\t\t\"4ce274b3-0979-4b39-b8a3-5ae1de388c4a\": {\n\t\t\t\t\"length\": \"175000\"\n\t\t\t},\n\t\t\t\"7c10ba3b-6f1d-41ab-8b20-14b2567d384a\": {\n\t\t\t\t\"length\": \"177653\"\n\t\t\t}\n\t\t}\n\t},\n\t\"P_547140\": { # performance id of the second song belonging to the clique 'W_163992'\n\t\t\"work_title\": \"Trade Winds, Trade Winds\",\n\t\t\"work_artist\": \"Aki Aleong\",\n\t\t\"perf_title\": \"Trade Winds, Trade Winds\",\n\t\t\"perf_artist\": \"Dodie Stevens\",\n\t\t\"release_year\": \"1961\",\n\t\t\"work_id\": \"W_163992\",\n\t\t\"perf_id\": \"P_547140\",\n\t\t\"instrumental\": \"No\"\n\t}\n}\n\n\n1.2. Pre-extracted features\n\nThe list of features included in Da-TACOS can be seen below. All the features are extracted withacossrepository that uses open-source feature extraction libraries such asEssentia,LibROSA, andMadmom.\n\nTo facilitate the use of the dataset, we provide two options regarding the file structure.\n\n1Inda-tacos_benchmark_subset_single_filesandda-tacos_coveranalysis_subset_single_filesfolders, we organize the data based on their respective cliques, and one file contains all the features for that particular song.\n\n{\n\t\"chroma_cens\": numpy.ndarray,\n\t\"crema\": numpy.ndarray,\n\t\"hpcp\": numpy.ndarray,\n\t\"key_extractor\": {\n\t\t\"key\": numpy.str_,\n\t\t\"scale\": numpy.str_,_\n\t\t\"strength\": numpy.float64\n\t},\n\t\"madmom_features\": {\n\t\t\"novfn\": numpy.ndarray, \n\t\t\"onsets\": numpy.ndarray,\n\t\t\"snovfn\": numpy.ndarray,\n\t\t\"tempos\": numpy.ndarray\n\t}\n\t\"mfcc_htk\": numpy.ndarray,\n\t\"tags\": list of (numpy.str_, numpy.str_)\n\t\"label\": numpy.str_,\n\t\"track_id\": numpy.str_\n}\n\n\n\n\n2Inda-tacos_benchmark_subset_FEATUREandda-tacos_coveranalysis_subset_FEATUREfolders, the data is organized based on their cliques as well, but each of these folders contain only one feature per song. For instance, if you want to test your system that uses HPCP features, you can downloadda-tacos_benchmark_subset_hpcpto access the pre-computed HPCP features. An example for the contents in those files can be seen below:\n\n{\n\t\"hpcp\": numpy.ndarray,\n\t\"label\": numpy.str_,\n\t\"track_id\": numpy.str_\n}\n\n\n\n2. Using the dataset\n\n2.1. Requirements\n\n\n\tPython 3.6+\n\tCreate virtual environment and install requirements\n\tgit clone https://github.com/MTG/da-tacos.git\ncd da-tacos\npython3 -m venv venv\nsource venv/bin/activate\npip install -r requirements.txt\n\n\t\n\n\n2.2. Downloading the data\n\nThe dataset is currently stored in only in Google Drive (it will be uploaded to Zenodo soon), and can be downloaded from thislink. We also provide a python script that automatically downloads the folders you specify. Basic usage of this script can be seen below:\n\npython download_da-tacos.py -h\n\n\nusage: download_da-tacos.py [-h]\n                            [--dataset {benchmark,coveranalysis,da-tacos}]                                                                          \n                            [--type {single_files,cens,crema,hpcp,key,madmom,mfcc,tags}]   \n                            [--source {gdrive,zenodo}]                                                         \n                            [--outputdir OUTPUTDIR]\n                            [--unpack]\n                            [--remove]\n\nDownload script for Da-TACOS \n\noptional arguments:                                                                                                       \n  -h, --help            show this help message and exit                                                                   \n  --dataset {metadata,benchmark,coveranalysis,da-tacos}                                                                      \n                        which subset to download. 'da-tacos' option downloads\n                        both subsets. the options other than 'metadata' will\n                        download the metadata as well. (default: metadata)                                                                     \n  --type {single_files,cens,crema,hpcp,key,madmom,mfcc,tags} [{single_files,cens,crema,hpcp,key,madmom,mfcc,tags} ...]                                     \n                        which folder to download. for downloading multiple\n                        folders, you can enter multiple arguments (e.g. '--\n                        type cens crema'). for detailed explanation, please\n                        check https://mtg.github.io/da-tacos/ (default:\n                        single_files)                  \n  --source {gdrive,zenodo}\n                        from which source to download the files. you can\n                        either download from Google Drive (gdrive) or from\n                        Zenodo (zenodo) (default: gdrive)                                           \n  --outputdir OUTPUTDIR                                                               \n                        directory to store the dataset (default: ./)                   \n  --unpack              unpack the zip files (default: False)                        \n  --remove              remove zip files after unpacking (default: False) \n\n\n2.3. Loading the data in Python\n\nAll files (except the metadata) are stored in.h5format. We recommend usingdeepdishlibrary for python to load the files. An example of how to load the data is shown below:\n\nimport deepdish as dd\n\nfile_path = './da-tacos_coveranalysis_subset_single_files/W_14/P_15.h5'\nP_15_data = dd.io.load(file_path)\n\n\n3. Citing the dataset\n\nPlease cite the followingpublicationwhen using the dataset:\n\n\nFurkan Yesiler, Chris Tralie, Albin Correya, Diego F. Silva, Philip Tovstogan, Emilia Gmez, and Xavier Serra. Da-TACOS: A Dataset for Cover Song Identification and Understanding. In Proc. of the 20th Int. Soc. for Music Information Retrieval Conf. (ISMIR), pages 327-334, Delft, The Netherlands, 2019.\n\n\nBibtex version:\n\n@inproceedings{yesiler2019,\n    author = \"Furkan Yesiler and Chris Tralie and Albin Correya and Diego F. Silva and Philip Tovstogan and Emilia G{\\'{o}}mez and Xavier Serra\",\n    title = \"{Da-TACOS}: {A} Dataset for Cover Song Identification and Understanding\",\n    booktitle = \"Proc. of the 20th Int. Soc. for Music Information Retrieval Conf. (ISMIR)\",\n    year = \"2019\",\n    pages = \"327--334\",\n    address = \"Delft, The Netherlands\"\n}\n\n\n4. License\n\n\n\tThe metadata and the pre-extracted features are licensed underCC BY-NC-SA 4.0\n\n\nCopyright 2019 Music Technology Group\n\n5. Acknowledgments\n\nThis work has received funding from the European Unions Horizon 2020 research and innovation programme under the Marie Sk\u0142odowska-Curie grant agreement No. 765068 (MIP-Frontiers).\n\nThis work has received funding from the European Unions Horizon 2020 research and innovation programme under grant agreement No. 770376 (TROMPA).",
         "zenodo_id": 4717628,
         "dblp_key": "conf/ismir/YesilerTCSTGS19"
     },
@@ -1714,7 +1714,7 @@
         "title": "Hit Song Prediction: Leveraging Lowand High-Level Audio Features.",
         "author": [
             "Eva Zangerle",
-            "Michael Vötter",
+            "Michael V\u00f6tter",
             "Ramona Huber",
             "Yi-Hsuan Yang"
         ],
@@ -1761,14 +1761,14 @@
         "author": [
             "Arthur Flexer",
             "Geoffroy Peeters",
-            "Julián Urbano",
+            "Juli\u00e1n Urbano",
             "Anja Volk"
         ],
         "year": "2019",
         "doi": "10.5281/zenodo.3258042",
         "url": "https://doi.org/10.5281/zenodo.3258042",
         "ee": null,
-        "abstract": "<p><strong>Hit Song Prediction Dataset</strong></p>\n\n<p>This dataset is based on the Million Song Dataset (MSD), which contains one million songs that are representative for western commercial music released between 1922 and 2011. The dataset contains release year information for 515,576 of the MSD songs. Please refer to http://millionsongdataset.com/ for further information on the million song dataset.</p>\n\n<p>For our hit song prediction experiments, we extract highand low-level audio features using the Essentia toolkit (cf. https://essentia.upf.edu/). For the high-level features, we make use of the pre-trained classifiers as provided by Essentia. For a detailed description of the features, please visit the Essentia documentation.</p>\n\n<p><br>\nThe dataset hence contains:</p>\n\n<ul>\n\t<li><strong>Audio features</strong>: the compressed msd_audio_features.tar.gz file contains the lowand high-level features for each track, stored as json files. Please note that we organize all MSD audio feature files based on the track&#39;s identifier with one folder holding all tracks with the same first letter of the track identifier to keep the files manageable. For each track, we provide two files: one containing the high-level and one containing the low-level features extracted by Essentia.</li>\n\t<li><strong>Billboard data:</strong> the folder billboard_data contains two files: msd_bb_matches.csv&nbsp;contains information about the MSD tracks that were also featured in the Billboard Hot 100 charts. Here, we provide the MSD id, Echo Nest id, artist name, track title, release year, peak position in Billboard charts and the number of weeks in the charts. The second file, msd_bb_non_matches.csv&nbsp;contains meta-information about the tracks of the MSD that were not featured in the Billboard Hot 100 and hence were used as negative samples. Here, we provide the MSD id, Echo Nest id, artist name, track title and the release year.</li>\n</ul>\n\n<p><br>\nIf you make use of the dataset, please kindly cite the following paper:</p>\n\n<p>Eva Zangerle, Michael V&ouml;tter, Ramona Huber, and Yi-Hsuan Yang. Hit Song Prediction: Leveraging Lowand High-Level Audio Features. In Proceedings of the 20th International Society for Music Information Retrieval Conference 2019 (ISMIR 2019), 2019.</p>\n\n<p><br>\n@inproceedings{zangerle_ismir19,<br>\ntitle = {{Hit Song Prediction: Leveraging Lowand High-Level Audio Features}},<br>\nauthor = {Eva Zangerle and Ramona Huber and Michael V\\&quot;{o}tter and Yi-Hsuan Yang},<br>\nyear = {2019},<br>\nbooktitle = {{Proceedings of the 20th International Society for Music Information Retrieval Conference 2019 (ISMIR 2019)}},<br>\n}</p>",
+        "abstract": "Hit Song Prediction Dataset\n\nThis dataset is based on the Million Song Dataset (MSD), which contains one million songs that are representative for western commercial music released between 1922 and 2011. The dataset contains release year information for 515,576 of the MSD songs. Please refer to http://millionsongdataset.com/ for further information on the million song dataset.\n\nFor our hit song prediction experiments, we extract highand low-level audio features using the Essentia toolkit (cf. https://essentia.upf.edu/). For the high-level features, we make use of the pre-trained classifiers as provided by Essentia. For a detailed description of the features, please visit the Essentia documentation.\n\n\nThe dataset hence contains:\n\n\n\tAudio features: the compressed msd_audio_features.tar.gz file contains the lowand high-level features for each track, stored as json files. Please note that we organize all MSD audio feature files based on the track&#39;s identifier with one folder holding all tracks with the same first letter of the track identifier to keep the files manageable. For each track, we provide two files: one containing the high-level and one containing the low-level features extracted by Essentia.\n\tBillboard data: the folder billboard_data contains two files: msd_bb_matches.csvcontains information about the MSD tracks that were also featured in the Billboard Hot 100 charts. Here, we provide the MSD id, Echo Nest id, artist name, track title, release year, peak position in Billboard charts and the number of weeks in the charts. The second file, msd_bb_non_matches.csvcontains meta-information about the tracks of the MSD that were not featured in the Billboard Hot 100 and hence were used as negative samples. Here, we provide the MSD id, Echo Nest id, artist name, track title and the release year.\n\n\n\nIf you make use of the dataset, please kindly cite the following paper:\n\nEva Zangerle, Michael Vtter, Ramona Huber, and Yi-Hsuan Yang. Hit Song Prediction: Leveraging Lowand High-Level Audio Features. In Proceedings of the 20th International Society for Music Information Retrieval Conference 2019 (ISMIR 2019), 2019.\n\n\n@inproceedings{zangerle_ismir19,\ntitle = {{Hit Song Prediction: Leveraging Lowand High-Level Audio Features}},\nauthor = {Eva Zangerle and Ramona Huber and Michael V\\{o}tter and Yi-Hsuan Yang},\nyear = {2019},\nbooktitle = {{Proceedings of the 20th International Society for Music Information Retrieval Conference 2019 (ISMIR 2019)}},\n}",
         "zenodo_id": 3258042,
         "dblp_key": "conf/ismir/2019"
     }

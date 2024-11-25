@@ -41,15 +41,15 @@
         "title": "Retrieving musical information from neural data: how cognitive features enrich acoustic ones.",
         "author": [
             "Ellie Abrams",
-            "Eva Muñoz Vidal",
+            "Eva Mu\u00f1oz Vidal",
             "Claire Pelofi",
-            "Pablo Ripollés"
+            "Pablo Ripoll\u00e9s"
         ],
         "year": "2022",
         "doi": "10.5281/zenodo.7343078",
         "url": "https://doi.org/10.5281/zenodo.7343078",
         "ee": "https://archives.ismir.net/ismir2022/paper/000018.pdf",
-        "abstract": "Various features – from low-level acoustics, to higher-level statistical regularities, to memory associations – contribute to the experience of musical enjoyment and pleasure. Recent work suggests that musical surprisal, that is, the unexpectedness of a musical event given its context, may directly predict listeners' experiences of pleasure and enjoyment during music listening. Understanding how surprisal shapes listeners' preferences for certain musical pieces has implications for music recommender systems, which are typically content- (both acoustic or semantic) or metadata-based. Here we test a recently developed computational algorithm, called Dynamic-Regularity Extraction (D-REX), that uses Bayesian inference to predict the surprisal that humans experience while listening to music. We demonstrate that the brain tracks musical surprisal as modeled by D-REX by conducting a decoding analysis on the neural signal (collected through magnetoencephalography) of participants listening to music. Thus, we demonstrate the validity of a computational model of musical surprisal, which may remarkably inform the next generation of recommender systems. In addition, we present an open-source neural dataset which will be available for future research to foster approaches combining MIR with cognitive neuroscience, an approach we believe will be a key strategy in characterizing people's reactions to music.",
+        "abstract": "Various features \u2013 from low-level acoustics, to higher-level statistical regularities, to memory associations \u2013 contribute to the experience of musical enjoyment and pleasure. Recent work suggests that musical surprisal, that is, the unexpectedness of a musical event given its context, may directly predict listeners' experiences of pleasure and enjoyment during music listening. Understanding how surprisal shapes listeners' preferences for certain musical pieces has implications for music recommender systems, which are typically content- (both acoustic or semantic) or metadata-based. Here we test a recently developed computational algorithm, called Dynamic-Regularity Extraction (D-REX), that uses Bayesian inference to predict the surprisal that humans experience while listening to music. We demonstrate that the brain tracks musical surprisal as modeled by D-REX by conducting a decoding analysis on the neural signal (collected through magnetoencephalography) of participants listening to music. Thus, we demonstrate the validity of a computational model of musical surprisal, which may remarkably inform the next generation of recommender systems. In addition, we present an open-source neural dataset which will be available for future research to foster approaches combining MIR with cognitive neuroscience, an approach we believe will be a key strategy in characterizing people's reactions to music.",
         "zenodo_id": 7343078,
         "dblp_key": "conf/ismir/AbramsVPR22"
     },
@@ -93,7 +93,7 @@
         "doi": "10.5281/zenodo.7382664",
         "url": "https://doi.org/10.5281/zenodo.7382664",
         "ee": "https://archives.ismir.net/ismir2022/paper/000051.pdf",
-        "abstract": "<p>Dataset of our paper <a href=\"https://arxiv.org/abs/2207.11231\">&quot;Learning Unsupervised Hierarchies of Audio Concepts&quot;</a> published at the <a href=\"https://ismir2022.ismir.net/\">ISMIR 2022</a> conference.</p>\n\n<p>For usage examples, please refer to&nbsp;our code repository at&nbsp;<a href=\"https://github.com/deezer/concept_hierarchy\">github.com/deezer/concept_hierarchy</a>.</p>\n\n<p><strong>Paper abstract</strong></p>\n\n<p>Music signals are difficult to interpret from their low-level features, perhaps even more than images: e.g. highlighting part of a spectrogram or an image is often insufficient to convey high-level ideas that are genuinely relevant to humans. In computer vision, concept learning was therein proposed to adjust explanations to the right abstraction level (e.g. detect clinical concepts from radiographs). These methods have yet to be used for MIR.<br>\nIn this paper, we adapt concept learning to the realm of music, with its particularities. For instance, music concepts are typically non-independent and of mixed nature (e.g. genre, instruments, mood), unlike previous work that assumed disentangled concepts. We propose a method to learn numerous music concepts from audio and then automatically hierarchise them to expose their mutual relationships. We conduct experiments on datasets of playlists from a music streaming service, serving as a few annotated examples for diverse concepts. Evaluations show that the mined hierarchies are aligned with both ground-truth hierarchies of concepts -- when available -- and with proxy sources of concept similarity in the general case.</p>\n\n<p><strong>Citation</strong></p>\n\n<p>If you use this material, please consider citing our work with the following:</p>\n\n<pre><code>@inproceedings{afchar2022learning,\n  title={Learning Unsupervised Hierarchies of Audio Concepts},\n  author={Afchar, Darius and Hennequin, Romain and Guigue, Vincent},\n  booktitle={International Society of Music Information Retrieval Conference (ISMIR)},\n  year={2022}\n}</code></pre>\n\n<p><strong>How can I&nbsp;send you a love letter?</strong></p>\n\n<p>You can contact us at&nbsp;<a href=\"mailto:research@deezer.com?subject=Dataset%20ISMIR%20Afchar\">research@deezer.com</a>.</p>",
+        "abstract": "Dataset of our paper Learning Unsupervised Hierarchies of Audio Concepts published at the ISMIR 2022 conference.\n\nFor usage examples, please refer toour code repository atgithub.com/deezer/concept_hierarchy.\n\nPaper abstract\n\nMusic signals are difficult to interpret from their low-level features, perhaps even more than images: e.g. highlighting part of a spectrogram or an image is often insufficient to convey high-level ideas that are genuinely relevant to humans. In computer vision, concept learning was therein proposed to adjust explanations to the right abstraction level (e.g. detect clinical concepts from radiographs). These methods have yet to be used for MIR.\nIn this paper, we adapt concept learning to the realm of music, with its particularities. For instance, music concepts are typically non-independent and of mixed nature (e.g. genre, instruments, mood), unlike previous work that assumed disentangled concepts. We propose a method to learn numerous music concepts from audio and then automatically hierarchise them to expose their mutual relationships. We conduct experiments on datasets of playlists from a music streaming service, serving as a few annotated examples for diverse concepts. Evaluations show that the mined hierarchies are aligned with both ground-truth hierarchies of concepts -- when available -- and with proxy sources of concept similarity in the general case.\n\nCitation\n\nIf you use this material, please consider citing our work with the following:\n\n@inproceedings{afchar2022learning,\n  title={Learning Unsupervised Hierarchies of Audio Concepts},\n  author={Afchar, Darius and Hennequin, Romain and Guigue, Vincent},\n  booktitle={International Society of Music Information Retrieval Conference (ISMIR)},\n  year={2022}\n}\n\nHow can Isend you a love letter?\n\nYou can contact us atresearch@deezer.com.",
         "zenodo_id": 7382664,
         "dblp_key": "conf/ismir/AfcharHG22"
     },
@@ -129,7 +129,7 @@
     {
         "title": "Music Representation Learning Based on Editorial Metadata from Discogs.",
         "author": [
-            "Pablo Alonso-Jiménez",
+            "Pablo Alonso-Jim\u00e9nez",
             "Xavier Serra",
             "Dmitry Bogdanov"
         ],
@@ -148,7 +148,7 @@
             "Marcel Gonzalez",
             "Maike L. Richter",
             "Hanna M. Lukashevich",
-            "Jakob Abeßer"
+            "Jakob Abe\u00dfer"
         ],
         "year": "2022",
         "doi": "10.5281/zenodo.7342840",
@@ -161,7 +161,7 @@
     {
         "title": "SIATEC-C: Computationally efficient repeated pattern discovery in polyphonic music.",
         "author": [
-            "Otso Björklund"
+            "Otso Bj\u00f6rklund"
         ],
         "year": "2022",
         "doi": "10.5281/zenodo.7316594",
@@ -176,7 +176,7 @@
         "author": [
             "Dmitry Bogdanov",
             "Xavier Lizarraga-Seijas",
-            "Pablo Alonso-Jiménez",
+            "Pablo Alonso-Jim\u00e9nez",
             "Xavier Serra"
         ],
         "year": "2022",
@@ -193,7 +193,7 @@
             "Morgan Buisson",
             "Brian McFee",
             "Slim Essid",
-            "Hélène C. Crayencour"
+            "H\u00e9l\u00e8ne C. Crayencour"
         ],
         "year": "2022",
         "doi": "10.5281/zenodo.7343060",
@@ -263,7 +263,7 @@
         "doi": "10.5281/zenodo.7316650",
         "url": "https://doi.org/10.5281/zenodo.7316650",
         "ee": "https://archives.ismir.net/ismir2022/paper/000033.pdf",
-        "abstract": "<p>Work on musical gesture and embodied cognition suggests a rich complementarity between audio and movement information in musical performance. Pose estimation algorithms now make it possible (in contrast to Motion Capture) to collect rich movement information from unconstrained performances of indefinite length. Vocal performances of Indian art music offer the opportunity to carry out multimodal analysis using this information, combing musician&#39;s body movements (i.e. pose and gesture data) with audio features. In this work we investigate raga identification from 12 s excerpts from a dataset of 3 singers and 9 ragas using the combination of audio and visual representations that are each semantically salient on their own. While gesture based classification is relatively weak by itself, we show that combining latent representations from the pre-trained unimodal networks can surpass the already high performance obtained by audio features.</p>",
+        "abstract": "Work on musical gesture and embodied cognition suggests a rich complementarity between audio and movement information in musical performance. Pose estimation algorithms now make it possible (in contrast to Motion Capture) to collect rich movement information from unconstrained performances of indefinite length. Vocal performances of Indian art music offer the opportunity to carry out multimodal analysis using this information, combing musician&#39;s body movements (i.e. pose and gesture data) with audio features. In this work we investigate raga identification from 12 s excerpts from a dataset of 3 singers and 9 ragas using the combination of audio and visual representations that are each semantically salient on their own. While gesture based classification is relatively weak by itself, we show that combining latent representations from the pre-trained unimodal networks can surpass the already high performance obtained by audio features.",
         "zenodo_id": 7316650,
         "dblp_key": "conf/ismir/ClaytonRSRL22"
     },
@@ -282,7 +282,7 @@
         "doi": "10.5281/zenodo.7372162",
         "url": "https://doi.org/10.5281/zenodo.7372162",
         "ee": "https://archives.ismir.net/ismir2022/paper/000109.pdf",
-        "abstract": "Audio Fingerprinting (AFP) is a well-studied problem in music information retrieval for various use-cases e.g. content-based copy detection, DJ-set monitoring, and music excerpt identification. However, AFP for continuous broadcast monitoring (e.g. for TV &amp; Radio), where music is often in the background, has not received much attention despite its importance to the music industry. In this paper (1) we present BAF, the first public dataset for music monitoring in broadcast. It contains 74 hours of production music from Epidemic Sound and 57 hours of TV audio recordings. Furthermore, BAF provides cross-annotations with exact matching timestamps between Epidemic tracks and TV recordings. Approximately, 80% of the total annotated time is background music. (2) We benchmark BAF with public state-of-the-art AFP systems, together with our proposed baseline PeakFP: a simple, non-scalable AFP algorithm based on spectral peak matching. In this benchmark, none of the algorithms obtain a F1-score above 47%, pointing out that further research is needed to reach the AFP performance levels in other studied use cases. The dataset, baseline, and benchmark framework are open and available for research.",
+        "abstract": "Audio Fingerprinting (AFP) is a well-studied problem in music information retrieval for various use-cases e.g. content-based copy detection, DJ-set monitoring, and music excerpt identification. However, AFP for continuous broadcast monitoring (e.g. for TV  Radio), where music is often in the background, has not received much attention despite its importance to the music industry. In this paper (1) we present BAF, the first public dataset for music monitoring in broadcast. It contains 74 hours of production music from Epidemic Sound and 57 hours of TV audio recordings. Furthermore, BAF provides cross-annotations with exact matching timestamps between Epidemic tracks and TV recordings. Approximately, 80% of the total annotated time is background music. (2) We benchmark BAF with public state-of-the-art AFP systems, together with our proposed baseline PeakFP: a simple, non-scalable AFP algorithm based on spectral peak matching. In this benchmark, none of the algorithms obtain a F1-score above 47%, pointing out that further research is needed to reach the AFP performance levels in other studied use cases. The dataset, baseline, and benchmark framework are open and available for research.",
         "zenodo_id": 7372162,
         "dblp_key": "conf/ismir/CortesCMMMSS22"
     },
@@ -291,7 +291,7 @@
         "author": [
             "Louis Couturier",
             "Louis Bigo",
-            "Florence Levé"
+            "Florence Lev\u00e9"
         ],
         "year": "2022",
         "doi": "10.5281/zenodo.7316712",
@@ -313,7 +313,7 @@
         "doi": "10.5281/zenodo.7316646",
         "url": "https://doi.org/10.5281/zenodo.7316646",
         "ee": "https://archives.ismir.net/ismir2022/paper/000031.pdf",
-        "abstract": "Creating a complex work of art like music necessitates profound creativity. With recent advancements in Deep Learning and powerful models such as Transformers, there has been huge progress in automatic music generation. In an accompaniment generation context, creating a coherent drum pattern with apposite fills and improvisations at proper locations in a song is a challenging task even for an experienced drummer. Drum beats tend to follow a repetitive pattern through stanzas with fills/improvisation at section boundaries. In this work, we tackle the task of drum pattern generation conditioned on the accompanying music played by four melodic instruments – Piano, Guitar, Bass and Strings. We use the transformer sequence to sequence model to generate a basic drum pattern conditioned on the melodic accompaniment to find that improvisation is largely absent, attributed possibly to its relatively low representation in the training data. We propose a novelty function that represents the extent of improvisation in a specific bar relative to its neighbors. We train a model to detect improvisation positions from the melodic accompaniment tracks. Finally, we use a novel BERT inspired in-filling architecture, to learn the structure of both the drums and melody to in-fill elements of improvised music.",
+        "abstract": "Creating a complex work of art like music necessitates profound creativity. With recent advancements in Deep Learning and powerful models such as Transformers, there has been huge progress in automatic music generation. In an accompaniment generation context, creating a coherent drum pattern with apposite fills and improvisations at proper locations in a song is a challenging task even for an experienced drummer. Drum beats tend to follow a repetitive pattern through stanzas with fills/improvisation at section boundaries. In this work, we tackle the task of drum pattern generation conditioned on the accompanying music played by four melodic instruments \u2013 Piano, Guitar, Bass and Strings. We use the transformer sequence to sequence model to generate a basic drum pattern conditioned on the melodic accompaniment to find that improvisation is largely absent, attributed possibly to its relatively low representation in the training data. We propose a novelty function that represents the extent of improvisation in a specific bar relative to its neighbors. We train a model to detect improvisation positions from the melodic accompaniment tracks. Finally, we use a novel BERT inspired in-filling architecture, to learn the structure of both the drums and melody to in-fill elements of improvised music.",
         "zenodo_id": 7316646,
         "dblp_key": "conf/ismir/DahaleTRV22"
     },
@@ -335,7 +335,7 @@
     {
         "title": "On the Impact and Interplay of Input Representations and Network Architectures for Automatic Music Tagging.",
         "author": [
-            "Maximilian Damböck",
+            "Maximilian Damb\u00f6ck",
             "Richard Vogl",
             "Peter Knees"
         ],
@@ -417,7 +417,7 @@
         "title": "Critiquing Task- versus Goal-oriented Approaches: A Case for Makam Recognition.",
         "author": [
             "Kaustuv Kanti Ganguli",
-            "Sertan Sentürk",
+            "Sertan Sent\u00fcrk",
             "Carlos Guedes"
         ],
         "year": "2022",
@@ -503,7 +503,7 @@
         "doi": "10.5281/zenodo.7342809",
         "url": "https://doi.org/10.5281/zenodo.7342809",
         "ee": "https://archives.ismir.net/ismir2022/paper/000055.pdf",
-        "abstract": "Standard evaluation metrics such as the Inception score and Fréchet Audio Distance provide a general audio quality distance metric between the synthesized audio and reference clean audio. However, the sensitivity of these metrics to variations in the statistical parameters that define an audio texture is not well studied. In this work, we provide a systematic study of the sensitivity of some of the existing audio quality evaluation metrics to parameter variations in audio textures. Furthermore, we also study three more potentially parameter-sensitive metrics for audio texture synthesis, (a) a Gram matrix based distance, (b) an Accumulated Gram metric using a summarized version of the Gram matrices, and (c) a cochlear-model based statistical features metric. These metrics use deep features that summarize the statistics of any given audio texture, thus being inherently sensitive to variations in the statistical parameters that define an audio texture. We study and evaluate the sensitivity of existing standard metrics as well as Gram matrix and cochlear-model based metrics in response to control-parameter variations for audio textures across a wide range of texture and parameter types, and validate with subjective evaluation. We find that each of the metrics is sensitive to different sets of texture-parameter types. This is the first step towards investigating objective metrics for assessing parameter sensitivity in audio textures.",
+        "abstract": "Standard evaluation metrics such as the Inception score and Fr\u00e9chet Audio Distance provide a general audio quality distance metric between the synthesized audio and reference clean audio. However, the sensitivity of these metrics to variations in the statistical parameters that define an audio texture is not well studied. In this work, we provide a systematic study of the sensitivity of some of the existing audio quality evaluation metrics to parameter variations in audio textures. Furthermore, we also study three more potentially parameter-sensitive metrics for audio texture synthesis, (a) a Gram matrix based distance, (b) an Accumulated Gram metric using a summarized version of the Gram matrices, and (c) a cochlear-model based statistical features metric. These metrics use deep features that summarize the statistics of any given audio texture, thus being inherently sensitive to variations in the statistical parameters that define an audio texture. We study and evaluate the sensitivity of existing standard metrics as well as Gram matrix and cochlear-model based metrics in response to control-parameter variations for audio textures across a wide range of texture and parameter types, and validate with subjective evaluation. We find that each of the metrics is sensitive to different sets of texture-parameter types. This is the first step towards investigating objective metrics for assessing parameter sensitivity in audio textures.",
         "zenodo_id": 7342809,
         "dblp_key": "conf/ismir/GuptaWGKLW22"
     },
@@ -538,7 +538,7 @@
         "doi": "10.5281/zenodo.7316734",
         "url": "https://doi.org/10.5281/zenodo.7316734",
         "ee": "https://archives.ismir.net/ismir2022/paper/000072.pdf",
-        "abstract": "An ideal music synthesizer should be both interactive and expressive, generating high-fidelity audio in realtime for arbitrary combinations of instruments and notes. Recent neural synthesizers have exhibited a tradeoff between domain-specific models that offer detailed control of only specific instruments, or raw waveform models that can train on any music but with minimal control and slow generation. In this work, we focus on a middle ground of neural synthesizers that can generate audio from MIDI sequences with arbitrary combinations of instruments in realtime. This enables training on a wide range of transcription datasets with a single model, which in turn offers note-level control of composition and instrumentation across a wide range of instruments. We use a simple two-stage process: MIDI to spectrograms with an encoder-decoder Transformer, then spectrograms to audio with a generative adversarial network (GAN) spectrogram inverter. We compare training the decoder as an autoregressive model and as a Denoising Diffusion Probabilistic Model (DDPM) and find that the DDPM approach is superior both qualitatively and as measured by audio reconstruction and Fréchet distance metrics. Given the interactivity and generality of this approach, we find this to be a promising first step towards interactive and expressive neural synthesis for arbitrary combinations of instruments and notes.",
+        "abstract": "An ideal music synthesizer should be both interactive and expressive, generating high-fidelity audio in realtime for arbitrary combinations of instruments and notes. Recent neural synthesizers have exhibited a tradeoff between domain-specific models that offer detailed control of only specific instruments, or raw waveform models that can train on any music but with minimal control and slow generation. In this work, we focus on a middle ground of neural synthesizers that can generate audio from MIDI sequences with arbitrary combinations of instruments in realtime. This enables training on a wide range of transcription datasets with a single model, which in turn offers note-level control of composition and instrumentation across a wide range of instruments. We use a simple two-stage process: MIDI to spectrograms with an encoder-decoder Transformer, then spectrograms to audio with a generative adversarial network (GAN) spectrogram inverter. We compare training the decoder as an autoregressive model and as a Denoising Diffusion Probabilistic Model (DDPM) and find that the DDPM approach is superior both qualitatively and as measured by audio reconstruction and Fr\u00e9chet distance metrics. Given the interactivity and generality of this approach, we find this to be a promising first step towards interactive and expressive neural synthesis for arbitrary combinations of instruments and notes.",
         "zenodo_id": 7316734,
         "dblp_key": "conf/ismir/HawthorneSRZGME22"
     },
@@ -580,7 +580,7 @@
             "Karim M. Ibrahim",
             "Elena V. Epure",
             "Geoffroy Peeters",
-            "Gaël Richard"
+            "Ga\u00ebl Richard"
         ],
         "year": "2022",
         "doi": "10.5281/zenodo.7342816",
@@ -595,7 +595,7 @@
         "author": [
             "Johannes Imort",
             "Giorgio Fabbro",
-            "Marco A. Martínez Ramírez",
+            "Marco A. Mart\u00ednez Ram\u00edrez",
             "Stefan Uhlich",
             "Yuichiro Koyama",
             "Yuki Mitsufuji"
@@ -748,7 +748,7 @@
         "doi": "10.5281/zenodo.7316652",
         "url": "https://doi.org/10.5281/zenodo.7316652",
         "ee": "https://archives.ismir.net/ismir2022/paper/000034.pdf",
-        "abstract": "<p>Music streaming platforms allow users to enjoy music from all over the globe.Such opportunity speeds up cultural exchange between different countries, a process often associated with globalization. While such an exchange could lead to more diverse music consumption, empirical evidence on its influence on online music consumption is limited. Besides, the extent to which music recommender systems foster exchange or amplify globalization in music remains an understudied problem.In this paper, we present findings from an empirical study to detect traces of globalization in domestic vs. foreign online music consumption. Besides, we investigate if popular recommendation algorithms, specifically ItemKNN and NeuMF, are prone to amplifying globalization processes. Our experiments on Last.fm listening data show nuanced patterns of globalization in music consumption. We observe a strong position of US music in all considered countries. In countries such as Sweden, Great Britain, or Brazil, US music shows various levels of coexistence with domestic music. We find that Finland is least influenced by US music, while greatly consuming and &#39;exporting&#39; domestic music. With respect to recommendation algorithms, ItemKNN tends to recommend domestic music to users of many countries, while NeuMF contributes to accelerating globalization and shifting balance towards dominance of US music on the market.</p>",
+        "abstract": "Music streaming platforms allow users to enjoy music from all over the globe.Such opportunity speeds up cultural exchange between different countries, a process often associated with globalization. While such an exchange could lead to more diverse music consumption, empirical evidence on its influence on online music consumption is limited. Besides, the extent to which music recommender systems foster exchange or amplify globalization in music remains an understudied problem.In this paper, we present findings from an empirical study to detect traces of globalization in domestic vs. foreign online music consumption. Besides, we investigate if popular recommendation algorithms, specifically ItemKNN and NeuMF, are prone to amplifying globalization processes. Our experiments on Last.fm listening data show nuanced patterns of globalization in music consumption. We observe a strong position of US music in all considered countries. In countries such as Sweden, Great Britain, or Brazil, US music shows various levels of coexistence with domestic music. We find that Finland is least influenced by US music, while greatly consuming and &#39;exporting&#39; domestic music. With respect to recommendation algorithms, ItemKNN tends to recommend domestic music to users of many countries, while NeuMF contributes to accelerating globalization and shifting balance towards dominance of US music on the market.",
         "zenodo_id": 7316652,
         "dblp_key": "conf/ismir/LesotaPBLRS22"
     },
@@ -848,7 +848,7 @@
             "Yann Teytaut",
             "Elliot Vincent",
             "Mathieu Aubry",
-            "Loïc Landrieu"
+            "Lo\u00efc Landrieu"
         ],
         "year": "2022",
         "doi": "10.5281/zenodo.7316756",
@@ -902,7 +902,7 @@
         "doi": "10.5281/zenodo.7342531",
         "url": "https://doi.org/10.5281/zenodo.7342531",
         "ee": "https://archives.ismir.net/ismir2022/paper/000101.pdf",
-        "abstract": "<p>Melody tracks are worthy of special attention in the field of symbolic music information retrieval (MIR) because they contribute more towards music perception than many other musical components. However, many existing symbolic MIR systems neglect melody track identification (MTI) and are thus less effective. Existing MTI methods are also not robust and perform poorly on MIDI files representing music of unusual genres, arrangements, or formats. To address this problem, we propose a CNN-Transformer-based MTI model designed to robustly identify a single melody track for a given MIDI file. As this process can take a sizable amount of time for long songs, we also use a sparse Transformer to speed up attention computation. Our experiments show that our proposed model outperforms state-of-the-art (SOTA) algorithms in accuracy and can also benefit downstream MIR tasks.</p>",
+        "abstract": "Melody tracks are worthy of special attention in the field of symbolic music information retrieval (MIR) because they contribute more towards music perception than many other musical components. However, many existing symbolic MIR systems neglect melody track identification (MTI) and are thus less effective. Existing MTI methods are also not robust and perform poorly on MIDI files representing music of unusual genres, arrangements, or formats. To address this problem, we propose a CNN-Transformer-based MTI model designed to robustly identify a single melody track for a given MIDI file. As this process can take a sizable amount of time for long songs, we also use a sparse Transformer to speed up attention computation. Our experiments show that our proposed model outperforms state-of-the-art (SOTA) algorithms in accuracy and can also benefit downstream MIR tasks.",
         "zenodo_id": 7342531,
         "dblp_key": "conf/ismir/MaLZW22"
     },
@@ -910,7 +910,7 @@
         "title": "Adapting meter tracking models to Latin American music.",
         "author": [
             "Lucas S. Maia",
-            "Martín Rocamora",
+            "Mart\u00edn Rocamora",
             "Luiz W. P. Biscainho",
             "Magdalena Fuentes"
         ],
@@ -943,7 +943,7 @@
         "author": [
             "Maximilian Mayerl",
             "Stefan Brandl",
-            "Günther Specht",
+            "G\u00fcnther Specht",
             "Markus Schedl",
             "Eva Zangerle"
         ],
@@ -982,7 +982,7 @@
         "doi": "10.5281/zenodo.7343047",
         "url": "https://doi.org/10.5281/zenodo.7343047",
         "ee": "https://archives.ismir.net/ismir2022/paper/000032.pdf",
-        "abstract": "<p>Although audio to score alignment is a classic Music Information Retrieval problem, it has not been defined uniquely with the scope of musical scenarios representing its core. The absence of a unified vision makes it difficult to pinpoint its state-of-the-art and determine directions for improvement. To get past this bottleneck, it is necessary to consolidate datasets and evaluation methodologies to allow comprehensive benchmarking. In our review of prior work, we demonstrate the extent of variation in problem scope, datasets, and evaluation practices across audio to score alignment research. To circumvent the high cost of creating large-scale datasets with various instruments, styles, performance conditions, and musician proficiency from scratch, the research community could generate ground truth approximations from non-audio to score alignment datasets which include a temporal mapping between a music score and its corresponding audio. We show a methodology for adapting the Aligned Scores and Performances dataset, created originally for beat tracking and music transcription. We filter the dataset semi- automatically by applying a set of Dynamic Time Warping based Audio to Score Alignment methods using out-of-the-box Chroma and Constant-Q Transform extraction algorithms, suitable for the characteristics of the piano performances of the dataset. We use the results to discuss the limitations of the generated ground truths and data adaptation method. While the adapted dataset does not provide the necessary diversity for solving the initial problem, we conclude with ideas for expansion, and identify future directions for curating more comprehensive datasets through data adaptation, or synthesis.</p>",
+        "abstract": "Although audio to score alignment is a classic Music Information Retrieval problem, it has not been defined uniquely with the scope of musical scenarios representing its core. The absence of a unified vision makes it difficult to pinpoint its state-of-the-art and determine directions for improvement. To get past this bottleneck, it is necessary to consolidate datasets and evaluation methodologies to allow comprehensive benchmarking. In our review of prior work, we demonstrate the extent of variation in problem scope, datasets, and evaluation practices across audio to score alignment research. To circumvent the high cost of creating large-scale datasets with various instruments, styles, performance conditions, and musician proficiency from scratch, the research community could generate ground truth approximations from non-audio to score alignment datasets which include a temporal mapping between a music score and its corresponding audio. We show a methodology for adapting the Aligned Scores and Performances dataset, created originally for beat tracking and music transcription. We filter the dataset semi- automatically by applying a set of Dynamic Time Warping based Audio to Score Alignment methods using out-of-the-box Chroma and Constant-Q Transform extraction algorithms, suitable for the characteristics of the piano performances of the dataset. We use the results to discuss the limitations of the generated ground truths and data adaptation method. While the adapted dataset does not provide the necessary diversity for solving the initial problem, we conclude with ideas for expansion, and identify future directions for curating more comprehensive datasets through data adaptation, or synthesis.",
         "zenodo_id": 7343047,
         "dblp_key": "conf/ismir/MorsiS22"
     },
@@ -1006,8 +1006,8 @@
         "title": "Generating music with sentiment using Transformer-GANs.",
         "author": [
             "Pedro L. T. Neves",
-            "José Fornari",
-            "João Batista Florindo"
+            "Jos\u00e9 Fornari",
+            "Jo\u00e3o Batista Florindo"
         ],
         "year": "2022",
         "doi": "10.5281/zenodo.7342704",
@@ -1040,15 +1040,15 @@
         "doi": "10.5281/zenodo.7316660",
         "url": "https://doi.org/10.5281/zenodo.7316660",
         "ee": "https://archives.ismir.net/ismir2022/paper/000038.pdf",
-        "abstract": "Iranian dastgāhi music is considered as the classical repertory of contemporary Iran. In the 19th century, the melodic modes that developed during its long history were grouped in categories, each of them known as dastgāh. The dastgāhi system presents unique features, that have been object of musicological study since its inception. However, computational methods for its research are still scarce, due in good part to the lack of open, well curated corpora. The aim of the KUG Dastgāhi Corpus (KDC) is to contribute to the development of computational corpus driven research for this tradition. KDC is created following the FAIR principles, and in close collaboration with performers and scholars, who contribute to it with annotations and qualitative evaluations. Besides presenting the first version of KDC, in this paper we explore the possibilities that Iranian dastgāhi music offers to computational research. In order to test the performance of state-of-the-art technologies applied to this music tradition, we present preliminary results for several analytical tasks, and discuss thei opportunities and limitations learnt in the process.",
+        "abstract": "Iranian dastg\u0101hi music is considered as the classical repertory of contemporary Iran. In the 19th century, the melodic modes that developed during its long history were grouped in categories, each of them known as dastg\u0101h. The dastg\u0101hi system presents unique features, that have been object of musicological study since its inception. However, computational methods for its research are still scarce, due in good part to the lack of open, well curated corpora. The aim of the KUG Dastg\u0101hi Corpus (KDC) is to contribute to the development of computational corpus driven research for this tradition. KDC is created following the FAIR principles, and in close collaboration with performers and scholars, who contribute to it with annotations and qualitative evaluations. Besides presenting the first version of KDC, in this paper we explore the possibilities that Iranian dastg\u0101hi music offers to computational research. In order to test the performance of state-of-the-art technologies applied to this music tradition, we present preliminary results for several analytical tasks, and discuss thei opportunities and limitations learnt in the process.",
         "zenodo_id": 7316660,
         "dblp_key": "conf/ismir/NikzatR22"
     },
     {
-        "title": "In Search of Sañc?ras: Tradition-informed Repeated Melodic Pattern Recognition in Carnatic Music.",
+        "title": "In Search of Sa\u00f1c?ras: Tradition-informed Repeated Melodic Pattern Recognition in Carnatic Music.",
         "author": [
             "Thomas Nuttall",
-            "Genís Plaja-Roglans",
+            "Gen\u00eds Plaja-Roglans",
             "Lara Pearson",
             "Xavier Serra"
         ],
@@ -1056,7 +1056,7 @@
         "doi": null,
         "url": null,
         "ee": "https://archives.ismir.net/ismir2022/paper/000040.pdf",
-        "abstract": "Carnatic Music is a South Indian art and devotional musical practice in which melodic patterns (motifs and phrases), known as sañcÅaras, play a crucial structural and expressive role. We demonstrate how the combination of transposition invariant features learnt by a Complex Au- toencoder (CAE) and predominant pitch tracks extracted using a Frequency-Temporal Attention Network (FTA- Net) can be used to annotate and group regions of variable- length, repeated, melodic patterns in audio recordings of multiple Carnatic Music performances. These models are trained on novel, expert-curated datasets of hundreds of Carnatic audio recordings and the extraction process tai- lored to account for the unique characteristics of sañcÅaras in Carnatic Music. Experimental results show that the pro- posed method is able to identify 54% of all sañcÅaras an- notated by a professional Carnatic vocalist. Code to repro- duce and interact with these results is available online. 1",
+        "abstract": "Carnatic Music is a South Indian art and devotional musical practice in which melodic patterns (motifs and phrases), known as sa\u00f1c\u00c5aras, play a crucial structural and expressive role. We demonstrate how the combination of transposition invariant features learnt by a Complex Au- toencoder (CAE) and predominant pitch tracks extracted using a Frequency-Temporal Attention Network (FTA- Net) can be used to annotate and group regions of variable- length, repeated, melodic patterns in audio recordings of multiple Carnatic Music performances. These models are trained on novel, expert-curated datasets of hundreds of Carnatic audio recordings and the extraction process tai- lored to account for the unique characteristics of sa\u00f1c\u00c5aras in Carnatic Music. Experimental results show that the pro- posed method is able to identify 54% of all sa\u00f1c\u00c5aras an- notated by a professional Carnatic vocalist. Code to repro- duce and interact with these results is available online. 1",
         "zenodo_id": null,
         "dblp_key": "conf/ismir/NuttallPPS22"
     },
@@ -1078,10 +1078,10 @@
     {
         "title": "Using Activation Functions for Improving Measure-Level Audio Synchronization.",
         "author": [
-            "Yigitcan Özer",
+            "Yigitcan \u00d6zer",
             "Matej Istvanek",
-            "Vlora Arifi-Müller",
-            "Meinard Müller"
+            "Vlora Arifi-M\u00fcller",
+            "Meinard M\u00fcller"
         ],
         "year": "2022",
         "doi": "10.5281/zenodo.7342932",
@@ -1094,8 +1094,8 @@
     {
         "title": "Source Separation of Piano Concertos with Test-Time Adaptation.",
         "author": [
-            "Yigitcan Özer",
-            "Meinard Müller"
+            "Yigitcan \u00d6zer",
+            "Meinard M\u00fcller"
         ],
         "year": "2022",
         "doi": "10.5281/zenodo.7316708",
@@ -1126,7 +1126,7 @@
         "title": "Musika! Fast Infinite Waveform Music Generation.",
         "author": [
             "Marco Pasini",
-            "Jan Schlüter"
+            "Jan Schl\u00fcter"
         ],
         "year": "2022",
         "doi": "10.5281/zenodo.7316720",
@@ -1139,7 +1139,7 @@
     {
         "title": "A diffusion-inspired training strategy for singing voice extraction in the waveform domain.",
         "author": [
-            "Genís Plaja-Roglans",
+            "Gen\u00eds Plaja-Roglans",
             "Marius Miron",
             "Xavier Serra"
         ],
@@ -1178,7 +1178,7 @@
         "doi": "10.5281/zenodo.7343071",
         "url": "https://doi.org/10.5281/zenodo.7343071",
         "ee": "https://archives.ismir.net/ismir2022/paper/000096.pdf",
-        "abstract": "This study explores the association between music preferences and moral values by applying text analysis techniques to lyrics. Harvesting data from a Facebook-hosted application, we align psychometric scores of 1,386 users to lyrics from the top 5 songs of their preferred music artists as emerged from Facebook Page Likes. We extract a set of lyrical features related to each song's overarching narrative, moral valence, sentiment, and emotion. A machine learning framework was designed to exploit regression ap- proaches and evaluate the predictive power of lyrical features for inferring moral values. Results suggest that lyrics from top songs of artists people like inform their morality. Virtues of hierarchy and tradition achieve higher prediction scores (.20 ≤ r ≤ .30) than values of empathy and equality (.08 ≤ r ≤ .11), while basic demographic variables only account for a small part in the models' explainability. This shows the importance of music listening behaviours, as assessed via lyrical preferences, alone in capturing moral values. We discuss the technological and musicological implications and possible future improvements.",
+        "abstract": "This study explores the association between music preferences and moral values by applying text analysis techniques to lyrics. Harvesting data from a Facebook-hosted application, we align psychometric scores of 1,386 users to lyrics from the top 5 songs of their preferred music artists as emerged from Facebook Page Likes. We extract a set of lyrical features related to each song's overarching narrative, moral valence, sentiment, and emotion. A machine learning framework was designed to exploit regression ap- proaches and evaluate the predictive power of lyrical features for inferring moral values. Results suggest that lyrics from top songs of artists people like inform their morality. Virtues of hierarchy and tradition achieve higher prediction scores (.20 \u2264 r \u2264 .30) than values of empathy and equality (.08 \u2264 r \u2264 .11), while basic demographic variables only account for a small part in the models' explainability. This shows the importance of music listening behaviours, as assessed via lyrical preferences, alone in capturing moral values. We discuss the technological and musicological implications and possible future improvements.",
         "zenodo_id": 7343071,
         "dblp_key": "conf/ismir/PreniqiKS22"
     },
@@ -1231,7 +1231,7 @@
     {
         "title": "Automatic music mixing with deep learning and out-of-domain data.",
         "author": [
-            "Marco A. Martínez Ramírez",
+            "Marco A. Mart\u00ednez Ram\u00edrez",
             "Wei-Hsiang Liao",
             "Chihiro Nagashima",
             "Giorgio Fabbro",
@@ -1294,8 +1294,8 @@
     {
         "title": "End-to-End Full-Page Optical Music Recognition for Mensural Notation.",
         "author": [
-            "Antonio Ríos-Vila",
-            "José M. Iñesta",
+            "Antonio R\u00edos-Vila",
+            "Jos\u00e9 M. I\u00f1esta",
             "Jorge Calvo-Zaragoza"
         ],
         "year": "2022",
@@ -1426,7 +1426,7 @@
         "doi": "10.5281/zenodo.7316810",
         "url": "https://doi.org/10.5281/zenodo.7316810",
         "ee": "https://archives.ismir.net/ismir2022/paper/000108.pdf",
-        "abstract": "Automated computational analysis schemes for Western classical music analysis based on form and hierarchical structure have not received much attention in the literature so far. One reason, of course, is the paucity of labeled datasets — which, if available, could be used to train machine learning approaches. Dataset curation cannot be crowdsourced; one needs trained musicians to devote sizable effort to carry out such annotations. Further, such an analysis is not simple for beginners; obtaining labeled data that can capture the nuances of a musician's reasoning acquired over years of practice is fraught with challenges. To this end, we provide a system for computational analysis of classical music, both for machine learning and music researchers. First, we introduce a labeled dataset containing 200 classical music pieces annotated by form and phrases. Then, by leveraging this dataset, we show that deep learning-based methods can be used to learn Form Classification as well as Phrase Analysis and Classification, for which few (if any) results have been reported yet. Taken together, we provide the community with a unique dataset as well as a toolkit needed to analyze classical music structure, which can be used or extended to drive applications in both commercial and educational settings.",
+        "abstract": "Automated computational analysis schemes for Western classical music analysis based on form and hierarchical structure have not received much attention in the literature so far. One reason, of course, is the paucity of labeled datasets \u2014 which, if available, could be used to train machine learning approaches. Dataset curation cannot be crowdsourced; one needs trained musicians to devote sizable effort to carry out such annotations. Further, such an analysis is not simple for beginners; obtaining labeled data that can capture the nuances of a musician's reasoning acquired over years of practice is fraught with challenges. To this end, we provide a system for computational analysis of classical music, both for machine learning and music researchers. First, we introduce a labeled dataset containing 200 classical music pieces annotated by form and phrases. Then, by leveraging this dataset, we show that deep learning-based methods can be used to learn Form Classification as well as Phrase Analysis and Classification, for which few (if any) results have been reported yet. Taken together, we provide the community with a unique dataset as well as a toolkit needed to analyze classical music structure, which can be used or extended to drive applications in both commercial and educational settings.",
         "zenodo_id": 7316810,
         "dblp_key": "conf/ismir/SzelogowskiMW22"
     },
@@ -1507,7 +1507,7 @@
     {
         "title": "Tailed U-Net: Multi-Scale Music Representation Learning.",
         "author": [
-            "Marcel A. Vélez Vásquez",
+            "Marcel A. V\u00e9lez V\u00e1squez",
             "John Ashley Burgoyne"
         ],
         "year": "2022",
@@ -1688,7 +1688,7 @@
         "doi": "10.5281/zenodo.7316642",
         "url": "https://doi.org/10.5281/zenodo.7316642",
         "ee": "https://archives.ismir.net/ismir2022/paper/000029.pdf",
-        "abstract": "We propose AccoMontage2, a system capable of doing full-length song harmonization and accompaniment arrangement based on a lead melody. Following AccoMontage, this study focuses on generating piano arrangements for popular/folk songs and it carries on the generalized template-based retrieval method. The novelties of this study are twofold. First, we invent a harmonization module (which AccoMontage does not have). This module generates structured and coherent full-length chord progression by optimizing and balancing three loss terms: a micro-level loss for note-wise dissonance, a meso-level loss for phrase-template matching, and a macro-level loss for full piece coherency. Second, we develop a graphical user interface which allows users to select different styles of chord progression and piano texture. Currently, chord progression styles include Pop, R&amp;B, and Dark, while piano texture styles include several levels of voicing density and rhythmic complexity. Experimental results show that both our harmonization and arrangement results significantly outperform the baselines. Lastly, we release AccoMontage2 as an online application as well as the organized chord progression templates as a public dataset.",
+        "abstract": "We propose AccoMontage2, a system capable of doing full-length song harmonization and accompaniment arrangement based on a lead melody. Following AccoMontage, this study focuses on generating piano arrangements for popular/folk songs and it carries on the generalized template-based retrieval method. The novelties of this study are twofold. First, we invent a harmonization module (which AccoMontage does not have). This module generates structured and coherent full-length chord progression by optimizing and balancing three loss terms: a micro-level loss for note-wise dissonance, a meso-level loss for phrase-template matching, and a macro-level loss for full piece coherency. Second, we develop a graphical user interface which allows users to select different styles of chord progression and piano texture. Currently, chord progression styles include Pop, RB, and Dark, while piano texture styles include several levels of voicing density and rhythmic complexity. Experimental results show that both our harmonization and arrangement results significantly outperform the baselines. Lastly, we release AccoMontage2 as an online application as well as the organized chord progression templates as a public dataset.",
         "zenodo_id": 7316642,
         "dblp_key": "conf/ismir/YiHZX22"
     },
@@ -1784,7 +1784,7 @@
         "doi": "10.5281/zenodo.7316730",
         "url": "https://doi.org/10.5281/zenodo.7316730",
         "ee": "https://archives.ismir.net/ismir2022/paper/000070.pdf",
-        "abstract": "There are many benefits for a community when there is a vibrant local music scene (e.g., increased mental &amp; physical well-being, increased economic activity) and there are many factors that contribute to an environment in which a live music scene can thrive (e.g., available performance spaces, helpful government policies). In this paper, we explore using an estimate of the live music event rate (LMER) as a rough indicator to measure the strength of a local music scene. We define LMER as the number of music shows per 100,000 people per year and then explore how this indicator is (or is not) correlated with 28 other socioeconomic indicators. To do this, we analyze a set of 308,051 music events from 2019 across 1,139 cities in the United States. Our findings reveal that factors related to transportation (e.g., high walkability), population (high density), economics (high employment rate), age (high proportion of individuals age 20-29), and education (bachelor's degree or higher) are strongly correlated with having a high number of live music events. Conversely, we did not find statistically significant evidence that other indica- tors (e.g., racial diversity) are correlated.",
+        "abstract": "There are many benefits for a community when there is a vibrant local music scene (e.g., increased mental  physical well-being, increased economic activity) and there are many factors that contribute to an environment in which a live music scene can thrive (e.g., available performance spaces, helpful government policies). In this paper, we explore using an estimate of the live music event rate (LMER) as a rough indicator to measure the strength of a local music scene. We define LMER as the number of music shows per 100,000 people per year and then explore how this indicator is (or is not) correlated with 28 other socioeconomic indicators. To do this, we analyze a set of 308,051 music events from 2019 across 1,139 cities in the United States. Our findings reveal that factors related to transportation (e.g., high walkability), population (high density), economics (high employment rate), age (high proportion of individuals age 20-29), and education (bachelor's degree or higher) are strongly correlated with having a high number of live music events. Conversely, we did not find statistically significant evidence that other indica- tors (e.g., racial diversity) are correlated.",
         "zenodo_id": 7316730,
         "dblp_key": "conf/ismir/ZhouMT22"
     },
@@ -1804,7 +1804,7 @@
         "doi": "10.5281/zenodo.7676768",
         "url": "https://doi.org/10.5281/zenodo.7676768",
         "ee": null,
-        "abstract": "<p>The&nbsp;Proceedings of the 23nd International Society for Music Information Retrieval Conference, ISMIR 2022, Bengaluru, India, 4-8 Dec, 2022 is also archived at&nbsp;http://archives.ismir.net/ismir2022/2022_Proceedings_ISMIR.pdf and available through&nbsp;https://ismir2022.ismir.net .&nbsp;</p>",
+        "abstract": "TheProceedings of the 23nd International Society for Music Information Retrieval Conference, ISMIR 2022, Bengaluru, India, 4-8 Dec, 2022 is also archived athttp://archives.ismir.net/ismir2022/2022_Proceedings_ISMIR.pdf and available throughhttps://ismir2022.ismir.net .",
         "zenodo_id": 7676768,
         "dblp_key": "conf/ismir/2022"
     }

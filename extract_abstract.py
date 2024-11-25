@@ -109,8 +109,31 @@ def process_json_files(folder_path):
                 json.dump(data, f, ensure_ascii=False, indent=4)
             print(f"Processed {filename}")
 
+def clean_up_abstracts(proceedings_folder):
+    """
+    Function that cleans up the abstracts by removing HTML tags and entities.
+    """
+    for filename in os.listdir(proceedings_folder):
+        if filename.endswith(".json"):
+            file_path = os.path.join(proceedings_folder, filename)
+            with open(file_path) as file:
+                data = json.load(file)
+                for paper in data:
+                    abstract = paper.get('abstract')
+                    if abstract:
+                        # Remove all html tags (e.g. &nbsp;</p>\n\n<p>&nbsp;</p>)
+                        abstract = re.sub(r'<[^>]*>', '', abstract)
+                        # Remove html entities
+                        abstract = re.sub(r'&[a-z]+;', '', abstract)
+                        paper['abstract'] = abstract
+            with open(file_path, 'w') as file:
+                json.dump(data, file, indent=4)
+
 # Set the path to the 'proceedings' folder
 proceedings_folder = 'proceedings'
 
 # Call the function to process the JSON files
 process_json_files(proceedings_folder)
+
+# Call the function to clean up the abstracts
+clean_up_abstracts(proceedings_folder)

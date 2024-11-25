@@ -228,7 +228,7 @@
     {
         "title": "Deconstruct, Analyse, Reconstruct: How to improve Tempo, Beat, and Downbeat Estimation.",
         "author": [
-            "Sebastian Böck",
+            "Sebastian B\u00f6ck",
             "Matthew E. P. Davies"
         ],
         "year": "2020",
@@ -258,13 +258,13 @@
     {
         "title": "Sesquialtera in the Colombian bambuco: Perception and estimation of beat and meter.",
         "author": [
-            "Estefanía Cano",
-            "Fernando Mora Ángel",
-            "Gustavo López Gil",
-            "José Ricardo Zapata",
+            "Estefan\u00eda Cano",
+            "Fernando Mora \u00c1ngel",
+            "Gustavo L\u00f3pez Gil",
+            "Jos\u00e9 Ricardo Zapata",
             "Antonio Escamilla",
-            "Juan Fernando Alzate Londoño",
-            "Moises Betancur Peláez"
+            "Juan Fernando Alzate Londo\u00f1o",
+            "Moises Betancur Pel\u00e1ez"
         ],
         "year": "2020",
         "doi": "10.5281/zenodo.4245454",
@@ -277,16 +277,16 @@
     {
         "title": "Joyful for you and tender for us: the influence of individual characteristics and language on emotion labeling and classification.",
         "author": [
-            "Juan Sebastián Gómez Cañón",
-            "Estefanía Cano",
+            "Juan Sebasti\u00e1n G\u00f3mez Ca\u00f1\u00f3n",
+            "Estefan\u00eda Cano",
             "Perfecto Herrera",
-            "Emilia Gómez"
+            "Emilia G\u00f3mez"
         ],
         "year": "2020",
         "doi": "10.5281/zenodo.4076720",
         "url": "https://doi.org/10.5281/zenodo.4076720",
         "ee": "http://archives.ismir.net/ismir2020/paper/000190.pdf",
-        "abstract": "<p>Tagging a musical excerpt with an emotion label may result in a vague and ambivalent exercise. This subjectivity entangles several high-level music description tasks when the computational models built to address them produce predictions on the basis of a &quot;ground truth&quot;. In this study, we investigate the relationship between emotions perceived in pop and rock music (mainly in Euro-American styles) and personal characteristics from the listener, using language as a key feature. Our goal is to understand the influence of lyrics comprehension on music emotion perception and use this knowledge to improve Music Emotion Recognition (MER) models.&nbsp;<br>\nWe systematically analyze over 30K annotations of 22 musical fragments to assess the impact of individual differences on agreement, as defined by Krippendorff&#39;s&nbsp;<span class=\"math-tex\">\\(\\alpha\\)</span> coefficient. We employ personal characteristics to form group-based annotations by assembling ratings with respect to listeners&#39; familiarity, preference, lyrics comprehension, and music sophistication. Finally, we study our group-based annotations in a two-fold approach: (1) assessing the similarity within annotations using manifold learning algorithms and unsupervised clustering, and (2) analyzing their performance by training classification models with diverse &quot;ground truths&quot;. Our results suggest that a) applying a broader categorization of taxonomies and b) using multi-label, group-based annotations based on language, can be beneficial for MER models.</p>",
+        "abstract": "Tagging a musical excerpt with an emotion label may result in a vague and ambivalent exercise. This subjectivity entangles several high-level music description tasks when the computational models built to address them produce predictions on the basis of a ground truth. In this study, we investigate the relationship between emotions perceived in pop and rock music (mainly in Euro-American styles) and personal characteristics from the listener, using language as a key feature. Our goal is to understand the influence of lyrics comprehension on music emotion perception and use this knowledge to improve Music Emotion Recognition (MER) models.\nWe systematically analyze over 30K annotations of 22 musical fragments to assess the impact of individual differences on agreement, as defined by Krippendorff&#39;s\\(\\alpha\\) coefficient. We employ personal characteristics to form group-based annotations by assembling ratings with respect to listeners&#39; familiarity, preference, lyrics comprehension, and music sophistication. Finally, we study our group-based annotations in a two-fold approach: (1) assessing the similarity within annotations using manifold learning algorithms and unsupervised clustering, and (2) analyzing their performance by training classification models with diverse ground truths. Our results suggest that a) applying a broader categorization of taxonomies and b) using multi-label, group-based annotations based on language, can be beneficial for MER models.",
         "zenodo_id": 4076720,
         "dblp_key": "conf/ismir/CanonCHG20"
     },
@@ -295,7 +295,7 @@
         "author": [
             "Francisco J. Castellanos 0001",
             "Jorge Calvo-Zaragoza",
-            "José M. Iñesta"
+            "Jos\u00e9 M. I\u00f1esta"
         ],
         "year": "2020",
         "doi": "10.5281/zenodo.4245494",
@@ -308,7 +308,7 @@
     {
         "title": "On the Characterization of Expressive Performance in Classical Music: First Results of the Con Espressione Game.",
         "author": [
-            "Carlos Eduardo Cancino Chacón",
+            "Carlos Eduardo Cancino Chac\u00f3n",
             "Silvan Peter",
             "Shreyan Chowdhury",
             "Anna Aljanaki",
@@ -343,7 +343,7 @@
         "author": [
             "Pritish Chandna",
             "Helena Cuesta",
-            "Emilia Gómez"
+            "Emilia G\u00f3mez"
         ],
         "year": "2020",
         "doi": "10.5281/zenodo.4245502",
@@ -443,7 +443,7 @@
         "doi": "10.5281/zenodo.4245572",
         "url": "https://doi.org/10.5281/zenodo.4245572",
         "ee": "http://archives.ismir.net/ismir2020/paper/000232.pdf",
-        "abstract": "Many musics across the world are structured around multiple modes, which hold a middle ground between scales and melodies. We study whether we can classify mode in a corpus of 20,865 medieval plainchant melodies from the Cantus database. We revisit the traditional 'textbook' classification approach (using the final, the range and initial note) as well as the only prior computational study we are aware of, which uses pitch profiles. Both approaches work well, but largely reduce modes to scales and ignore their melodic character. Our main contribution is a model that reaches 93–95% F1 score on mode classification, compared to 86–90% using traditional pitch-based musicological methods. Importantly, it reaches 81–83% even when we discard all absolute pitch information and reduce a melody to its contour. The model uses tf–idf vectors and strongly depends on the choice of units: i.e., how the melody is segmented. If we borrow the syllable or word structure from the lyrics, the model outperforms all of our baselines. This suggests that, like language, music is made up of 'natural' units, in our case between the level of notes and complete phrases, a finding that may well be useful in other musics.",
+        "abstract": "Many musics across the world are structured around multiple modes, which hold a middle ground between scales and melodies. We study whether we can classify mode in a corpus of 20,865 medieval plainchant melodies from the Cantus database. We revisit the traditional 'textbook' classification approach (using the final, the range and initial note) as well as the only prior computational study we are aware of, which uses pitch profiles. Both approaches work well, but largely reduce modes to scales and ignore their melodic character. Our main contribution is a model that reaches 93\u201395% F1 score on mode classification, compared to 86\u201390% using traditional pitch-based musicological methods. Importantly, it reaches 81\u201383% even when we discard all absolute pitch information and reduce a melody to its contour. The model uses tf\u2013idf vectors and strongly depends on the choice of units: i.e., how the melody is segmented. If we borrow the syllable or word structure from the lyrics, the model outperforms all of our baselines. This suggests that, like language, music is made up of 'natural' units, in our case between the level of notes and complete phrases, a finding that may well be useful in other musics.",
         "zenodo_id": 4245572,
         "dblp_key": "conf/ismir/CornelissenZB20"
     },
@@ -468,7 +468,7 @@
         "author": [
             "Helena Cuesta",
             "Brian McFee",
-            "Emilia Gómez"
+            "Emilia G\u00f3mez"
         ],
         "year": "2020",
         "doi": "10.5281/zenodo.4245434",
@@ -483,9 +483,9 @@
         "author": [
             "Matthew E. P. Davies",
             "Magdalena Fuentes",
-            "João Fonseca",
-            "Luís Aly",
-            "Marco Jerónimo",
+            "Jo\u00e3o Fonseca",
+            "Lu\u00eds Aly",
+            "Marco Jer\u00f3nimo",
             "Filippo Bonini Baraldi"
         ],
         "year": "2020",
@@ -517,8 +517,8 @@
         "author": [
             "Guillaume Doras",
             "Furkan Yesiler",
-            "Joan Serrà",
-            "Emilia Gómez",
+            "Joan Serr\u00e0",
+            "Emilia G\u00f3mez",
             "Geoffroy Peeters"
         ],
         "year": "2020",
@@ -563,7 +563,7 @@
         "title": "Ultra-light deep MIR by trimming lottery tickets.",
         "author": [
             "Philippe Esling",
-            "Théis Bazin",
+            "Th\u00e9is Bazin",
             "Adrien Bitton",
             "Tristan Carsault",
             "Ninon Devis"
@@ -579,17 +579,17 @@
     {
         "title": "Measuring disruption in song similarity networks.",
         "author": [
-            "Felipe Falcão",
+            "Felipe Falc\u00e3o",
             "Nazareno Andrade",
             "Flavio V. D. de Figueiredo",
             "Diego Furtado Silva",
-            "Fábio Morais 0001"
+            "F\u00e1bio Morais 0001"
         ],
         "year": "2020",
         "doi": "10.5281/zenodo.4245356",
         "url": "https://doi.org/10.5281/zenodo.4245356",
         "ee": "http://archives.ismir.net/ismir2020/paper/000061.pdf",
-        "abstract": "Investigating music with a focus on the similarity relations between songs, albums, and artists plays an important role when trying to understand trends in the history of music genres. In particular, representing these relations as a similarity network allows us to investigate the innovation presented by these entities in a multitude of points-of-view, including disruption. A disruptive object is one that creates a new stream of events, changing the traditional way of how a context usually works. The proper measurement of disruption remains as a task with large room for improvement, and these gaps are even more evident in the music domain, where the topic has not received much attention so far. This work builds on preliminary studies focused on the analysis of music disruption derived from metadata-based similarity networks, demonstrating that the raw audio can augment similarity information. We developed a case study based on a collection of a Brazilian local music tradition called Forró, that emphasizes the analytical and musicological potential of the musical disruption metric to describe and explain a genre trajectory over time.",
+        "abstract": "Investigating music with a focus on the similarity relations between songs, albums, and artists plays an important role when trying to understand trends in the history of music genres. In particular, representing these relations as a similarity network allows us to investigate the innovation presented by these entities in a multitude of points-of-view, including disruption. A disruptive object is one that creates a new stream of events, changing the traditional way of how a context usually works. The proper measurement of disruption remains as a task with large room for improvement, and these gaps are even more evident in the music domain, where the topic has not received much attention so far. This work builds on preliminary studies focused on the analysis of music disruption derived from metadata-based similarity networks, demonstrating that the raw audio can augment similarity information. We developed a case study based on a collection of a Brazilian local music tradition called Forr\u00f3, that emphasizes the analytical and musicological potential of the musical disruption metric to describe and explain a genre trajectory over time.",
         "zenodo_id": 4245356,
         "dblp_key": "conf/ismir/FalcaoAFSM20"
     },
@@ -597,7 +597,7 @@
         "title": "Voice-Leading Schema Recognition Using Rhythm and Pitch Features.",
         "author": [
             "Christoph Finkensiep",
-            "Ken Déguernel",
+            "Ken D\u00e9guernel",
             "Markus Neuwirth",
             "Martin Rohrmeier"
         ],
@@ -622,7 +622,7 @@
         "doi": "10.5281/zenodo.7182820",
         "url": "https://doi.org/10.5281/zenodo.7182820",
         "ee": "http://archives.ismir.net/ismir2020/paper/000127.pdf",
-        "abstract": "<p>ATEPP is a dataset of expressive piano performances by virtuoso pianists. The dataset contains 11742&nbsp;11677 performances (~1000 hours) by 49 pianists and covers 1580 movements by 25 composers. All of the MIDI files in the dataset come from the piano transcription of existing audio recordings of piano performances. Scores in MusicXML format are also available for around half of the tracks. The dataset is organized and aligned by compositions and movements for comparative studies. For more details, please check <a href=\"https://github.com/BetsyTang/ATEPP\">here</a>.&nbsp;</p>",
+        "abstract": "ATEPP is a dataset of expressive piano performances by virtuoso pianists. The dataset contains 1174211677 performances (~1000 hours) by 49 pianists and covers 1580 movements by 25 composers. All of the MIDI files in the dataset come from the piano transcription of existing audio recordings of piano performances. Scores in MusicXML format are also available for around half of the tracks. The dataset is organized and aligned by compositions and movements for comparative studies. For more details, please check here.",
         "zenodo_id": 7182820,
         "dblp_key": "conf/ismir/FoscarinMRJS20"
     },
@@ -787,7 +787,7 @@
             "Karim M. Ibrahim",
             "Elena V. Epure",
             "Geoffroy Peeters",
-            "Gaël Richard"
+            "Ga\u00ebl Richard"
         ],
         "year": "2020",
         "doi": "10.5281/zenodo.4245426",
@@ -838,7 +838,7 @@
         "doi": "10.5281/zenodo.5084914",
         "url": "https://doi.org/10.5281/zenodo.5084914",
         "ee": "http://archives.ismir.net/ismir2020/paper/000040.pdf",
-        "abstract": "<p>The Bach Chorales Figured Bass (BCFB) dataset includes the complete 139 Johann Sebastian Bach chorales with figured bass encodings in MusicXML, **kern, and MEI formats, based on the Neue Bach Ausgabe (NBA) critical edition. This work was presented at the&nbsp;International Society for Music Information Retrieval (ISMIR) Conference<em>&nbsp;</em>2020. The files can be found within the folder <strong>FB_source</strong>.&nbsp;</p>\n\n<p>Within the folders <strong>FB_source/musicXML_master</strong>&nbsp;(.musicxml, ignore the files of the following subfolders: <strong>editorial_ones</strong>, <strong>editorial_FB_only</strong>, <strong>BCMCL</strong>), <strong>FB_source/translated_kern</strong>&nbsp;(.krn), and <strong>FB_source/translated_mei</strong>&nbsp;(.mei), you can find 143 (more than 139) symbolic files with figured bass annotations. This is because BWV 10.07, BWV 161.06, BWV 38.06, and BWV 177.05 have two different versions based on NBA.&nbsp;</p>\n\n<p>You can use <a href=\"https://musescore.org/\">MuseScore</a> to open (.musicxml) files,&nbsp;<a href=\"https://verovio.humdrum.org/\">Verovio Humdrum Viewer</a>&nbsp;to open (.krn) file, and&nbsp;<a href=\"https://www.verovio.org/mei-viewer.xhtml\">Verovio</a>&nbsp;to open (.mei) file to view both the music and the figured bass annotations.&nbsp;</p>\n\n<p>If you use this version of the files, it will be greatly appreciated if you cite the following <a href=\"http://www.music.mcgill.ca/~cmckay/papers/musictech/ju20automatic.pdf\">paper</a>:&nbsp;</p>\n\n<pre><code>@inproceedings{ju_automatic_2020,\n\ttitle = {Automatic {Figured} {Bass} {Annotation} {Using} the {New} {Bach} {Chorales} {Figured} {Bass} {Dataset}},\n\tbooktitle = {Proceedings of the 21th {International} {Society} for {Music} {Information} {Retrieval} {Conference}},\n\tauthor = {Ju, Yaolong and Margot, Sylvain and McKay, Cory and Dahn, Luke and Fujinaga, Ichiro},\n\tyear = {2020},\n\tpages = {640--646},\n}\n</code></pre>\n\n<p>The metadata of these chorales can be found in <strong>Reference Table.csv </strong>under the root directory.</p>\n\n<p>If you have any questions, please email to <strong>yaolong.ju@mail.mcgill.ca</strong>.</p>",
+        "abstract": "The Bach Chorales Figured Bass (BCFB) dataset includes the complete 139 Johann Sebastian Bach chorales with figured bass encodings in MusicXML, **kern, and MEI formats, based on the Neue Bach Ausgabe (NBA) critical edition. This work was presented at theInternational Society for Music Information Retrieval (ISMIR) Conference2020. The files can be found within the folder FB_source.\n\nWithin the folders FB_source/musicXML_master(.musicxml, ignore the files of the following subfolders: editorial_ones, editorial_FB_only, BCMCL), FB_source/translated_kern(.krn), and FB_source/translated_mei(.mei), you can find 143 (more than 139) symbolic files with figured bass annotations. This is because BWV 10.07, BWV 161.06, BWV 38.06, and BWV 177.05 have two different versions based on NBA.\n\nYou can use MuseScore to open (.musicxml) files,Verovio Humdrum Viewerto open (.krn) file, andVerovioto open (.mei) file to view both the music and the figured bass annotations.\n\nIf you use this version of the files, it will be greatly appreciated if you cite the following paper:\n\n@inproceedings{ju_automatic_2020,\n\ttitle = {Automatic {Figured} {Bass} {Annotation} {Using} the {New} {Bach} {Chorales} {Figured} {Bass} {Dataset}},\n\tbooktitle = {Proceedings of the 21th {International} {Society} for {Music} {Information} {Retrieval} {Conference}},\n\tauthor = {Ju, Yaolong and Margot, Sylvain and McKay, Cory and Dahn, Luke and Fujinaga, Ichiro},\n\tyear = {2020},\n\tpages = {640--646},\n}\n\n\nThe metadata of these chorales can be found in Reference Table.csv under the root directory.\n\nIf you have any questions, please email to yaolong.ju@mail.mcgill.ca.",
         "zenodo_id": 5084914,
         "dblp_key": "conf/ismir/JuMMDF20"
     },
@@ -942,7 +942,7 @@
             "Frank Zalkow",
             "Julia Zalkow",
             "Christof Weiss",
-            "Meinard Müller"
+            "Meinard M\u00fcller"
         ],
         "year": "2020",
         "doi": "10.5281/zenodo.4245472",
@@ -1040,7 +1040,7 @@
         "doi": "10.5281/zenodo.4694547",
         "url": "https://doi.org/10.5281/zenodo.4694547",
         "ee": "http://archives.ismir.net/ismir2020/paper/000123.pdf",
-        "abstract": "<p>Musical form and syntax in Western classical music are hierarchically organised on different timescales. One of the most important features of this structure is the organisation of modulations between different keys throughout a piece. Music theoretical research has established taxonomies of prototypical modulation plans for different modes and musical forms. However, these prototypes still require empirical validation based on quantitative statistical methods and cannot be retrieved automatically so far.<br>\nIn this paper, we present a novel method to infer prototypical modulation plans from musical corpora. A modulation plan is formalised as a transposition-invariant probabilistic model over the underlying pitch class distributions based on a hierarchical pitch scape representation. Prototypical modulation plans can be learned in an unsupervised manner by training a mixture model (similar to a Gaussian mixture model) on the data, so that different prototypes appear as distinct clusters.<br>\nWe evaluate our approach by performing hierarchical clustering on a corpus of more than 150 Baroque pieces, with the extracted clusters showing excellent agreement with the most common prototypes postulated in music theory. Our method bears a great potential for modelling, analysis and discovery of hierarchical key structure and prototypes in corpora across a broad range of musical styles. An accompanying library is available at: github.com/robert-lieck/pitchscapes.</p>",
+        "abstract": "Musical form and syntax in Western classical music are hierarchically organised on different timescales. One of the most important features of this structure is the organisation of modulations between different keys throughout a piece. Music theoretical research has established taxonomies of prototypical modulation plans for different modes and musical forms. However, these prototypes still require empirical validation based on quantitative statistical methods and cannot be retrieved automatically so far.\nIn this paper, we present a novel method to infer prototypical modulation plans from musical corpora. A modulation plan is formalised as a transposition-invariant probabilistic model over the underlying pitch class distributions based on a hierarchical pitch scape representation. Prototypical modulation plans can be learned in an unsupervised manner by training a mixture model (similar to a Gaussian mixture model) on the data, so that different prototypes appear as distinct clusters.\nWe evaluate our approach by performing hierarchical clustering on a corpus of more than 150 Baroque pieces, with the extracted clusters showing excellent agreement with the most common prototypes postulated in music theory. Our method bears a great potential for modelling, analysis and discovery of hierarchical key structure and prototypes in corpora across a broad range of musical styles. An accompanying library is available at: github.com/robert-lieck/pitchscapes.",
         "zenodo_id": 4694547,
         "dblp_key": "conf/ismir/LieckR20"
     },
@@ -1126,7 +1126,7 @@
         "author": [
             "Axel Marmoret",
             "Jeremy E. Cohen",
-            "Frédéric Bimbot",
+            "Fr\u00e9d\u00e9ric Bimbot",
             "Nancy Bertin"
         ],
         "year": "2020",
@@ -1230,7 +1230,7 @@
         "author": [
             "Javier Nistal",
             "Stefan Lattner",
-            "Gaël Richard"
+            "Ga\u00ebl Richard"
         ],
         "year": "2020",
         "doi": "10.5281/zenodo.4245504",
@@ -1243,7 +1243,7 @@
     {
         "title": "Modeling perception with hierarchical prediction: Auditory segmentation with deep predictive coding locates candidate evoked potentials in EEG.",
         "author": [
-            "André Ofner",
+            "Andr\u00e9 Ofner",
             "Sebastian Stober"
         ],
         "year": "2020",
@@ -1260,7 +1260,7 @@
             "Gabriel P. Oliveira",
             "Mariana Santos 0002",
             "Danilo B. Seufitelli",
-            "Anísio Lacerda",
+            "An\u00edsio Lacerda",
             "Mirella M. Moro"
         ],
         "year": "2020",
@@ -1315,7 +1315,7 @@
         "doi": "10.5281/zenodo.4245486",
         "url": "https://doi.org/10.5281/zenodo.4245486",
         "ee": "http://archives.ismir.net/ismir2020/paper/000125.pdf",
-        "abstract": "Audio embeddings of musical similarity are often used for music recommendations and autoplay discovery. These embeddings are typically learned using co-listen data to train a deep neural network, to provide consistent tripletloss distances. Instead of directly using these co-listen–based embeddings, we explore making recommendations based on a second, smaller embedding space of human-intelligible musical attributes. To do this, we use the co-listen–based audio embeddings as inputs to small attribute classifiers, trained on a small hand-labeled dataset. These classifiers map from the original embedding space to a new interpretable attribute coordinate system that provides a more useful distance measure for downstream applications. The attributes and attribute embeddings allow us to provide a search interface and more intelligible recommendations for music curators. We examine the relative performance of these two embedding spaces (the co-listen–audio embedding and the attribute embedding) for the mathematical separation of thematic playlists. We also report on the usefulness of recommendations from the attribute-embedding space to human curators for automatically extending thematic playlists.",
+        "abstract": "Audio embeddings of musical similarity are often used for music recommendations and autoplay discovery. These embeddings are typically learned using co-listen data to train a deep neural network, to provide consistent tripletloss distances. Instead of directly using these co-listen\u2013based embeddings, we explore making recommendations based on a second, smaller embedding space of human-intelligible musical attributes. To do this, we use the co-listen\u2013based audio embeddings as inputs to small attribute classifiers, trained on a small hand-labeled dataset. These classifiers map from the original embedding space to a new interpretable attribute coordinate system that provides a more useful distance measure for downstream applications. The attributes and attribute embeddings allow us to provide a search interface and more intelligible recommendations for music curators. We examine the relative performance of these two embedding spaces (the co-listen\u2013audio embedding and the attribute embedding) for the mathematical separation of thematic playlists. We also report on the usefulness of recommendations from the attribute-embedding space to human curators for automatically extending thematic playlists.",
         "zenodo_id": 4245486,
         "dblp_key": "conf/ismir/PatwariKWGCJ20"
     },
@@ -1369,7 +1369,7 @@
             "Pritish Chandna",
             "Helena Cuesta",
             "Jordi Bonada",
-            "Emilia Gómez"
+            "Emilia G\u00f3mez"
         ],
         "year": "2020",
         "doi": "10.5281/zenodo.4245536",
@@ -1385,7 +1385,7 @@
             "Polina Proutskova",
             "Anja Volk",
             "Peyman Heydarian",
-            "György Fazekas"
+            "Gy\u00f6rgy Fazekas"
         ],
         "year": "2020",
         "doi": "10.5281/zenodo.4245586",
@@ -1398,7 +1398,7 @@
     {
         "title": "The Freesound Loop Dataset and Annotation Tool.",
         "author": [
-            "António Ramires",
+            "Ant\u00f3nio Ramires",
             "Frederic Font",
             "Dmitry Bogdanov",
             "Jordan B. L. Smith",
@@ -1484,13 +1484,13 @@
         "author": [
             "Hendrik Schreiber 0001",
             "Frank Zalkow",
-            "Meinard Müller"
+            "Meinard M\u00fcller"
         ],
         "year": "2020",
         "doi": "10.5281/zenodo.4245546",
         "url": "https://doi.org/10.5281/zenodo.4245546",
         "ee": "http://archives.ismir.net/ismir2020/paper/000014.pdf",
-        "abstract": "Even though local tempo estimation promises musicological insights into expressive musical performances, it has never received as much attention in the music information retrieval (MIR) research community as either beat tracking or global tempo estimation. One reason for this may be the lack of a generally accepted definition. In this paper, we discuss how to model and measure local tempo in a musically meaningful way using a cross-version dataset of Frédéric Chopin's Mazurkas as a use case. In particular, we explore how tempo stability can be measured and taken into account during evaluation. Comparing existing and newly trained systems, we find that CNN-based approaches can accurately measure local tempo even for expressive classical music, if trained on the target genre. Furthermore, we show that different training–test splits have a considerable impact on accuracy for difficult segments.",
+        "abstract": "Even though local tempo estimation promises musicological insights into expressive musical performances, it has never received as much attention in the music information retrieval (MIR) research community as either beat tracking or global tempo estimation. One reason for this may be the lack of a generally accepted definition. In this paper, we discuss how to model and measure local tempo in a musically meaningful way using a cross-version dataset of Fr\u00e9d\u00e9ric Chopin's Mazurkas as a use case. In particular, we explore how tempo stability can be measured and taken into account during evaluation. Comparing existing and newly trained systems, we find that CNN-based approaches can accurately measure local tempo even for expressive classical music, if trained on the target genre. Furthermore, we show that different training\u2013test splits have a considerable impact on accuracy for difficult segments.",
         "zenodo_id": 4245546,
         "dblp_key": "conf/ismir/SchreiberZM20"
     },
@@ -1654,8 +1654,8 @@
             "Andrea Vaglio",
             "Romain Hennequin",
             "Manuel Moussallam",
-            "Gaël Richard",
-            "Florence d&apos;Alché-Buc"
+            "Ga\u00ebl Richard",
+            "Florence d&apos;Alch\u00e9-Buc"
         ],
         "year": "2020",
         "doi": "10.5281/zenodo.4245484",
@@ -1688,7 +1688,7 @@
         "doi": "10.5281/zenodo.4245452",
         "url": "https://doi.org/10.5281/zenodo.4245452",
         "ee": "http://archives.ismir.net/ismir2020/paper/000134.pdf",
-        "abstract": "In May 2015, a consultant for country radio revealed a decades' long practice of limiting space for songs by female artists. He encouraged program directors to avoid playing songs by women back-to-back and advocated for programming their songs at 13-15% of station playlists. His words sparked debate within the industry and drew attention to growing inequalities on radio and within the genre. The majority of these discussions have centered on US country radio, with limited attention to the growing imbalance on the format in Canada. While country format radio in both countries subscribe to a practice of gender-based programming, Canadian program directors are governed by the federal Broadcasting Act, which regulates dissemination of Canadian content. Using metadata extracted from one of the main radio monitoring services – Mediabase, this paper examines gender-related trends on Canadian country format radio between 2005 and 2019. Through data-driven analysis of Mediabase's weekly re-ports, this paper shows declining representation of songs by women on Canadian country radio and addresses the impact of Canadian content regulations on this process.",
+        "abstract": "In May 2015, a consultant for country radio revealed a decades' long practice of limiting space for songs by female artists. He encouraged program directors to avoid playing songs by women back-to-back and advocated for programming their songs at 13-15% of station playlists. His words sparked debate within the industry and drew attention to growing inequalities on radio and within the genre. The majority of these discussions have centered on US country radio, with limited attention to the growing imbalance on the format in Canada. While country format radio in both countries subscribe to a practice of gender-based programming, Canadian program directors are governed by the federal Broadcasting Act, which regulates dissemination of Canadian content. Using metadata extracted from one of the main radio monitoring services \u2013 Mediabase, this paper examines gender-related trends on Canadian country format radio between 2005 and 2019. Through data-driven analysis of Mediabase's weekly re-ports, this paper shows declining representation of songs by women on Canadian country radio and addresses the impact of Canadian content regulations on this process.",
         "zenodo_id": 4245452,
         "dblp_key": "conf/ismir/Watson20"
     },
@@ -1698,7 +1698,7 @@
             "Christof Weiss",
             "Stephanie Klauk",
             "Mark Gotham",
-            "Meinard Müller",
+            "Meinard M\u00fcller",
             "Rainer Kleinertz"
         ],
         "year": "2020",
@@ -1741,8 +1741,8 @@
         "title": "Less is more: Faster and better music version identification with embedding distillation.",
         "author": [
             "Furkan Yesiler",
-            "Joan Serrà",
-            "Emilia Gómez"
+            "Joan Serr\u00e0",
+            "Emilia G\u00f3mez"
         ],
         "year": "2020",
         "doi": "10.5281/zenodo.4245570",
@@ -1758,7 +1758,7 @@
             "Yuchen Yuan",
             "Sho Oishi",
             "Charles Cronin",
-            "Daniel Müllensiefen",
+            "Daniel M\u00fcllensiefen",
             "Quentin D. Atkinson",
             "Shinya Fujii",
             "Patrick E. Savage"
@@ -1775,13 +1775,13 @@
         "title": "Using Weakly Aligned Score-Audio Pairs to Train Deep Chroma Models for Cross-Modal Music Retrieval.",
         "author": [
             "Frank Zalkow",
-            "Meinard Müller"
+            "Meinard M\u00fcller"
         ],
         "year": "2020",
         "doi": "10.5281/zenodo.4245400",
         "url": "https://doi.org/10.5281/zenodo.4245400",
         "ee": "http://archives.ismir.net/ismir2020/paper/000023.pdf",
-        "abstract": "Many music information retrieval tasks involve the comparison of a symbolic score representation with an audio recording. A typical strategy is to compare score–audio pairs based on a common mid-level representation, such as chroma features. Several recent studies demonstrated the effectiveness of deep learning models that learn task-specific mid-level representations from temporally aligned training pairs. However, in practice, there is often a lack of strongly aligned training data, in particular for real-world scenarios. In our study, we use weakly aligned score–audio pairs for training, where only the beginning and end of a score excerpt is annotated in an audio recording, without aligned correspondences in between. To exploit such weakly aligned data, we employ the Connectionist Temporal Classification (CTC) loss to train a deep learning model for computing an enhanced chroma representation. We then apply this model to a cross-modal retrieval task, where we aim at finding relevant audio recordings of Western classical music, given a short monophonic musical theme in symbolic notation as a query. We present systematic experiments that show the effectiveness of the CTC-based model for this theme-based retrieval task.",
+        "abstract": "Many music information retrieval tasks involve the comparison of a symbolic score representation with an audio recording. A typical strategy is to compare score\u2013audio pairs based on a common mid-level representation, such as chroma features. Several recent studies demonstrated the effectiveness of deep learning models that learn task-specific mid-level representations from temporally aligned training pairs. However, in practice, there is often a lack of strongly aligned training data, in particular for real-world scenarios. In our study, we use weakly aligned score\u2013audio pairs for training, where only the beginning and end of a score excerpt is annotated in an audio recording, without aligned correspondences in between. To exploit such weakly aligned data, we employ the Connectionist Temporal Classification (CTC) loss to train a deep learning model for computing an enhanced chroma representation. We then apply this model to a cross-modal retrieval task, where we aim at finding relevant audio recordings of Western classical music, given a short monophonic musical theme in symbolic notation as a query. We present systematic experiments that show the effectiveness of the CTC-based model for this theme-based retrieval task.",
         "zenodo_id": 4245400,
         "dblp_key": "conf/ismir/ZalkowM20"
     },
@@ -1795,7 +1795,7 @@
             "Yaolong Ju",
             "Suzuka Kokubu",
             "Sylvain Margot",
-            "Néstor Nápoles López",
+            "N\u00e9stor N\u00e1poles L\u00f3pez",
             "Finn Upham"
         ],
         "year": "2020",
@@ -1822,7 +1822,7 @@
         "doi": "10.5281/zenodo.5084914",
         "url": "https://doi.org/10.5281/zenodo.5084914",
         "ee": null,
-        "abstract": "<p>The Bach Chorales Figured Bass (BCFB) dataset includes the complete 139 Johann Sebastian Bach chorales with figured bass encodings in MusicXML, **kern, and MEI formats, based on the Neue Bach Ausgabe (NBA) critical edition. This work was presented at the&nbsp;International Society for Music Information Retrieval (ISMIR) Conference<em>&nbsp;</em>2020. The files can be found within the folder <strong>FB_source</strong>.&nbsp;</p>\n\n<p>Within the folders <strong>FB_source/musicXML_master</strong>&nbsp;(.musicxml, ignore the files of the following subfolders: <strong>editorial_ones</strong>, <strong>editorial_FB_only</strong>, <strong>BCMCL</strong>), <strong>FB_source/translated_kern</strong>&nbsp;(.krn), and <strong>FB_source/translated_mei</strong>&nbsp;(.mei), you can find 143 (more than 139) symbolic files with figured bass annotations. This is because BWV 10.07, BWV 161.06, BWV 38.06, and BWV 177.05 have two different versions based on NBA.&nbsp;</p>\n\n<p>You can use <a href=\"https://musescore.org/\">MuseScore</a> to open (.musicxml) files,&nbsp;<a href=\"https://verovio.humdrum.org/\">Verovio Humdrum Viewer</a>&nbsp;to open (.krn) file, and&nbsp;<a href=\"https://www.verovio.org/mei-viewer.xhtml\">Verovio</a>&nbsp;to open (.mei) file to view both the music and the figured bass annotations.&nbsp;</p>\n\n<p>If you use this version of the files, it will be greatly appreciated if you cite the following <a href=\"http://www.music.mcgill.ca/~cmckay/papers/musictech/ju20automatic.pdf\">paper</a>:&nbsp;</p>\n\n<pre><code>@inproceedings{ju_automatic_2020,\n\ttitle = {Automatic {Figured} {Bass} {Annotation} {Using} the {New} {Bach} {Chorales} {Figured} {Bass} {Dataset}},\n\tbooktitle = {Proceedings of the 21th {International} {Society} for {Music} {Information} {Retrieval} {Conference}},\n\tauthor = {Ju, Yaolong and Margot, Sylvain and McKay, Cory and Dahn, Luke and Fujinaga, Ichiro},\n\tyear = {2020},\n\tpages = {640--646},\n}\n</code></pre>\n\n<p>The metadata of these chorales can be found in <strong>Reference Table.csv </strong>under the root directory.</p>\n\n<p>If you have any questions, please email to <strong>yaolong.ju@mail.mcgill.ca</strong>.</p>",
+        "abstract": "The Bach Chorales Figured Bass (BCFB) dataset includes the complete 139 Johann Sebastian Bach chorales with figured bass encodings in MusicXML, **kern, and MEI formats, based on the Neue Bach Ausgabe (NBA) critical edition. This work was presented at theInternational Society for Music Information Retrieval (ISMIR) Conference2020. The files can be found within the folder FB_source.\n\nWithin the folders FB_source/musicXML_master(.musicxml, ignore the files of the following subfolders: editorial_ones, editorial_FB_only, BCMCL), FB_source/translated_kern(.krn), and FB_source/translated_mei(.mei), you can find 143 (more than 139) symbolic files with figured bass annotations. This is because BWV 10.07, BWV 161.06, BWV 38.06, and BWV 177.05 have two different versions based on NBA.\n\nYou can use MuseScore to open (.musicxml) files,Verovio Humdrum Viewerto open (.krn) file, andVerovioto open (.mei) file to view both the music and the figured bass annotations.\n\nIf you use this version of the files, it will be greatly appreciated if you cite the following paper:\n\n@inproceedings{ju_automatic_2020,\n\ttitle = {Automatic {Figured} {Bass} {Annotation} {Using} the {New} {Bach} {Chorales} {Figured} {Bass} {Dataset}},\n\tbooktitle = {Proceedings of the 21th {International} {Society} for {Music} {Information} {Retrieval} {Conference}},\n\tauthor = {Ju, Yaolong and Margot, Sylvain and McKay, Cory and Dahn, Luke and Fujinaga, Ichiro},\n\tyear = {2020},\n\tpages = {640--646},\n}\n\n\nThe metadata of these chorales can be found in Reference Table.csv under the root directory.\n\nIf you have any questions, please email to yaolong.ju@mail.mcgill.ca.",
         "zenodo_id": 5084914,
         "dblp_key": "conf/ismir/2020"
     }
