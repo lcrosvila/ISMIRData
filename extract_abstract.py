@@ -125,6 +125,20 @@ def clean_up_abstracts(proceedings_folder):
                         abstract = re.sub(r'<[^>]*>', '', abstract)
                         # Remove html entities
                         abstract = re.sub(r'&[a-z]+;', '', abstract)
+                        # replace "\ufb01" by "fi"
+                        abstract = abstract.replace("\ufb01", "fi")
+                        # replace "\ufb02" by "fl"
+                        abstract = abstract.replace("\ufb02", "fl")
+                        # replace "\ufb03" by "ffi"
+                        abstract = abstract.replace("\ufb03", "ffi")
+                        # replace "\ufb04" by "ffl"
+                        abstract = abstract.replace("\ufb04", "ffl")
+                        # replace "\ufb00" by "ff"
+                        abstract = abstract.replace("\ufb00", "ff")
+                        # replace "\uf6d9" by ""
+                        abstract = abstract.replace("\uf6d9", "")
+                        # replace "\uffff" by ""
+                        abstract = abstract.replace("\uffff", "")
                         paper['abstract'] = abstract
             with open(file_path, 'w') as file:
                 json.dump(data, file, indent=4)

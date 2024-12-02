@@ -13,7 +13,19 @@
         "ee": "https://zenodo.org/records/1417697/files/AbesserLDS09.pdf",
         "abstract": "Considering its mediation role between the poles of rhythm, harmony, and melody, the bass plays a crucial role in most music genres. This paper introduces a novel set of transcription-based high-level features that characterize the bass and its interaction with other participating instruments. Furthermore, a new method to model and automatically retrieve different genre-specific bass playing styles is presented. A genre classification task is used as benchmark to compare common machine learning algorithms based on the presented high-level features with a classification algorithm solely based on detected bass playing styles.",
         "zenodo_id": 1417697,
-        "dblp_key": "conf/ismir/AbesserLDS09"
+        "dblp_key": "conf/ismir/AbesserLDS09",
+        "keywords": [
+            "mediation",
+            "rhythm",
+            "harmony",
+            "melody",
+            "bass",
+            "genre",
+            "interaction",
+            "instrument",
+            "genre-specific",
+            "classification"
+        ]
     },
     {
         "title": "Genre Classification Using Harmony Rules Induced from Automatic Chord Transcriptions.",
@@ -28,7 +40,19 @@
         "ee": "https://zenodo.org/records/1414944/files/AngladeRD09.pdf",
         "abstract": "We present an automatic genre classification technique making use of frequent chord sequences that can be applied on symbolic as well as audio data. We adopt a first-order logic representation of harmony and musical genres: pieces of music are represented as lists of chords and musical genres are seen as context-free definite clause grammars using subsequences of these chord lists. To induce the contextfree definite clause grammars characterising the genres we use a first-order logic decision tree induction algorithm. We report on the adaptation of this classification framework to audio data using an automatic chord transcription algorithm. We also introduce a high-level harmony representation scheme which describes the chords in term of both their degrees and chord categories. When compared to another high-level harmony representation scheme used in a previous study, it obtains better classification accuracies and shorter run times. We test this framework on 856 audio files synthesized from Band in a Box files and covering 3 main genres, and 9 subgenres. We perform 3-way and 2-way classification tasks on these audio files and obtain good classification results: between 67% and 79% accuracy for the 2-way classification tasks and between 58% and 72% accuracy for the 3-way classification tasks.",
         "zenodo_id": 1414944,
-        "dblp_key": "conf/ismir/AngladeRD09"
+        "dblp_key": "conf/ismir/AngladeRD09",
+        "keywords": [
+            "automatic",
+            "genre",
+            "classification",
+            "technique",
+            "frequent",
+            "chord",
+            "sequences",
+            "symbolic",
+            "audio",
+            "data"
+        ]
     },
     {
         "title": "Supporting Folk-Song Research by Automatic Metric Learning and Ranking.",
@@ -45,7 +69,19 @@
         "ee": "https://zenodo.org/records/1418165/files/BadeNSGW09.pdf",
         "abstract": "In folk song research, appropriate similarity measures can be of great help, e.g. for classification of new tunes. Several measures have been developed so far. However, a particular musicological way of classifying songs is usually not directly reflected by just a single one of these measures. We show how a weighted linear combination of different basic similarity measures can be automatically adapted to a specific retrieval task by learning this metric based on a special type of constraints. Further, we describe how these constraints are derived from information provided by experts. In experiments on a folk song database, we show that the proposed approach outperforms the underlying basic similarity measures and study the effect of different levels of adaptation on the performance of the retrieval system.",
         "zenodo_id": 1418165,
-        "dblp_key": "conf/ismir/BadeNSGW09"
+        "dblp_key": "conf/ismir/BadeNSGW09",
+        "keywords": [
+            "appropriate similarity measures",
+            "classification of new tunes",
+            "further",
+            "weighted linear combination",
+            "special type of constraints",
+            "expert information",
+            "retrieval task",
+            "basic similarity measures",
+            "performance of the retrieval system",
+            "effect of different levels of adaptation"
+        ]
     },
     {
         "title": "Smarter than Genius? Human Evaluation of Music Recommender Systems.",
