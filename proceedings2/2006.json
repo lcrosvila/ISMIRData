@@ -13,7 +13,19 @@
         "ee": "https://zenodo.org/records/1415078/files/Arenas-GarciaLHM06.pdf",
         "abstract": "There is an increasing interest in customizable methods for organizing music collections. Relevant music characteriza- tion can be obtained from short-time features, but it is not obvious how to combine them to get useful information. In this work, a novel method, denoted as the Positive Con- strained Orthonormalized Partial Least Squares (POPLS), is proposed. Working on the periodograms of MFCCs time series, this supervised method finds optimal filters which pick up the most discriminative temporal information for any music organization task. Two examples are presented in the paper, the first being a simple proof-of-concept, where an altosax with and without vibrato is modelled. A more complex 11 music genre classification setup is also inves- tigated to illustrate the robustness and validity of the pro- posed method on larger datasets. Both experiments showed the good properties of our method, as well as superior per- formance when compared to a fixed filter bank approach suggested previously in the MIR literature. We think that the proposed method is a natural step towards a customized MIR application that generalizes well to a wide range of dif- ferent music organization tasks. Keywords: Music organization, filter bank model, positive constrained OPLS",
         "zenodo_id": 1415078,
-        "dblp_key": "conf/ismir/Arenas-GarciaLHM06"
+        "dblp_key": "conf/ismir/Arenas-GarciaLHM06",
+        "keywords": [
+            "customizable methods",
+            "organizing music collections",
+            "music characterization",
+            "short-time features",
+            "supervised method",
+            "periodograms of MFCCs",
+            "discriminative temporal information",
+            "music organization task",
+            "music genre classification",
+            "fixed filter bank approach"
+        ]
     },
     {
         "title": "Identifying music documents in a collection of images.",
@@ -27,7 +39,19 @@
         "ee": "https://zenodo.org/records/1416424/files/BainbridgeB06.pdf",
         "abstract": "Digital libraries and search engines are now well-equipped to find images of documents based on queries. Many images of music scores are now available, often mixed up with tex- tual documents and images. For example, using the Google \u201cimages\u201d search feature, a search for \u201cBeethoven\u201d will re- turn a number of scores and manuscripts as well as pictures of the composer. In this paper we report on an investiga- tion into methods to mechanically determine if a particular document is indeed a score, so that the user can specify that only musical scores should be returned. The goal is to find a minimal set of features that can be used as a quick test that will be applied to large numbers of documents. A variety of filters were considered, and two promising ones (run-length ratios and Hough transform) were evalu- ated. We found that a method based around run-lengths in vertical scans (RL) that out-performs a comparable al- gorithm using the Hough transform (HT). On a test set of 1030 images, RL achieved recall and precision of 97.8% and 88.4% respectively while HT achieved 97.8% and 73.5%. In terms of processor time, RL was more than five times as fast as HT. Keywords: Optical Music Recognition (OMR), Score Clas- sification, Music Image",
         "zenodo_id": 1416424,
-        "dblp_key": "conf/ismir/BainbridgeB06"
+        "dblp_key": "conf/ismir/BainbridgeB06",
+        "keywords": [
+            "digital libraries",
+            "search engines",
+            "images of documents",
+            "music scores",
+            "mixed up with text",
+            "Google images",
+            "investigation methods",
+            "mechanically determine",
+            "document is a score",
+            "minimal set of features"
+        ]
     },
     {
         "title": "Predicting genre labels for artist using FreeDB.",
@@ -42,7 +66,19 @@
         "ee": "https://zenodo.org/records/1416448/files/BergstraLE06.pdf",
         "abstract": "This paper explores the value of FreeDB as a source of genre and music similarity information. FreeDB is a public, dy- namic, uncurated database for identifying and labelling CDs with album, song, artist and genre information. One qual- ity of FreeDB is that there is high variance in, e.g., the genre labels assigned to a particular disc. We investigate here the ability to use these genre labels to predict a more constrained set of \u201ccanonical\u201d genres as decided by the cu- rated but private database AllMusic (i.e. multi-class learn- ing). This work is relevant for study in music similarity: we present an automatic, data-driven method for embedding artists in a continuous space that corresponds to genre simi- larity judgements over a large population of music fans. At the same time, we observe that FreeDB is a valuable re- source to researchers developing music classification algo- rithms; it serves as a reference for what music is popular over a large population, and provides relevant targets for su- pervised learning algorithms. Keywords: Music Similarity, Music Classification, Genre Recognition, FreeDB",
         "zenodo_id": 1416448,
-        "dblp_key": "conf/ismir/BergstraLE06"
+        "dblp_key": "conf/ismir/BergstraLE06",
+        "keywords": [
+            "genre",
+            "music",
+            "similarity",
+            "information",
+            "FreeDB",
+            "genre",
+            "labels",
+            "album",
+            "song",
+            "artist"
+        ]
     },
     {
         "title": "Muugle: A Modular Music Information Retrieval Framework.",
@@ -72,7 +108,19 @@
         "ee": "https://zenodo.org/records/1418339/files/BrudererMK06.pdf",
         "abstract": "The automatic extraction of musical structure from audio is an important aspect for many music information retrieval (MIR) systems. The criteria on which structural elements in music are defined in MIR systems is often not clearly stated but typically stem from (music) theoretical or signal-based properties. In many cases, however, perceptual-based crite- ria are the most relevant and systems need to be trained on or modeled after the perception of structural elements in music. Here, we investigate the perception of structural boundaries to Western popular music and examine the musical cues re- sponsible for their perception. We make links to music the- oretical descriptions of structural boundaries and to compu- tational methods for extracting structure. The methods and data presented here are useful for developing and training systems for the automatic extraction of musical structure as it is perceived by listeners. Keywords: Music cognition, music structure, music percep- tion, music segmentation.",
         "zenodo_id": 1418339,
-        "dblp_key": "conf/ismir/BrudererMK06"
+        "dblp_key": "conf/ismir/BrudererMK06",
+        "keywords": [
+            "automatic extraction",
+            "music information retrieval",
+            "structural elements",
+            "music theoretical properties",
+            "perceptual-based criteria",
+            "music theoretical descriptions",
+            "computational methods",
+            "music segmentation",
+            "music cognition",
+            "music perception"
+        ]
     },
     {
         "title": "Prospects for Improving OMR with Multiple Recognizers.",
@@ -86,7 +134,19 @@
         "ee": "https://zenodo.org/records/1418307/files/ByrdS06.pdf",
         "abstract": "OMR (Optical Music Recognition) programs have been available for years, but they still leave much to be desired in terms of accuracy. We studied the feasibility of achieving substantially better accuracy by using the output of several programs to \u201ctriangulate\u201d and get better results than any of the individual programs; this multiple- recognizer approach has had some success with other media but, to our knowledge, has never been tried for music. A major obstacle is that the complexity of music notation is such that evaluating OMR accuracy is difficult for any but the simplest music. Nonetheless, existing programs have serious enough limitations that the multiple- recognizer approach is promising. Keywords: Optical Music Recognition, OMR, classifier, recognizer",
         "zenodo_id": 1418307,
-        "dblp_key": "conf/ismir/ByrdS06"
+        "dblp_key": "conf/ismir/ByrdS06",
+        "keywords": [
+            "Optical Music Recognition",
+            "accuracy",
+            "multiple recognizer approach",
+            "music notation",
+            "triangulate",
+            "classifier",
+            "recognizer",
+            "difficulty",
+            "existing programs",
+            "promising"
+        ]
     },
     {
         "title": "Assessing the Performance of Melodic Similarity Algorithms Using Human Judgments of Similarity.",
@@ -130,7 +190,19 @@
         "ee": "https://zenodo.org/records/1417827/files/CaseyS06.pdf",
         "abstract": "We present new methods for computing inter-song similari- ties using intersections between multiple audio pieces. The intersection contains portions that are similar, when one song is a derivative work of the other for example, in two differ- ent musical recordings. To scale our search to large song databases we have developed an algorithm based on locality- sensitive hashing (LSH) of sequences of audio features called audio shingles. LSH provides an efficient means to identify approximate nearest neighbors in a high-dimensional fea- ture space. We combine these nearest neighbor estimates, each a match from a very large database of audio to a small portion of the query song, to form a measure of the approx- imate similarity. We demonstrate the utility of our methods on a derivative works retrieval experiment using both ex- act and approximate (LSH) methods. The results show that LSH is at least an order of magnitude faster than the exact nearest neighbor method and that accuracy is not impacted by the approximate method. Keywords: Music similarity, audio shingling, nearest neigh- bors, high dimensions",
         "zenodo_id": 1417827,
-        "dblp_key": "conf/ismir/CaseyS06"
+        "dblp_key": "conf/ismir/CaseyS06",
+        "keywords": [
+            "inter-song similarities",
+            "audio shingles",
+            "locality-sensitive hashing (LSH)",
+            "approximate nearest neighbors",
+            "derivative works retrieval",
+            "exact nearest neighbor method",
+            "high-dimensional feature space",
+            "approximate similarity",
+            "searching large song databases",
+            "accuracy impact"
+        ]
     },
     {
         "title": "BDB-MUS: a project for the preservation of Brazilian musical heritage.",
@@ -148,7 +220,19 @@
         "ee": "https://zenodo.org/records/1414998/files/CastroAFCCB06.pdf",
         "abstract": "This poster proposes a discussion on concepts evolving from the role of digital libraries on the preservation of tan- gible and intangible cultural inheritance, including con- cepts developed in 2003 by UNESCO and the World Summit on the Information Society. It further describes the construction and design process leading to the develop- ment of BDB-MUS \u2013 Brazilian Digital Music Library, which aims to establish national recommendations on metadata attributions, and to develop means for appropria- tion and retrieval of musical sources. The poster further explores the concept of digital music or culture within the aims and objectives of the project. Keywords: Digital Libraries; Cultural Preservation; In- digenous Music; Popular Music; Erudite Music; globaliza- tion; Brazil.",
         "zenodo_id": 1414998,
-        "dblp_key": "conf/ismir/CastroAFCCB06"
+        "dblp_key": "conf/ismir/CastroAFCCB06",
+        "keywords": [
+            "Digital Libraries",
+            "Cultural Preservation",
+            "UNESCO",
+            "World Summit on the Information Society",
+            "BDB-MUS",
+            "Brazilian Digital Music Library",
+            "metadata attributions",
+            "musical sources",
+            "digital music or culture",
+            "globalization"
+        ]
     },
     {
         "title": "Search Sounds: An audio crawler focused on weblogs.",
@@ -163,7 +247,19 @@
         "ee": "https://zenodo.org/records/1415142/files/CelmaCH06.pdf",
         "abstract": "In this paper we present a focused audio crawler that mines audio weblogs (MP3 blogs). This source of semi-structured information contains links to audio files, plus some textual information that is referring to the media file. A retrieval system \u2014that exploits the mined data\u2014 fetches relevant au- dio files related to user\u2019s text query. Based on these results, the user can navigate and discover new music by means of content-based audio similarity. The system is available at: http://www.searchsounds.net. Keywords: focused audio crawler, weblogs, music recom- mendation, content-based similarity.",
         "zenodo_id": 1415142,
-        "dblp_key": "conf/ismir/CelmaCH06"
+        "dblp_key": "conf/ismir/CelmaCH06",
+        "keywords": [
+            "focused audio crawler",
+            "audio weblogs",
+            "semi-structured information",
+            "audio retrieval system",
+            "user text query",
+            "content-based audio similarity",
+            "music recommendation",
+            "weblogs",
+            "content-based similarity",
+            "audio files"
+        ]
     },
     {
         "title": "A Fast, Randomised, Maximal Subset Matching Algorithm for Document-Level Music Retrieval.",
@@ -180,7 +276,19 @@
         "ee": "https://zenodo.org/records/1414878/files/CliffordCCMW06.pdf",
         "abstract": "We present MSM, a new maximal subset matching algo- rithm, for MIR at score level with polyphonic texts and pat- terns. First, we argue that the problem MSM and its an- cestors, the SIA family of algorithms, solve is 3SUM-hard and, therefore, subquadratic solutions must involve approx- imation. MSM is such a solution; we describe it, and argue that, at O(n log n) time with no large constants, it is orders of magnitude more time-efficient than its closest competi- tor. We also evaluate MSM\u2019s performance on a retrieval problem addressed by the OMRAS project, and show that it outperforms OMRAS on this task by a considerable margin. Keywords: Pattern matching, point set representation.",
         "zenodo_id": 1414878,
-        "dblp_key": "conf/ismir/CliffordCCMW06"
+        "dblp_key": "conf/ismir/CliffordCCMW06",
+        "keywords": [
+            "MSM",
+            "maximal subset matching algorithm",
+            "MIR",
+            "polyphonic texts",
+            "patterns",
+            "3SUM-hard",
+            "subquadratic solutions",
+            "approximation",
+            "O(n log n)",
+            "performance evaluation"
+        ]
     },
     {
         "title": "Realtime Multiple Pitch Observation using Sparse Non-negative Constraints.",
@@ -193,7 +301,19 @@
         "ee": "https://zenodo.org/records/1416770/files/Cont06.pdf",
         "abstract": "In this paper we introduce a new approach for realtime mul- tiple pitch observation of musical instruments. The propo- sed algorithm is quite different from others in the literature both in its purpose and approach. It is destined not for conti- nuous multiple f0 recognition but rather for projection of the ongoing spectrum to learned pitch templates. The de- composition algorithm on the other hand, does not compro- mise signal processing models for pitches and consists of an algorithm for efficient decomposition of a spectrum using known pitch structures and based on sparse non-negative constraints. After introducing the algorithm along with eva- luations, a real-time implementation of the algorithm is pro- vided for free download for the MaxMSP realtime program- ming environment. Keywords: Multiple-pitch observation, Non-negative Ma- trix Factorization, Sparseness constraints, Machine Learning.",
         "zenodo_id": 1416770,
-        "dblp_key": "conf/ismir/Cont06"
+        "dblp_key": "conf/ismir/Cont06",
+        "keywords": [
+            "realtime",
+            "multiple pitch observation",
+            "musical instruments",
+            "algorithm",
+            "projection",
+            "ongoing spectrum",
+            "pitch templates",
+            "decomposition algorithm",
+            "signal processing models",
+            "sparseness constraints"
+        ]
     },
     {
         "title": "Moody Tunes: The Rockanango Project.",
@@ -208,7 +328,19 @@
         "ee": "https://zenodo.org/records/1418211/files/CorthautGD06.pdf",
         "abstract": "Wouldn\u0001t it be nice if we had a tool that could offer peo- ple the right music for a specific time and place? For HORECA (hotel, restaurants and caf\u00e9s) businesses, provid- ing appropriate music is often not just nice, but essential. Typically this boils down to music that matches a certain situation on desired atmospheres, this will be defined as a musical context (MC). The developed tool, a music player, meeting the specific needs of HORECA, allows creation and management of those contexts. The user creates a mu- sical context by selecting a number of appropriate atmos- pheres and can fine-tune the context with additional musi- cal properties. The atmospheres are defined by a group of music experts, composed of DJ\u0001s, music teachers, musi- cians, etc., who also manually annotate the properties of all musical content. To assist the music experts, a specially developed tool allows them to categorise and annotate the songs and evaluate their results. We provide insight on how we constructed and implemented our metadata schema and look at some existing schemas. The evaluation shows the economic value of such a system in the specific context of a HORECA business. Keywords: Multimedia Systems, Music Information Re- trieval, Context, Metadata.",
         "zenodo_id": 1418211,
-        "dblp_key": "conf/ismir/CorthautGD06"
+        "dblp_key": "conf/ismir/CorthautGD06",
+        "keywords": [
+            "tool",
+            "music",
+            "HORECA",
+            "appropriate music",
+            "musical context",
+            "music player",
+            "musical properties",
+            "atmospheres",
+            "music experts",
+            "metadata schema"
+        ]
     },
     {
         "title": "&apos;More of an Art than a Science&apos;: Supporting the Creation of Playlists and Mixes.",
@@ -223,7 +355,19 @@
         "ee": "https://zenodo.org/records/1415662/files/CunninghamBF06.pdf",
         "abstract": "This paper presents an analysis of how people construct playlists and mixes.  Interviews with practitioners and postings made to a web site are analyzed using a grounded theory approach to extract themes and categorizations. The information sought is often encapsulated as music information retrieval tasks, albeit not as the traditional \u201cknown item search\u201d paradigm.  The collated data is analyzed and trends identified and discussed in relation to music information retrieval algorithms that could help support such activity.",
         "zenodo_id": 1415662,
-        "dblp_key": "conf/ismir/CunninghamBF06"
+        "dblp_key": "conf/ismir/CunninghamBF06",
+        "keywords": [
+            "grounded theory approach",
+            "music information retrieval tasks",
+            "practitioners",
+            "web site",
+            "trends",
+            "traditional known item search",
+            "collated data",
+            "activity",
+            "algorithm",
+            "analysis"
+        ]
     },
     {
         "title": "Efficient Genre Classification using Qualitative Representations.",
@@ -237,7 +381,19 @@
         "ee": "https://zenodo.org/records/1416964/files/DehghaniL06.pdf",
         "abstract": "We have constructed a system that can compute a qualitative representation of music from high-level features extracted from MusicXML files. We use two cognitively motivated computational models called SME and SEQL to build generalizations of musical genres from these representations. We then categorize novel music pieces according to the generalizations. We demonstrate the feasibility of the system with training sets much smaller than those used in previous systems. Keywords: Genre Classification, Symbolic Representation of Music.",
         "zenodo_id": 1416964,
-        "dblp_key": "conf/ismir/DehghaniL06"
+        "dblp_key": "conf/ismir/DehghaniL06",
+        "keywords": [
+            "symbolic",
+            "representation",
+            "music",
+            "genre",
+            "classification",
+            "MusicXML",
+            "cognitively",
+            "motivated",
+            "computational",
+            "models"
+        ]
     },
     {
         "title": "Towards a MIR System for Malaysian Music.",
@@ -252,7 +408,19 @@
         "ee": "https://zenodo.org/records/1414744/files/DoraisamyAN06.pdf",
         "abstract": "Systems for the archival of musical documents digitally and development of digital music libraries are currently being researched and developed extensively.  However, adapting these systems for the archival and retrieval of Malaysian music materials might not be as straightforward due to the distinct differences in musical structure and modes of non-Western music.  This paper covers the motivations for the creation of a MIR system for Malaysian Music and outlines the plans for its development. Keywords: Malaysian Music, Digital Libraries, Music IR, Genre Classification, N-grams.",
         "zenodo_id": 1414744,
-        "dblp_key": "conf/ismir/DoraisamyAN06"
+        "dblp_key": "conf/ismir/DoraisamyAN06",
+        "keywords": [
+            "digital archiving",
+            "digital music libraries",
+            "musical documents",
+            "musical structure",
+            "non-Western music",
+            "MIR system",
+            "Malaysian Music",
+            "Digital Libraries",
+            "Music IR",
+            "Genre Classification"
+        ]
     },
     {
         "title": "Instrument classification using Hidden Markov Models.",
@@ -267,7 +435,19 @@
         "ee": "https://zenodo.org/records/1414960/files/EichnerWH06.pdf",
         "abstract": "In this paper we present first results on musical instrument classification using an HMM based recognizer. The final goal of our work is to automatically evaluate instruments and to classify them according to their characteristics. The first step in this direction was to train a system that is able to recognize a particular instrument among others of the same kind (e.g. guitars). The recognition is based on solo music pieces played on the instrument under various conditions. For this purpose a database was designed and is currently being recorded that comprises four instrument types: classi- cal guitar, violin, trumpet and clarinet. We briefly describe the classifier and give first experimental results on the clas- sification of acoustic guitars. Keywords: Automatic musical instrument recognition, mu- sic content processing, multimedia content description",
         "zenodo_id": 1414960,
-        "dblp_key": "conf/ismir/EichnerWH06"
+        "dblp_key": "conf/ismir/EichnerWH06",
+        "keywords": [
+            "Automatic musical instrument recognition",
+            "Music content processing",
+            "Multimedia content description",
+            "Classification of acoustic guitars",
+            "Solo music pieces",
+            "Database design",
+            "Recognizer based on HMM",
+            "Training system",
+            "Recognition based on various conditions",
+            "Classification of instruments"
+        ]
     },
     {
         "title": "Feature Selection Pitfalls and Music Classification.",
@@ -281,7 +461,19 @@
         "ee": "https://zenodo.org/records/1415144/files/FiebrinkF06.pdf",
         "abstract": "Previous work has employed an approach to the evaluation of wrapper feature selection methods that may overstate their ability to improve classification accuracy, because of a phenomenon akin to overfitting. This paper discusses this phenomenon in the context of recent work in machine learning, demonstrates that previous work in MIR has indeed exaggerated the efficacy of feature selection for music classification, and presents new testing providing a more realistic analysis of feature selection\u2019s impact on music classification accuracy. Keywords: Feature selection, classification.",
         "zenodo_id": 1415144,
-        "dblp_key": "conf/ismir/FiebrinkF06"
+        "dblp_key": "conf/ismir/FiebrinkF06",
+        "keywords": [
+            "feature selection",
+            "classification accuracy",
+            "wrapper feature selection methods",
+            "overfitting",
+            "machine learning",
+            "music classification",
+            "new testing",
+            "more realistic analysis",
+            "previous work",
+            "evident exaggeration"
+        ]
     },
     {
         "title": "Probabilistic Combination of Features for Music Classification.",
@@ -297,7 +489,19 @@
         "ee": "https://zenodo.org/records/1415524/files/FlexerGDW06.pdf",
         "abstract": "We describe an approach to the combination of music sim- ilarity feature spaces in the context of music classification. The approach is based on taking the product of posterior probabilities obtained from separate classifiers for the dif- ferent feature spaces. This allows for a different influence of the classifiers per song and an overall classification accuracy improving those resulting from individual feature spaces alone. This is demonstrated by combining spectral and rhythmic similarity for classification of ballroom dance music. Keywords: music classification, combination",
         "zenodo_id": 1415524,
-        "dblp_key": "conf/ismir/FlexerGDW06"
+        "dblp_key": "conf/ismir/FlexerGDW06",
+        "keywords": [
+            "music classification",
+            "combination",
+            "spectral",
+            "rhythmic similarity",
+            "ballroom dance music",
+            "posterior probabilities",
+            "classifier",
+            "feature spaces",
+            "overall classification accuracy",
+            "different influence"
+        ]
     },
     {
         "title": "An Integrated MIR Programming and Testing Environment.",
@@ -324,7 +528,19 @@
         "ee": "https://zenodo.org/records/1417579/files/GeleijnseK06.pdf",
         "abstract": "We present a novel approach in categorizing artists into sub- jective categories such as genre. We base our method on co-occurrences on the web, found with the Google search engine. A direct mapping between artists and categories proved to be unreliable. We use the categories mapped to closely related artists to obtain a more reliable mapping. The method is tested on a genre classification test set with con- vincing results. Moreover, mood categorization is explored using the same techniques. Keywords: Artist categorization, web, Google.",
         "zenodo_id": 1417579,
-        "dblp_key": "conf/ismir/GeleijnseK06"
+        "dblp_key": "conf/ismir/GeleijnseK06",
+        "keywords": [
+            "novel",
+            "approach",
+            "categorizing",
+            "artists",
+            "sub-jective",
+            "categories",
+            "genre",
+            "co-occurrences",
+            "web",
+            "Google"
+        ]
     },
     {
         "title": "Efficient Lyrics Extraction from the Web.",
@@ -338,7 +554,19 @@
         "ee": "https://zenodo.org/records/1415982/files/GeleijnseK06a.pdf",
         "abstract": "We present a novel method to extract lyrics from the Web. The aim is to extract a set of multiple versions of the lyrics to a song. Lyrics can be identified within a text by a regular expression. We use a projection of a document to efficiently identify lyrics within the document by mapping it to a regu- lar expression. We describe a method to cluster the multiple versions of the lyrics by filtering out erroneous texts such as lyrics to other songs. For reasons of efficiency, we do this by comparing fingerprints instead of the texts themselves. Keywords: Lyrics, Web, Google, Regular Expressions.",
         "zenodo_id": 1415982,
-        "dblp_key": "conf/ismir/GeleijnseK06a"
+        "dblp_key": "conf/ismir/GeleijnseK06a",
+        "keywords": [
+            "novel",
+            "method",
+            "extract",
+            "lyrics",
+            "Web",
+            "identify",
+            "text",
+            "regular",
+            "expression",
+            "cluster"
+        ]
     },
     {
         "title": "ENST-Drums: an extensive audio-visual database for drum signals processing.",
@@ -366,7 +594,19 @@
         "ee": "https://zenodo.org/records/1417273/files/GomezH06.pdf",
         "abstract": "Identifying versions of the same song by means of automa- tically extracted audio features is a complex task for a music information retrieval system, even though it may seem very simple for a human listener. The design of a system to per- form this task gives the opportunity to analyze which fea- tures are relevant for music similarity. This paper focu- ses on the analysis of tonal similarity and its application to the identification of different versions of the same piece. This work formulates the situations where a song is ver- sioned and several musical aspects are transformed with res- pect to the canonical version. A quantitative evaluation is made using tonal descriptors, including chroma representa- tions and tonality. A simple similarity measure, based on Dynamic Time Warping over transposed chroma features, yields around 55% accuracy, which exceeds by far the expec- ted random baseline rate. Keywords: version identification, cover versions, tonality, pitch class profile, chroma, audio description.",
         "zenodo_id": 1417273,
-        "dblp_key": "conf/ismir/GomezH06"
+        "dblp_key": "conf/ismir/GomezH06",
+        "keywords": [
+            "version identification",
+            "cover versions",
+            "tonality",
+            "pitch class profile",
+            "chroma",
+            "audio description",
+            "Dynamic Time Warping",
+            "transposed chroma features",
+            "quantitative evaluation",
+            "simple similarity measure"
+        ]
     },
     {
         "title": "AIST Annotation for the RWC Music Database.",
@@ -379,7 +619,19 @@
         "ee": "https://zenodo.org/records/1418125/files/Goto06.pdf",
         "abstract": "In this paper, we introduce our activities regarding the man- ual annotation of the musical pieces of the RWC Music Database. Although the RWC Music Database is widely used, its annotated descriptions are not widely available. We therefore annotated a set of music-scene descriptions con- sisting of the beat structure, melody line, and chorus sec- tions. We call this AIST Annotation. We also manually syn- chronized standard MIDI files with the corresponding audio signals at the beat level. We hope that the AIST Annota- tion will contribute to further advances in the field of music information processing.",
         "zenodo_id": 1418125,
-        "dblp_key": "conf/ismir/Goto06"
+        "dblp_key": "conf/ismir/Goto06",
+        "keywords": [
+            "manual annotation",
+            "RWC Music Database",
+            "annotated descriptions",
+            "music-scene descriptions",
+            "beat structure",
+            "melody line",
+            "chorus sections",
+            "AIST Annotation",
+            "standard MIDI files",
+            "audio signals"
+        ]
     },
     {
         "title": "A Philosophical Wish List for Research in Music Information Retrieval.",
@@ -392,7 +644,19 @@
         "ee": "https://zenodo.org/records/1415190/files/Grund06.pdf",
         "abstract": "Within a framework provided by the traditional trio consisting of metaphysics, epistemology and ethics, a first stab is made at a wish list for MIR-research from a philosophical point of view. Since the tools of MIR are equipped to study language and its use from a purely sonic standpoint, MIR research could result in another revealing revolution within the linguistic turn in philosophy. Keywords: Philosophy and MIR, language as spoken, memory",
         "zenodo_id": 1415190,
-        "dblp_key": "conf/ismir/Grund06"
+        "dblp_key": "conf/ismir/Grund06",
+        "keywords": [
+            "metaphysics",
+            "epistemology",
+            "ethics",
+            "wish list",
+            "MIR-research",
+            "philosophical point of view",
+            "language and its use",
+            "linguistic turn",
+            "revolution",
+            "memory"
+        ]
     },
     {
         "title": "Music Scope Headphones: Natural User Interface for Selection of Music.",
@@ -405,7 +669,19 @@
         "ee": "https://zenodo.org/records/1416566/files/Hamanaka06.pdf",
         "abstract": "This paper describes a novel audio only interface for selecting music which enables us to select songs without having to click a mouse. Using previous music players with normal headphones, we can hear only one song at a time and we thus have to play pieces individually to select the one we want to hear from numerous new music files, which involves a large number of mouse operations. The main advantage of our headphones is that they detect natural movements, such as the head or hand moving when users are listening to music and they can focus on a particular musical source that they want to hear. By moving their head left or right, listeners can hear the source from a frontal position as the digital compass detects the change in the direction they are facing. By looking up or down, the tilt sensor will detect the change in the face\u2019s angle of elevation; they can better hear the source that is allocated to a more distant or closer position. By putting their hand behind their ear, listeners can adjust the focus sensor on the headphones to focus on a particular musical source that they want to hear. Keywords: Headphones, music interface, digital compass, tilt sensor, infrared distance sensor.",
         "zenodo_id": 1416566,
-        "dblp_key": "conf/ismir/Hamanaka06"
+        "dblp_key": "conf/ismir/Hamanaka06",
+        "keywords": [
+            "audio only interface",
+            "selecting music",
+            "without clicking mouse",
+            "natural movements detection",
+            "headphones",
+            "digital compass",
+            "tilt sensor",
+            "focus sensor",
+            "music players",
+            "new music files"
+        ]
     },
     {
         "title": "Evolving Performance Models by Performance Similarity: Beyond Note-to-note Transformations.",
@@ -420,7 +696,19 @@
         "ee": "https://zenodo.org/records/1417691/files/HazanGR06.pdf",
         "abstract": "This paper focuses on expressive music performance mod- eling. We induce a population of score-driven performance models using a database of annotated performances extracted from saxophone acoustic recordings of jazz standards. In addition to note-to-note timing transformations that are in- variably introduced in human renditions, more extensive al- terations that lead to insertions and deletions of notes are usual in jazz performance. In spite of this, inductive ap- proaches usually treat these latter alterations as artifacts. As a first step, we integrate part of the alterations occurring in jazz performances in an evolutionary regression tree model based on strongly typed genetic programming (STGP). This is made possible (i) by creating a new regression data type that includes a range of melodic alterations and (ii) by using a similarity measurement based on an edit-distance fit to hu- man performance similarity judgments. Finally, we present the results of both learning and generalization experiments using a set of standards from the Real Book. Keywords: Evolutionary Modeling, Expressive Music Per- formance, Melodic Similarity",
         "zenodo_id": 1417691,
-        "dblp_key": "conf/ismir/HazanGR06"
+        "dblp_key": "conf/ismir/HazanGR06",
+        "keywords": [
+            "Expressive music performance modeling",
+            "inducing score-driven models",
+            "database of annotated performances",
+            "jazz standards",
+            "note-to-note timing transformations",
+            "melodic alterations",
+            "evolutionary regression tree model",
+            "strongly typed genetic programming",
+            "edit-distance similarity",
+            "Real Book standards"
+        ]
     },
     {
         "title": "Feature-Based Synthesis: A Tool for Evaluating, Designing, and Interacting with Music IR Systems.",
@@ -434,7 +722,19 @@
         "ee": "https://zenodo.org/records/1417515/files/HoffmanC06.pdf",
         "abstract": "We present a general framework for performing feature- based synthesis \u2013 that is, for producing audio characterized by arbitrarily specified sets of perceptually motivated, quantifiable acoustic features of the sort used in many music information retrieval systems.",
         "zenodo_id": 1417515,
-        "dblp_key": "conf/ismir/HoffmanC06"
+        "dblp_key": "conf/ismir/HoffmanC06",
+        "keywords": [
+            "general",
+            "framework",
+            "feature-based",
+            "synthesis",
+            "audio",
+            "acoustic",
+            "features",
+            "music",
+            "information",
+            "retrieval"
+        ]
     },
     {
         "title": "Exploiting Recommended Usage Metadata: Exploratory Analyses.",
@@ -466,7 +766,19 @@
         "ee": "https://zenodo.org/records/1417887/files/ItoyamaKKOO06.pdf",
         "abstract": "We studied the problem of automatic music transcription (AMT) for polyphonic music. AMT is an important task for music information retrieval because AMT results enable retrieving musical pieces, high-level annotation, demixing, etc. We attempted to transcribe a part played by an instru- ment specified by users (specified part tracking). Only two timbre models are required in the specified part tracking to identify the specified musical instrument even when the number of instruments increases. This transcription is for- mulated into a time-series classification problem with mul- tiple features. We furthermore attempted to automatically estimate weights of the features, because the importance of these features varies for each musical signal. We esti- mated quasi-optimal weights of the features using a genetic algorithm for each musical signal. We tested our AMT sys- tem using trio stereo musical signals. Accuracies with our feature weighting method were 69.8% on average, whereas those without feature weighting were 66.0%. Keywords: automatic music transcription, specified part track- ing, feature weighting, genetic algorithm",
         "zenodo_id": 1417887,
-        "dblp_key": "conf/ismir/ItoyamaKKOO06"
+        "dblp_key": "conf/ismir/ItoyamaKKOO06",
+        "keywords": [
+            "automatic music transcription",
+            "polyphonic music",
+            "music information retrieval",
+            "specified part tracking",
+            "timbre models",
+            "instrument identification",
+            "time-series classification",
+            "musical signals",
+            "feature weighting",
+            "genetic algorithm"
+        ]
     },
     {
         "title": "Audio Key Finding Using Low-Dimensional Spaces.",
@@ -479,7 +791,19 @@
         "ee": "https://zenodo.org/records/1415858/files/Izmirli06.pdf",
         "abstract": "This paper presents two models of audio key finding: a template based correlational model and a template based model that uses a low-dimensional tonal representation. The first model uses a confidence weighted correlation to find the most probable key. The second model is distance based and employs dimensionality reduction to the tonal representation before generating a key estimate. Experiments to determine the dependence of key finding accuracy on dimensionality are presented. Results show that low dimensional representations, compared to commonly used 12 dimensions, may be utilized for key finding without sacrificing accuracy. The first model\u2019s independently verified performance enabled it to be used as a benchmark for evaluation of the second model. Key finding accuracies for both models are given together with detailed results of the second model\u2019s performance as a function of the number of dimensions used. Keywords: Key finding, chroma based representations, dimensionality reduction.",
         "zenodo_id": 1415858,
-        "dblp_key": "conf/ismir/Izmirli06"
+        "dblp_key": "conf/ismir/Izmirli06",
+        "keywords": [
+            "audio key finding",
+            "template based correlational model",
+            "template based model",
+            "low-dimensional tonal representation",
+            "confidence weighted correlation",
+            "distance based",
+            "dimensionality reduction",
+            "key finding accuracy",
+            "dimensionality",
+            "benchmark evaluation"
+        ]
     },
     {
         "title": "A Multifaceted Approach to Music Similarity.",
@@ -492,7 +816,19 @@
         "ee": "https://zenodo.org/records/1417016/files/Jacobson06.pdf",
         "abstract": "Previous work has explored the concept of music similarity measures and a variety of methods have been proposed for calculating such measures.  This paper describes a system for music similarity which attempts to model and compare some of the more musically salient features of a set of audio signals.  A model for timbre and a model for rhythm are implemented directly from previous work, and a model for song structure is developed. The different models are weighted and combined to provide an overall music similarity measure.  The system is tested on a small set of popular music files spanning eleven different genres.  The system is tuned to estimate genre boundaries using multidimensional scaling \u2013 a technique that allows for quick visualization of similarity data.  An \u201cautomatic DJ\u201d application, that generates playlists based on the music similarity models, serves as a subjective evaluation for the system. Keywords: music similarity, automatic DJ, playlist generation, multidimensional scaling, song structure.",
         "zenodo_id": 1417016,
-        "dblp_key": "conf/ismir/Jacobson06"
+        "dblp_key": "conf/ismir/Jacobson06",
+        "keywords": [
+            "music similarity measures",
+            "audio signals",
+            "timbre model",
+            "rhythm model",
+            "song structure model",
+            "multidimensional scaling",
+            "genre boundaries",
+            "playlist generation",
+            "automatic DJ",
+            "objective evaluation"
+        ]
     },
     {
         "title": "A Retrieval Approach for Human/Robotic Musical Performance.",
@@ -506,7 +842,19 @@
         "ee": "https://zenodo.org/records/1414894/files/KapurS06.pdf",
         "abstract": "We present a general framework for performing feature- based synthesis \u2013 that is, for producing audio characterized by arbitrarily specified sets of perceptually motivated, quantifiable acoustic features of the sort used in many music information retrieval systems.",
         "zenodo_id": 1414894,
-        "dblp_key": "conf/ismir/KapurS06"
+        "dblp_key": "conf/ismir/KapurS06",
+        "keywords": [
+            "general",
+            "framework",
+            "feature-based",
+            "synthesis",
+            "audio",
+            "acoustic",
+            "features",
+            "music",
+            "information",
+            "retrieval"
+        ]
     },
     {
         "title": "Towards Quantifying the &quot;Album Effect&quot; in Artist Identification.",
@@ -521,7 +869,19 @@
         "ee": "https://zenodo.org/records/1415722/files/KimWP06.pdf",
         "abstract": "Recent systems for automatically identifying the perform- ing artist from the acoustic signal of music have demon- strated reasonably high accuracy when discriminating be- tween hundreds of known artists. A well-documented issue, however, is that the performance of these systems degrades when music from different albums is used for training and evaluation. Conversely, accuracy improves when systems are trained and evaluated using music from the same album. This performance characteristic has been labeled the \u201calbum effect\u201d. The unfortunate corollary to this result is that the classification results of these systems are based not entirely on the music itself, but on other audio features common to the album that may be unrelated to the underlying music. We hypothesize that one of the primary reasons for this phe- nomenon is the production process of commercial record- ings, specifically, post-production. Understanding the pri- mary aspects of post-production, we can attempt to model its effect on the acoustic features used for classification. By quantifying and accounting for this transformation, we hope to improve future systems for automatic artist identification. Keywords: Artist identification, song classification, album effect, music production",
         "zenodo_id": 1415722,
-        "dblp_key": "conf/ismir/KimWP06"
+        "dblp_key": "conf/ismir/KimWP06",
+        "keywords": [
+            "album effect",
+            "artist identification",
+            "classification",
+            "commercial recordings",
+            "post-production",
+            "performance characteristic",
+            "audio features",
+            "acoustic signal",
+            "systems",
+            "accuracy"
+        ]
     },
     {
         "title": "Multiple Fundamental Frequency Estimation by Summing Harmonic Amplitudes.",
@@ -534,7 +894,19 @@
         "ee": "https://zenodo.org/records/1416740/files/Klapuri06.pdf",
         "abstract": "This paper proposes a conceptually simple and computa- tionally efficient fundamental frequency (F0) estimator for polyphonic music signals. The studied class of estimators calculate the salience, or strength, of a F0 candidate as a weighted sum of the amplitudes of its harmonic partials. A mapping from the Fourier spectrum to a \u201cF0 salience spec- trum\u201d is found by optimization using generated training ma- terial. Based on the resulting function, three different esti- mators are proposed: a \u201cdirect\u201d method, an iterative estima- tion and cancellation method, and a method that estimates multiple F0s jointly. The latter two performed as well as a considerably more complex reference method. The number of concurrent sounds is estimated along with their F0s. Keywords: F0 estimation, pitch, music transcription.",
         "zenodo_id": 1416740,
-        "dblp_key": "conf/ismir/Klapuri06"
+        "dblp_key": "conf/ismir/Klapuri06",
+        "keywords": [
+            "fundamental frequency (F0) estimator",
+            "polyphonic music signals",
+            "salience",
+            "F0 candidate",
+            "harmonic partials",
+            "Fourier spectrum",
+            "F0 salience spectrum",
+            "mapping",
+            "generated training material",
+            "multiple F0s"
+        ]
     },
     {
         "title": "Composer attribution by quantifying compositional strategies.",
@@ -576,7 +948,19 @@
         "ee": "https://zenodo.org/records/1417423/files/LaiF06.pdf",
         "abstract": "The creation and maintenance of a metadata data dictionary is essential to large-scale digital repositories. It assists the process of data entry, ensures consistency of records, facilitates semantic compatibility and interoperability between systems, and, most importantly, forms the foundation for efficient and effective information retrieval infrastructure. In this paper we explain in detail the necessity of metadata data dictionaries to digitization projects and digital library retrieval services. We also describe the development process of our Data Dictionary for phonograph records. We then present the underlying data model of our Data Dictionary and provide information about the meaning and use of semantic units defined in the Data Dictionary. We stress the usefulness of the generation and maintenance of our Data Dictionary for MIR as it provides a means to ensure accurate, consistent, and comprehensive metadata annotation. For maximum interoperability between systems, digital repositories not only need to agree on the same metadata fields, but also the meanings of the fields. To this end, we believe our Data Dictionary is the cornerstone of optimal retrieval of music information about phonograph records. Keywords: Metadata, Data Dictionary, Phonograph Records, Digitization, Standardization, Management",
         "zenodo_id": 1417423,
-        "dblp_key": "conf/ismir/LaiF06"
+        "dblp_key": "conf/ismir/LaiF06",
+        "keywords": [
+            "Metadata",
+            "Data Dictionary",
+            "phonograph records",
+            "digitization",
+            "standardization",
+            "management",
+            "interoperability",
+            "information retrieval",
+            "semantic compatibility",
+            "digital repositories"
+        ]
     },
     {
         "title": "Everyday Life Music Information-Seeking Behaviour of Young Adults.",
@@ -605,7 +989,19 @@
         "ee": "https://zenodo.org/records/1416840/files/LeeJD06.pdf",
         "abstract": "In this poster we present preliminary findings of an exploratory study of natural language music information queries posted to the Google Answers web site. We discuss the proportion of queries answered as a function of time and attempt to identify factors which affect the probability of a query being answered. Keywords: HUMIRS, Google Answers, queries, users.",
         "zenodo_id": 1416840,
-        "dblp_key": "conf/ismir/LeeJD06"
+        "dblp_key": "conf/ismir/LeeJD06",
+        "keywords": [
+            "natural language music",
+            "exploratory study",
+            "Google Answers",
+            "proportion of queries",
+            "time",
+            "factors affecting",
+            "probability of a query",
+            "Google Answers",
+            "queries",
+            "users"
+        ]
     },
     {
         "title": "Automatic Chord Recognition from Audio Using a HMM with Supervised Learning.",
@@ -619,7 +1015,19 @@
         "ee": "https://zenodo.org/records/1415158/files/LeeS06.pdf",
         "abstract": "In this paper, we propose a novel method for obtaining la- beled training data to estimate the parameters in a super- vised learning model for automatic chord recognition. To this end, we perform harmonic analysis on symbolic data to generate label files. In parallel, we generate audio data from the same symbolic data, which are then provided to a machine learning algorithm along with label files to esti- mate model parameters. Experimental results show higher performance in frame-level chord recognition than the pre- vious approaches. Keywords: Chord recognition, hidden Markov model, su- pervised learning",
         "zenodo_id": 1415158,
-        "dblp_key": "conf/ismir/LeeS06"
+        "dblp_key": "conf/ismir/LeeS06",
+        "keywords": [
+            "harmonic analysis",
+            "symbolic data",
+            "label files",
+            "machine learning algorithm",
+            "supervised learning",
+            "frame-level chord recognition",
+            "hidden Markov model",
+            "experimental results",
+            "higher performance",
+            "previous approaches"
+        ]
     },
     {
         "title": "A Genre Classification Plug-in for Data Collection.",
@@ -635,7 +1043,19 @@
         "ee": "https://zenodo.org/records/1416202/files/Lehn-SchiolerAPH06.pdf",
         "abstract": "This demonstration illustrates how the methods developed in the MIR community can be used to provide real-time feedback to music users. By creating a genre classifier plug- in for a popular media player we present users with rele- vant information as they play their songs. The plug-in can furthermore be used as a data collection platform. After informed consent from a selected set of users the plug-in will report on music consumption behavior back to a central server. Keywords: Genre classification, media player, plug-in, data collection",
         "zenodo_id": 1416202,
-        "dblp_key": "conf/ismir/Lehn-SchiolerAPH06"
+        "dblp_key": "conf/ismir/Lehn-SchiolerAPH06",
+        "keywords": [
+            "Genre classification",
+            "media player",
+            "plug-in",
+            "data collection",
+            "real-time feedback",
+            "music users",
+            "relevance",
+            "informed consent",
+            "central server",
+            "music consumption behavior"
+        ]
     },
     {
         "title": "On the Requirement of Automatic Tuning Frequency Estimation.",
@@ -662,7 +1082,19 @@
         "ee": "https://zenodo.org/records/1416266/files/LeueI06.pdf",
         "abstract": "Automatic tempo extraction and beat tracking from audio is an important ability, with many applications in music information retrieval. This paper describes a method for tempo tracking which builds on current research in the field. In this algorithm, an autocorrelation surface is calculated from the output of a spectral energy flux onset novelty function. The most salient repetition rate is calculated by cross-correlating dilations of a comb-like prototype spanning multiple frames and the autocorrelation surface. The method addresses tempo tracking through time to account for pieces with variable tempos. In order to compare the performance of our method on music with strong and weak percussive onsets we have evaluated it on both classical music with and without percussion and popular music with percussion. Additionally, beats are phase-aligned and superimposed on the signal for aural evaluation. Results show the comb kernel to be a useful feature in determining the correct beat level. Keywords: beat, tempo tracking, onset detection.",
         "zenodo_id": 1416266,
-        "dblp_key": "conf/ismir/LeueI06"
+        "dblp_key": "conf/ismir/LeueI06",
+        "keywords": [
+            "tempo tracking",
+            "tempo extraction",
+            "beat tracking",
+            "spectral energy flux",
+            "comb-like prototype",
+            "autocorrelation surface",
+            "cross-correlation",
+            "phase alignment",
+            "audio analysis",
+            "music information retrieval"
+        ]
     },
     {
         "title": "Extending Audacity for Audio Annotation.",
@@ -691,7 +1123,19 @@
         "ee": "https://zenodo.org/records/1416006/files/LiW06.pdf",
         "abstract": "Separating singing voice from music accompaniment has wide applications in areas such as automatic lyrics recog- nition and alignment, singer identification, and music in- formation retrieval. Compared to the extensive studies of speech separation, singing voice separation has been little explored. We propose a system to separate singing voice from music accompaniment from monaural recordings. The system has three stages. The singing voice detection stage partitions and classifies an input into vocal and non-vocal portions. Then the predominant pitch detection stage detects the pitch contour of the singing voice for vocal portions. Fi- nally the separation stage uses the detected pitch contour to group the time-frequency segments of the singing voice. Quantitative results show that the system performs well in singing voice separation. Keywords: Singing voice detection, predominant pitch de- tection, singing voice separation",
         "zenodo_id": 1416006,
-        "dblp_key": "conf/ismir/LiW06"
+        "dblp_key": "conf/ismir/LiW06",
+        "keywords": [
+            "singing voice detection",
+            "predominant pitch detection",
+            "singing voice separation",
+            "quantitative results",
+            "speech separation",
+            "automatic lyrics recognition",
+            "singer identification",
+            "music information retrieval",
+            "monaural recordings",
+            "time-frequency segments"
+        ]
     },
     {
         "title": "Visually Profiling Radio Stations.",
@@ -705,7 +1149,19 @@
         "ee": "https://zenodo.org/records/1418079/files/LidyR06.pdf",
         "abstract": "The overwhelming number of radio stations, both online and over the air, makes the choice of an appropriate program difficult. By profiling the program content of radio stations using Self-Organizing Maps we provide a reflection of a sta- tion\u2019s program type and give potential listeners a visual clue for selecting radio stations. Profiles of current broadcasts indicate which program type a station is currently playing. By creating radio station maps it is possible to directly pick a specific program type instead of having to search for a suitable radio station. Keywords: radio stations, online streams, broadcast, au- dio feature extraction, genre discrimination, profiles, Self- Organizing Map",
         "zenodo_id": 1418079,
-        "dblp_key": "conf/ismir/LidyR06"
+        "dblp_key": "conf/ismir/LidyR06",
+        "keywords": [
+            "radio stations",
+            "online streams",
+            "broadcast",
+            "audio feature extraction",
+            "genre discrimination",
+            "profiles",
+            "Self-Organizing Map",
+            "program type",
+            "program content",
+            "potential listeners"
+        ]
     },
     {
         "title": "The Significance of the Non-Harmonic &quot;Noise&quot; Versis the Harmonic Series for Musical Instrument Recognition.",
@@ -719,7 +1175,19 @@
         "ee": "https://zenodo.org/records/1416538/files/LivshinR06.pdf",
         "abstract": "Sound produced by Musical instruments with definite pitch consists of the Harmonic Series and the non- harmonic Residual. It is common to treat the Harmonic Series as the main characteristic of the timbre of pitched musical instruments. But does the Harmonic Series indeed contain the complete information required for discriminating among different musical instruments? Could the non-harmonic Residual, the \u201cnoise\u201d, be used all by itself for instrument recognition? The paper begins by performing musical instrument recognition with an extensive sound collection using a large set of feature descriptors, achieving a high instrument recognition rate. Next, using Additive Analysis/Synthesis, each sound sample is resynthesized using solely its Harmonic Series. These \u201cHarmonic\u201d samples are then subtracted from the original samples to retrieve the non-harmonic Residuals. Instrument recognition is performed on the resynthesized and the \u201cResidual\u201d sound sets. The paper shows that the Harmonic Series by itself is indeed enough for achieving a high instrument recognition rate; however, the non- harmonic Residuals by themselves can also be used for distinguishing among musical instruments, although with lesser success. Using feature selection, the best 10 feature descriptors for instrument recognition out of our extensive feature set are presented for the Original, Harmonic and Residual sound sets. Keywords: instrument recognition, musical instruments, residual, noise, harmonic series, pitch",
         "zenodo_id": 1416538,
-        "dblp_key": "conf/ismir/LivshinR06"
+        "dblp_key": "conf/ismir/LivshinR06",
+        "keywords": [
+            "Harmonic Series",
+            "Non-harmonic Residual",
+            "Instrument recognition",
+            "Pitch",
+            "Additive Analysis/Synthesis",
+            "Resynthesized",
+            "Feature descriptors",
+            "Feature selection",
+            "Musical instruments",
+            "Noise"
+        ]
     },
     {
         "title": "Low Level Descriptors for Automatic Violin Transcription.",
@@ -734,7 +1202,19 @@
         "ee": "https://zenodo.org/records/1416020/files/LoscosWB06.pdf",
         "abstract": "On top of previous work in automatic violin transcription we present a set of straight forward low level descriptors for assisting the transcription techniques and saving computational cost. Proposed descriptors have been tested against a database of 1500 violin notes and double stops. Keywords: Violin, Automatic Transcription.",
         "zenodo_id": 1416020,
-        "dblp_key": "conf/ismir/LoscosWB06"
+        "dblp_key": "conf/ismir/LoscosWB06",
+        "keywords": [
+            "Automatic",
+            "Violin",
+            "Transcription",
+            "Low",
+            "Level",
+            "Descriptors",
+            "Assisting",
+            "Computational",
+            "Cost",
+            "Database"
+        ]
     },
     {
         "title": "Separating voices in MIDI.",
@@ -748,7 +1228,19 @@
         "ee": "https://zenodo.org/records/1414752/files/MadsenW06.pdf",
         "abstract": "This paper presents an algorithm for converting midi events into logical voices. The algorithm is fundamentally based on the pitch proximity principle. New heuristics are intro- duced and evaluated in order to handle unsolved situations. The algorithm is tested on ground truth data: inventions and fugues by J. S. Bach. Due to its left to right processing it also runs on real time input. Keywords: Voice separation, Stream separation",
         "zenodo_id": 1414752,
-        "dblp_key": "conf/ismir/MadsenW06"
+        "dblp_key": "conf/ismir/MadsenW06",
+        "keywords": [
+            "algorithm",
+            "midi events",
+            "logical voices",
+            "pitch proximity principle",
+            "heuristics",
+            "unsolved situations",
+            "ground truth data",
+            "J. S. Bach",
+            "left to right processing",
+            "real time input"
+        ]
     },
     {
         "title": "Music Summarization Via Key Distributions: Analyses of Similarity Assessment Across Variations.",
@@ -762,7 +1254,19 @@
         "ee": "https://zenodo.org/records/1418295/files/MardirossianC06.pdf",
         "abstract": "This paper presents a computationally efficient method for quantifying the degree of tonal similarity between two pieces of music. The properties we examine are key frequencies and average time in key, and we propose two metrics, based on the L 1 and L 2 norms, for quantifying similarity using these descriptors. The methods are applied to 711 classical themes and variations over 71 variation sets by 10 composers of different genres. Quantile-quantile plots and the Kolmogorov-Smirnov measure show that the proposed metrics exhibit strongly distinct behaviour when assessing pieces from the same variation set, and those that are not. Comparisons across variation sets by the same composer, and comparisons of pieces by different composers although result in similar distributions, are derived from fundamentally different underlying distributions, according to the K-S measure. We present probabilistic analyses of the two methods based on the distributions derived empirically. When the discrimination threshold is set at 55, the probabilities of Type I and Type II errors are 18.41% and 20.56% respectively for Method 1, and 15.72% and 22.94% respectively for Method 2. Method 1 has a success rate of 99.48% when labeling pieces as dissimilar (not from the same variation set), while the corresponding rate for Method 2 is 99.45%. Keywords: Music similarity, similarity assessment, music representation, music summarization, key distribution, pitch, music information retrieval.",
         "zenodo_id": 1418295,
-        "dblp_key": "conf/ismir/MardirossianC06"
+        "dblp_key": "conf/ismir/MardirossianC06",
+        "keywords": [
+            "quantitative",
+            "tonal similarity",
+            "music",
+            "L 1 norm",
+            "L 2 norm",
+            "key frequencies",
+            "average time in key",
+            "711 classical themes",
+            "71 variation sets",
+            "10 composers"
+        ]
     },
     {
         "title": "A Mid-level Melody-based Representation for Calculating Audio Similarity.",
@@ -790,7 +1294,19 @@
         "ee": "https://zenodo.org/records/1416060/files/MayerLR06.pdf",
         "abstract": "We present a study on using a Mnemonic Self-Organizing Map for clustering a very homogeneous collection of mu- sic. In particular, we create a map containing the complete works of Wolfgang Amadeus Mozart. We study and analyze the clustering capabilities of the SOM on this very focused collection. We furthermore present a web-based application for exploring the map and accessing the music it represents. Keywords: Self-Organizing Map, Clustering, Explorative Search",
         "zenodo_id": 1416060,
-        "dblp_key": "conf/ismir/MayerLR06"
+        "dblp_key": "conf/ismir/MayerLR06",
+        "keywords": [
+            "Self-Organizing Map",
+            "Clustering",
+            "Explorative Search",
+            "Mnemonic Self-Organizing Map",
+            "Wolfgang Amadeus Mozart",
+            "Music",
+            "Homogeneous Collection",
+            "Web-based Application",
+            "Complete Works",
+            "Study"
+        ]
     },
     {
         "title": "Overview of OMEN.",
@@ -805,7 +1321,19 @@
         "ee": "https://zenodo.org/records/1418171/files/McEnnisMF06.pdf",
         "abstract": "This paper introduces OMEN (On-demand Metadata Extraction Network), which addresses a fundamental problem in MIR: the lack of universal access to a large dataset containing significant amounts of copyrighted music. This is accomplished by utilizing the large collections of digitized music available at many libraries. Using OMEN, libraries will be able to perform on-demand feature extraction on site, returning feature values to researchers instead of providing direct access to the recordings themselves. This avoids copyright difficulties, since the underlying music never leaves the library that owns it. The analysis is performed using grid-style computation on library machines that are otherwise under- used (e.g., devoted to patron web and catalogue use). Keywords: Music database, datasets, feature extraction, distributed computing",
         "zenodo_id": 1418171,
-        "dblp_key": "conf/ismir/McEnnisMF06"
+        "dblp_key": "conf/ismir/McEnnisMF06",
+        "keywords": [
+            "Music database",
+            "datasets",
+            "feature extraction",
+            "distributed computing",
+            "libraries",
+            "on-demand feature extraction",
+            "copyright difficulties",
+            "digitized music",
+            "grid-style computation",
+            "under-used machines"
+        ]
     },
     {
         "title": "jAudio: Additions and Improvements.",
@@ -820,7 +1348,19 @@
         "ee": null,
         "abstract": "Supplementary files to Genome-wide Bioinformatics Analysis Reveals the Deduced Evolutionary Origin of BnGRAS genes in Brassica Genus.",
         "zenodo_id": 5793205,
-        "dblp_key": "conf/ismir/McEnnisMF06a"
+        "dblp_key": "conf/ismir/McEnnisMF06a",
+        "keywords": [
+            "Genome-wide",
+            "Bioinformatics",
+            "Analysis",
+            "Deduced",
+            "Evolutionary",
+            "Origin",
+            "BnGRAS",
+            "genes",
+            "Brassica",
+            "Genus"
+        ]
     },
     {
         "title": "Musical genre classification: Is it worth pursuing and how can it be improved?",
@@ -834,7 +1374,19 @@
         "ee": "https://zenodo.org/records/1417417/files/McKayF06.pdf",
         "abstract": "Research in automatic genre classification has been pro- ducing increasingly small performance gains in recent years, with the result that some have suggested that such research should be abandoned in favor of more general similarity research. It has been further argued that genre classification is of limited utility as a goal in itself because of the ambiguities and subjectivity inherent to genre. This paper presents a number of counterarguments that emphasize the importance of continuing research in auto- matic genre classification. Specific strategies for overcom- ing current performance limitations are discussed, and a brief review of background research in musicology and psychology relating to genre is presented. Insights from these highly relevant fields are generally absent from dis- course within the MIR community, and it is hoped that this will help to encourage a more multi-disciplinary approach to automatic genre classification in the future. Keywords: Genre, classification, music, improvements.",
         "zenodo_id": 1417417,
-        "dblp_key": "conf/ismir/McKayF06"
+        "dblp_key": "conf/ismir/McKayF06",
+        "keywords": [
+            "performance gains",
+            "abandonment",
+            "utility",
+            "ambiguities",
+            "subjectivity",
+            "counterarguments",
+            "strategies",
+            "current limitations",
+            "review",
+            "insights"
+        ]
     },
     {
         "title": "A Large Publicly Accassible Prototype Audio Database for Music Research.",
@@ -849,7 +1401,19 @@
         "ee": "https://zenodo.org/records/1416652/files/McKayMF06.pdf",
         "abstract": "This paper introduces Codaich, a large and diverse publicly accessible database of musical recordings for use in music information retrieval (MIR) research. The issues that must be dealt with when constructing such a database are dis- cussed, as are ways of addressing these problems. It is sug- gested that copyright restrictions may be overcome by al- lowing users to make customized feature extraction queries rather than allowing direct access to recordings themselves. The jMusicMetaManager software is introduced as a tool for improving metadata associated with recordings by auto- matically detecting inconsistencies and redundancies. Keywords: Music database, MP3s, features, metadata.",
         "zenodo_id": 1416652,
-        "dblp_key": "conf/ismir/McKayMF06"
+        "dblp_key": "conf/ismir/McKayMF06",
+        "keywords": [
+            "Music database",
+            "MP3s",
+            "features",
+            "metadata",
+            "Music information retrieval (MIR)",
+            "copyright restrictions",
+            "customized feature extraction queries",
+            "jMusicMetaManager",
+            "auto-detect inconsistencies",
+            "auto-detect redundancies"
+        ]
     },
     {
         "title": "Problems and Opportunities of Applying Data- &amp; Audio-Mining Techniques to Ethnic Music.",
@@ -869,7 +1433,19 @@
         "ee": "https://zenodo.org/records/1417787/files/MoelantsCLGCTMH06.pdf",
         "abstract": "Current research in music information retrieval focuses on Western music. In music from other cultures, both musical structures and thinking about music can be very different. This creates problems for both the analysis of musical features and the construction of databases. On the other hand, a well-documented digitization offers interesting opportunities for the study and spread of \u2018endangered\u2019 music. Here, some general problems regarding the digital indexation of ethnic music are given, illustrated with a method for describing pitch structure, comparing Western standards with African music found in the digitization of the archives of the Royal Museum of Central-Africa in Tervuren (Brussels). Keywords: ethnic music, Africa, pitch, archiving, databases, cultural heritage",
         "zenodo_id": 1417787,
-        "dblp_key": "conf/ismir/MoelantsCLGCTMH06"
+        "dblp_key": "conf/ismir/MoelantsCLGCTMH06",
+        "keywords": [
+            "ethnic music",
+            "African music",
+            "pitch structure",
+            "digitization",
+            "archives",
+            "cultural heritage",
+            "Western music",
+            "database",
+            "research",
+            "analysis"
+        ]
     },
     {
         "title": "Name that mood! Describe that tune! Invitation to the IMP.",
@@ -882,7 +1458,19 @@
         "ee": "https://zenodo.org/records/1418187/files/Mountain06.pdf",
         "abstract": "The ongoing research project The Interactive Multimedia Playroom (IMP) was established to stimulate discourse about issues relating to our perception and description of sounds in artistic and multimedia contexts. Although it was originally conceived to help develop better analytical tools for music, the unique and playful design is well-adapted to helping establish common references for potential collaborators in media arts.  As the team working on the project development includes experts in psychology as well as creative artists and theorists, the format of the project is being designed to maximize its transfer to psychological studies.  Unlike most psychological studies, however, we are particularly interested in the reactions of those intimately involved in the arts, and ask participants to comment on the suitability of the terminology, perceived relevance of the questions, etc.  It is believed that the issues being addressed by the project are fundamental ones which could have high relevance for MIR research, including descriptors, sound-image associations, and the recognition of salient characteristics of a musical excerpt.",
         "zenodo_id": 1418187,
-        "dblp_key": "conf/ismir/Mountain06"
+        "dblp_key": "conf/ismir/Mountain06",
+        "keywords": [
+            "The Interactive Multimedia Playroom (IMP)",
+            "stimulate discourse",
+            "perception and description of sounds",
+            "analytical tools for music",
+            "media arts",
+            "format design",
+            "psychological studies",
+            "arts reactions",
+            "fundamental issues",
+            "MIR research"
+        ]
     },
     {
         "title": "An Efficient Multiscale Approach to Audio Synchronization.",
@@ -897,7 +1485,19 @@
         "ee": "https://zenodo.org/records/1417409/files/MullerMK06.pdf",
         "abstract": "We present an efficient and robust multiscale DTW (Ms- DTW) approach to music synchronization for time-aligning CD recordings of different interpretations of the same piece. The general strategy is to recursively project an alignment path computed at a coarse resolution level to the next higher level and then to refine the projected path. As main contribu- tions, we address several crucial issues including the design and specification of robust and scalable audio features, suit- able local cost measures, MsDTW levels, constraint regions, as well as sampling rate adaptation and structural enhance- ment strategies. Extensive experiments on Western classi- cal music show that our MsDTW-based algorithm yields the same alignment result as the classical DTW-based strategy while significantly reducing the running time and memory requirements. Even for pieces of a duration of 10 to 15 min- utes, the alignment (based on previously extracted feature sequences) can be computed in less than a second. Keywords: audio synchronization, alignment, multiscale, chroma feature",
         "zenodo_id": 1417409,
-        "dblp_key": "conf/ismir/MullerMK06"
+        "dblp_key": "conf/ismir/MullerMK06",
+        "keywords": [
+            "audio synchronization",
+            "alignment",
+            "multiscale DTW",
+            "chroma feature",
+            "audio features",
+            "local cost measures",
+            "sampling rate adaptation",
+            "structural enhancement",
+            "running time",
+            "memory requirements"
+        ]
     },
     {
         "title": "Globally Optimal Audio Partitioning.",
@@ -911,7 +1511,19 @@
         "ee": "https://zenodo.org/records/1416846/files/NicholsR06.pdf",
         "abstract": "We present a technique for partitioning an audio file into maximally-sized segments having nearly uniform spec- tral content, ideally corresponding to notes or chords. Our method uses dynamic programming to globally optimize a measure of simplicity or homogeneity of the intervals in the partition. Here we have focused on an entropy-like mea- sure, though there is considerable flexibility in choosing this measure. Experiments are presented for several musical scenarios. 1 Keywords: audio partitioning, dynamic programming",
         "zenodo_id": 1416846,
-        "dblp_key": "conf/ismir/NicholsR06"
+        "dblp_key": "conf/ismir/NicholsR06",
+        "keywords": [
+            "audio partitioning",
+            "dynamic programming",
+            "entropy-like measure",
+            "spectral content",
+            "global optimization",
+            "musical scenarios",
+            "partitioning technique",
+            "uniform spectral content",
+            "notes or chords",
+            "measure of simplicity"
+        ]
     },
     {
         "title": "Key Estimation Using a Hidden Markov Model.",
@@ -925,7 +1537,19 @@
         "ee": "https://zenodo.org/records/1415800/files/NolandS06.pdf",
         "abstract": "A novel technique to estimate the predominant key in a mu- sical excerpt is proposed. The key space is modelled by a 24-state Hidden Markov Model (HMM), where each state represents one of the 24 major and minor keys, and each observation represents a chord transition, or pair of consec- utive chords. The use of chord transitions as the observa- tions models a greater temporal dependency between con- secutive chords than would observations of single chords. The key transition and chord emission probabilities are ini- tialised using the results of perceptual tests in order to reflect the human expectation of harmonic relationships. HMM pa- rameters are then trained on a per-song basis using hand- annotated chord symbols, before the model for each song is decoded to give the likelihood of each key at each time frame. Examples of the algorithm as a segmentation tech- nique are given, and its capability to estimate the overall key of a song is evaluated using a data set of 110 Beatles songs, of which 91% were correctly classified. An extension to in- clude operation from audio data instead of chord symbols is planned, which will enable application to general music retrieval purposes. Keywords: Key estimation, chords, harmony, HMM.",
         "zenodo_id": 1415800,
-        "dblp_key": "conf/ismir/NolandS06"
+        "dblp_key": "conf/ismir/NolandS06",
+        "keywords": [
+            "key estimation",
+            "chords",
+            "harmony",
+            "HMM",
+            "musical excerpt",
+            "major and minor keys",
+            "temporal dependency",
+            "perceptual tests",
+            "human expectation",
+            "song classification"
+        ]
     },
     {
         "title": "Perceptual evaluation of music similarity.",
@@ -940,7 +1564,19 @@
         "ee": "https://zenodo.org/records/1416700/files/NovelloMK06.pdf",
         "abstract": "This paper presents an empirical method for assessing mu- sic similarity on a set of stimuli using triadic comparisons in a balanced incomplete block design. We first evaluated the consistency of subjects in their rankings and then the con- cordance across subjects. The concordance was also evalu- ated for different subject populations to assess the influence of experience of the subject with the musical material. We finally analysed subjects\u2019 ranking by the means of multidi- mensional scaling. Similarity judgments were found to be rather concordant across subjects. Significant differences between musicians and non-musicians and between subjects being familiar or non-familiar with the music were found for a small number of cases. Multidimensional scaling reveals a proximity of songs belonging to the same genre, congruent with the idea of genre being a perceptual dimension in subjects\u2019 similarity ranking. Keywords: Perception, Music, Music Similarity.",
         "zenodo_id": 1416700,
-        "dblp_key": "conf/ismir/NovelloMK06"
+        "dblp_key": "conf/ismir/NovelloMK06",
+        "keywords": [
+            "empirical",
+            "music similarity",
+            "triadic comparisons",
+            "balanced incomplete block design",
+            "subject rankings",
+            "subject populations",
+            "multidimensional scaling",
+            "genre perception",
+            "genre similarity",
+            "musicians vs non-musicians"
+        ]
     },
     {
         "title": "PAPA: Physiology and Purpose-Aware Automatic Playlist Generation.",
@@ -954,7 +1590,19 @@
         "ee": "https://zenodo.org/records/1416794/files/OliverK06.pdf",
         "abstract": "In this paper we present PAPA, a novel approach for au- tomatically generating playlists. The proposed framework utilizes the user\u2019s physiological response to music, together with traditional song meta-data to generate a playlist the user will not only enjoy, but which will assist him or her in achieving various user-defined goals (\u201cpurpose\u201d). In ad- dition to outlining the generic framework, we present an ex- emplary application named MPTrain that (1) creates a playlist in real-time to assist users in achieving specific exercise goals; and (2) incorporates the user\u2019s physiological response to the music to determine the next song to play. Keywords: Automatic Playlist Generation, Physiological Mon- itoring, User Modeling",
         "zenodo_id": 1416794,
-        "dblp_key": "conf/ismir/OliverK06"
+        "dblp_key": "conf/ismir/OliverK06",
+        "keywords": [
+            "Automatic Playlist Generation",
+            "Physiological Monitoring",
+            "User Modeling",
+            "Exercise Goals",
+            "Real-time Playlist Creation",
+            "Song Meta-Data",
+            "Users Physiological Response",
+            "PAPA Framework",
+            "MPTrain Application",
+            "Music-Assisted Exercise"
+        ]
     },
     {
         "title": "MusicRainbow: A New User Interface to Discover Artists Using Audio-based Similarity and Web-based Labeling.",
@@ -968,7 +1616,19 @@
         "ee": "https://zenodo.org/records/1417313/files/PampalkG06.pdf",
         "abstract": "In this paper we present MusicRainbow which is a simple in- terface for discovering artists where colors encode different types of music. MusicRainbow is based on a new audio- based approach to compute artist similarity. This approach scores 15 percentage points higher in a genre classification task than the similarity computed on track level. Using a traveling salesman algorithm, similar artists are mapped near each other on a circular rainbow. Furthermore, we present a new approach of combining this audio-based information with information from the web. In particular, we label the rainbow and summarize the artists with words extracted from web pages related to the artists. We use different vocabular- ies for different hierarchical levels and heuristics to select the most descriptive labels. We conclude with a discussion of the results. The first impressions are very promising.",
         "zenodo_id": 1417313,
-        "dblp_key": "conf/ismir/PampalkG06"
+        "dblp_key": "conf/ismir/PampalkG06",
+        "keywords": [
+            "MusicRainbow",
+            "simple interface",
+            "discovering artists",
+            "colors encode different types of music",
+            "audio-based approach",
+            "genre classification task",
+            "traveling salesman algorithm",
+            "web information",
+            "labeling rainbow",
+            "summarizing artists"
+        ]
     },
     {
         "title": "An Implementation of a Simple Playlist Generator Based on Audio Similarity Measures and User Feedback.",
@@ -982,7 +1642,19 @@
         "ee": "https://zenodo.org/records/1415130/files/PampalkG06a.pdf",
         "abstract": "This paper presents an implementation of a simple playlist generator. An audio-based music similarity measure and simple heuristics are used to create playlists given minimum user input. The ultimate goal of this work is to conduct a field study, i.e., to run the system on the users\u2019 personal col- lection and study the usage behavior over a longer period of time. The functions include, for example, allowing the user to control the variance of the playlists in terms of how often the same song or songs from the same artists are repeated.",
         "zenodo_id": 1415130,
-        "dblp_key": "conf/ismir/PampalkG06a"
+        "dblp_key": "conf/ismir/PampalkG06a",
+        "keywords": [
+            "playlist generator",
+            "audio-based music similarity",
+            "field study",
+            "personal collection",
+            "usage behavior",
+            "longer period of time",
+            "user control",
+            "variance of playlists",
+            "songs from the same artists",
+            "simple heuristics"
+        ]
     },
     {
         "title": "Musical Key Extraction from Audio Using Profile Training.",
@@ -997,7 +1669,19 @@
         "ee": "https://zenodo.org/records/1417879/files/ParMR06.pdf",
         "abstract": "A new method is presented for extracting the musical key from raw audio data. The method is based on the extrac- tion of chromagrams using a new approach for tonal com- ponent selection taking into account auditory masking. The extracted chromagrams were used to train three key profiles for major and three key profiles for minor keys. The three trained key profiles differ in their temporal weighting of in- formation across the duration of the song. One profile is based on uniform weighting while the other two apply em- phasis on the beginning and ending of the song, respectively. The actual key extraction is based on comparing the key pro- files with three average chromagrams that were extracted from a particular piece of music using the same temporal weighting functions as used for the key profile training. A correct key classification of 98% was achieved using non- overlapping test and training sets drawn from a larger set of 237 CD recordings of classical piano sonatas. Keywords: Key Extraction, Chromagram, Audio, Music.",
         "zenodo_id": 1417879,
-        "dblp_key": "conf/ismir/ParMR06"
+        "dblp_key": "conf/ismir/ParMR06",
+        "keywords": [
+            "chromagrams",
+            "tonal component selection",
+            "auditory masking",
+            "key profiles",
+            "major keys",
+            "minor keys",
+            "temporal weighting",
+            "average chromagrams",
+            "key extraction",
+            "non-overlapping test and training sets"
+        ]
     },
     {
         "title": "Fast Generation of Optimal Music Playlists using Local Search.",
@@ -1012,7 +1696,19 @@
         "ee": "https://zenodo.org/records/1417050/files/PauwsVV06.pdf",
         "abstract": "We present an algorithm for use in an interactive music sys- tem that automatically generates music playlists that fit the music preferences given by a user. To this end, we introduce a formal model, define the problem of automatic playlist generation (APG) and indicate its NP-hardness. We use a local search (LS) procedure based on simulated annealing (SA) to solve the APG problem. In order to employ this LS procedure, we introduce an optimization variant of the APG problem, which includes the definition of penalty functions and a neighborhood structure. To improve upon the per- formance of the standard SA algorithm, we incorporated three heuristics referred to as song domain reduction, par- tial constraint voting, and two-level neighborhood structure. In tests, LS performed better than a constraint satisfaction (CS) solution in terms of run time, scalability and playlist quality. Keywords: local search, simulated annealing, music playlist generation, music retrieval.",
         "zenodo_id": 1417050,
-        "dblp_key": "conf/ismir/PauwsVV06"
+        "dblp_key": "conf/ismir/PauwsVV06",
+        "keywords": [
+            "algorithm",
+            "interactive music system",
+            "automatic music playlist generation",
+            "formal model",
+            "problem of automatic playlist generation",
+            "NP-hardness",
+            "local search procedure",
+            "simulated annealing",
+            "song domain reduction",
+            "partial constraint voting"
+        ]
     },
     {
         "title": "Chroma-based estimation of musical key from audio-signal analysis.",
@@ -1025,7 +1721,19 @@
         "ee": "https://zenodo.org/records/1416420/files/Peeters06.pdf",
         "abstract": "This paper deals with the automatic estimation of key (key- note and mode) of a music track from the analysis of its audio signal. Such a system usually relies on a succes- sion of processes, each one making hypotheses about either the signal content or the music content: spectral representa- tion, mapping to chroma, decision about the global key of the music piece. We review here the underlying hypothe- ses, compare them and propose improvements over current state of the art. In particular, we propose the use of a Har- monic Peak Subtraction algorithm as a front-end of the sys- tem and evaluate the performance of an approach based on hidden Markov models. We then compare our approach with other approaches in an evaluation using a database of 302 baroque, classical and romantic music tracks. Keywords: key estimation, pitch representation, Harmonic Peak Subtraction, hidden Markov model",
         "zenodo_id": 1416420,
-        "dblp_key": "conf/ismir/Peeters06"
+        "dblp_key": "conf/ismir/Peeters06",
+        "keywords": [
+            "key estimation",
+            "pitch representation",
+            "Harmonic Peak Subtraction",
+            "hidden Markov model",
+            "audio signal analysis",
+            "automatic system",
+            "music track",
+            "spectral representation",
+            "chroma mapping",
+            "global key determination"
+        ]
     },
     {
         "title": "A computationally efficient speech/music discriminator for radio recordings.",
@@ -1040,7 +1748,19 @@
         "ee": "https://zenodo.org/records/1414862/files/PikrakisGT06.pdf",
         "abstract": "This paper presents a speech/music discriminator for radio recordings, based on a new and computationally efficient re- gion growing technique, that bears its origins in the field of image segmentation. The proposed scheme operates on a single feature, a variant of the spectral entropy, which is ex- tracted from the audio recording by means of a short-term processing technique. The proposed method has been tested on recordings from radio stations broadcasting over the In- ternet and, despite its simplicity, has proved to yield perfor- mance results comparable to more sophisticated approaches. Keywords: Speech/music discrimination, spectral-entropy, region growing techniques",
         "zenodo_id": 1414862,
-        "dblp_key": "conf/ismir/PikrakisGT06"
+        "dblp_key": "conf/ismir/PikrakisGT06",
+        "keywords": [
+            "speech/music discriminator",
+            "region growing technique",
+            "audio recordings",
+            "spectral entropy",
+            "Internet radio stations",
+            "performance results",
+            "sophisticated approaches",
+            "short-term processing",
+            "radio recordings",
+            "field of image segmentation"
+        ]
     },
     {
         "title": "Independent Component Analysis for Music Similarity Computation.",
@@ -1056,7 +1776,19 @@
         "ee": "https://zenodo.org/records/1417877/files/PohleKSW06.pdf",
         "abstract": "In the recent years, a number of publications have ap- peared that deal with automatically calculating the similar- ity of music tracks. Most of them are based on features that are not intuitively understandable to humans, as they do not have a musically meaningful counterpart, but are merely measures of basic physical properties of the audio signal. Furthermore, most of these algorithms do not take into ac- count the temporal development of the audio signal, which certainly is an important aspect of music. All of them con- sider the musical signal as a whole, not trying to reconstruct the listening process of dividing the signal into a number of sources. In this work, we present a novel approach to fill this gap by combining a number of existing ideas. At the heart of our approach, Independent Component Analysis (ICA) de- composes an audio signal into individual parts that appear maximally independent from each other. We present one basic algorithm to use these components for similarity com- putations, and evaluate a number of modifications to it with respect to genre classification accuracy. Our results indicate that this approach is at least of similar quality as many ex- isting feature extraction routines. Keywords: audio feature extraction, music similarity com- putation",
         "zenodo_id": 1417877,
-        "dblp_key": "conf/ismir/PohleKSW06"
+        "dblp_key": "conf/ismir/PohleKSW06",
+        "keywords": [
+            "audio feature extraction",
+            "music similarity computation",
+            "independent component analysis",
+            "genre classification",
+            "temporal development",
+            "basic physical properties",
+            "musically meaningful counterpart",
+            "novel approach",
+            "splitting audio signal",
+            "reconstructing listening process"
+        ]
     },
     {
         "title": "Optical Music Recognitoin of Early Typographic Prints using Hidden Markov Models.",
@@ -1069,7 +1801,19 @@
         "ee": "https://zenodo.org/records/1416974/files/Pugin06.pdf",
         "abstract": "Music printed with movable type (typographic music) from the 16th and 17th centuries contains specific graphic fea- tures. In this paper, we present a technique and associ- ated experiments for performing optical music recognition on such music prints using Hidden Markov Models (HMM). Our original approach avoids the difficult and unreliable re- moval of staff lines usually required before processing. The modeling of symbols on the staff is based on low-level sim- ple features. We show that, using our technique, these fea- tures are robust enough to obtain good recognition rates even with poor quality images scanned from microfilm of origi- nals. The music content retrieved by the optical recognition process can be put to significant use in, for example, the creation of searchable digital music libraries. Keywords: OMR, Early typographic prints, HMM",
         "zenodo_id": 1416974,
-        "dblp_key": "conf/ismir/Pugin06"
+        "dblp_key": "conf/ismir/Pugin06",
+        "keywords": [
+            "Hidden Markov Models",
+            "Optical Music Recognition",
+            "Staff Lines",
+            "Low-Level Features",
+            "Microfilm",
+            "Digital Music Libraries",
+            "Searchable Libraries",
+            "Early Typography",
+            "Movable Type",
+            "Music Recognition"
+        ]
     },
     {
         "title": "A Study on Music Genre Classification Based on Universal Acoustic Models.",
@@ -1083,7 +1827,19 @@
         "ee": "https://zenodo.org/records/1417255/files/ReedL06.pdf",
         "abstract": "Classification of musical genres gives a useful measure of similarity and is often the most useful descriptor of a musical piece.  Previous techniques to use hidden Markov models (HMMs) for automatic genre classification have used a single HMM to model an entire song or genre.  This paper provides a framework to give finer segmentation of HMMs through acoustic segment modeling.  Modeling each of these acoustic segments with an HMM builds a timbral dictionary in the same fashion that one would create a phonetic dictionary for speech.  A symbolic transcription is created by finding the most likely sequence of symbols.  These transcriptions then serve as inputs into an efficient text classifier utilized to provide a solution to the genre classification problem.  This paper demonstrates that language-ignorant approaches provide results that are consistent with the current state-of-the-art for the genre classification problem.  However, the finer segmentation potentially allows for \u201cmusical language\u201d-based syntactic rules to enhance performance. Keywords: musical genres, acoustic segment models, hidden Markov models, latent-semantic indexing",
         "zenodo_id": 1417255,
-        "dblp_key": "conf/ismir/ReedL06"
+        "dblp_key": "conf/ismir/ReedL06",
+        "keywords": [
+            "musical genres",
+            "acoustic segment modeling",
+            "timbral dictionary",
+            "symbolic transcription",
+            "text classifier",
+            "genre classification problem",
+            "language-ignorant approaches",
+            "musical language",
+            "syntactic rules",
+            "performance"
+        ]
     },
     {
         "title": "Ask a Librarian: The Role of Librarians in the Music Information Retrieval Community.",
@@ -1097,7 +1853,19 @@
         "ee": "https://zenodo.org/records/1414986/files/RileyM06.pdf",
         "abstract": "Participation from music librarians has been sparse in the first six ISMIR conferences, despite many potential areas of common interest. This paper makes an argument for the benefit to both the library and Music IR communities of increased representation of librarians at ISMIR. An analysis of conference programs and primary publications of two music library organizations to determine topics from the library literature relevant to Music IR research is presented. A discussion follows of expertise music librarians could potentially contribute to Music IR research and the ways in which Music IR research could further the work of music librarians, in each of the topics represented in the library literature. Keywords: Music librarians, ISMIR.",
         "zenodo_id": 1414986,
-        "dblp_key": "conf/ismir/RileyM06"
+        "dblp_key": "conf/ismir/RileyM06",
+        "keywords": [
+            "Music librarians",
+            "ISMIR conferences",
+            "Music IR communities",
+            "Increased representation",
+            "Library literature",
+            "Music IR research",
+            "Expertise contribution",
+            "Music librarians work",
+            "Music IR research",
+            "Music librarians work"
+        ]
     },
     {
         "title": "A Pattern Recognition Approach for Melody Track Selection in MIDI Files.",
@@ -1114,7 +1882,19 @@
         "ee": "https://zenodo.org/records/1417419/files/RizoLPPI06.pdf",
         "abstract": "Standard MIDI files contain data that can be considered as a symbolic representation of music (a digital score), and most of them are structured as a number of tracks. One of them usually contains the melodic line of the piece, while the other tracks contain accompaniment music. The goal of this work is to identify the track that contains the melody us- ing statistical properties of the musical content and pattern recognition techniques. Finding that track is very useful for a number of applications, like speeding up melody match- ing when searching in MIDI databases or motif extraction, among others. First, a set of descriptors from each track of the target file are extracted. These descriptors are the input to a random forest classifier that assigns the probability of being a melodic line to each track. The track with the high- est probability is selected as the one containing the melodic line of that MIDI file. Promising results have been obtained testing a number of databases of different music styles. Keywords: Melody finding, musical analysis, symbolic rep- resentation, music perception.",
         "zenodo_id": 1417419,
-        "dblp_key": "conf/ismir/RizoLPPI06"
+        "dblp_key": "conf/ismir/RizoLPPI06",
+        "keywords": [
+            "Standard MIDI files",
+            "symbolic representation of music",
+            "melodic line identification",
+            "pattern recognition techniques",
+            "motif extraction",
+            "MIDI databases",
+            "music styles",
+            "random forest classifier",
+            "probability assignment",
+            "high probability track"
+        ]
     },
     {
         "title": "Evaluation of the Technical Leval of Saxophone Performers by Considering the Evolution of Spectral Parameters of the Sound.",
@@ -1128,7 +1908,19 @@
         "ee": "https://zenodo.org/records/1416620/files/RobineL06.pdf",
         "abstract": "We introduce in this paper a new method to evaluate the technical level of a musical performer, by considering only the evolutions of the spectral parameters during one tone. The proposed protocol may be considered as front end for music pedagogy related softwares that intend to provide feedback to the performer. Although this study only consid- ers alto saxophone recordings, the evaluation protocol in- tends to be as generic as possible and may surely be consid- ered for wider range of classical instruments from winds to bowed strings. Keywords: music education, performer skills evaluation, si- nusoidal modeling.",
         "zenodo_id": 1416620,
-        "dblp_key": "conf/ismir/RobineL06"
+        "dblp_key": "conf/ismir/RobineL06",
+        "keywords": [
+            "musical performer",
+            "spectral parameters",
+            "technical level",
+            "evolutions",
+            "pedagogy",
+            "feedback",
+            "music education",
+            "softwares",
+            "evaluation protocol",
+            "music instruments"
+        ]
     },
     {
         "title": "MIDI Music Genre Classification by Invariant Features.",
@@ -1142,7 +1934,19 @@
         "ee": "https://zenodo.org/records/1415744/files/RuppinY06.pdf",
         "abstract": "MIDI music genre classification methods are largely based on generic text classification techniques. We attempt to leverage music domain knowledge in order to improve classification results. We combine techniques of selection and extraction of musically invariant features with classification using compression distance similarity metric, which is an approximation of the theoretical, yet computationally intractable, Kolmogorov complexity. We introduce several methods for extracting features which are invariant under certain transformations commonly found in music. These methods, combined with data compression, generate a lossy compressed representation which attempts to preserve feature invariance. We analyze the performance of each method, thus gaining insight into the features that are significant to the human perception of music. Keywords: Genre classification, Kolmogorov complexity",
         "zenodo_id": 1415744,
-        "dblp_key": "conf/ismir/RuppinY06"
+        "dblp_key": "conf/ismir/RuppinY06",
+        "keywords": [
+            "MIDI music genre classification",
+            "music domain knowledge",
+            "musically invariant features",
+            "compression distance similarity",
+            "data compression",
+            "feature extraction",
+            "genre classification",
+            "Kolmogorov complexity",
+            "human perception",
+            "lossy compressed representation"
+        ]
     },
     {
         "title": "Transcription of the Singing Melody in Polyphonic Music.",
@@ -1156,7 +1960,19 @@
         "ee": "https://zenodo.org/records/1418291/files/RyynanenK06.pdf",
         "abstract": "This paper proposes a method for the automatic transcrip- tion of singing melodies in polyphonic music. The method is based on multiple-F0 estimation followed by acoustic and musicological modeling. The acoustic model consists of separate models for singing notes and for no-melody seg- ments. The musicological model uses key estimation and note bigrams to determine the transition probabilities be- tween notes. Viterbi decoding produces a sequence of notes and rests as a transcription of the singing melody. The per- formance of the method is evaluated using the RWC popular music database for which the recall rate was 63% and pre- cision rate 46%. A significant improvement was achieved compared to a baseline method from MIREX05 evaluations. Keywords: singing transcription, acoustic modeling, musi- cological modeling, key estimation, HMM",
         "zenodo_id": 1418291,
-        "dblp_key": "conf/ismir/RyynanenK06"
+        "dblp_key": "conf/ismir/RyynanenK06",
+        "keywords": [
+            "automatic transcription",
+            "polyphonic music",
+            "multiple-F0 estimation",
+            "acoustic modeling",
+            "musicological modeling",
+            "key estimation",
+            "note bigrams",
+            "Viterbi decoding",
+            "recall rate",
+            "precision rate"
+        ]
     },
     {
         "title": "Good Vibrations: Music Discovery through Personal Musical Concepts.",
@@ -1172,7 +1988,19 @@
         "ee": "https://zenodo.org/records/1418275/files/SandvoldACH06.pdf",
         "abstract": "We present here Good Vibrations, a tool for music tagging, exploration and discovery, shaped as a media player plugin, and intended for home users. The plugin allows the quick \u201dinvention\u201d of concepts and properties that can be tagged to songs. After some hours of active tagging, the plugin starts automatically proposing the proper tags to the user, who is also allowed to correct them. The plugin generates playlists according to the user-defined concepts, and recom- mends related music either from the user\u2019s personal collec- tion or from the Internet (through it\u2019s connection to Foafing the Music). The plugin runs, for the moment, in Nullsoft Winamp on Windows XP systems. Keywords: Playlist generation, music recommendation, mu- sic tagging, software tools.",
         "zenodo_id": 1418275,
-        "dblp_key": "conf/ismir/SandvoldACH06"
+        "dblp_key": "conf/ismir/SandvoldACH06",
+        "keywords": [
+            "Good Vibrations",
+            "media player plugin",
+            "home users",
+            "quick invention",
+            "song tagging",
+            "concept properties",
+            "automatic tagging",
+            "user-defined playlists",
+            "related music recommendation",
+            "Nullsoft Winamp"
+        ]
     },
     {
         "title": "Assigning and Visualizing Music Genres by Web-based Co-Occurrence Analysis.",
@@ -1188,7 +2016,19 @@
         "ee": "https://zenodo.org/records/1415176/files/SchedlPKW06.pdf",
         "abstract": "We explore a simple, web-based method for predicting the genre of a given artist based on co-occurrence analysis, i.e. analyzing co-occurrences of artist and genre names on mu- sic-related web pages. To this end, we use the page counts provided by Google to estimate the relatedness of an arbi- trary artist to each of a set of genres. We investigate four dif- ferent query schemes for obtaining the page counts and two different probabilistic approaches for predicting the genre of a given artist. Evaluation is performed on two test collec- tions, a large one with a quite general genre taxonomy and a quite small one with rather specific genres. Since our approach yields estimates for the relatedness of an artist to every genre of a given genre set, we can de- rive genre distributions which incorporate information about artists that cannot be assigned a single genre. This allows us to overcome the inflexible artist-genre assignment usu- ally used in music information systems. We present a sim- ple method to visualize such genre distributions with our Traveller\u2019s Sound Player. Finally, we briefly outline how to adapt the presented approach to extract other properties of music artists from the web. Keywords: Web Mining, Co-Occurrence Analysis, Genre Classification, Evaluation, User Interface",
         "zenodo_id": 1415176,
-        "dblp_key": "conf/ismir/SchedlPKW06"
+        "dblp_key": "conf/ismir/SchedlPKW06",
+        "keywords": [
+            "web-based method",
+            "co-occurrence analysis",
+            "genre prediction",
+            "music-related web pages",
+            "Google page counts",
+            "probabilistic approaches",
+            "genre distributions",
+            "artist-genre assignment",
+            "genre taxonomy",
+            "user interface"
+        ]
     },
     {
         "title": "Language Identification in Vocal Music.",
@@ -1204,7 +2044,19 @@
         "ee": "https://zenodo.org/records/1416574/files/SchwenningerBWH06.pdf",
         "abstract": "Language identification is an important field in spoken lan- guage processing. The identification of the language sung or spoken in music, however, has attracted only minor attention so far. This, however, is an important task when it comes to categorizing, classifying and labelling of music data. In this paper, we review our efforts of transferring well- established techniques from spoken language identification to the area of language identification in music. We present results of distinguishing German and English sung modern music and propose and evaluate techniques designed for im- proving the classification performance. These techniques involve limiting the classification on song segments that ap- pear to have vocals and on frames that are not distorted by heavy beat onsets.",
         "zenodo_id": 1416574,
-        "dblp_key": "conf/ismir/SchwenningerBWH06"
+        "dblp_key": "conf/ismir/SchwenningerBWH06",
+        "keywords": [
+            "Language identification",
+            "Music language identification",
+            "Spoken language processing",
+            "Minor attention",
+            "Music data categorization",
+            "Song segments",
+            "Frames",
+            "Vocals",
+            "Heavy beat onsets",
+            "Techniques evaluation"
+        ]
     },
     {
         "title": "Tempo Induction by Stream-Based Evaluation of Musical Events.",
@@ -1232,7 +2084,19 @@
         "ee": "https://zenodo.org/records/1417699/files/Selfridge-Field06.pdf",
         "abstract": "The automatic retrieval of members of a tune family from a database of melodies is potentially complicated by well documented divergences between textual metadata and mu- sical content. We examine recently reported cases of such divergences in search of musical features which persist even when titles change or the melodies themselves vary. We find that apart from meter and mode, the rate of pres- ervation of searchable musical features is low. Social and gestural factors appear to play a varying role in establish- ing the \u201cmelodic\u201d identity of widely transmitted songs. The rapid growth of social computing bring urgency to better understanding the different ways in which \u201csame\u201d or \u201csimi- lar\u201d can be defined. Keywords: melodic similarity, musical features, social cognition, tune families.",
         "zenodo_id": 1417699,
-        "dblp_key": "conf/ismir/Selfridge-Field06"
+        "dblp_key": "conf/ismir/Selfridge-Field06",
+        "keywords": [
+            "Automatic retrieval",
+            "Melodic features preservation",
+            "Social cognition",
+            "Tune families",
+            "Musical content divergence",
+            "Search urgency",
+            "Social computing growth",
+            "Similarity definition",
+            "Social and gestural factors",
+            "Divergences between textual metadata"
+        ]
     },
     {
         "title": "Joint Beat &amp; Tatum Tracking from Music Signals.",
@@ -1247,7 +2111,19 @@
         "ee": "https://zenodo.org/records/1417319/files/SeppanenEH06.pdf",
         "abstract": "This paper presents a method for extracting two key met- rical properties, the beat and the tatum, from acoustic sig- nals of popular music. The method is computationally very efficient while performing comparably to earlier methods. High efficiency is achieved through multirate accent analy- sis, discrete cosine transform periodicity analysis, and phase estimation by adaptive comb filtering. During analysis, the music signals are first represented in terms of accentuation on four frequency subbands, and then the accent signals are transformed into periodicity domain. Beat and tatum peri- ods and phases are estimated in a probabilistic setting, incor- porating primitive musicological knowledge of beat\u2013tatum relations, the prior distributions, and the temporal continu- ities of beats and tatums. In an evaluation with 192 songs, the beat tracking accuracy of the proposed method was found comparable to the state of the art. Complexity evaluation showed that the computational cost is less than 1% of earlier",
         "zenodo_id": 1417319,
-        "dblp_key": "conf/ismir/SeppanenEH06"
+        "dblp_key": "conf/ismir/SeppanenEH06",
+        "keywords": [
+            "beat",
+            "tatum",
+            "acoustic signals",
+            "popular music",
+            "computational efficiency",
+            "multirate accent analysis",
+            "discrete cosine transform periodicity analysis",
+            "phase estimation",
+            "adaptive comb filtering",
+            "musicological knowledge"
+        ]
     },
     {
         "title": "Mel Frequency Cepstral Coefficients: An Evaluation of Robustness of MP3 Encoded Music.",
@@ -1262,7 +2138,19 @@
         "ee": "https://zenodo.org/records/1417149/files/SigurdssonPL06.pdf",
         "abstract": "In large MP3 databases, files are typically generated with different parameter settings, i.e., bit rate and sampling rates. This is of concern for MIR applications, as encoding dif- ference can potentially confound meta-data estimation and similarity evaluation. In this paper we will discuss the in- fluence of MP3 coding for the Mel frequency cepstral coe- ficients (MFCCs). The main result is that the widely used subset of the MFCCs is robust at bit rates equal or higher than 128 kbits/s, for the implementations we have investi- gated. However, for lower bit rates, e.g., 64 kbits/s, the im- plementation of the Mel filter bank becomes an issue. Keywords: Mel frequency cepstral coefficients, MFCC, ro- bustness, MP3.",
         "zenodo_id": 1417149,
-        "dblp_key": "conf/ismir/SigurdssonPL06"
+        "dblp_key": "conf/ismir/SigurdssonPL06",
+        "keywords": [
+            "MP3 databases",
+            "different parameter settings",
+            "MIR applications",
+            "encoding difference",
+            "meta-data estimation",
+            "similarity evaluation",
+            "Mel frequency cepstral coefficients (MFCCs)",
+            "robustness",
+            "bit rates",
+            "lower bit rates"
+        ]
     },
     {
         "title": "Lilypond for pyScore: Approaching a universal translator for music notation.",
@@ -1308,7 +2196,19 @@
         "ee": "https://zenodo.org/records/1414786/files/SuzukiHIM06.pdf",
         "abstract": "Several music information retrieval (MIR) systems have been developed which retrieve musical pieces by the user\u2019s singing voice. All of these systems use only melody information for retrieval, although lyrics information is also useful for re- trieval. In this paper, we propose an MIR system that uses both melody and lyrics information in the singing voice. The MIR system verifies hypotheses output by a lyrics recognizer from a melodic point of view. Each hypothesis has time alignment information between the singing voice and recognized text, and the boundaries of each note can be estimated using the information. As a result, melody in- formation is extracted from the singing voice. On the other hand, the melody information can be calculated from the musical score of the song because the recognized text must be a part of the lyrics of the song. The hypothesis is veri- fied by calculating the similarity between the two types of melody information. From the experimental results, the verification method increased the retrieval accuracy. Especially, it was very ef- fective when the number of words in the user\u2019s singing voice was small. The proposed method increased the retrieval ac- curacy from 81.3% to 87.4% when the number of words was only three. Keywords: MIR from singing voice, verification of recog- nized hypotheses, lyrics recognition.",
         "zenodo_id": 1414786,
-        "dblp_key": "conf/ismir/SuzukiHIM06"
+        "dblp_key": "conf/ismir/SuzukiHIM06",
+        "keywords": [
+            "music information retrieval (MIR)",
+            "singing voice",
+            "melody information",
+            "lyrics information",
+            "verification method",
+            "similarity calculation",
+            "musical score",
+            "experimental results",
+            "retrieval accuracy",
+            "number of words"
+        ]
     },
     {
         "title": "A Probabilistic Model of Melody Perception.",
@@ -1321,7 +2221,19 @@
         "ee": "https://zenodo.org/records/1414988/files/Temperley06.pdf",
         "abstract": "This study presents a probabilistic model of melody perception, which infers the key of a melody and also judges the probability of the melody itself. (A \u201cmelody\u201d is defined here as a sequence of pitches, without rhythmic information.) The model uses Bayesian reasoning. A generative probabilistic model is proposed, based on three principles: 1) melodies tend to remain within a narrow pitch range; 2) note-to-note intervals within a melody tend to be small; 3) notes tend to conform to a distribution (or \u201ckey-profile\u201d) that depends on the key. The model is tested in three ways: on a key-finding task, on a melodic expectation task, and on an error-detection task. Keywords: Music cognition, key identification, probabilistic modeling, expectation, error detection",
         "zenodo_id": 1414988,
-        "dblp_key": "conf/ismir/Temperley06"
+        "dblp_key": "conf/ismir/Temperley06",
+        "keywords": [
+            "Bayesian reasoning",
+            "melody perception",
+            "key identification",
+            "probabilistic modeling",
+            "generative model",
+            "pitch range",
+            "note intervals",
+            "melodic expectation",
+            "key-profile",
+            "error detection"
+        ]
     },
     {
         "title": "Modeling music and words using a multi-class na\u00efve Bayes approach.",
@@ -1336,7 +2248,19 @@
         "ee": "https://zenodo.org/records/1415782/files/TurnbullBL06.pdf",
         "abstract": "We propose a query-by-text system for modeling a het- erogeneous data set of music and words. We quantitatively show that our system can both annotate a novel song with semantically meaningful words and retrieve relevant unla- beled songs from a database given a text-based query. We explain two feature extraction methods useful for summa- rizing the audio content of a song. We describe a supervised multi-class na\u00a8\u0131ve Bayes model and compare two parameter estimation techniques. Our approach is influenced by recent computer vision research on the related tasks of image an- notation and retrieval. Keywords: music annotation, music retrieval, query-by-text, heterogeneous data",
         "zenodo_id": 1415782,
-        "dblp_key": "conf/ismir/TurnbullBL06"
+        "dblp_key": "conf/ismir/TurnbullBL06",
+        "keywords": [
+            "query-by-text",
+            "heterogeneous data set",
+            "music annotation",
+            "music retrieval",
+            "semantically meaningful words",
+            "audio content",
+            "supervised multi-class naive Bayes model",
+            "parameter estimation techniques",
+            "image annotation",
+            "retrieval"
+        ]
     },
     {
         "title": "Bayesian Modelling of Temporal Structure in Musical Audio.",
@@ -1351,7 +2275,19 @@
         "ee": "https://zenodo.org/records/1415138/files/WhiteleyCG06.pdf",
         "abstract": "This paper presents a probabilistic model of temporal struc- ture in music which allows joint inference of tempo, meter and rhythmic pattern. The framework of the model natu- rally quantifies these three musical concepts in terms of hid- den state-variables, allowing resolution of otherwise appar- ent ambiguities in musical structure. At the heart of the sys- tem is a probabilistic model of a hypothetical \u2018bar-pointer\u2019 which maps an input signal to one cycle of a latent, periodic rhythmical pattern. The system flexibly accommodates dif- ferent input signals via two observation models: a Poisson points model for use with MIDI onset data and a Gaussian process model for use with raw audio signals. The discrete state-space permits exact computation of posterior proba- bility distributions for the quantities of interest. Results are presented for both observation models, demonstrating the ability of the system to correctly detect changes in rhythmic pattern and meter, whilst tracking tempo. Keywords: tempo tracking, rhythm recognition, meter recog- nition, Bayesian inference",
         "zenodo_id": 1415138,
-        "dblp_key": "conf/ismir/WhiteleyCG06"
+        "dblp_key": "conf/ismir/WhiteleyCG06",
+        "keywords": [
+            "probabilistic model",
+            "temporal structure",
+            "tempo",
+            "meter",
+            "rhythmic pattern",
+            "hidden state-variables",
+            "latent periodic rhythmical pattern",
+            "observation models",
+            "discrete state-space",
+            "posterior probability distributions"
+        ]
     },
     {
         "title": "Heroic Frogs Save the Bow: Performing Musician&apos;s Annotation and Interaction Behavior with Written Music.",
@@ -1364,7 +2300,19 @@
         "ee": "https://zenodo.org/records/1417709/files/Winget06.pdf",
         "abstract": "Although there have been a number of fairly recent studies in which researchers have explored the information seeking and management behaviors of people interacting with musical retrieval systems, there have been very few published studies of the interaction and use behaviors of musicians themselves. The qualitative research study reported here seeks to correct this deficiency in the literature. Drawing on data collected from nearly 300 annotated parts representing 15 unique works, and 20 musician interviews, we make a number of functionality recommendations for constructive music digital library tool development. For example, all musicians annotate their written music, although this action seems to become more important as the musician becomes more skilled. Musicians\u2019 annotations are comprehensible to anyone who can read music, and are valuable as records of interpretation, interaction, and performance. Musicians annotate at the note (rather than at the phrase or movement) level, their annotations are standardized and formal, and are largely non-text. Music digital libraries that cater to musicians should attempt to provide annotation tools that work at the micro level, and extend the symbolic language of the primary document. Furthermore, preserving the annotations for future use would prove valuable for performance students, professionals, and historians alike. Keywords: annotation, musician, performance, interaction.",
         "zenodo_id": 1417709,
-        "dblp_key": "conf/ismir/Winget06"
+        "dblp_key": "conf/ismir/Winget06",
+        "keywords": [
+            "annotation",
+            "musician",
+            "performance",
+            "interaction",
+            "preserving annotations",
+            "symbolic language",
+            "digital library",
+            "performance students",
+            "professionals",
+            "historians"
+        ]
     },
     {
         "title": "Remixing Stereo Music with Score-Informed Source Separation.",
@@ -1379,7 +2327,19 @@
         "ee": "https://zenodo.org/records/1414898/files/WoodruffPD06.pdf",
         "abstract": "Musicians and recording engineers are often interested in manipulating and processing individual instrumental parts within an existing recording to create a remix of the recording. When individual source tracks for a stereo mixture are unavailable, remixing is typically difficult or impossible, since one cannot isolate the individual parts. We describe a method of informed source separation that uses knowledge of the written score and spatial information from an anechoic, stereo mixture to isolate individual sound sources, allowing remixing of stereo mixtures without access to the original source tracks. This method is tested on a corpus of string quartet performances, artificially created using Bach four-part chorale harmonizations and sample violin, viola and cello recordings. System performance is compared in cases where the algorithm has knowledge of the score and those in which it operates blindly.  The results show that source separation performance is markedly improved when the algorithm has access to a well-aligned score. Keywords: source separation, score alignment, music.",
         "zenodo_id": 1414898,
-        "dblp_key": "conf/ismir/WoodruffPD06"
+        "dblp_key": "conf/ismir/WoodruffPD06",
+        "keywords": [
+            "source separation",
+            "score alignment",
+            "music",
+            "remixing",
+            "instrumental parts",
+            "knowledge of score",
+            "analogous corpus",
+            "sample recordings",
+            "algorithm performance",
+            "system performance"
+        ]
     },
     {
         "title": "Hybrid Collaborative and Content-based Music Recommendation Using Probabilistic Model with Latent User Preferences.",
@@ -1396,7 +2356,19 @@
         "ee": "https://zenodo.org/records/1416826/files/YoshiiGKOO06.pdf",
         "abstract": "This paper presents a hybrid music recommendation method that solves problems of two prominent conventional meth- ods: collaborative filtering and content-based recommen- dation. The former cannot recommend musical pieces that have no ratings because recommendations are based on ac- tual user ratings. In addition, artist variety in recommended pieces tends to be poor. The latter, which recommends mu- sical pieces that are similar to users\u2019 favorites in terms of music content, has not been fully investigated. This induces unreliability in modeling of user preferences; the content similarity does not completely reflect the preferences. Our method integrates both rating and content data by using a Bayesian network called an aspect model. Unobservable user preferences are directly represented by introducing la- tent variables, which are statistically estimated. To verify our method, we conducted experiments by using actual au- dio signals of Japanese songs and the corresponding rating data collected from Amazon. The results showed that our method outperforms the two conventional methods in terms of recommendation accuracy and artist variety and can rea- sonably recommend pieces even if they have no ratings. Keywords: hybrid method, probabilistic model, collabora- tive filtering, content-based recommendation.",
         "zenodo_id": 1416826,
-        "dblp_key": "conf/ismir/YoshiiGKOO06"
+        "dblp_key": "conf/ismir/YoshiiGKOO06",
+        "keywords": [
+            "hybrid music recommendation method",
+            "collaborative filtering",
+            "content-based recommendation",
+            "Bayesian network",
+            "latent variables",
+            "probabilistic model",
+            "unobservable user preferences",
+            "artist variety",
+            "reliable modeling",
+            "unreliability in modeling"
+        ]
     },
     {
         "title": "ISMIR 2006, 7th International Conference on Music Information Retrieval, Victoria, Canada, 8-12 October 2006, Proceedings",

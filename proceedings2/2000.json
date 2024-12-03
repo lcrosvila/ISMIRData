@@ -10,7 +10,19 @@
         "ee": "https://zenodo.org/records/1416260/files/Bainbridge00.pdf",
         "abstract": "Digital Library (NZDL) project.  In keeping with the scope of the general project, the music work investigates data acquisition, retrieval, presentation and scalability.  These parts are described in turn in the text below.",
         "zenodo_id": 1416260,
-        "dblp_key": "conf/ismir/Bainbridge00"
+        "dblp_key": "conf/ismir/Bainbridge00",
+        "keywords": [
+            "Digital Library (NZDL)",
+            "project",
+            "music work",
+            "data acquisition",
+            "retrieval",
+            "presentation",
+            "scalability",
+            "scope",
+            "general project",
+            "text below"
+        ]
     },
     {
         "title": "Automatic Segmentation for Music Classification using Competitive Hidden Markov Models.",
@@ -24,7 +36,19 @@
         "ee": "https://zenodo.org/records/1416764/files/BatlleC00.pdf",
         "abstract": "Music information retrieval has become a major topic in the last few years and we can find a wide range of applications that use it. For this reason, audio databases start growing in size as more and more digital audio resources have become available. However, the usefulness of an audio database relies not only on its size but also on its organization and structure. Therefore, much effort must be spent in the labeling process whose complexity grows with database size and diversity.",
         "zenodo_id": 1416764,
-        "dblp_key": "conf/ismir/BatlleC00"
+        "dblp_key": "conf/ismir/BatlleC00",
+        "keywords": [
+            "Music information retrieval",
+            "digital audio resources",
+            "audio databases",
+            "labeling process",
+            "size and diversity",
+            "effort spent",
+            "complexity grows",
+            "organizing and structure",
+            "usefulness of an audio database",
+            "growth in size"
+        ]
     },
     {
         "title": "Techniques for Automatic Music Transcription.",
@@ -80,7 +104,19 @@
         "ee": "https://zenodo.org/records/1415898/files/ChaiV00.pdf",
         "abstract": "Most websites providing music services only support category-based browsing and/or text-based searching. There has been some research to improve the interface either for pull applications, e.g. query-by-humming systems, or for push applications, e.g. collaborative-filtering-based or feature- based music recommendation systems. However, for content-based search or feature-based filtering systems, one important problem is to describe music by its parameters or features, so that search engines or information filtering agents can use them to measure the similarity of the target (user\u00d5s query or preference) and the candidates. MPEG7 (formally called \u00d2Multimedia Content Description Interface\u00d3) is an international standard, which describes the multimedia content data to allow universal indexing, retrieval, filtering, control, and other activities supported by rich metadata. However, the metadata about the multimedia content itself are still insufficient, because many features of multimedia content are quite perceptual and user-dependent. For example, emotional features are very important for multimedia retrieval, but they are hard to be described by a universal model since different users may have different emotional responses to the same multimedia content. We therefore turn to user modeling techniques and representations to describe the properties of each user, so that the retrieval will be more accurate. Besides, user modeling can be used to reduce the search space, make push service easier and improve the user interface. There are several important issues in user modeling for music information retrieval purpose or even more general multimedia retrieval. 1) How to model the user? User-programmed, machine- learning and knowledge-engineered methods can be used. 2) What information is needed to describe a user for music IR purpose? It may include both the user\u00d5s indirect information (e.g. age, sex, citizenship, education, music experience, etc.) and direct information (e.g. user\u00d5s interests, definition of qualitative features, appreciation habit, etc.). 3) How to represent, use and share the user model? Similar to MPEG7 concepts, we can use a standard language in text format to represent the user model, so that search engines or information filtering agents can use it to refine the result easily and efficiently, without repeating the long-time observation and learning of the user\u00d5s behavior. User modeling can be done on client-side or server-side. Issues including easy/hard to obtain the user information, hard/easy to use collaborative filtering model, far from/close to the music data, more/less privacy or safety, more scalable/higher load on the server, etc., need to be considered when choosing either of the paradigms. We adopted the client-side user modeling paradigm in our MusicCat system. It is an agent that allows the user to define contexts and corresponding features of music that he wants to hear in those contexts correspondingly. Besides, the user can also define qualitative features of music based on quantitative features. For examples, the user just needs to tell the agent what kind of music he prefers to hear at what kind of context, like \u00d2I need fast and exciting music when I\u00d5m happy\u00d3, \u00d2I need soft music to wake me up every morning at 8:00\u00d3,  \u00d2I need slow classical music, when I\u00d5m thinking\u00d3, \u00d2I need rhythmic music when I\u00d5m walking\u00d3, etc. Or, the user can define qualitative features, like \u00d2Romantic music for me means slow music with titles or lyric including word love\u00d3, \u00d2My favorite music includes \u00c9\u00d3 etc. Then, when the moment comes - the user tells the agent or a pre-defined time approaches, the agent can automatically, randomly and repeatedly choose music from the user\u00d5s collection according to the pre-defined constraints. So far, MusicCat uses a profile-based user interface. And only midi files are used in the system. In our system, we categorize the quantitative features of music into textual features including title, composer, genre, country, etc.; notation features including key signature, time signature, tonality, BPM, etc.; perceptual features including slow or fast, short or long, quiet or loud, non- rhythmic or rhythmic, and soft or exciting. User can define music corresponding to a particular context or qualitative feature based on these quantitative features. We manually input the textual information. Notation features were automatically extracted from midi files. Perceptual features were computed from the parameters including average duration per note, average tempo, tempo deviation, average pitch change per note, etc. The weights of each parameter contributing to each perceptual feature were set manually. Some psychoacoustic experiments should be necessary for more accuracy.  To make the system more appealing, wireless communication technology can be used to make the system portable. We may also use sensors that can automatically detect the user context and then play corresponding music. User information is very valuable and needs to be shared in the future to make universal information retrieval possible. Thus we propose an XML-like language, UMIRL (User Modeling for Information Retrieval Language), in which different systems may describe the user in this standard format to make the user model sharable and reusable. Although it is designed for music information retrieval purpose in this paper, it can be extended for general multimedia information retrieval as well. To make music information retrieval systems more efficient, both user modeling techniques and descriptions are important. Those are prerequisites for open and efficient personalized services. We propose the user modeling language because there hasn\u00d5t been much attention on the ways to share the valuable user data. We believe the main issues discussed in this paper will be the most significant but also the hardiest points in this research area. Author Information Wei Chai Media Laboratory Massachusetts Institute of Technology chaiwei@media.mit.edu Barry Vercoe Media Laboratory Massachusetts Institute of Technology bv@media.mit.edu Suggested Readings Giorgio Braijnik, Giovanni Guida, Carlo Tasso.  1990. User Modeling in Expert Man-Machine Interfaces: a Case Study in Intelligent Information Retrieval . IEEE Transactions Transactions on Systems, Man, and Cybernetics, Vol 20. No.1, pp166-185. Upendra Shardanand and Pattie Maes. 1995. Social Information Filtering: Algorithms for Automating \u00d2Word of Mouth\u00d3. Conference proceedings on Human factors in computing systems, pp210-217. Eric Scheirer.  2000.  Music-Listening Systems, PhD dissertation.",
         "zenodo_id": 1415898,
-        "dblp_key": "conf/ismir/ChaiV00"
+        "dblp_key": "conf/ismir/ChaiV00",
+        "keywords": [
+            "Music information retrieval",
+            "User modeling",
+            "Multimedia content description interface",
+            "User modeling techniques",
+            "User modeling representations",
+            "User modeling paradigms",
+            "User modeling language",
+            "User modeling for information retrieval",
+            "User modeling for multimedia retrieval",
+            "User modeling for music information retrieval"
+        ]
     },
     {
         "title": "Music Representation, Indexing and Retrieval at NTHU.",
@@ -93,7 +129,19 @@
         "ee": "https://zenodo.org/records/1417981/files/Chen00.pdf",
         "abstract": "summarized. We treat the rhythm, melody, and chords of a music object as music features and develop various data structures and algorithms to efficiently perform approximate and partial matching for the retrieval of music data [Liu99a], [Chen98], [Chou96]. In [Chen00a], we present the techniques for retrieving songs by music segments. A music segment consists of a segment type and the associated beat and pitch information. We also propose multi-feature index structures for exact and approximate searching on different features [Lee00]. The problem of feature extraction is also studied. The repeating pattern is defined as a sequence of notes, which appears more than once in music objects. Choosing repeating patterns as the feature to represent the music objects meets both efficiency and semantic-richness requirements for content-based music data retrieval. We propose approaches to efficiently discover the repeating patterns of music objects in [Hsu98], [Liu99b]. We have also implemented Muse, a prototype system for content-based music data retrieval to illustrate the feasibility of the concepts we propose.",
         "zenodo_id": 1417981,
-        "dblp_key": "conf/ismir/Chen00"
+        "dblp_key": "conf/ismir/Chen00",
+        "keywords": [
+            "music features",
+            "approximate and partial matching",
+            "music data retrieval",
+            "music segments",
+            "multi-feature index structures",
+            "feature extraction",
+            "repeating patterns",
+            "Muse",
+            "content-based music data retrieval",
+            "system implementation"
+        ]
     },
     {
         "title": "Optical Music Recognition System within a Large-Scale Digitization Project.",
@@ -126,7 +174,19 @@
         "ee": "https://zenodo.org/records/1417139/files/ClausenEMS00.pdf",
         "abstract": "One major task of a digital music library (DML) is to provide techniques to locate a queried musical pattern in all pieces of music in the database containing that pattern. For a survey of several computational tasks related to this kind of data retrieval we refer to Crawford et al. [3]. Existing DMLs like MELDEX [1], Themefinder [4], and the Sonoda-Muraoka-System [7] work with melody databases relying on score-like information. Retrieval and matching are performed in a fault-tolerant way by string-based methods which mainly take into account pitch information. Generally, rhythm plays only a subordinate role. The music dictionary of Barlow and Morgenstern [2] shows that music retrieval based on pitch information only leads to results with typically too many false matches. (An example of such absurd matches is given in Selfridge-Field [6], p. 27.) We are convinced that both pitch and rhythm are crucial for recognizing melodies. In the more general context of polyphonic music, one is even forced to consider pitch and rhythm information. PROMS, a web-based computer-music service under development at the University of Bonn, Germany, is part of the MiDiLiB project [5]. The aim of PROMS is to design and to implement PROcedures for Music Search. Our discussion will take place in a rather general setting: we assume that our database contains several kinds of music such as polyphonic and homophonic music as well as melodies. We also use score-like information. A query to the database is a fragment of a piece of music. This could be a melody or a certain figure of an accompaniment. The task is now to locate efficiently all occurences of this fragment in all pieces of music in the database. We have designed and implemented a web-based computer-music service that enables seaching in polyphonic music. In contrast to the above mentioned systems, PROMS is not string-based but set-oriented. The basic objects within the PROMS system are single notes, specified by its onset time t, its pitch p, and its duration d. A piece of music is then a finite set M of notes. Our database consists of a sequence of N pieces of music in the MIDI format: D1, . . . , DN. Similarly, a query is itself a finite set Q of notes. Thus there is no principal difference between a piece Di of music in the database and a query Q. However, typically, Di is much larger than Q. An occurrence is a pair \u2217This work was supported in part by Deutsche Forschungsgemeinschaft grants CL 64/3-1 and CL 64/3-4. (i, v) such that the v-shifted version of Q is a subset of Di: Q + v \u2286Di. Combining methods from Computer Algebra with well-established techniques from Full-Text-Retrieval, we obtain a time and space efficient polyphonic music information retrieval system. This is best illustrated by some performance data (on a Pentium II, 333 MHz, 256 MB RAM, Windows NT 4.0): The PROMS database consists of 327 MB of MIDI data, our index consumes only 22 MB, the time to construct our index is about 40 seconds. Finally, the average response time is about 80 milliseconds. Here are some highlights of our system: PROMS considers pitch and rhythm simultaneously. It supports polyphonic queries. The processing time depends essentially on the number of notes in the query. Queries might contain \u201cgaps\u201d. It supports user- and problem-adapted indexing on- the-fly. It allows fuzzy search and transposition-invariant search. With little additional effort, it allows to compute all occurences of a query with at most k mismatches.",
         "zenodo_id": 1417139,
-        "dblp_key": "conf/ismir/ClausenEMS00"
+        "dblp_key": "conf/ismir/ClausenEMS00",
+        "keywords": [
+            "digital music library",
+            "query musical pattern",
+            "locate efficiently",
+            "polyphonic music",
+            "score-like information",
+            "pitch and rhythm",
+            "polyphonic queries",
+            "time and space efficient",
+            "user-adapted indexing",
+            "fuzzy search"
+        ]
     },
     {
         "title": "Exploration of Point-Distribution Models for Similarity-based Classification and Indexing of Polyphonic Music.",
@@ -140,7 +200,19 @@
         "ee": "https://zenodo.org/records/1416572/files/CliffF00.pdf",
         "abstract": "Similarity is an intuitive criterion for indexing and classification of digital audio files in music information retrieval systems. While significant work has been done on similarity-based approaches to monophonic music, methods for reliably dealing with databases of arbitrary polyphonic music remain elusive. In this paper we describe our ongoing research in exploring the use of high-order multivariate statistical techniques for similarity-based classification of polyphonic music in digital audio files. The statistical techniques we employ, known as point distribution models (PDMs), have recently proven to be of surprising value in computer vision research for rating visual similarity; here we are attempting to apply PDMs to musical similarity. This involves creating neural networks that approximate the statistical processing, to save on potentially explosive storage and processor requirements. This paper reports on work in progress: our results to date are inconclusive and somewhat negative. We describe our rationale for exploring PDMs in polyphonic music similarity-rating and discuss the problems we have encountered so far, with the intention of encouraging other members of the music information retrieval community to explore this and related approaches. Overview The approach we are currently exploring is, in essence, to perform sophisticated statistical analysis on the results of applying standard signal processing techniques to digital audio polyphonic music data. The key difference between our approach and much prior research is that we are explicitly rejecting the need for an intermediate symbolic representation (such as audio-to- MIDI) of the content of digital-audio music files. Rather, we view individual digital audio files as individual data-points in an ultra-high dimensional space (the space of all possible digital audio files for a given duration, sampling rate, bit depth, and number of channels).  We are exploring the use of multivariate statistical analysis techniques to find transformations that map from this input space (which could have many millions of dimensions) onto new spaces with several orders of magnitude fewer dimensions, where the new spaces have similarity-like distance metrics and classification-like partitions. This might seem like a hopelessly na\u2022ve approach, had not a similar approach recently been shown to be a successful foundation for similarity-based indexing in other ultra-high-dimensional spaces: namely those found in computer vision. In the past decade, new statistical approaches have been developed for computer vision in medical imaging (Wolfson, 1999) and automated surveillance of pedestrians (Leeds, 1998). In essence, these new statistical methods involve computing a characterization of the mean shape, along with a characterization of the primary modes of variation in the shape (i.e., the main ways in which the samples of the shape differ from the mean of the samples). Surprisingly, these primary modes often correspond to intuitive visual notions such as variation in viewing angle of a particular object (such as a human face), or the variation seen between two classes of object (such between female faces and male faces). The approach we have explored in music classification is, in essence, to apply these vision techniques to visual objects that are representations of portions of digital audio. The visual objects are created by taking the spectrograms (amplitude surfaces over a time-frequency space) of the mono sum from fixed-duration samples of stereo CD-quality digital-audio music files and then relatively-coarsely quantizing the time and frequency axes into discrete bins to give data- compression in excess of 90%. The quantized spectrogram is decorated with one amplitude \u00d2point\u00d3 per time-frequency bin, and the collections of points for a particular music sample are treated as coordinates for a single point in a high-dimensional space (the space of possible quantized spectrograms). For example, working with 30-second audio samples and dividing the spectrogram frequency axis into 1000 bins and the time axis into 50 bins per second gives 1000*50*30=1.5m points, so each processed sample is a single point in a 1.5m-dimensional space of possible inputs. We compute a collection of such points, one per sample, for samples from a variety of music files, to give a cloud of points in input-space. We then apply linear principal components analysis (PCA) on deviations from the mean of this cloud to identify principal modes of variation, and then explore whether these principal modes correspond to intuitive notions of similarity. We also explore whether the early principal components can be interpreted as a set of basis vectors for a a subspace in which simple distance metrics correspond to measures of musical similarity. The dimensionality of the input space is so large that neural-network approximators to PCA (Sanger, 1989) are used rather than analytic matrix-manipulation code. So far, our results (from samples of commercial recordings) are inconclusive. We are attempting to better understand the nature of our approach by working with music generated from MIDI files where we have full experimental control over various aspects of the music such as tempo, number of voices, instrument type, and so on. We are also looking to use nonlinear PCA neural networks (e.g. Fotheringhame & Baddeley, 1997) to test the possibility that our current use of linear methods represents an over-simplification. Author Information Dave Cliff Digital Media Systems Department Hewlett-Packard Labs Bristol BS34 8QZ England U.K. dave_cliff@hp.com Phone +44 117 312 8189 Heppie Freeburn Digital Media Systems Department Hewlett-Packard Labs Bristol BS34 8QZ England U.K. cf@hplb.hpl.hp.com Phone +44 117 312 8718 Suggested Readings Fotheringhame, D. and Baddeley, R. 1997. \u00d2Nonlinear Principal components analysis of neuronal spike train data\u00d3. Biological Cybernetics 77: 282-288. Leeds, 1998. University of Leeds, School of Computer Studies, Computer Vision Group. http://www.scs.leeds.ac.uk/imv/ Sanger, T.D. 1989. \u00d2Optimal unsupervised learning in a single-layer linear feedforward neural network\u00d3. Neural Networks, 2:459-473. Wolfson 1999. Wolfson Medical Imaging Unit, University of Manchester. http://www.wiau.man.ac.uk/research/Flexible_Models/index.html",
         "zenodo_id": 1416572,
-        "dblp_key": "conf/ismir/CliffF00"
+        "dblp_key": "conf/ismir/CliffF00",
+        "keywords": [
+            "Similarity-based classification",
+            "Multivariate statistical techniques",
+            "Polyphonic music",
+            "Digital audio files",
+            "High-order point distribution models",
+            "Neural networks",
+            "Ultra-high dimensional space",
+            "Spectrograms",
+            "Principal components analysis",
+            "MIDI files"
+        ]
     },
     {
         "title": "Audio Information Retrieval (AIR) Tools.",
@@ -195,7 +267,19 @@
         "ee": "https://zenodo.org/records/1416644/files/Foote00.pdf",
         "abstract": "We introduce an audio retrieval-by-example system for orchestral music. Unlike many other approaches, this sys- tem is based on analysis of the audio waveform and does not rely on symbolic or MIDI representations. ARTHUR retrieves audio on the basis of long-term structure, specifi- cally the variation of soft and louder passages. The long- term structure is determined from envelope of audio energy versus time in one or more frequency bands. Similarity between energy profiles is calculated using dynamic pro- gramming. Given an example audio document, other docu- ments in a collection can be ranked by similarity of their energy profiles. Experiments are presented for a modest corpus that demonstrate excellent results in retrieving dif- ferent performances of the same orchestral work, given an example performance or short excerpt as a query.",
         "zenodo_id": 1416644,
-        "dblp_key": "conf/ismir/Foote00"
+        "dblp_key": "conf/ismir/Foote00",
+        "keywords": [
+            "audio retrieval-by-example",
+            "orchestral music",
+            "analysis of audio waveform",
+            "long-term structure",
+            "variation of soft and louder passages",
+            "dynamic programming",
+            "energy profiles",
+            "experiments",
+            "modest corpus",
+            "different performances"
+        ]
     },
     {
         "title": "A Music Interface for Visually Impaired People in the WEDELMUSIC Environment. Design and Architecture.",
@@ -239,7 +323,19 @@
         "ee": "https://zenodo.org/records/1416768/files/Herrera-BoyerABS00.pdf",
         "abstract": "A system capable of describing the musical content of any kind of sound file or sound stream, as it is supposed to be done in MPEG7-compliant applications, should provide an account of the different moments where a certain instrument can be listened to. In this paper we concentrate on reviewing the different techniques that have been so far proposed for automatic classification of musical instruments. As most of the techniques to be discussed are usable only in 'solo' performances we will evaluate their applicability to the more complex case of describing sound mixes. We conclude this survey discussing the necessity of developing new strategies for classifying sound mixes without a priori separation of sound sources.",
         "zenodo_id": 1416768,
-        "dblp_key": "conf/ismir/Herrera-BoyerABS00"
+        "dblp_key": "conf/ismir/Herrera-BoyerABS00",
+        "keywords": [
+            "automatic classification",
+            "musical instruments",
+            "sound mixes",
+            "MPEG7-compliant applications",
+            "solo performances",
+            "sound streams",
+            "different moments",
+            "instrumental listening",
+            "new strategies",
+            "sound source separation"
+        ]
     },
     {
         "title": "Perceptual and Cognitive Applications in Music Information Retrieval.",
@@ -361,7 +457,19 @@
         "ee": "https://zenodo.org/records/1416544/files/LinB00.pdf",
         "abstract": "Active musicians generally rely on extensive personal paper-based music information retrieval systems containing scores, parts, compositions, and arrangements of published and hand-written music. Many have a bias against using computers to store, edit and retrieve music, and prefer to work in the paper domain rather than using digital documents, despite the flexibility and powerful retrieval opportunities available. In this paper we propose a model of operation that blurs the boundaries between the paper and digital domains, offering musicians the best of both worlds. A survey of musicians identifies the problems and potential of working with digital tools, and we propose a system using colour printing and scanning technology that simplifies the process of moving music documents between the two domains. Keywords : user interfaces, user needs, optical music recognition",
         "zenodo_id": 1416544,
-        "dblp_key": "conf/ismir/LinB00"
+        "dblp_key": "conf/ismir/LinB00",
+        "keywords": [
+            "music",
+            "personal",
+            "paper-based",
+            "information",
+            "retrieval",
+            "computers",
+            "flexibility",
+            "powerful",
+            "digital",
+            "domains"
+        ]
     },
     {
         "title": "Mel Frequency Cepstral Coefficients for Music Modeling.",
@@ -374,7 +482,19 @@
         "ee": "https://zenodo.org/records/1416444/files/Logan00.pdf",
         "abstract": "We examine in some detail Mel Frequency Cepstral Coefficients (MFCCs) - the dominant features used for speech recognition - and investigate their applicability to modeling music. In particular, we examine two of the main assumptions of the process of forming MFCCs: the use of the Mel frequency scale to model the spectra; and the use of the Discrete Cosine Transform (DCT) to decorrelate the Mel-spectral vectors. We examine the first assumption in the context of speech/music discrimination. Our results show that the use of the Mel scale for modeling music is at least not harmful for this problem, although further experimentation is needed to verify that this is the optimal scale in the general case. We investigate the second assumption by examining the basis vectors of the theoretically optimal transform to decorrelate music and speech spectral vectors. Our results demonstrate that the use of the DCT to decorrelate vectors is appropriate for both speech and music spectra.",
         "zenodo_id": 1416444,
-        "dblp_key": "conf/ismir/Logan00"
+        "dblp_key": "conf/ismir/Logan00",
+        "keywords": [
+            "Mel Frequency Cepstral Coefficients (MFCCs)",
+            "speech recognition",
+            "music modeling",
+            "Mel frequency scale",
+            "Discrete Cosine Transform (DCT)",
+            "speech/music discrimination",
+            "optimal scale",
+            "theoretical optimal transform",
+            "decorrelate vectors",
+            "speech and music spectra"
+        ]
     },
     {
         "title": "MuTaTeD&apos;ll: A System for Music Information Retrieval of Encoded Music.",
@@ -388,7 +508,19 @@
         "ee": "https://zenodo.org/records/1417755/files/MacLellanB00.pdf",
         "abstract": "MuTaTeD'II started in November 1999, building on the results of the MuTaTeD project. Its aim is to design and implement a music information retrieval system with delivery/access services for encoded music. The prototype service will provide a user friendly, web-based search/browse/query interface to access musical content.",
         "zenodo_id": 1417755,
-        "dblp_key": "conf/ismir/MacLellanB00"
+        "dblp_key": "conf/ismir/MacLellanB00",
+        "keywords": [
+            "MuTaTeDII",
+            "November 1999",
+            "MuTaTeD project",
+            "Music information retrieval system",
+            "Encoded music",
+            "Prototype service",
+            "User friendly",
+            "Web-based",
+            "Search/browse/query interface",
+            "Access musical content"
+        ]
     },
     {
         "title": "A Comparison of Language Modeling and Probabilistic Text Information Retrieval Approaches to Monophonic Music Retrieval.",
@@ -401,7 +533,19 @@
         "ee": "https://zenodo.org/records/1415100/files/Pickens00.pdf",
         "abstract": "With interest in music information retrieval increasing the need for retrieval systems unique to music is also growing. Despite its unique properties music shares many similarities with text. The goal of this paper is to explore some of the capabilities and limitations of current text information retrieval systems as applied to the task of music retrieval. Monophonic music is converted into text and retrieval experiments are run using two different text information retrieval systems in various configurations. Finally, we will discuss whether the techniques applied here are generalizable to the larger problem of polyphonic music retrieval. 1",
         "zenodo_id": 1415100,
-        "dblp_key": "conf/ismir/Pickens00"
+        "dblp_key": "conf/ismir/Pickens00",
+        "keywords": [
+            "music information retrieval",
+            "text information retrieval",
+            "monophonic music",
+            "polyphonic music",
+            "text similarity",
+            "text retrieval experiments",
+            "text information retrieval systems",
+            "limitations",
+            "generalization",
+            "larger problem"
+        ]
     },
     {
         "title": "XML4MIR: Extensible Markup Language for Music Information Retrieval.",
@@ -428,7 +572,19 @@
         "ee": "https://zenodo.org/records/1415526/files/SchimmelpfennigK00.pdf",
         "abstract": "We present an XML-based description interface for various types of musical contents - MCML, Music Contents Markup Language. An application of  MCML currently developed within our group is a music browser system which enables a content based navigation in digital music files. Another major application of a music contents annotation interface is the description and handling of query results to digital music libraries. Motivation and Goals The main goal of the MCML project was to specify a description language useful for both the presentation of results to content based queries to a music database (in particular the database developed within the MiDiLiB-project [1]) and a content based navigation in digital music files. Although this includes structuring of musical information on a score-like level, we did not intend to develop a language with the capabilities of a complete music notation system. Instead, we focused on a universal, easy to use and to process language for supporting the former applications. Research Contributions In developing MCML, the following research topics had to be addressed: \u2022 Which classes of musical contents and information are important for the above applications such as navigation and which are not? \u2022 How to describe the contents on which navigation will be performed? \u2022 How can a reasonable content based navigation in music files be realized? \u2022 Is it reasonable to use state-of-the-art content description interfaces such as XML to realize music contents description? \u2022 How can a linking concept improve navigation?",
         "zenodo_id": 1415526,
-        "dblp_key": "conf/ismir/SchimmelpfennigK00"
+        "dblp_key": "conf/ismir/SchimmelpfennigK00",
+        "keywords": [
+            "XML-based description interface",
+            "Music browser system",
+            "Digital music files",
+            "Content-based navigation",
+            "Music contents annotation interface",
+            "Query results",
+            "Digital music libraries",
+            "Music database",
+            "MiDiLiB-project",
+            "Music notation system"
+        ]
     },
     {
         "title": "From Raw Polyphonic Audio to Locating Recurring Themes.",
@@ -443,7 +599,19 @@
         "ee": "https://zenodo.org/records/1416124/files/SchroeterDR00.pdf",
         "abstract": "the automatic transcription of raw audio from a single polyphonic instrument with discrete pitch (eg piano) and the location of recurring themes from a Humdrum score. 1",
         "zenodo_id": 1416124,
-        "dblp_key": "conf/ismir/SchroeterDR00"
+        "dblp_key": "conf/ismir/SchroeterDR00",
+        "keywords": [
+            "automatic transcription",
+            "raw audio",
+            "polyphonic instrument",
+            "discrete pitch",
+            "Humdrum score",
+            "reccurring themes",
+            "theme detection",
+            "instrumental music",
+            "audio processing",
+            "music analysis"
+        ]
     },
     {
         "title": "What Motivates a Musical Query?.",
@@ -469,7 +637,19 @@
         "ee": "http://ismir2000.ismir.net/papers/invites/uitdenbogerd_invite.pdf",
         "abstract": "Arts education in School curriculum: Present and Future Trends and Issues\n\nThe National education policy, 2020, stresses the promotion of holistic and multidisciplinary education to develop the intellectual, aesthetic, social, physical, emotional and moral capacity of learners. Arts have had an important role to play both as a subject to promote artistic, aesthetic and creative skills and also as a pedagogical tool for experiential and joyful learning among the K 12 students. The NEP has emphatically stressed the importance of a learner outcome-based curriculum framework concerning curricular expectations. The present research examines the national school curriculum in arts against this background. The paper explores current trends in combining learner outcomes with assessment and envisages a standardized framework for arts education in the country.",
         "zenodo_id": 7595459,
-        "dblp_key": "conf/ismir/Uitdenbogerd00"
+        "dblp_key": "conf/ismir/Uitdenbogerd00",
+        "keywords": [
+            "Holistic education",
+            "Multidisciplinary education",
+            "Intellectual development",
+            "Aesthetic skills",
+            "Creative skills",
+            "Pedagogical tool",
+            "K-12 students",
+            "Learner outcome-based curriculum",
+            "Curricular expectations",
+            "Assessment"
+        ]
     },
     {
         "title": "Music Ranking Techniques Evaluated.",
