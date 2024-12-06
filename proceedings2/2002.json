@@ -313,7 +313,19 @@
         "ee": "https://zenodo.org/records/1416022/files/DoraisamyR02.pdf",
         "abstract": "In this paper we investigate the retrieval performance of monophonic queries made on a polyphonic music database using the n-gram approach for full-music indexing.  The pitch and rhythm dimensions of music are used, and the musical words (a term coined by Downie [2]) generated enable text retrieval",
         "zenodo_id": 1416022,
-        "dblp_key": "conf/ismir/DoraisamyR02"
+        "dblp_key": "conf/ismir/DoraisamyR02",
+        "keywords": [
+            "N-grams",
+            "Polyphonic music",
+            "Query-by-humming (QBH)",
+            "Fault-tolerance",
+            "Music information retrieval",
+            "Monophonic queries",
+            "Interval encoding",
+            "Rhythmic ratios",
+            "Full-music indexing",
+            "MIDI format"
+        ]
     },
     {
         "title": "Toward a Theory of Music Information Retrieval Queries: System Design Implications.",
@@ -327,7 +339,19 @@
         "ee": "https://zenodo.org/records/1417565/files/DownieC02.pdf",
         "abstract": "This paper analyzes a set of 161 music-related information requests posted to the rec.music.country.old-time newsgroup. These postings are categorized by the types of detail used to characterize the poster's information need, the type of music information requested, the intended use for the information, and additional social and contextual elements present in the postings. The results of this analysis suggest that similar studies of 'native' music information requests can be used to inform the design of effective, usable music information retrieval interfaces.",
         "zenodo_id": 1417565,
-        "dblp_key": "conf/ismir/DownieC02"
+        "dblp_key": "conf/ismir/DownieC02",
+        "keywords": [
+            "Music Information Retrieval",
+            "Queries",
+            "System design",
+            "User needs",
+            "Bibliographic information",
+            "Lyrics",
+            "Genre",
+            "Social context",
+            "Newsgroups",
+            "Data analysis"
+        ]
     },
     {
         "title": "The Quest for Ground Truth in Musical Artist Similarity.",
@@ -618,7 +642,19 @@
         "ee": "https://zenodo.org/records/1180595/files/nime2012_125.pdf",
         "abstract": "SoundStrand is a tangible music composition tool. It demonstrates a paradigm developed to enable music composition through the use of tangible interfaces. This paradigm attempts to overcome the contrast between the relatively small of amount degrees of freedom usually demonstrated by tangible interfaces and the vast number of possibilities that musical composition presents. SoundStrand is comprised of a set of physical objects called cells, each representing a musical phrase. Cells can be sequentially connected to each other to create a musical theme. Cells can also be physically manipulated to access a wide range of melodic, rhythmic and harmonic variations. The SoundStrand software assures that as the cells are manipulated, the melodic flow, harmonic transitions and rhythmic patterns of the theme remain musically plausible while preserving the user&#39;s intentions.",
         "zenodo_id": 1180595,
-        "dblp_key": "conf/ismir/Hofstadter02"
+        "dblp_key": "conf/ismir/Hofstadter02",
+        "keywords": [
+            "tangible music composition tool",
+            "tangible interfaces",
+            "musical composition",
+            "degrees of freedom",
+            "physical objects",
+            "melodic flow",
+            "harmonic transitions",
+            "rhythmic patterns",
+            "musical plausible",
+            "user intentions"
+        ]
     },
     {
         "title": "Indexing Hidden Markov Models for Music Retrieval.",
@@ -735,7 +771,19 @@
         "ee": "https://zenodo.org/records/1417048/files/Lartillot02.pdf",
         "abstract": "We claim that the core mechanism of a sufficiently general MIR system should be expressed in symbolic terms. We defend the idea that music database should be pre-analyzed before being scanned for MIR queries. We suggest a new vision of automated pattern analysis that generalizes the multiple viewpoint approach by adding a new paradigm based on analogy and temporal approach of musical scores. Through a chronological scanning of the score, analogies are inferred between local relationships \u2014 namely, notes and intervals \u2014 and global structures \u2014 namely, patterns \u2014 whose paradigms mechanisms for inference of new patterns are described. The same pattern-matching algorithm used for pattern discovery during pre-analysis of musical works is reused during MIR applications. Such an elastic vision of music enables a generalized understanding of its plastic expression. This project, in an early stage, introduces a broader paradigm of automated music analysis.",
         "zenodo_id": 1417048,
-        "dblp_key": "conf/ismir/Lartillot02"
+        "dblp_key": "conf/ismir/Lartillot02",
+        "keywords": [
+            "symbolic terms",
+            "pre-analyzed",
+            "automated pattern analysis",
+            "analogies",
+            "temporal approach",
+            "chronological scanning",
+            "global structures",
+            "paradigm of automated music analysis",
+            "plastic expression",
+            "generalized understanding"
+        ]
     },
     {
         "title": "Representing Traditional Korean Music Notation in XML.",
@@ -799,7 +847,7 @@
         "doi": "10.5281/zenodo.1416560",
         "url": "https://doi.org/10.5281/zenodo.1416560",
         "ee": "https://zenodo.org/records/1416560/files/MandlW02.pdf",
-        "abstract": "based on unsupervised learning. Both supervised learning methods for pre-defined classes and even human assignment are compatible with MIMOR.",
+        "abstract": "[TODO] Add abstract here.",
         "zenodo_id": 1416560,
         "dblp_key": "conf/ismir/MandlW02"
     },
@@ -998,7 +1046,19 @@
         "ee": "https://zenodo.org/records/1415614/files/Pauws02.pdf",
         "abstract": "'Query by humming' is an interaction concept in which the identity of a song has to be revealed fast and orderly from a given sung input using a large database of known melodies. In short, it tries to detect the pitches in a sung melody and compares these pitches with symbolic representations of the known melodies. Melodies that are similar to the sung pitches are retrieved. Approximate pattern matching in the melody comparison process compensates for the errors in the sung melody by using classical dynamic programming. A filtering method is used to save computation in the dynamic programming framework. This paper presents the algorithms for pitch detection, note onset detection, quantization, melody encoding and approximate pattern matching as they have been implemented in the CubyHum software system.   Since human reproduction of melodies is imperfect, findings from an experimental singing study were a crucial input to the development of the algorithms. Future research should pay special attention to the reliable detection of note onsets in any preferred singing style. In addition, research on index methods and fast bit- parallelism algorithms for approximate pattern matching need to be further pursued to decrease computational requirements when dealing with large melody databases.",
         "zenodo_id": 1415614,
-        "dblp_key": "conf/ismir/Pauws02"
+        "dblp_key": "conf/ismir/Pauws02",
+        "keywords": [
+            "query by humming",
+            "revealing song identity",
+            "large database of known melodies",
+            "detecting pitches",
+            "comparing symbolic representations",
+            "melodies similar to sung pitches",
+            "approximate pattern matching",
+            "dynamic programming",
+            "filtering method",
+            "CubyHum software system"
+        ]
     },
     {
         "title": "PATS: Realization and user evaluation of an automatic playlist generator.",
@@ -1119,7 +1179,19 @@
         "ee": "https://zenodo.org/records/1416494/files/Pollastri02.pdf",
         "abstract": "The audio processing and post-processing of singing hold a fundamental role in the context of query-by-humming applica- tions. Through the analysis of a sung query, we should perform some kind of meta-information extraction and this topic deserves the interest of the present paper. Considering the raw output of a pitch tracking algorithm, the issues of note estimation and the study of singing accuracy have been addressed. Further, we report an experiment on the deviations from pure tone intonation in performances of untrained singers.",
         "zenodo_id": 1416494,
-        "dblp_key": "conf/ismir/Pollastri02"
+        "dblp_key": "conf/ismir/Pollastri02",
+        "keywords": [
+            "Query-by-humming",
+            "Singing voice processing",
+            "Music retrieval",
+            "Pitch tracking",
+            "Note estimation",
+            "Microintonation",
+            "Macrointonation",
+            "Intonation accuracy",
+            "Vibrato",
+            "Pitch contour analysis"
+        ]
     },
     {
         "title": "Automatic Transcription of Piano Music.",
@@ -1127,12 +1199,24 @@
             "Christopher Raphael"
         ],
         "year": "2002",
-        "doi": "10.5281/zenodo.4527460",
-        "url": "https://doi.org/10.5281/zenodo.4527460",
+        "doi": "10.5281/zenodo.1414952",
+        "url": "https://zenodo.org/records/1414952",
         "ee": "http://ismir2002.ismir.net/proceedings/02-FP01-2.pdf",
-        "abstract": "The MuseSyn (v1.0)dataset is a dataset created for complete automatic music transcription, consisting of 210 pieces of piano music. Music scores in MusicXML format are collected from MuseScore website; they are further converted into MIDI format and synthesized to audio files using four different piano models provided in the Native Instruments Kontakt Player. The scores collected cover various key signatures and time signatures, tempos, modes, and polyphony levels, but do not contain things like grace notes, triplets, and trios.\n\nMusic scores are provided in MIDI and MusicXML formats, synthesized audio files are saved in lossless compressed (.flac) format, 44100 sample rate, 16-bit encoding depth. An equal level of reverb effects is added during synthesis to make the audio files more similar to real recordings.\n\nPlease send any feedback or questions to Lele Liu atlele.liu@qmul.ac.uk.\n\nHow to cite:Ifyouusethisdataset,please,providethefollowingcitationinyourwork:\n\n\n\tL. Liu, V. Morfi and E. Benetos, Joint Multi-pitch Detection and Score Transcription for Polyphonic Piano Music, IEEE International Conference on Acoustics, Speech and Signal Processing, 2021.\n\n\nFunding:L. Liu is a research student at the UKRI Centre for Doctoral Training in Artificial Intelligence and Music, supported jointly by the China Scholarship Council and Queen Mary University of London.",
-        "zenodo_id": 4527460,
-        "dblp_key": "conf/ismir/Raphael02"
+        "abstract": "A hidden Markov model approach to piano music transcription is presented. The main difficulty in applying traditional HMM techniques is the large number of chord hypotheses that must be considered. We address this problem by using a trained likelihood model to generate reasonable hypotheses for each frame and construct these arch graph out of these hypotheses. Results are presented using a recording of a movement from Mozart's Sonata18,K.570",
+        "zenodo_id": 1414952,
+        "dblp_key": "conf/ismir/Raphael02",
+        "keywords": [
+            "Automatic transcription",
+            "Piano music",
+            "Hidden Markov Model (HMM)",
+            "MIDI representation",
+            "Audio features",
+            "Chord hypotheses",
+            "Statistical learning",
+            "Probabilistic models",
+            "Musical score alignment",
+            "Recognition accuracy"
+        ]
     },
     {
         "title": "Using Psycho-Acoustic Models and Self-Organizing Maps to Create a Hierarchical Structuring of Music by Musical Styles.",
@@ -1225,7 +1309,19 @@
         "ee": "https://zenodo.org/records/1415866/files/SorsaH02.pdf",
         "abstract": "A melody recognition system with a voice-only user interface is presented in this paper. By integrating speech recognition and melody recognition technology we have built an end-to-end melody retrieval system that allows a users to do voice controlled melodic queries and melody generation using a dial-in service with a mobile phone.",
         "zenodo_id": 1415866,
-        "dblp_key": "conf/ismir/SorsaH02"
+        "dblp_key": "conf/ismir/SorsaH02",
+        "keywords": [
+            "Mobile melody recognition",
+            "Voice-only user interface",
+            "Query-by-humming",
+            "Melody transcription",
+            "Speech recognition",
+            "Database engine",
+            "Melody generation",
+            "VoiceXML",
+            "User evaluation",
+            "Retrieval accuracy"
+        ]
     },
     {
         "title": "Pitch Histograms in Audio and Symbolic Music Information Retrieval.",
@@ -1293,7 +1389,19 @@
         "ee": "https://zenodo.org/records/1416940/files/VinetHP02.pdf",
         "abstract": "The CUIDADO Project (Content-based Unified Interfaces and Descriptors for Audio/music Databases available Online) aims at developing a new chain of applications through the use of audio/music content descriptors, in the spirit of the MPEG-7 standard. The project includes the design of appropriate description structures, the development of extractors for deriving high-level information from audio signals, and the design and implementation of two applications: the Sound Palette and the Music Browser. These applications include new features, which systematically exploit high-level descriptors and provide users with content-based access to large catalogues of audio/music material.  The Sound Palette focuses on audio samples and targets professional users, whereas the Music Browser addresses a broader user target through the management of Popular music titles. After a presentation of the project objectives and methodology, we describe the original features of the two applications based on the systematic use of descriptors and the technical architecture framework on which they rely.",
         "zenodo_id": 1416940,
-        "dblp_key": "conf/ismir/VinetHP02"
+        "dblp_key": "conf/ismir/VinetHP02",
+        "keywords": [
+            "CUIDADO Project",
+            "Content-based Unified Interfaces and Descriptors",
+            "Audio/music Databases",
+            "MPEG-7 standard",
+            "Description structures",
+            "Extractors",
+            "High-level information",
+            "Applications",
+            "Sound Palette",
+            "Music Browser"
+        ]
     },
     {
         "title": "A Kind of Content-Based Music Information Retrieval Method in Peer-to-peer Environment.",

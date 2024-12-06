@@ -40,7 +40,19 @@
         "ee": "https://wp.nyu.edu/ismir2016/wp-content/uploads/sites/2294/2016/07/077_Paper.pdf",
         "abstract": "A plurality of audio feature extraction toolsets and feature datasets are used by the MIR community. Their differ- ent conceptual organisation of features and output formats however present difficulties in exchanging or comparing data, while very limited means are provided to link features with content and provenance. These issues are hindering research reproducibility and the use of multiple tools in combination. We propose novel Semantic Web ontologies (1) to provide a common structure for feature data formats and (2) to represent computational workflows of audio fea- tures facilitating their comparison. The Audio Feature On- tology provides a descriptive framework for expressing dif- ferent conceptualisations of and designing linked data for- mats for content-based audio features. To accommodate different views in organising features, the ontology does not impose a strict hierarchical structure, leaving this open to task and tool specific ontologies that derive from a com- mon vocabulary. The ontologies are based on the analy- sis of existing feature extraction tools and the MIR litera- ture, which was instrumental in guiding the design process. They are harmonised into a library of modular interlinked ontologies that describe the different entities and activities involved in music creation, production and consumption.",
         "zenodo_id": 1416226,
-        "dblp_key": "conf/ismir/AllikFS16"
+        "dblp_key": "conf/ismir/AllikFS16",
+        "keywords": [
+            "Semantic Web ontologies",
+            "common structure for feature data formats",
+            "represent computational workflows",
+            "express different conceptualisations",
+            "linked data formats",
+            "content-based audio features",
+            "descriptive framework",
+            "harmonised into a library",
+            "modular interlinked ontologies",
+            "entities and activities"
+        ]
     },
     {
         "title": "Conversations with Expert Users in Music Retrieval and Research Challenges for Creative MIR.",
@@ -165,7 +177,19 @@
         "ee": "https://wp.nyu.edu/ismir2016/wp-content/uploads/sites/2294/2016/07/199_Paper.pdf",
         "abstract": "We introduce good-sounds.org, a community driven framework based on freesound.org to explore the concept of goodness in instrumental sounds. Goodness is conside- red here as the common agreed basic sound quality of an instrument without taking into consideration musical ex- pressiveness. Musicians upload their sounds and vote on existing sounds, and from the collected data the system is able to develop sound goodness measures of relevance for music education applications. The core of the system is a database of sounds, together with audio features extracted from them using MTG\u2019s Essentia library and user annota- tions related to the goodness of the sounds. The web front- end provides useful data visualizations of the sound at- tributes and tools to facilitate user interaction. To evaluate the framework, we carried out an experiment to rate sound goodness of single notes of nine orchestral instruments. In it, users rated the sounds using an AB vote over a set of sound attributes defined to be of relevance in the charac- terization of single notes of instrumental sounds. With the obtained votes we built a ranking of the sounds for each attribute and developed a model that rates the goodness for each of the selected sound attributes. Using this approach, we have succeeded in obtaining results comparable to a model that was built from expert generated evaluations.",
         "zenodo_id": 1416864,
-        "dblp_key": "conf/ismir/BandieraPTHOS16"
+        "dblp_key": "conf/ismir/BandieraPTHOS16",
+        "keywords": [
+            "good-sounds.org",
+            "community driven framework",
+            "freesound.org",
+            "explore the concept of goodness",
+            "instrumental sounds",
+            "common agreed basic sound quality",
+            "musicians upload their sounds",
+            "vote on existing sounds",
+            "develop sound goodness measures",
+            "music education applications"
+        ]
     },
     {
         "title": "Jazz Ensemble Expressive Performance Modeling.",
@@ -291,7 +315,19 @@
         "ee": "https://wp.nyu.edu/ismir2016/wp-content/uploads/sites/2294/2016/07/220_Paper.pdf",
         "abstract": "Many studies in music classification are concerned with obtaining the highest possible cross-validation result. How- ever, some studies have noted that cross-validation may be prone to biases and that additional evaluations based on independent out-of-sample data are desirable. In this paper we present a methodology and software tools for cross-collection evaluation for music classification tasks. The tools allow users to conduct large-scale evaluations of classifier models trained within the AcousticBrainz plat- form, given an independent source of ground-truth anno- tations, and its mapping with the classes used for model training. To demonstrate the application of this methodol- ogy we evaluate five models trained on genre datasets com- monly used by researchers for genre classification, and use collaborative tags from Last.fm as an independent source of ground truth. We study a number of evaluation strate- gies using our tools on validation sets from 240,000 to 1,740,000 music recordings and discuss the results.",
         "zenodo_id": 1418131,
-        "dblp_key": "conf/ismir/BogdanovPHS16"
+        "dblp_key": "conf/ismir/BogdanovPHS16",
+        "keywords": [
+            "cross-collection evaluation",
+            "music classification tasks",
+            "AcousticBrainz platform",
+            "independent source of ground-truth",
+            "collaborative tags from Last.fm",
+            "validation sets",
+            "evaluation strategies",
+            "results",
+            "cross-validation biases",
+            "classifier models"
+        ]
     },
     {
         "title": "A Comparison of Melody Extraction Methods Based on Source-Filter Modelling.",
@@ -689,7 +725,19 @@
         "ee": "https://wp.nyu.edu/ismir2016/wp-content/uploads/sites/2294/2016/07/213_Paper.pdf",
         "abstract": "In this paper, we introduce a novel Conditional Random Field (CRF) system that detects the downbeat sequence of musical audio signals. Feature functions are computed from four deep learned representations based on harmony, rhythm, melody and bass content to take advantage of the high-level and multi-faceted aspect of this task. Downbeats being dynamic, the powerful CRF classification system al- lows us to combine our features with an adapted temporal model in a fully data-driven fashion. Some meters being under-represented in our training set, we show that data augmentation enables a statistically significant improve- ment of the results by taking into account class imbalance. An evaluation of different configurations of our system on nine datasets shows its efficiency and potential over a heuristic based approach and four downbeat tracking algo- rithms.",
         "zenodo_id": 1417739,
-        "dblp_key": "conf/ismir/DurandE16"
+        "dblp_key": "conf/ismir/DurandE16",
+        "keywords": [
+            "Conditional Random Field (CRF)",
+            "downbeat sequence detection",
+            "musical audio signals",
+            "deep learned representations",
+            "feature functions",
+            "temporal model",
+            "data-driven fashion",
+            "class imbalance",
+            "evaluation",
+            "heuristic based approach"
+        ]
     },
     {
         "title": "On the Use of Note Onsets for Improved Lyrics-To-Audio Alignment in Turkish Makam Music.",
@@ -1070,7 +1118,19 @@
         "ee": "https://wp.nyu.edu/ismir2016/wp-content/uploads/sites/2294/2016/07/030_Paper.pdf",
         "abstract": "R\u00afaga is the melodic framework of Indian art music. It is a core concept used in composition, performance, organi- zation, and pedagogy. Automatic r\u00afaga recognition is thus a fundamental information retrieval task in Indian art music. In this paper, we propose the time-delayed melody surface (TDMS), a novel feature based on delay coordinates that captures the melodic outline of a r\u00afaga. A TDMS describes both the tonal and the temporal characteristics of a melody, using only an estimation of the predominant pitch. Consid- ering a simple k-nearest neighbor classifier, TDMSs out- perform the state-of-the-art for r\u00afaga recognition by a large margin. We obtain 98% accuracy on a Hindustani music dataset of 300 recordings and 30 r\u00afagas, and 87% accuracy on a Carnatic music dataset of 480 recordings and 40 r\u00afagas. TDMSs are simple to implement, fast to compute, and have a musically meaningful interpretation. Since the concepts and formulation behind the TDMS are generic and widely applicable, we envision its usage in other music traditions beyond Indian art music.",
         "zenodo_id": 1417905,
-        "dblp_key": "conf/ismir/GulatiSGSS16"
+        "dblp_key": "conf/ismir/GulatiSGSS16",
+        "keywords": [
+            "melodic framework",
+            "Indian art music",
+            "composition",
+            "performance",
+            "organization",
+            "pedagogy",
+            "automatic r\u00afaga recognition",
+            "fundamental information retrieval task",
+            "time-delayed melody surface (TDMS)",
+            "novel feature"
+        ]
     },
     {
         "title": "Meter Detection in Symbolic Music Using Inner Metric Analysis.",
@@ -1084,7 +1144,19 @@
         "ee": "https://wp.nyu.edu/ismir2016/wp-content/uploads/sites/2294/2016/07/033_Paper.pdf",
         "abstract": "In this paper we present PRIMA: a new model tailored to symbolic music that detects the meter and the first down- beat position of a piece. Given onset data, the metrical structure of a piece is interpreted using the Inner Metric Analysis (IMA) model. IMA identifies the strong and weak metrical positions in a piece by performing a periodicity analysis, resulting in a weight profile for the entire piece. Next, we reduce IMA to a feature vector and model the detection of the meter and its first downbeat position prob- abilistically. In order to solve the meter detection prob- lem effectively, we explore various feature selection and parameter optimisation strategies, including Genetic, Max- imum Likelihood, and Expectation-Maximisation algo- rithms. PRIMA is evaluated on two datasets of MIDI files: a corpus of ragtime pieces, and a newly assembled pop dataset. We show that PRIMA outperforms autocorrelation- based meter detection as implemented in the MIDItoolbox on these datasets.",
         "zenodo_id": 1417345,
-        "dblp_key": "conf/ismir/HaasV16"
+        "dblp_key": "conf/ismir/HaasV16",
+        "keywords": [
+            "PRIMA",
+            "new model",
+            "symbolic music",
+            "metrical structure",
+            "Inner Metric Analysis",
+            "periodicity analysis",
+            "weight profile",
+            "feature vector",
+            "probabilistic modeling",
+            "meter detection"
+        ]
     },
     {
         "title": "Further Steps Towards a Standard Testbed for Optical Music Recognition.",
@@ -1100,7 +1172,19 @@
         "ee": "https://wp.nyu.edu/ismir2016/wp-content/uploads/sites/2294/2016/07/289_Paper.pdf",
         "abstract": "Evaluating Optical Music Recognition (OMR) is notori- ously difficult and automated end-to-end OMR evaluation metrics are not available to guide development. In \u201cTo- wards a Standard Testbed for Optical Music Recognition: Definitions, Metrics, and Page Images\u201d, Byrd and Simon- sen recently stress that a benchmarking standard is needed in the OMR community, both with regards to data and evaluation metrics. We build on their analysis and def- initions and present a prototype of an OMR benchmark. We do not, however, presume to present a complete so- lution to the complex problem of OMR benchmarking. Our contributions are: (a) an attempt to define a multi- level OMR benchmark dataset and a practical prototype implementation for both printed and handwritten scores, (b) a corpus-based methodology for assessing automated evaluation metrics, and an underlying corpus of over 1000 qualified relative cost-to-correct judgments. We then as- sess several straightforward automated MusicXML eval- uation metrics against this corpus to establish a baseline over which further metrics can improve.",
         "zenodo_id": 1418161,
-        "dblp_key": "conf/ismir/HajicNPP16"
+        "dblp_key": "conf/ismir/HajicNPP16",
+        "keywords": [
+            "automated end-to-end OMR evaluation metrics",
+            "standard testbed for Optical Music Recognition",
+            "printed and handwritten scores",
+            "corpus-based methodology",
+            "MusicXML evaluation metrics",
+            "baseline for further improvements",
+            "underlying corpus of over 1000",
+            "complex problem of OMR benchmarking",
+            "attempt to define a multi-level OMR benchmark dataset",
+            "practical prototype implementation"
+        ]
     },
     {
         "title": "Improving Predictions of Derived Viewpoints in Multiple Viewpoints Systems.",
@@ -1245,7 +1329,19 @@
         "ee": "https://wp.nyu.edu/ismir2016/wp-content/uploads/sites/2294/2016/07/046_Paper.pdf",
         "abstract": "Spectro-temporal modulations (STMs) of the sound con- vey timbre and rhythm information so that they are intui- tively useful for automatic music genre classification. The STMs are usually extracted from a time-frequency representation of the acoustic signal. In this paper, we in- vestigate the efficacy of two kinds of STM features, the Gabor features and the rate-scale (RS) features, selective- ly extracted from various time-frequency representations, including the short-time Fourier transform (STFT) spec- trogram, the constant-Q transform (CQT) spectrogram and the auditory (AUD) spectrogram, in recognizing the music genre. In our system, the dictionary learning and sparse coding techniques are adopted for training the support vector machine (SVM) classifier. Both spectral- type features and modulation-type features are used to test the system. Experiment results show that the RS fea- tures extracted from the log. magnituded CQT spectro- gram produce the highest recognition rate in classifying the music genre.",
         "zenodo_id": 1418099,
-        "dblp_key": "conf/ismir/HsuLC16"
+        "dblp_key": "conf/ismir/HsuLC16",
+        "keywords": [
+            "Spectro-temporal modulations",
+            "sound con- vey timbre",
+            "rhythm information",
+            "intui- tively useful",
+            "automatic music genre classification",
+            "Gabor features",
+            "rate-scale (RS) features",
+            "time-frequency representation",
+            "acoustic signal",
+            "music genre"
+        ]
     },
     {
         "title": "WiMIR: An Informetric Study On Women Authors In ISMIR.",
@@ -1264,7 +1360,19 @@
         "ee": "https://wp.nyu.edu/ismir2016/wp-content/uploads/sites/2294/2016/07/283_Paper.pdf",
         "abstract": "The Music Information Retrieval (MIR) community is becoming increasingly aware of a gender imbalance evi- dent in ISMIR participation and publication. This paper reports upon a comprehensive informetric study of the publication, authorship and citation characteristics of fe- male researchers in the context of the ISMIR confer- ences. All 1,610 papers in the ISMIR proceedings written by 1,910 unique authors from 2000 to 2015 were collect- ed and analyzed. Only 14.1% of all papers were led by female researchers. Temporal analysis shows that the percentage of lead female authors has not improved over the years, but more papers have appeared with female co- authors in very recent years. Topics and citation numbers are also analyzed and compared between female and male authors to identify research emphasis and to measure im- pact. The results show that the most prolific authors of both genders published similar numbers of ISMIR papers and the citation counts of lead authors in both genders had no significant difference. We also analyzed the col- laboration patterns to discover whether gender is related to the number of collaborators. Implications of these find- ings are discussed and suggestions are proposed on how to continue encouraging and supporting female participa- tion in the MIR field.",
         "zenodo_id": 1414832,
-        "dblp_key": "conf/ismir/HuCLLHCD16"
+        "dblp_key": "conf/ismir/HuCLLHCD16",
+        "keywords": [
+            "ISMIR",
+            "gender imbalance",
+            "informetric study",
+            "female researchers",
+            "ISMIR proceedings",
+            "2000 to 2015",
+            "papers",
+            "authorship",
+            "citation characteristics",
+            "co-authors"
+        ]
     },
     {
         "title": "MusicDB: A Platform for Longitudinal Music Analytics.",
@@ -1627,7 +1735,19 @@
         "ee": "https://wp.nyu.edu/ismir2016/wp-content/uploads/sites/2294/2016/07/165_Paper.pdf",
         "abstract": "Much surviving 16th-century instrumental music consists of arrangements (\u2018intabulations\u2019) of vocal music, in tabla- ture for solo lute. Intabulating involved deciding what to omit from a score to fit the instrument, and making it fit under the hand. Notes were usually added as embellish- ments to the original plain score, using idiomatic patterns, typically at cadences, but often filling simple intervals in the vocal parts with faster notes. Here we test whether such patterns are both character- istic of lute intabulations as a class (vs original lute mu- sic) and of different genres within that class. We use pat- terns identified in the musicological literature to search two annotated corpora of encoded lute music using the SIA(M)ESE algorithm. Diatonic patterns occur in many chromatic forms, accidentals being added depending how the arranger applied the conventions of musica ficta. Rhythms must be applied at three different scales as nota- tion is inconsistent across the repertory. This produced over 88,000 short melodic queries to search in two corpo- ra totalling just over 6,000 encodings of lute pieces. We show that our method clearly discriminates be- tween intabulations and original music for the lute (p < .001); it also can distinguish sacred and secular genres within the vocal models (p < .001).",
         "zenodo_id": 1415964,
-        "dblp_key": "conf/ismir/LewisCM16"
+        "dblp_key": "conf/ismir/LewisCM16",
+        "keywords": [
+            "16th-century",
+            "instrumental",
+            "music",
+            "arrangements",
+            "vocal",
+            "lute",
+            "intabulations",
+            "solo",
+            "hand",
+            "notes"
+        ]
     },
     {
         "title": "Impact of Music on Decision Making in Quantitative Tasks.",
@@ -1805,7 +1925,19 @@
         "ee": "https://wp.nyu.edu/ismir2016/wp-content/uploads/sites/2294/2016/07/191_Paper.pdf",
         "abstract": "We propose a method for estimating the musical \u201ctypical- ity\u201d of a song from an information theoretic perspective. While musical similarity compares just two songs, musi- cal typicality quantifies how many of the songs in a set are similar. It can be used not only to express the uniqueness of a song but also to recommend one that is representative of a set. Building on the type theory in information the- ory (Cover & Thomas 2006), we use a Bayesian generative model of musical features and compute the typicality of a song as the sum of the probabilities of the songs that share the type of the given song. To evaluate estimated results, we focused on vocal timbre which can be evaluated quan- titatively by using the singer\u2019s gender. Estimated typicality is evaluated against the Pearson correlation coefficient be- tween the computed typicality and the ratio of the number of male singers to female singers of a song-set. Our result shows that the proposed measure works more effectively to estimate musical typicality than the previous model based simply on generative probabilities. 1 INTRODUCTION The amount of digital content that can be accessed has been increasing and will continue to do so in the future. This is desirable with regard to the diversity of the content, but is making it harder for listeners to select from this con- tent. Furthermore, since the amount of similar content is also increasing, creators will be more concerned with the originality of their creations. All kinds of works are influ- enced by some existing content, and it is difficult to avoid an unconscious creation of content partly similar in some way to other content. This paper focuses on musical typicality which reflects the number of songs having high similarity with the tar- get song as shown in Figure 1. This definition of musi- cal typicality is based on central tendency, which in cog- nitive psychology is one of the determinants of typical- ity [2]. Musical typicality can be used to recommend a unique or representative song for a set of songs such as those in a particular genre or personal collection, those on c\u20ddTomoyasu Nakano, Daichi Mochihashi, Kazuyoshi Yoshii, Masataka Goto. Licensed under a Creative Commons Attribu- tion 4.0 International License (CC BY 4.0). Attribution: Tomoyasu Nakano, Daichi Mochihashi, Kazuyoshi Yoshii, Masataka Goto. \u201cMu- sical Typicality: How Many Similar Songs Exist?\u201d, 17th International Society for Music Information Retrieval Conference, 2016. low fi musical similarity song b song a low song set A fi musical typicality song a song b high fi fi fi fi fi fi fi fi fi fi fi fi a particular genre a personal collection a specific playlist e.g., Figure 1. Musical similarity and typicality. fi Generative modeling Typicality estimation feature vectors vector quantization type (topic distribution) ... ... fi fifi 1 2 3 5 1 topic sequence ... 2 2 1 2 1 feature vectors vector quantization song models (LDA) ... ... 1 2 3 5 1 generative model generative model generative model song model (LDA) song-set model song-set model calculate probability calculate probability Proposed approach Previous approach Figure 2. Estimation of music typicality represented by a discrete sequence based on the type theory. Both the pre- vious and the proposed approach are illustrated. a specific playlist, or those released in a given year or a decade. And it can help listeners to understand the rela- tionship between a song and such a song set. However, human ability with regard to typicality is limited. Judg- ing similarity between two songs is a relatively simple task but is time-consuming, so judging the similarities of a mil- lion songs is impossible. Consequently, despite the coming of an era in which people other than professional creators can enjoy creating and sharing works, the monotonic in- crease in content means that there is a growing risk that one\u2019s work will be denounced as being similar to some- one else\u2019s. This could make it difficult for people to freely create and share content. The musical typicality proposed in this paper can help create an environment in which spe- cialists and general users alike can know the answers to the questions \u201cHow often does this occur?\u201d and \u201cHow many similar songs are there?\u201d. Much previous work has focused on musical similarity because it is a central concept of MIR and is also impor- tant for purposes other than retrieval. For example, the use 695 type 0 0 0 0 0 0 0 1 0 1 0 0 1 0 0 0 0 1 1 2/3 1/3 0 generative probability high typicality high Previous approach Proposed approach song a song b song c Figure 3. Examples of a song having high generative prob- ability and songs having high typicality. of similarity to automatically classify musical pieces (into genres, music styles, etc.) has been studied [10,13], as has its use for music auto-tagging [17]. Each of these applica- tions, however, is different from musical typicality: musi- cal similarity is usually defined by comparing two songs, music classification is defined by classifying a given song into one out of a set of categories (category models, cen- troids, etc.), and music auto-tagging is defined by compar- ing a given song to a set of tags (tag models, the closest neighbors, etc.). Nakano et al. proposed a method for estimating mu- sical typicality by using a generative model trained from the song set (Figure 2) [16] and showed its application to visualizing relationships between songs in a playlist [14]. Their method estimates acoustic features of the target song at each frame and represents the typicality of the target song represented as an average probability of each frame of the song calculated using the song-set model. However, we posit that the generative probability is not truely appro- priate to represent typicality. The method we propose here, in contrast, introduces the type from information theory for improving estimated mu- sical typicality by a bag-of-features approach [16]. In this context, the type is same meaning with the unigram distri- bution. We first model musical features of songs by using a vector quantization method and latent Dirichlet alloca- tion (LDA) [4]. We then estimate a song-set model from the song models. Finally, we compute the typicality of the target song by calculating the probability of a type of the musical sequence (quantized acoustic features) calculated using the song-set model (Figure 2). 2 METHOD The key concept of the method in this paper is the type of a sequence on which we consider the typicality of a given music. Previous work have mentioned/used simple gen- erative probabilities to compute musical similarity [1] or typicality [16] of a music and for singer identification [8]. However, simple generative probability will not conform to our notion of typicality. Imagine the simplest example in Figure 3: here, each song consists of alphabets of {0, 1} and the stationary information source has a probability dis- tribution on alphabets Q(0) = 2/3, Q(1) = 1/3. Clearly, while the song \u201ca\u201d has the highest probability of generation, we can see that the sequences like \u201cb\u201d and \u201cc\u201d will occur more typically. This means that we should think about the sum of the probabilities of songs that are similar to the song to measure the typicality.",
         "zenodo_id": 1417915,
-        "dblp_key": "conf/ismir/NakanoMYG16"
+        "dblp_key": "conf/ismir/NakanoMYG16",
+        "keywords": [
+            "musical typicality",
+            "information theoretic perspective",
+            "musical similarity",
+            "musical features",
+            "Bayesian generative model",
+            "Pearson correlation coefficient",
+            "vocal timbre",
+            "singers gender",
+            "music classification",
+            "music auto-tagging"
+        ]
     },
     {
         "title": "Systematic Exploration of Computational Music Structure Research.",
@@ -1958,7 +2090,19 @@
         "ee": "https://wp.nyu.edu/ismir2016/wp-content/uploads/sites/2294/2016/07/064_Paper.pdf",
         "abstract": "Cover song identification involves calculating pairwise si- milarities between a query audio track and a database of reference tracks. While most authors make exclusively use of chroma features, recent work tends to demonstrate that combining similarity estimators based on multiple audio features increases the performance. We improve this ap- proach by using a hierarchical rank aggregation method for combining estimators based on different features. More precisely, we first aggregate estimators based on global features such as the tempo, the duration, the overall loud- ness, the number of beats, and the average chroma vector. Then, we aggregate the resulting composite estimator with four popular state-of-the-art methods based on chromas as well as timbre sequences. We further introduce a refine- ment step for the rank aggregation called \u201clocal Kemeniza- tion\u201d and quantify its benefit for cover song identification. The performance of our method is evaluated on the Sec- ond Hand Song dataset. Our experiments show a signifi- cant improvement of the performance, up to an increase of more than 200 % of the number of queries identified in the Top-1, compared to previous results.",
         "zenodo_id": 1418109,
-        "dblp_key": "conf/ismir/OsmalskyjDE16"
+        "dblp_key": "conf/ismir/OsmalskyjDE16",
+        "keywords": [
+            "cover song identification",
+            "pairwise similarities",
+            "chroma features",
+            "multiple audio features",
+            "hierarchical rank aggregation",
+            "state-of-the-art methods",
+            "timbre sequences",
+            "refinement step",
+            "local Kemenization",
+            "Sec-ond Hand Song dataset"
+        ]
     },
     {
         "title": "Structural Segmentation and Visualization of Sitar and Sarod Concert Audio.",
@@ -1974,7 +2118,19 @@
         "ee": "https://wp.nyu.edu/ismir2016/wp-content/uploads/sites/2294/2016/07/151_Paper.pdf",
         "abstract": "Hindustani classical instrumental concerts follow an episodic development that, musicologically, is described via changes in the rhythmic structure. Uncovering this structure in a musically relevant form can provide for pow- erful visual representations of the concert audio that is of potential value in music appreciation and pedagogy. We in- vestigate the structural analysis of the metered section (gat) of concerts of two plucked string instruments, the sitar and sarod. A prominent aspect of the gat is the interplay be- tween the melody soloist and the accompanying drummer (tabla). The tempo as provided by the tabla together with the rhythmic density of the sitar/sarod plucks serve as the main dimensions that predict the transition between con- cert sections. We present methods to access the stream of tabla onsets separately from the sitar/sarod onsets, ad- dressing challenges that arise in the instrument separation. Further, the robust detection of tempo and the estimation of rhythmic density of sitar/sarod plucks are discussed. A case study of a fully annotated concert is presented, and is followed by results of achieved segmentation accuracy on a database of sitar and sarod gats across artists.",
         "zenodo_id": 1414924,
-        "dblp_key": "conf/ismir/PSGR16"
+        "dblp_key": "conf/ismir/PSGR16",
+        "keywords": [
+            "Hindustani classical instrumental concerts",
+            "episodic development",
+            "rhythmic structure",
+            "musicological analysis",
+            "visual representations",
+            "musical relevance",
+            "musical appreciation",
+            "pedagogy",
+            "metered section",
+            "gat"
+        ]
     },
     {
         "title": "Learning a Feature Space for Similarity in World Music.",
@@ -2094,7 +2250,19 @@
         "ee": "https://wp.nyu.edu/ismir2016/wp-content/uploads/sites/2294/2016/07/146_Paper.pdf",
         "abstract": "Music content analysis (MCA) systems built using scat- tering transform features are reported quite successful in the GTZAN benchmark music dataset. In this paper, we seek to answer why. We first analyse the feature extraction and classification components of scattering-based MCA systems. This guides us to perform intervention experi- ments on three factors: train/test partition, classifier and recording spectrum. The partition intervention shows a de- crease in the amount of reproduced ground truth by the resulting systems. We then replace the learning algorithm with a binary decision tree, and identify the impact of spe- cific feature dimensions. We finally alter the spectral con- tent related to such dimensions, which reveals that these scattering-based systems exploit acoustic information be- low 20 Hz to reproduce GTZAN ground truth. The source code to reproduce our experiments is available online. 1",
         "zenodo_id": 1414724,
-        "dblp_key": "conf/ismir/Rodriguez-Algarra16"
+        "dblp_key": "conf/ismir/Rodriguez-Algarra16",
+        "keywords": [
+            "scattering transform features",
+            "GTZAN benchmark music dataset",
+            "feature extraction",
+            "classification components",
+            "train/test partition",
+            "classifier",
+            "recording spectrum",
+            "binary decision tree",
+            "specific feature dimensions",
+            "acoustic information below 20 Hz"
+        ]
     },
     {
         "title": "An Analysis of Agreement in Classical Music Perception and its Relationship to Listener Characteristics.",
@@ -2699,7 +2867,19 @@
         "ee": "https://wp.nyu.edu/ismir2016/wp-content/uploads/sites/2294/2016/07/269_Paper.pdf",
         "abstract": "Music transcription is a core task in the field of music information retrieval. Transcribing the drum tracks of mu- sic pieces is a well-defined sub-task. The symbolic repre- sentation of a drum track contains much useful information about the piece, like meter, tempo, as well as various style and genre cues. This work introduces a novel approach for drum transcription using recurrent neural networks. We claim that recurrent neural networks can be trained to iden- tify the onsets of percussive instruments based on general properties of their sound. Different architectures of recur- rent neural networks are compared and evaluated using a well-known dataset. The outcomes are compared to results of a state-of-the-art approach on the same dataset. Further- more, the ability of the networks to generalize is demon- strated using a second, independent dataset. The exper- iments yield promising results: while F-measures higher than state-of-the-art results are achieved, the networks are capable of generalizing reasonably well.",
         "zenodo_id": 1417613,
-        "dblp_key": "conf/ismir/VoglDK16"
+        "dblp_key": "conf/ismir/VoglDK16",
+        "keywords": [
+            "Music transcription",
+            "drum tracks",
+            "well-defined sub-task",
+            "symbolic representation",
+            "useful information",
+            "percussive instruments",
+            "recurrent neural networks",
+            "general properties",
+            "state-of-the-art approach",
+            "generalization"
+        ]
     },
     {
         "title": "Interactive Scores in Classical Music Production.",

@@ -700,7 +700,19 @@
         "ee": "https://archives.ismir.net/ismir2021/paper/000025.pdf",
         "abstract": "The Filosax dataset is a collection of annotatedmultitrack jazz recordings.This lite version consists of 5 pieces, where each piece has 2 alternative saxophone recordings with note-level and score-level transcriptions. For more information, seedave-foster.github.io/filosax/.",
         "zenodo_id": 5643734,
-        "dblp_key": "conf/ismir/FosterD21"
+        "dblp_key": "conf/ismir/FosterD21",
+        "keywords": [
+            "Filosax",
+            "multitrack jazz recordings",
+            "annotated",
+            "Lite version",
+            "5 pieces",
+            "alternative saxophone recordings",
+            "note-level transcriptions",
+            "score-level transcriptions",
+            "seedave-foster.github.io/filosax/",
+            "information"
+        ]
     },
     {
         "title": "An interpretable music similarity measure based on path interestingness.",
@@ -1367,7 +1379,19 @@
         "ee": "https://archives.ismir.net/ismir2021/paper/000051.pdf",
         "abstract": "Sequence to Sequence (Seq2Seq) approaches have shown good performances in automatic music generation. We introduce MINGUS, a Transformer-based Seq2Seq architecture for modelling and generating monophonic jazz melodic lines.\n MINGUS relies on two dedicated embedding models (respectively for pitch and duration) and exploits in prediction features such as chords (current and following), bass line, position inside the measure. \n The obtained results are comparable with the state of the art of music generation with neural models, with particularly good performances on jazz music.",
         "zenodo_id": 5625684,
-        "dblp_key": "conf/ismir/MadaghieleLT21"
+        "dblp_key": "conf/ismir/MadaghieleLT21",
+        "keywords": [
+            "Sequence to Sequence (Seq2Seq)",
+            "automatic music generation",
+            "MINGUS",
+            "Transformer-based",
+            "monophonic jazz melodic lines",
+            "dedicated embedding models",
+            "prediction features",
+            "chords",
+            "bass line",
+            "position inside the measure"
+        ]
     },
     {
         "title": "User-centered evaluation of lyrics-to-audio alignment.",
@@ -1596,7 +1620,19 @@
         "ee": "https://archives.ismir.net/ismir2021/paper/000060.pdf",
         "abstract": "Generative Adversarial Networks (GANs) have achieved excellent audio synthesis quality in the last years. However, making them operable with semantically meaningful controls remains an open challenge. An obvious approach is to control the GAN by conditioning it on metadata contained in audio datasets. Unfortunately, audio datasets often lack the desired annotations, especially in the musical domain. A way to circumvent this lack of annotations is to generate them, for example, with an automatic audio-tagging system. The output probabilities of such systems (so-called \"soft labels\") carry rich information about the characteristics of the respective audios and can be used to distill the knowledge from a teacher model into a student model. In this work, we perform knowledge distillation from a large audio tagging system into an adversarial audio synthesizer that we call DarkGAN. Results show that DarkGAN can synthesize musical audio with acceptable quality and exhibits moderate attribute control even with out-of-distribution input conditioning. We release the code and provide audio examples on the accompanying website.",
         "zenodo_id": 5624507,
-        "dblp_key": "conf/ismir/NistalLR21"
+        "dblp_key": "conf/ismir/NistalLR21",
+        "keywords": [
+            "Generative Adversarial Networks (GANs)",
+            "audio synthesis quality",
+            "operable with semantically meaningful controls",
+            "audio datasets",
+            "metadata",
+            "automatic audio-tagging system",
+            "soft labels",
+            "knowledge distillation",
+            "DarkGAN",
+            "audio examples"
+        ]
     },
     {
         "title": "Phase-Aware Joint Beat and Downbeat Estimation Based on Periodicity of Metrical Structure.",
@@ -1864,7 +1900,19 @@
         "ee": "https://archives.ismir.net/ismir2021/paper/000071.pdf",
         "abstract": "Extended tonality is a central system that characterizes the music from the 19th up to the 21st century, including styles like popular music, film music or Jazz. Developing from classical major-minor tonality, the harmonic language of extended tonality forms its own set of rules and regularities, which are a result of the freer combinatoriality of chords within phrases, non-standard chord forms, the emancipation of dissonance, and the loosening of the concept of key. These phenomena posit a challenge for formal, mathematical theory building. The theoretical model proposed in this paper proceeds from Neo-Riemannian and Tonfeld theory, a systematic but informal music-theoretical framework for extended tonality. Our model brings together three fundamental components: the underlying algebraic structure of the Tonnetz, the three basic analytical categories from Tonfeld theory (octatonic and hexatonic collections as well as stacks of fifths), and harmonic syntax in terms of formal language theory. The proposed model is specified to a level of detail that lends itself for implementation and empirical investigation.",
         "zenodo_id": 5624635,
-        "dblp_key": "conf/ismir/RohrmeierM21"
+        "dblp_key": "conf/ismir/RohrmeierM21",
+        "keywords": [
+            "extended tonality",
+            "19th century",
+            "21st century",
+            "popular music",
+            "film music",
+            "Jazz",
+            "classical major-minor tonality",
+            "harmonic language",
+            "freer combinatoriality",
+            "chords within phrases"
+        ]
     },
     {
         "title": "CRASH: Raw Audio Score-based Generative Modeling for Controllable High-resolution Drum Sound Synthesis.",

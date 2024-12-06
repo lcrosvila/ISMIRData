@@ -357,7 +357,19 @@
         "ee": "https://zenodo.org/records/1417599/files/BurgoyneBBH13.pdf",
         "abstract": "Although there has been some empirical research on earworms, songs that become caught and replayed in one\u2019s memory over and over again, there has been surprisingly little empirical research on the more general concept of the musical hook, the most salient moment in a piece of music, or the even more general concept of what may make music \u2018catchy\u2019. Almost by definition, people like catchy music, and thus this question is a natural candidate for approaching with \u2018gamification\u2019. We present the design of Hooked, a game we are using to study musical catchiness, as well as the theories underlying its design and the results of a pilot study we undertook to check its scientific validity. We found significant di\u21b5erences in time to recall pieces of music across di\u21b5erent segments, identified parameters for making recall tasks more or less challenging, and found that players are not as reliable as one might expect at predicting their own recall performance.",
         "zenodo_id": 1417599,
-        "dblp_key": "conf/ismir/BurgoyneBBH13"
+        "dblp_key": "conf/ismir/BurgoyneBBH13",
+        "keywords": [
+            "earworms",
+            "musical hook",
+            "catchy",
+            "gamification",
+            "Hooked",
+            "recall tasks",
+            "scientific validity",
+            "pilot study",
+            "time to recall",
+            "challenge parameters"
+        ]
     },
     {
         "title": "Robotaba Guitar Tablature Transcription Framework.",
@@ -1372,7 +1384,19 @@
         "ee": "https://zenodo.org/records/1416206/files/LiangHE13.pdf",
         "abstract": "Nonnegative matrix factorization (NMF) has been widely used for discovering physically meaningful latent components in audio signals to facilitate source separation. Most of the existing NMF algorithms require that the number of latent components is provided a priori, which is not always possible. In this paper, we leverage developments from the Bayesian nonparametrics and compressive sensing literature to propose a probabilistic Beta Process Sparse NMF (BP-NMF) model, which can automatically infer the proper number of latent components based on the data. Unlike previous models, BP-NMF explicitly assumes that these latent components are often completely silent. We derive a novel mean-field variational inference algorithm for this nonconjugate model and evaluate it on both synthetic data and real recordings on various tasks.",
         "zenodo_id": 1416206,
-        "dblp_key": "conf/ismir/LiangHE13"
+        "dblp_key": "conf/ismir/LiangHE13",
+        "keywords": [
+            "Nonnegative matrix factorization",
+            "latent components",
+            "audio signals",
+            "source separation",
+            "Bayesian nonparametrics",
+            "compressive sensing",
+            "probabilistic Beta Process Sparse NMF",
+            "automatic inference",
+            "proper number of latent components",
+            "completely silent"
+        ]
     },
     {
         "title": "Exploration of Music Emotion Recognition Based on MIDI.",
@@ -1786,7 +1810,19 @@
         "ee": "https://zenodo.org/records/1415946/files/PuginC13.pdf",
         "abstract": "The Early Music Online (EMO) collection consists of about 300 printed music books of the sixteenth century held at the British Library. They were recently digitized from microfilms and made available online. In total, about 35,000 pages were digitized. This paper presents an optical music recognition (OMR) evaluation on the EMO collection. Firstly, the content of the collection is reviewed, looking at the type of music notation and the type of printing technique. Secondly, for the books for which it is possible (260 books), an OMR evaluation performed using the Aruspix OMR software application is presented. For each book, one randomly selected page of music was processed and the recognition rate was computed using a corrected transcription of the page. This evaluation shows very promising results for large-scale OMR on the EMO or similar collections. The paper also highlights critical points that should be taken into account in such an enterprise.",
         "zenodo_id": 1415946,
-        "dblp_key": "conf/ismir/PuginC13"
+        "dblp_key": "conf/ismir/PuginC13",
+        "keywords": [
+            "British Library",
+            "sixteenth century",
+            "printed music books",
+            "digitalization",
+            "Optical Music Recognition (OMR)",
+            "Aruspix OMR software",
+            "British Library",
+            "critical points",
+            "large-scale OMR",
+            "similar collections"
+        ]
     },
     {
         "title": "Combining Modeling Of Singing Voice And Background Music For Automatic Separation Of Musical Mixtures.",
@@ -1990,7 +2026,19 @@
         "ee": "https://zenodo.org/records/1416508/files/Schluter13.pdf",
         "abstract": "Content-based music similarity estimation provides a way to find songs in the unpopular \u201clong tail\u201d of commercial catalogs. However, state-of-the-art music similarity measures are too slow to apply to large databases, as they are based on finding nearest neighbors among very high-dimensional or non-vector song representations that are difficult to index. In this work, we adopt recent machine learning methods to map such song representations to binary codes. A linear scan over the codes quickly finds a small set of likely neighbors for a query to be refined with the original expensive similarity measure. Although search costs grow linearly with the collection size, we show that for commercialscale databases and two state-of-the-art similarity measures, this outperforms five previous attempts at approximate nearest neighbor search. When required to return 90% of true nearest neighbors, our method is expected to answer 4.2 1-NN queries or 1.3 50-NN queries per second on a collection of 30 million songs using a single CPU core; an up to 260 fold speedup over a full scan of 90% of the database.",
         "zenodo_id": 1416508,
-        "dblp_key": "conf/ismir/Schluter13"
+        "dblp_key": "conf/ismir/Schluter13",
+        "keywords": [
+            "binary codes",
+            "commercial catalogs",
+            "content-based music similarity",
+            "commercial-scale databases",
+            "exact nearest neighbor search",
+            "linear scan",
+            "machine learning methods",
+            "nearest neighbors",
+            "non-vector song representations",
+            "state-of-the-art similarity measures"
+        ]
     },
     {
         "title": "Learning Rhythm And Melody Features With Deep Belief Networks.",
@@ -2307,7 +2355,19 @@
         "ee": "https://zenodo.org/records/1417363/files/VeraCH13.pdf",
         "abstract": "This paper presents a quantitative study of musician synchronisation in ensemble performance under restricted line of sight, an inherent condition in scenarios like distributed music performance. The study focuses on the relevance of gestural (e.g. visual, breath) cues in achieving note onset synchrony in a violin and cello duo, in which musicians must fulfill a mutual conducting role. The musicians performed two pieces \u2013 one with long notes separated by long pauses, another with long notes but no pauses \u2013 under direct, partial (silhouettes), and no line of sight. Analysis of the musicians\u2019 note synchrony shows that visual contact significantly impacts synchronization in the first piece, but not significantly in the second piece, leading to the hypothesis that opportunities to shape notes may provide further cues for synchronization. The results also show that breath cues are important, and that the relative positions of these cues impact note asynchrony at the ends of pauses; thus, the advance timing information provided by breath cues could form a basis for generating virtual cues in distributed performance, where network latency delays sonic and visual cues. This study demonstrates the need to account for structure (e.g. pauses, long notes) and prosodic gestures in ensemble synchronisation.",
         "zenodo_id": 1417363,
-        "dblp_key": "conf/ismir/VeraCH13"
+        "dblp_key": "conf/ismir/VeraCH13",
+        "keywords": [
+            "quantitative study",
+            "musician synchronisation",
+            "ensemble performance",
+            "restricted line of sight",
+            "distributed music performance",
+            "gestural cues",
+            "note onset synchrony",
+            "mutual conducting role",
+            "two pieces",
+            "notes separated by long pauses"
+        ]
     },
     {
         "title": "Optical Measure Recognition in Common Music Notation.",
@@ -2564,6 +2624,18 @@
         "ee": null,
         "abstract": "This dataset contains the multitask annotation for the Ragas in the Carnatic style of Indian classical music. The multitasks present in the datasetare the Swaras set, Melakarta set, Aaroh set,Avroh set,Janak/janya, and Raag Id. The music for extracting the mel-spectrogram feature is taken from the Dunya corpus [1]. The dataset contains 40 Ragas, and each contains 12 music recordings.\n\n[1]Porter, Alastair, Mohamed Sordo, and Xavier Serra. Dunya: A system for browsing audio music collections exploiting cultural context. Britto A, Gouyon F, Dixon S. 14th International Society for Music Information Retrieval Conference (ISMIR); 2013 Nov 4-8; Curitiba, Brazil.[place unknown]: ISMIR; 2013. p. 101-6.. International Society for Music Information Retrieval (ISMIR), 2013.\n\n\n\n_________________________________________________________________________________________________________\nThis project was funded under the grant number: ECR/2018/000204 by the Science  Engineering Research Board (SERB).",
         "zenodo_id": 7388670,
-        "dblp_key": "conf/ismir/2013"
+        "dblp_key": "conf/ismir/2013",
+        "keywords": [
+            "Indian classical music",
+            "Ragas",
+            "Carnatic style",
+            "Swaras set",
+            "Melakarta set",
+            "Aaroh set",
+            "Avroh set",
+            "Janak/janya",
+            "Raag Id",
+            "Dunya corpus"
+        ]
     }
 ]

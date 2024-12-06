@@ -530,7 +530,19 @@
         "ee": "https://zenodo.org/records/1415170/files/DownieBC09.pdf",
         "abstract": "The International Symposium on Music Information Retrieval (ISMIR) was born on 13 August 1999. This paper expresses the opinions of three of ISMIR\u2019s founders as they reflect upon what has happened during its first decade. The paper provides the background context for the events that led to the establishment of ISMIR. We highlight the first ISMIR, held in Plymouth, MA in October of 2000, and use it to elucidate key trends that have influenced subsequent ISMIRs. Indicators of growth and success drawn from ISMIR publication data are presented. The role that the Music Information Retrieval Evaluation eXchange (MIREX) has played at ISMIR is examined. The factors contributing to ISMIR's growth and success are also enumerated. The paper concludes with a set of challenges and opportunities that the newly formed International Society for Music Information Retrieval should embrace to ensure the future vitality of the conference series and the ISMIR community.",
         "zenodo_id": 1415170,
-        "dblp_key": "conf/ismir/DownieBC09"
+        "dblp_key": "conf/ismir/DownieBC09",
+        "keywords": [
+            "International Symposium on Music Information Retrieval (ISMIR)",
+            "established on 13 August 1999",
+            "opinions of three founders",
+            "reflect upon the first decade",
+            "first ISMIR held in October 2000",
+            "elucidates key trends",
+            "growth and success indicators",
+            "Music Information Retrieval Evaluation eXchange (MIREX)",
+            "future vitality of the conference series",
+            "ISMIR community"
+        ]
     },
     {
         "title": "Harmonically Informed Multi-Pitch Tracking.",
@@ -598,7 +610,19 @@
         "ee": "https://zenodo.org/records/1417393/files/FergusonC09.pdf",
         "abstract": "Methods for spectral analysis of audio signals and their graphical display are widespread. However, assessing music and audio in the visual domain involves a number of challenges in the translation between auditory images into mental or symbolically represented concepts. This paper presents a spectral analysis method that exists entirely in the auditory domain, and results in an auditory presentation of a spectrum. It aims to strip a segment of audio signal of its temporal content, resulting in a quasi-stationary signal that possesses a similar spectrum to the original signal. The method is extended and applied for the purpose of music summarisation.",
         "zenodo_id": 1417393,
-        "dblp_key": "conf/ismir/FergusonC09"
+        "dblp_key": "conf/ismir/FergusonC09",
+        "keywords": [
+            "Spectral analysis",
+            "Audio signals",
+            "Graphical display",
+            "Translation challenges",
+            "Visual domain",
+            "Auditory images",
+            "Mental concepts",
+            "Music summarisation",
+            "Auditory presentation",
+            "Quasi-stationary signal"
+        ]
     },
     {
         "title": "Accelerating Query-by-Humming on GPU.",
@@ -642,7 +666,19 @@
         "ee": "https://zenodo.org/records/1416742/files/FremereyCEM09.pdf",
         "abstract": "In this paper, we introduce and discuss the task of sheet music-audio identification. Given a query consisting of a sequence of bars from a sheet music representation, the task is to find corresponding sections within an audio interpretation of the same piece. Two approaches are proposed: a semi-automatic approach using synchronization and a fully automatic approach using matching techniques. A workflow is described that allows for evaluating the matching approach using the results of the more reliable synchronization approach. This workflow makes it possible to handle even complex queries from orchestral scores. Furthermore, we present an evaluation procedure, where we investigate several matching parameters and tempo estimation strategies. Our experiments have been conducted on a dataset comprising pieces of various instrumentations and complexity. 1 INTRODUCTION When listening to an audio recording of a piece of music, an obvious problem is to decide, which bar of a corresponding sheet music representation is currently played. For technical reasons, we tackle this problem from the viewpoint of sheet music-audio identification: Given a sequence of bars from the sheet music as a query, the task is to find all temporal sections in the audio recording, where this bar sequence from the query is played. One application of this task is to find out, whether there are differences between the default bar sequence following the instructions in the sheet music and what is actually played in the audio interpretation. In case there are differences, sheet music-audio identification may also be used to automatically determine the bar sequence that is played in the interpretation, and to identify special parts like cadenzas that have no counterpart in the sheet music. If the bar sequence played in the audio interpretation is known in advance, sheet music-audio identification can We gratefully acknowledge support from the German Research Foundation DFG. The work presented in this paper was supported by the PROBADO project (http://www.probado.de/, grant INST 11925/1-1) and the ARMADA project (grant CL 64/6-1). Permission to make digital or hard copies of all or part of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page. c\u20dd2009 International Society for Music Information Retrieval. be solved by first performing sheet music-audio synchronization and then using the synchronization results to identify the temporal sections in the audio that correspond to a given query sequence of bars. In case the correct bar sequence is not known, a more direct approach must be taken. Here, sheet music-audio matching as performed in [1] seems to be a reasonable strategy. In the literature, alignment, identification and retrieval has been a popular field of research for the single-domain cases of either audio or symbolic data, see [2] and the references therein. For the cross-domain case, a lot of effort has been put into the task of off-line and on-line alignment of score data and audio data [3\u20136]. Here, the assumption is made that the bar sequence of the score is already known. The idea of using cross-domain synchronization results as ground truth or training data for more complicated music information retrieval tasks has already been formulated for the application of automatic transcription of pop music [7]. First important steps towards cross-domain matching and identification of polyphonic musical works have been conducted by the groups of Pickens and Orio [4, 8]. Using either audio transcription techniques [8] or a statistical model for the production of audio data from polyphonic score data [4] a complete audio track (song or movement) is used as a query to find the corresponding work in the score domain. First experiments for approaching the task of cross-domain work identification by querying arbitrary segments of score data have been conducted by Syoto et al. [9] as well as in our previous work [1]. None of the above approaches explicitly handles differences in bar sequence structure or repeats between the score and audio data, even though this is a common and practically relevant issue in real-world digital music libraries. The paper is structured as follows. Section 2 specifies the task of sheet-music audio identification in more detail and discusses some difficulties and pitfalls. Our two approaches to sheet music-audio identification are presented in Section 3, one using synchronization and the other using matching. Section 4 explains how MIDI events for comparison with the audio data are created from the sheet music data. The synchronization and matching procedures are outlined in Sections 5 and 6. Section 7 describes an evaluation procedure for the matching approach using the more reliable results of the synchronization approach as a ground truth. Experimental results using our test dataset are discussed in Section 8 before the paper concludes with an outlook on future work in Section 9. 645 Poster Session 4 2 SHEET MUSIC-AUDIO IDENTIFICATION In the following, we assume that we are given one scanned sheet music representation and one audio interpretation of the same piece of music. We assign a unique label (p, b) to each bar written in the sheet music, where p is the page number and b is the bar number on the page. Furthermore, B denotes the set of all bar labels of the piece. Sheet music may contain jump directives like repeat signs, alternative endings, dacapos or segnos. Following these directives as they are written in the sheet music, one obtains a sequence \u03b4 = (\u03b41, . . . , \u03b4n), \u03b4i \u2208B, indicating the default sequence of bars that is to be played when performing the piece. In practice, however, the given audio recording does not always follow this sequence \u03b4. Performers might, for example, choose to ignore or add repeats, or even introduce shortcuts. This leads to a possibly different sequence \u03c0 = (\u03c01, . . . , \u03c0d), \u03c0i \u2208B \u222a{\u2191}, which we call performance sequence. Here, we use the label \u2191to mark sections that are not written in the sheet music, e.g., cadenzas. Given the performance sequence \u03c0, the audio recording can be segmented into time intervals I1, . . . , Id such that time interval Ii corresponds to the section in the audio data where bar \u03c0i is played (or something that is not written in the score in case \u03c0i =\u2191). Given a query sequence of bars Q = (q0, . . . , qm), Q a substring of \u03b4, the task of sheet music-audio identification is to find all time intervals T in the audio data where the query sequence of bars is played. More formally, H(Q) := {T | \u2203j : Q = (\u03c0j, \u03c0j+1, . . . , \u03c0j+m) \u2227T = Ij \u222aIj+1 \u222a. . . \u222aIj+m} denotes the set of hits w.r.t. Q. Note that in case of repeats that are notated as repeat signs, there can be more than one hit for a given query. Also note that besides the time intervals T there might be other time intervals in the audio data where the same musical content is played, but that belong to a different sequence of bars in the sheet music. We denote this kind of time intervals as pseudo-hits. 3 TWO APPROACHES Given a scanned sheet music representation and an audio recording of the same piece of music, in a first step we use optical music recognition (OMR) software to extract information about musical symbols like staffs, bars and notes from the sheet music scans. Note that the obtained symbolic score data usually suffers from recognition errors. For simplicity, we here assume that the set of bar labels B and the default sequence \u03b4 are correctly obtained from the OMR output. Given a query Q = (q0, . . . , qm), which is a substring of \u03b4, we want to find the set of hits H(Q) as specified in Section 2. We now describe two approaches with different preconditions. For the first approach, we assume that the performance sequence \u03c0 = (\u03c01, . . . , \u03c0d), \u03c0i \u2208B \u222a{\u2191}, is known. In this case, we are left with the calculation of the corresponding time intervals I1, . . . , Id. This can be done by using sheet music-audio synchronization. The set of hits H(Q) can then be computed by finding occurrences of the query sequence in the performance sequence. In the second approach, the performance sequence \u03c0 is unknown. In this case, a reasonable strategy is to use sheet music-audio matching to search for sections in the audio recording with a similar musical content compared to the query sequence of bars. These sections may be considered as an approximation of the set of hits H(Q). However, one should be aware of the fact that this method cannot distinguish correct hits from pseudo-hits, and is therefore expected to deliver false positives. In the following, we will refer to such false positives as content-induced confusion. Such confusion is also expected to be introduced by query sequences that differ only slightly, either in musical content or by a very small number of bars at the beginning or end of the sequence. This issue becomes particularly relevant, since the presence of OMR errors prohibits using too strict settings for rating similarity in the matching. Due to the additional information \u03c0 that is given in the first approach, this approach works much more robust and reliable than the second approach. The required performance sequence \u03c0 can be created with little effort by manually editing an automatically generated list of jump directives acquired from the available default sequence \u03b4. Therefore, we consider this approach semi-automatic. On the contrary, the second approach is fully automatic, but the results are less reliable. In the optimum case, only content-induced confusion would occur. In practice, however, extra confusion is likely to be introduced by shortcomings of the matching procedure. The idea followed in this paper is to use the more reliable results of the semi-automatic first approach to create ground truth results for evaluating the less reliable fully automatic second approach. Using this method, we compare different settings of the matching procedure used in the second approach to learn which one works best for the task of sheet music-audio identification. 4 DATA PREPARATION To compare sheet music data with audio data, we first create MIDI note events from the OMR results. However, OMR results often suffer from non-recognized or misclassified symbols. Especially in orchestral scores with many parts, erroneous or missing clefs and key signatures lead to wrong note pitches when creating MIDI events. Furthermore, orchestral scores can comprise parts for transposing instruments, i.e., the notated pitch is different from the sounding pitch. Such transposition information is not output by current OMR software, but it is essential for creating correctly pitched MIDI events. To be able to handle even complex orchestral scores, a so-called staff signature text file is generated from each page and is manually corrected. The staff signature file contains information about the clef, the key signature and the transposition at the beginning of each staff that is found on the page, see Figure",
         "zenodo_id": 1416742,
-        "dblp_key": "conf/ismir/FremereyCEM09"
+        "dblp_key": "conf/ismir/FremereyCEM09",
+        "keywords": [
+            "sheet music-audio identification",
+            "task of finding corresponding sections",
+            "query consisting of a sequence of bars",
+            "audio interpretation of the same piece",
+            "two approaches proposed",
+            "semi-automatic approach using synchronization",
+            "fully automatic approach using matching techniques",
+            "workflow for evaluating matching approach",
+            "evaluation procedure",
+            "several matching parameters and tempo estimation strategies"
+        ]
     },
     {
         "title": "Scalability, Generality and Temporal Aspects in Automatic Recognition of Predominant Musical Instruments in Polyphonic Music.",
@@ -967,7 +1003,19 @@
         "ee": "https://zenodo.org/records/1415092/files/HamelWE09.pdf",
         "abstract": "We present and compare several models for automatic identification of instrument classes in polyphonic and poly-instrument audio. The goal is to be able to identify which categories of instrument (Strings, Woodwind, Guitar, Piano, etc.) are present in a given audio example. We use a machine learning approach to solve this task. We constructed a system to generate a large database of musically relevant poly-instrument audio. Our database is generated from hundreds of instruments classified in 7 categories. Musical audio examples are generated by mixing multi-track MIDI files with thousands of instrument combinations. We compare three different classifiers : a Support Vector Machine (SVM), a Multilayer Perceptron (MLP) and a Deep Belief Network (DBN). We show that the DBN tends to outperform both the SVM and the MLP in most cases.",
         "zenodo_id": 1415092,
-        "dblp_key": "conf/ismir/HamelWE09"
+        "dblp_key": "conf/ismir/HamelWE09",
+        "keywords": [
+            "automatic identification",
+            "instrument classes",
+            "polyphonic audio",
+            "poly-instrument audio",
+            "machine learning approach",
+            "large database",
+            "musically relevant",
+            "poly-instrument audio",
+            "classifier comparison",
+            "Deep Belief Network"
+        ]
     },
     {
         "title": "SMERS: Music Emotion Recognition Using Support Vector Regression.",
@@ -2269,7 +2317,19 @@
         "ee": "https://zenodo.org/records/1418173/files/McKayBTF09.pdf",
         "abstract": "This paper introduces ACE XML 2.0, a set of file formats that are designed to meet the special representational needs of research in automatic music classification. Such standardized formats are needed to facilitate the sharing and long-term storage of valuable research data. ACE XML 2.0 is designed to represent a broad range of musical information clearly using a flexible, extensible, selfcontained and formally structured framework. An emphasis is placed on representing extracted feature values, feature descriptions, instance annotations, class ontologies and related metadata.",
         "zenodo_id": 1418173,
-        "dblp_key": "conf/ismir/McKayBTF09"
+        "dblp_key": "conf/ismir/McKayBTF09",
+        "keywords": [
+            "file formats",
+            "research in automatic music classification",
+            "standardized formats",
+            "sharing",
+            "long-term storage",
+            "valuable research data",
+            "clearly",
+            "flexible",
+            "extensible",
+            "self-contained"
+        ]
     },
     {
         "title": "Exploring African Tone Scales.",
@@ -2498,7 +2558,19 @@
         "ee": "https://zenodo.org/records/1415010/files/OrioR09.pdf",
         "abstract": "Content-based music retrieval requires to define a similarity measure between music documents. In this paper, we propose a novel similarity measure between melodic content, as represented in symbolic notation, that takes into account musicological aspects on the structural function of the melodic elements. The approach is based on the representation of a collection of music scores with a graph structure, where terminal nodes directly describe the music content, internal nodes represent its incremental generalization, and arcs denote the relationships among them. The similarity between two melodies can be computed by analyzing the graph structure and finding the shortest path between the corresponding nodes inside the graph. Preliminary results in terms of music similarity are presented using a small test collection.",
         "zenodo_id": 1415010,
-        "dblp_key": "conf/ismir/OrioR09"
+        "dblp_key": "conf/ismir/OrioR09",
+        "keywords": [
+            "content-based music retrieval",
+            "similarity measure",
+            "melodic content",
+            "symbolic notation",
+            "musicological aspects",
+            "structural function",
+            "graph structure",
+            "terminal nodes",
+            "internal nodes",
+            "arcs"
+        ]
     },
     {
         "title": "Template-based Chord Recognition : Influence of the Chord Types.",
@@ -2540,7 +2612,19 @@
         "ee": "https://zenodo.org/records/1416414/files/PanagakisKA09.pdf",
         "abstract": "A robust music genre classification framework is proposed that combines the rich, psycho-physiologically grounded properties of auditory cortical representations of music recordings and the power of sparse representation-based classifiers. A novel multilinear subspace analysis method that incorporates the underlying geometrical structure of the cortical representations space into non-negative tensor factorization is proposed for dimensionality reduction compatible to the working principle of sparse representationbased classification. The proposed method is referred to as Locality Preserving Non-Negative Tensor Factorization (LPNTF). Dimensionality reduction is shown to play a crucial role within the classification framework under study. Music genre classification accuracy of 92.4% and 94.38% on the GTZAN and the ISMIR2004 Genre datasets is reported, respectively. Both accuracies outperform any accuracy ever reported for state of the art music genre classification algorithms applied to the aforementioned datasets.",
         "zenodo_id": 1416414,
-        "dblp_key": "conf/ismir/PanagakisKA09"
+        "dblp_key": "conf/ismir/PanagakisKA09",
+        "keywords": [
+            "music",
+            "genre",
+            "classification",
+            "framework",
+            "auditory",
+            "cortical",
+            "representations",
+            "sparse",
+            "representation-based",
+            "classification"
+        ]
     },
     {
         "title": "Easy Does It: The Electro-Acoustic Music Analysis Toolbox.",
@@ -2978,7 +3062,19 @@
         "ee": "https://zenodo.org/records/1416048/files/ThompsonMBF09.pdf",
         "abstract": "This paper presents additions and improvements to the Autonomous Classification Engine (ACE), a framework for using and optimizing classifiers. Given a set of feature values, ACE experiments with a variety of classifiers, classifier parameters, classifier ensembles and dimensionality-reduction techniques in order to arrive at a configuration that is well-suited to a given problem. Changes and additions have been made to ACE in order to increase its functionality as well as to make it easier to use and incorporate into other software frameworks. Details are provided on ACE\u2019s remodeled class structure and associated API, the improved command line and graphical user interfaces, a new ACE XML 2.0 ZIP file format and expanded statistical reporting associated with cross validation. The resulting improved processing and methods of operation are also discussed.",
         "zenodo_id": 1416048,
-        "dblp_key": "conf/ismir/ThompsonMBF09"
+        "dblp_key": "conf/ismir/ThompsonMBF09",
+        "keywords": [
+            "ACE",
+            "framework",
+            "classifier",
+            "dimensionality-reduction",
+            "configuration",
+            "problem",
+            "functionality",
+            "software",
+            "framework",
+            "statistical reporting"
+        ]
     },
     {
         "title": "Publishing Music Similarity Features on the Semantic Web.",
@@ -3179,7 +3275,19 @@
         "ee": "https://zenodo.org/records/1415204/files/YoshiiG09.pdf",
         "abstract": "This paper presents an extended probabilistic latent semantic indexing (pLSI) for hybrid music recommendation that deals with rating data provided by users and with contentbased data extracted from audio signals. The original pLSI can be applied to collaborative filtering by treating users and items as discrete random variables that follow multinomial distributions. In hybrid recommendation, it is necessary to deal with musical contents that are usually represented as continuous vectorial values. To do this, we propose a continuous pLSI that incorporates Gaussian mixture models. This extension, however, causes a severe local optima problem because it increases the number of parameters drastically. This is considered to be a major factor generating \u201chubs,\u201d which are items that are inappropriately recommended to almost all users. To solve this problem, we tested three smoothing techniques: multinomial smoothing, Gaussian parameter tying, and artist-based item clustering. The experimental results revealed that although the first method improved nothing, the others significantly improved the recommendation accuracy and reduced the hubness. This indicates that it is important to appropriately limit the model complexity to use the pLSI in practical.",
         "zenodo_id": 1415204,
-        "dblp_key": "conf/ismir/YoshiiG09"
+        "dblp_key": "conf/ismir/YoshiiG09",
+        "keywords": [
+            "extended probabilistic latent semantic indexing",
+            "hybrid music recommendation",
+            "rating data",
+            "content-based data",
+            "Gaussian mixture models",
+            "local optima problem",
+            "hubs",
+            "multinomial smoothing",
+            "Gaussian parameter tying",
+            "artist-based item clustering"
+        ]
     },
     {
         "title": "Proceedings of the 10th International Society for Music Information Retrieval Conference, ISMIR 2009, Kobe International Conference Center, Kobe, Japan, October 26-30, 2009",

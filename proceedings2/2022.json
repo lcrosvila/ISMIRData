@@ -75,7 +75,19 @@
         "ee": "https://archives.ismir.net/ismir2022/paper/000018.pdf",
         "abstract": "Various features \u2013 from low-level acoustics, to higher-level statistical regularities, to memory associations \u2013 contribute to the experience of musical enjoyment and pleasure. Recent work suggests that musical surprisal, that is, the unexpectedness of a musical event given its context, may directly predict listeners' experiences of pleasure and enjoyment during music listening. Understanding how surprisal shapes listeners' preferences for certain musical pieces has implications for music recommender systems, which are typically content- (both acoustic or semantic) or metadata-based. Here we test a recently developed computational algorithm, called Dynamic-Regularity Extraction (D-REX), that uses Bayesian inference to predict the surprisal that humans experience while listening to music. We demonstrate that the brain tracks musical surprisal as modeled by D-REX by conducting a decoding analysis on the neural signal (collected through magnetoencephalography) of participants listening to music. Thus, we demonstrate the validity of a computational model of musical surprisal, which may remarkably inform the next generation of recommender systems. In addition, we present an open-source neural dataset which will be available for future research to foster approaches combining MIR with cognitive neuroscience, an approach we believe will be a key strategy in characterizing people's reactions to music.",
         "zenodo_id": 7343078,
-        "dblp_key": "conf/ismir/AbramsVPR22"
+        "dblp_key": "conf/ismir/AbramsVPR22",
+        "keywords": [
+            "acoustics",
+            "statistical regularities",
+            "memory associations",
+            "musical enjoyment",
+            "pleasure",
+            "surprisal",
+            "music listening",
+            "music recommender systems",
+            "Bayesian inference",
+            "Dynamic-Regularity Extraction"
+        ]
     },
     {
         "title": "And what if two musical versions don&apos;t share melody, harmony, rhythm, or lyrics ?.",
@@ -573,7 +585,19 @@
         "ee": "https://archives.ismir.net/ismir2022/paper/000113.pdf",
         "abstract": "Automatic music tagging systems have once more gained relevance over the last years, not least through their use in applications such as music recommender systems. State-of-the-art systems are based on a variant of convolutional neural networks (CNNs) and use some type of time-frequency audio representation as input, in a fitting combination to predict semantic tags available through expert or crowd-based annotation. In this work we systematically compare five widely used audio input representations (STFT, CQT, Mel spectrograms, MFCCs, and raw audio waveform) using five established convolutional neural network architectures (MusicCNN, VGG16, ResNet, a Squeeze and Excitation Network (SeNet), as well as a newly proposed MusicCNN variant using dilated convolutions) for the task of music tag prediction. Performance of all factor combinations are measured on two distinct tagging datasets, namely MagnaTagATune and MTG Jamendo. A two-way ANOVA shows that both input representation and model architecture significantly impact the classification results. Despite differently sized input representations and practical impact on model training, we find that using STFT as input representations provides the best results overall and on specific tag categories (genre, instrument, mood), while other representations show less consistent behavior in these regards. Furthermore, the proposed dilated convolutional architecture shows significant performance improvements for all input representations except raw waveform.",
         "zenodo_id": 7343091,
-        "dblp_key": "conf/ismir/DambockVK22"
+        "dblp_key": "conf/ismir/DambockVK22",
+        "keywords": [
+            "automatic music tagging systems",
+            "state-of-the-art systems",
+            "convolutional neural networks",
+            "time-frequency audio representation",
+            "semantic tags",
+            "music recommender systems",
+            "five widely used audio input representations",
+            "five established convolutional neural network architectures",
+            "performance of all factor combinations",
+            "two distinct tagging datasets"
+        ]
     },
     {
         "title": "End-to-End Lyrics Transcription Informed by Pitch and Onset Estimation.",
@@ -702,7 +726,19 @@
         "ee": "https://archives.ismir.net/ismir2022/paper/000044.pdf",
         "abstract": "Computational Musicology and Music Information Retrieval (MIR) address the core musical question under study from a different perspective, often a combination of top-down vs. bottom-up approaches. However, the evaluation metrics for MIR tend to capture the model accuracy in terms of the goal. For instance, mode (melodic framework) recognition is implemented with a goal to evaluate and compare melodic analysis approaches, but it is worth investigating if at all it lends itself as one befitting proxy task. In this work, we aim to review whether the model actually learns the task it is intended for. This is particularly relevant in non-Eurogenetic music repertoires where the grammatical rules are rather prescriptive. We employ methodologies that combine domain-knowledge and data-driven optimizations as a possible way for a comprehensive understanding of these relationships. This is tested on Makam which is one of the understudied corpora in MIR. We evaluate an array of feature-engineering methods on the largest mode recognition dataset curated for Ottoman-Turkish makam music, composed of 1000 recordings in 50 makams. We adapted the time-delayed melody surfaces (TDMS) feature, which in combination with support vector machine (SVM) classifier yields 77.2% recognition accuracy, comparable to the current state-of-the-art. We also address (ethno)musicology-driven tasks with a view to gathering deeper insights into this music, such as tuning, intonation, and melodic similarity. We aim to propose avenues to extend the study to makam characterization over the mere goal of recognizing the mode, to better understand the (dis)similarity space and other plausible musically interesting facets.",
         "zenodo_id": 7316676,
-        "dblp_key": "conf/ismir/GanguliSG22"
+        "dblp_key": "conf/ismir/GanguliSG22",
+        "keywords": [
+            "Computational Musicology",
+            "Music Information Retrieval",
+            "top-down vs. bottom-up approaches",
+            "evaluation metrics",
+            "MIR task evaluation",
+            "non-Eurogenetic music repertoires",
+            "domain-knowledge and data-driven optimizations",
+            "Makam corpus",
+            "mode recognition accuracy",
+            "ethno-musicology-driven tasks"
+        ]
     },
     {
         "title": "Teach Yourself Georgian Folk Songs Dataset: A Annotated Corpus Of Traditional Vocal Polyphony.",
@@ -770,7 +806,19 @@
         "ee": "https://archives.ismir.net/ismir2022/paper/000003.pdf",
         "abstract": "We present a novel task of playing level conversion: generating a music arrangement in a target difficulty level, given another arrangement of the same musical piece in a different level. For this task, we create a parallel dataset of piano arrangements in two strictly well-defined playing levels, annotated at individual phrase resolution, taken from the song catalog of a piano learning app.In a series of experiments, we train models that successfully modify the playing level while preserving the musical 'essence'. We further show, via an ablation study, the contributions of specific data representation and augmentation techniques to the model's performance.In order to evaluate the performance of our models, we conduct a human evaluation study with expert musicians. The evaluation shows that our best model creates arrangements that are almost as good as ground truth examples. Additionally, we propose MuTE, an automated evaluation metric for music translation tasks, and show that it correlates with human ratings.",
         "zenodo_id": 7316588,
-        "dblp_key": "conf/ismir/GoverZ22"
+        "dblp_key": "conf/ismir/GoverZ22",
+        "keywords": [
+            "level conversion",
+            "music arrangement",
+            "parallel dataset",
+            "piano arrangements",
+            "playing levels",
+            "parallel dataset",
+            "annotation",
+            "parallel dataset",
+            "parallel dataset",
+            "human evaluation study"
+        ]
     },
     {
         "title": "Semantic Control of Generative Musical Attributes.",
@@ -1888,7 +1936,19 @@
         "ee": "https://archives.ismir.net/ismir2022/paper/000045.pdf",
         "abstract": "Studying under-represented music traditions under the MIR scope is crucial, not only for developing novel analysis tools, but also for unveiling musical functions that might prove useful in studying world musics. This paper presents a dataset for Greek Traditional and Folk music that includes 1570 pieces, summing in around 80 hours of data. The dataset incorporates YouTube timestamped links for retrieving audio and video, along with rich metadata information with regards to instrumentation, geography and genre, among others. The content has been collected from a Greek documentary series that is available online, where academics present music traditions of Greece with live music and dance performance during the show, along with discussions about social, cultural and musicological aspects of the presented music. Therefore, this procedure has resulted in a significant wealth of descriptions regarding a variety of aspects, such as musical genre, places of origin and musical instruments. In addition, the audio recordings were performed under strict production-level specifications, in terms of recording equipment, leading to very clean and homogeneous audio content. In this work, apart from presenting the dataset in detail, we propose a baseline deep-learning classification approach to recognize the involved musicological attributes. The dataset, the baseline classification methods and the models are provided in public repositories. Future directions for further refining the dataset are also discussed.",
         "zenodo_id": 7316678,
-        "dblp_key": "conf/ismir/PapaioannouVGKP22"
+        "dblp_key": "conf/ismir/PapaioannouVGKP22",
+        "keywords": [
+            "Studying under-represented music traditions",
+            "novel analysis tools",
+            "unveiling musical functions",
+            "world musics",
+            "Greek Traditional and Folk music",
+            "YouTube timestamped links",
+            "rich metadata information",
+            "Greece documentary series",
+            "audio recordings",
+            "deep-learning classification approach"
+        ]
     },
     {
         "title": "Musika! Fast Infinite Waveform Music Generation.",
@@ -1957,7 +2017,19 @@
         "ee": "https://archives.ismir.net/ismir2022/paper/000036.pdf",
         "abstract": "The Middle Byzantine notation (MBn) is used to capture the plainchant melodies of eastern Orthodox Christian music from the middle of the 12th century until 1814. In the context of this research, we study the evolution of a subgenre of Byzantine music known as Heirmologic. We present three Heirmologic corpora spanning the periods before, during and after the 16th century. We discuss the challenges we faced during the digitisation process, and the steps we took to overcome them. For the analysis of the three corpora, we apply the three methods, namely notational texture, melodic arch similarity, and Jensen-Shannon distances of Markovian models, the second of which is novel and inspired by the idea of melodic arches. Through these methods, we aim at highlighting the differences of the corpora in order to obtain an outline of the evolution of the subgenre. We observe that the post 16th century Heirmologic pieces are more similar to the 16th century ones, while there is a greater difference with the pre 16th century pieces. This indicates that the 16th century constitutes a turning point in the melodic features of the Heirmologic subgenre.",
         "zenodo_id": 7316656,
-        "dblp_key": "conf/ismir/PolykarpidisKBA22"
+        "dblp_key": "conf/ismir/PolykarpidisKBA22",
+        "keywords": [
+            "Middle Byzantine notation",
+            "plainchant melodies",
+            "eastern Orthodox Christian music",
+            "Heirmologic",
+            "digitisation process",
+            "Challenges",
+            "Markovian models",
+            "evolution of Heirmologic",
+            "16th century turning point",
+            "melodic features"
+        ]
     },
     {
         "title": "&quot;More than words&quot;: Linking Music Preferences and Moral Values through Lyrics.",
@@ -2426,7 +2498,19 @@
         "ee": "https://archives.ismir.net/ismir2022/paper/000089.pdf",
         "abstract": "We propose and assess deep learning models for harmonic and tempo arrangement generation given melodies and emotional constraints. A dataset of 4000 symbolic scores and emotion labels was gathered by expanding the HTPD3 dataset with mood tags from last.fm and allmusic.com. We explore how bi-directional LSTM and Transformer encoder architectures can learn relationships between symbolic melodies, chord progressions, tempo, and expressed emotions, with and without a transfer learning strategy leveraging symbolic music data without emotion labels. Three emotion annotation summarisation methods based on the Arousal/Valence (AV) representation are compared: Emotion Average, Emotion Surface, and Emotion Category. 20 participants (average age: 30.2, 7 females and 13 males from Japan) rated how well generated accompaniments matched melodies (musical coherence) as well as perceived emotions for 75 arrangements corresponding to combinations of models and emotion summarisation methods. Musical coherence and match between target and perceived emotions were highest when melodies were encoded using a BLSTM model with transfer learning. The proposed method generates emotion-driven harmonic/tempo arrangements in a fast way, a keen advantage compared to state of the art. Applications of this work include AI-based composition assistant and live interactive music systems for entertainment such as video games.",
         "zenodo_id": 7316770,
-        "dblp_key": "conf/ismir/TakahashiB22"
+        "dblp_key": "conf/ismir/TakahashiB22",
+        "keywords": [
+            "deep learning",
+            "harmonic and tempo arrangement",
+            "melodies",
+            "emotional constraints",
+            "dataset",
+            "HTPD3",
+            "mood tags",
+            "transfer learning",
+            "emotion annotation",
+            "music data"
+        ]
     },
     {
         "title": "Violin Etudes: A Comprehensive Dataset for f0 Estimation and Performance Analysis.",
@@ -2441,7 +2525,19 @@
         "ee": "https://archives.ismir.net/ismir2022/paper/000062.pdf",
         "abstract": "Violin performance analysis requires accurate and robust f0 estimates to give feedback on the playing accuracy. Despite the recent advancements in data-driven f0 estimators, their application to performance analysis remains a challenge due to style-specific and dataset-induced biases. In this paper, we address this problem by introducing Violin Etudes, a 27.8-hours violin performance dataset constructed with domain knowledge in instrument pedagogy and a novel automatic f0-labeling paradigm. Experimental results on unseen datasets show that the CREPE f0 estimator trained on Violin Etudes outperforms the widely-used pre-trained version trained on multiple manually-labeled datasets. Further preliminary findings suggest that (i) existing data-driven f0 estimators may overfit to equal temperament, and (ii) iterative re-labeling regularized by our novel Constrained Harmonic Resynthesis method can simultaneously enhance datasets and f0 estimators. Our dataset curation methodology is easily scalable to other instruments owing to the quantity of pedagogical data online. It also supports a range of MIR research directions thanks to the performance difficulty labels from educational institutions.",
         "zenodo_id": 7316714,
-        "dblp_key": "conf/ismir/TamerRS22"
+        "dblp_key": "conf/ismir/TamerRS22",
+        "keywords": [
+            "Violin performance analysis",
+            "accurate f0 estimates",
+            "data-driven f0 estimators",
+            "style-specific biases",
+            "dataset-induced biases",
+            "domain knowledge",
+            "instrument pedagogy",
+            "novel automatic f0-labeling paradigm",
+            "CREPE f0 estimator",
+            "unseen datasets"
+        ]
     },
     {
         "title": "Melody Infilling with User-Provided Structural Context.",
@@ -2645,7 +2741,19 @@
         "ee": "https://archives.ismir.net/ismir2022/paper/000041.pdf",
         "abstract": "Chinese national pentatonic modes, with five tones of Gong, Shang, Jue, Zhi and Yu as the core, play an essential role in traditional Chinese music culture. After the early twentieth century, with the development of new Chinese music, the ancient Chinese theory of scales gradually developed into a new pentatonic modes theory under the influence of western music. In this paper, we briefly introduce our self-built CNPM (Chinese National Pentatonic Modes) Dataset, then design residual convolutional neural network models to identify which TongGong system the mode belongs, the pitch of tonic, the mode pattern and the mode type from audio signals, in combination with musical domain knowledge. We use both single-task and multi-task models with three strategies for identification, and compare them with a simple template-based baseline method. In experiments, we use seven accuracy metrics to evaluate the models. The results on identifying both the tonic pitch and the pattern of mode correctly achieve an average accuracy of 69.65%. As an initial research on automatic Chinese national pentatonic modes recognition, this work will contribute to the development of multicultural music information retrieval, computational ethnomusicology and five-tone music therapy.",
         "zenodo_id": 7316670,
-        "dblp_key": "conf/ismir/WangCYMLX022"
+        "dblp_key": "conf/ismir/WangCYMLX022",
+        "keywords": [
+            "Chinese",
+            "national",
+            "pentatonic",
+            "modes",
+            "core",
+            "role",
+            "traditional",
+            "Chinese",
+            "music",
+            "culture"
+        ]
     },
     {
         "title": "HPPNet: Modeling the Harmonic Structure and Pitch Invariance in Piano Transcription.",
@@ -2720,7 +2828,19 @@
         "ee": "https://archives.ismir.net/ismir2022/paper/000008.pdf",
         "abstract": "A vocoder is a conditional audio generation model that converts acoustic features such as mel-spectrograms into waveforms. Taking inspiration from Differentiable Digital Signal Processing (DDSP), we propose a new vocoder named SawSing for singing voices. SawSing synthesizes the harmonic part of singing voices by filtering a sawtooth source signal with a linear time-variant finite impulse response filter whose coefficients are estimated from the input mel-spectrogram by a neural network. As this approach enforces phase continuity, SawSing can generate singing voices without the phase-discontinuity glitch of many existing vocoders. Moreover, the source-filter assumption provides an inductive bias that allows SawSing to be trained on a small amount of data. Our evaluation shows that SawSing converges much faster and outperforms state-of-the-art generative adversarial network- and diffusion-based vocoders in a resource-limited scenario with only 3 training recordings and a 3-hour training time.",
         "zenodo_id": 7316600,
-        "dblp_key": "conf/ismir/WuHYFJBLY22"
+        "dblp_key": "conf/ismir/WuHYFJBLY22",
+        "keywords": [
+            "vocoder",
+            "conditional audio generation",
+            "mel-spectrograms",
+            "waveforms",
+            "SawSing",
+            "singing voices",
+            "harmonic part",
+            "linear time-variant finite impulse response filter",
+            "phase continuity",
+            "source-filter assumption"
+        ]
     },
     {
         "title": "A unified model for zero-shot singing voice conversion and synthesis.",
@@ -2818,7 +2938,19 @@
         "ee": "https://archives.ismir.net/ismir2022/paper/000029.pdf",
         "abstract": "We propose AccoMontage2, a system capable of doing full-length song harmonization and accompaniment arrangement based on a lead melody. Following AccoMontage, this study focuses on generating piano arrangements for popular/folk songs and it carries on the generalized template-based retrieval method. The novelties of this study are twofold. First, we invent a harmonization module (which AccoMontage does not have). This module generates structured and coherent full-length chord progression by optimizing and balancing three loss terms: a micro-level loss for note-wise dissonance, a meso-level loss for phrase-template matching, and a macro-level loss for full piece coherency. Second, we develop a graphical user interface which allows users to select different styles of chord progression and piano texture. Currently, chord progression styles include Pop, RB, and Dark, while piano texture styles include several levels of voicing density and rhythmic complexity. Experimental results show that both our harmonization and arrangement results significantly outperform the baselines. Lastly, we release AccoMontage2 as an online application as well as the organized chord progression templates as a public dataset.",
         "zenodo_id": 7316642,
-        "dblp_key": "conf/ismir/YiHZX22"
+        "dblp_key": "conf/ismir/YiHZX22",
+        "keywords": [
+            "song harmonization",
+            "accompaniment arrangement",
+            "lead melody",
+            "full-length song",
+            "piano arrangements",
+            "popular/folk songs",
+            "generalized template-based retrieval",
+            "novelties",
+            "harmonization module",
+            "graphical user interface"
+        ]
     },
     {
         "title": "Interpreting Song Lyrics with an Audio-Informed Pre-trained Language Model.",

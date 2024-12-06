@@ -93,7 +93,19 @@
         "ee": "https://zenodo.org/records/1415916/files/BosmaVW06.pdf",
         "abstract": "Muugle (Musical Utrecht University Global Lookup En- gine) is a modular framework that allows the comparison of different MIR techniques and usability studies. A system overview and a discussion of a pilot usability experiment are given. A demo version of the framework can be found on http://give-lab.cs.uu.nl/muugle. Keywords: Music Information Retrieval, Framework",
         "zenodo_id": 1415916,
-        "dblp_key": "conf/ismir/BosmaVW06"
+        "dblp_key": "conf/ismir/BosmaVW06",
+        "keywords": [
+            "Music Information Retrieval",
+            "Framework",
+            "Comparison",
+            "Modular",
+            "Comparison",
+            "Usability",
+            "Studies",
+            "Pilot",
+            "Experiment",
+            "Demo"
+        ]
     },
     {
         "title": "Structural boundary perception in popular music.",
@@ -160,7 +172,19 @@
         "ee": "https://zenodo.org/records/1417997/files/CahillO06.pdf",
         "abstract": "This paper outlines a project to identify reliable algorithms for measuring melodic similarity by using melodies extracted from a piece of music in Theme and Variations form, for which human judgements of similarity have been gathered. Keywords: melodic similarity, human similarity judgments, scores",
         "zenodo_id": 1417997,
-        "dblp_key": "conf/ismir/CahillO06"
+        "dblp_key": "conf/ismir/CahillO06",
+        "keywords": [
+            "melodic similarity",
+            "human similarity judgments",
+            "scores",
+            "Theme and Variations form",
+            "algorithms",
+            "measuring",
+            "project",
+            "music",
+            "extracted melodies",
+            "humans"
+        ]
     },
     {
         "title": "The Sonic Visualiser: A Visualisation Platform for Semantic Descriptors from Musical Signals.",
@@ -176,7 +200,19 @@
         "ee": "https://zenodo.org/records/1416388/files/CannamLSB06.pdf",
         "abstract": "Sonic Visualiser is the name for an implementation of a system to assist study and comprehension of the contents of audio data, particularly of musical recordings. It is a C++  application  with  a Qt4 GUI that  runs  on Windows,  Mac,  and  Linux.  It  embodies  a  number  of concepts which are intended to improve interaction with audio data and features, most notably with respect to the representation  of  time-synchronous  information.  The architecture of the application allows for easy integration of third  party algorithms for the extraction of low and mid-level features from musical audio data. This paper describes  some  basic  principles  and  functionalities  of Sonic Visualiser. Keywords:  Visualisation,  Musical  Feature,  Semantic Descriptor.",
         "zenodo_id": 1416388,
-        "dblp_key": "conf/ismir/CannamLSB06"
+        "dblp_key": "conf/ismir/CannamLSB06",
+        "keywords": [
+            "Sonic Visualiser",
+            "audio data",
+            "musical recordings",
+            "C++ application",
+            "Qt4 GUI",
+            "Windows",
+            "Mac",
+            "Linux",
+            "time-synchronous information",
+            "third party algorithms"
+        ]
     },
     {
         "title": "Song Intersection by Approximate Nearest Neighbor Search.",
@@ -514,7 +550,19 @@
         "ee": "https://zenodo.org/records/1414864/files/Garbers06.pdf",
         "abstract": "The process of shaping a music information retrieval algo- rithm is highly connected with implementing it and test- ing suitable parameterizations. Often music information re- trieval scientists do not have a programmer at hand and must implement their experimental setup themselves. This paper describes an integrated tool setup OHR consisting of the mu- sic (analysis) systems OpenMusic, Humdrum and Rubato and a system for form based parametrization and compari- son of algorithms. These packages and their programming environments provide the scientist with frameworks and ex- isting libraries for implementing and testing algorithms. They differ in the programming languages that they support and in the type of testing user interfaces that they allow the sci- entist to build easily. The systems and their components are integrated by using their scripting languages. We sketch an example of the integrated use of these systems. Keywords: Computational music analysis, development en- vironments, scientific programming, software integration",
         "zenodo_id": 1414864,
-        "dblp_key": "conf/ismir/Garbers06"
+        "dblp_key": "conf/ismir/Garbers06",
+        "keywords": [
+            "music information retrieval",
+            "algorithm implementation",
+            "parameterization",
+            "OpenMusic",
+            "Humdrum",
+            "Rubato",
+            "form-based",
+            "comparative testing",
+            "scientific programming",
+            "software integration"
+        ]
     },
     {
         "title": "Web-Based Artist Categorization.",
@@ -580,7 +628,19 @@
         "ee": null,
         "abstract": "The ENST-Drums database is a large and varied research database for automatic drum transcription and processing:\n\n\n\tThree professional drummers specialized in different music genres were recorded.\n\tTotal duration of audio material recorded per drummer is around 75 minutes.\n\tEach drummer played his own drum kit.\n\tEach sequence used either sticks, rods, brushes or mallets to increase the diversity of drum sounds.\n\tThe drum kits themselves are varied, ranging from a small, portable, kit with two toms and 2 cymbals, suitable for jazz and latin music ; to a larger rock drum set with 4 toms and 5 cymbals.\n\n\nEach sequence is recorded on 8 individual audio channels, is filmed from two angles, and is fully annotated\n\nA large part of ENST-Drums is publicly available under some conditions. These conditions include:\n\n\n\tThe use and exploitation of the database should be limited to research purposes. No commercial use is possible.\n\tThe database is distributed under the licence Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)\n\tAny document describing a research work where ENST-Drums was used should include a reference to ENST-Drums and to the paper Olivier Gillet and Gal Richard. ENST-Drums: an extensive audio-visual database for drum signals processing, In Proc of ISMIR&#39;06, Victoria, Canada, 2006.\n\n\n\n\nAcknowledgements\n\nWe would like to thank:\n\n\n\tThe 3 drummers: Louis Cav, Bertrand Clouard and Frdric Rottier.\n\tE. Thivon (author) and Play Music Publishing (publisher) for the background accompaniment sequences.\n\n\nThe authors wish to acknowledge the support of the French ministry of research (ACI-MusicDiscover project) and of the European Commission under the FP6-027026-K-SPACE contract.",
         "zenodo_id": 7432188,
-        "dblp_key": "conf/ismir/GilletR06"
+        "dblp_key": "conf/ismir/GilletR06",
+        "keywords": [
+            "ENST-Drums",
+            "large and varied research database",
+            "automatic drum transcription and processing",
+            "three professional drummers",
+            "different music genres",
+            "around 75 minutes",
+            "audio material recorded per drummer",
+            "varied drum kits",
+            "8 individual audio channels",
+            "fully annotated"
+        ]
     },
     {
         "title": "The song remains the same: identifying versions of the same piece using tonal descriptors.",
@@ -749,7 +809,14 @@
         "ee": "https://zenodo.org/records/1415998/files/HuDE06.pdf",
         "abstract": "In this paper, we conduct a series of exploratory analyses on the user-recommended usages of music as generated by 1,042 reviewers who have posted to www.epinions.com. Using hierarchical clustering methods on data derived from the co-occurrence analyses of usage and genre, usage and artist, and usage and album, we are able to conclude that further investigation of user-recommended usage metadata is warranted, especially with regard to its implications for future iterations of the Music Information Retrieval Evaluation eXchange (MIREX). Keywords: user-recommended usage, music reviews, hierarchical clustering, MIREX,  HUMIRS, user study",
         "zenodo_id": 1415998,
-        "dblp_key": "conf/ismir/HuDE06"
+        "dblp_key": "conf/ismir/HuDE06",
+        "keywords": [
+            "user-recommended usage",
+            "music reviews",
+            "hierarchical clustering",
+            "MIREX",
+            "HUMIRS"
+        ]
     },
     {
         "title": "Automatic Feature Weighting in Automatic Transcription of Specified Part in Polyphonic Music.",
@@ -934,7 +1001,19 @@
         "ee": "https://zenodo.org/records/1414980/files/KurthGM06.pdf",
         "abstract": "In this paper, we present a novel set of tempo-related au- dio features for applications in audio retrieval. As opposed to existing feature sets commonly used in the retrieval do- main which mainly focus on local spectral characteristics of the audio signal, our features capture its local temporal behaviour w.r.t. tempo, rhythm, and meter. As a key compo- nent to obtaining a high level of feature robustness we intro- duce the cyclic beat spectrum (CBS) consisting of residual tempo classes which are constructed similarly to the well- known pitch chroma classes. We illustrate the use of the newly constructed features by applying them to robust time- scale invariant audio identification. Keywords: Cyclic beat spectrum, tempo-related audio fea- tures, time-scale invariant audio identification",
         "zenodo_id": 1414980,
-        "dblp_key": "conf/ismir/KurthGM06"
+        "dblp_key": "conf/ismir/KurthGM06",
+        "keywords": [
+            "tempo-related audio features",
+            "audio retrieval",
+            "local temporal behaviour",
+            "tempo",
+            "rhythm",
+            "meter",
+            "cyclic beat spectrum",
+            "pitch chroma classes",
+            "robust time-scale invariant audio identification",
+            "audio identification"
+        ]
     },
     {
         "title": "Data Dictionary: Metadata for Phonograph Records.",
@@ -974,7 +1053,19 @@
         "ee": "https://zenodo.org/records/1417957/files/LaplanteD06.pdf",
         "abstract": "This poster presents the preliminary results of an ongoing qualitative study on the everyday-life music information- seeking behaviour of young adults. The data were collected through in-depth interviews and analyzed following a grounded theory approach. The analysis showed a strong penchant for informal channels (e.g., friends, relative) and, conversely, a distrust of experts. It also emerged that music seeking was mostly motivated by curiosity rather than by actual information needs, which in turn explains why browsing is such a popular strategy. Keywords: user studies, music information behaviour",
         "zenodo_id": 1417957,
-        "dblp_key": "conf/ismir/LaplanteD06"
+        "dblp_key": "conf/ismir/LaplanteD06",
+        "keywords": [
+            "qualitative study",
+            "everyday-life music information-seeking",
+            "young adults",
+            "in-depth interviews",
+            "grounded theory approach",
+            "informal channels",
+            "distrust of experts",
+            "curiosity",
+            "browsing",
+            "music seeking"
+        ]
     },
     {
         "title": "Factors Affecting Response Rates for Real-Life MIR Queries.",
@@ -1068,7 +1159,19 @@
         "ee": "https://zenodo.org/records/1414812/files/Lerch06.pdf",
         "abstract": "The deviation of the tuning frequency from the standard tun- ing frequency 440 Hz is evaluated for a database of classical music. It is discussed if and under what circumstances such a deviation may affect the robustness of pitch-based systems for musical content analysis. Keywords: concert pitch, tuning frequency, detuning.",
         "zenodo_id": 1414812,
-        "dblp_key": "conf/ismir/Lerch06"
+        "dblp_key": "conf/ismir/Lerch06",
+        "keywords": [
+            "deviation",
+            "tuning frequency",
+            "standard tuning frequency",
+            "database",
+            "classical music",
+            "pitch-based systems",
+            "musical content analysis",
+            "robustness",
+            "detuning",
+            "concert pitch"
+        ]
     },
     {
         "title": "Tempo Tracking With a Periodicity Comb Kernel.",
@@ -1109,7 +1212,19 @@
         "ee": "https://zenodo.org/records/1417963/files/LiBF06.pdf",
         "abstract": "By implementing a cached region selection scheme and automatic label completion, we extended an open-source audio editor to become a more convenient audio annotation tool for tasks such as ground-truth annotation for audio and music classification. A usability experiment was conducted with encouraging preliminary results. Keywords: audio annotation, classification, usability.",
         "zenodo_id": 1417963,
-        "dblp_key": "conf/ismir/LiBF06"
+        "dblp_key": "conf/ismir/LiBF06",
+        "keywords": [
+            "audio annotation",
+            "classification",
+            "usability experiment",
+            "ground-truth annotation",
+            "open-source audio editor",
+            "automatic label completion",
+            "more convenient audio annotation tool",
+            "tasks such as",
+            "audio and music classification",
+            "key aspects"
+        ]
     },
     {
         "title": "Singing Voice Separation from Monaural Recordings.",
@@ -1279,7 +1394,19 @@
         "ee": "https://zenodo.org/records/1416252/files/Marolt06.pdf",
         "abstract": "We propose a mid-level melody-based representation that incorporates melodic, rhythmic and structural aspects of a music signal and is useful for calculating audio similarity measures. Most current approaches to music similarity use either low-level signal features, such as MFCCs that mostly capture timbral characteristics of music and contain little semantic information, or require symbolic representa- tions, which are difficult to obtain from audio signals. The proposed mid-level representation is our attempt to bridge the gap between audio and symbolic domains by providing an integrated melodic, rhythmic and structural representa- tion of music signals. The representation is based on a set of melodic fragments extracted from prominent melodic lines, it is beat-synchronous, which makes it independent of tempo variations and contains information on repeti- tions of short melodic phrases within the analyzed piece. We show how it can be calculated automatically from polyphonic audio signals and demonstrate its use for dis- covering melodic similarities between songs. We present results obtained by using the representation for finding different interpretations of songs in a music collection. Keywords: music similarity, searching audio, melody- based representation, mid-level representation",
         "zenodo_id": 1416252,
-        "dblp_key": "conf/ismir/Marolt06"
+        "dblp_key": "conf/ismir/Marolt06",
+        "keywords": [
+            "mid-level melody-based representation",
+            "melodic",
+            "rhythmic and structural aspects",
+            "audio similarity measures",
+            "audio signals",
+            "symbolic representations",
+            "gap between audio and symbolic domains",
+            "automatic calculation",
+            "discovering melodic similarities",
+            "music collection"
+        ]
     },
     {
         "title": "The Map of Mozart.",
@@ -2071,7 +2198,19 @@
         "ee": "https://zenodo.org/records/1418181/files/SeifertRR06.pdf",
         "abstract": "We present an approach for tempo induction that is based on a more perception-oriented analysis of inter-onset intervals. Therefore we utilize auditory grouping concepts and define some rules for their formation. Finally, we show preliminary results that confirm our aim of improving the quality of tempo induction by reducing the amount of perceptually irrelevant data. Keywords: tempo induction, stream segregation.",
         "zenodo_id": 1418181,
-        "dblp_key": "conf/ismir/SeifertRR06"
+        "dblp_key": "conf/ismir/SeifertRR06",
+        "keywords": [
+            "tempo induction",
+            "auditory grouping",
+            "inter-onset intervals",
+            "stream segregation",
+            "perceptually irrelevant data",
+            "tempo quality",
+            "rule formation",
+            "perception-oriented analysis",
+            "tempo induction approach",
+            "tempo induction method"
+        ]
     },
     {
         "title": "Social Cognition and Melodic Persistence: Where Metadata and Content Diverge.",
@@ -2180,7 +2319,19 @@
         "ee": "https://zenodo.org/records/1416696/files/SkowronekMP06.pdf",
         "abstract": "Automatic music classification based on audio signals pro- vides a core technology for tools that help users to manage and browse their music collections. Since \u201cmood\u201d is also used as a browsing criterium, automatic mood classification could support the creation of the necessary metadata. We have developed a method to obtain a reliable \u201cground truth\u201d database for automatic music mood classification. Our re- sults confirm that excerpt selection is a non-trivial issue and that there are some mood labels that are relatively consistent across subjects. Keywords: music mood classification, ground truth.",
         "zenodo_id": 1416696,
-        "dblp_key": "conf/ismir/SkowronekMP06"
+        "dblp_key": "conf/ismir/SkowronekMP06",
+        "keywords": [
+            "Automatic music classification",
+            "core technology",
+            "user management",
+            "browse music collections",
+            "mood classification",
+            "metadata creation",
+            "ground truth database",
+            "excerpt selection",
+            "non-trivial issue",
+            "consistent mood labels"
+        ]
     },
     {
         "title": "Music Information Retrieval from a Singing Voice Based on Verification of Recognized Hypotheses.",

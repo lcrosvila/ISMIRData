@@ -63,7 +63,19 @@
         "ee": "https://zenodo.org/records/1414872/files/BelloMS00.pdf",
         "abstract": "Two systems are reviewed than perform automatic music transcription. The first perform monophonic transcription using an autocorrelation pitch tracker. The algorithm takes advantage of some heuristic parameters related to the similarity between image and sound in the collector. The detection is correct between notes B1 to E6 and further timbre analysis will provide the necessary parameters to reproduce a similar copy of the original sound. The second system is able to analyse simple polyphonic tracks. It is composed of a blackboard system, receiving its input from a segmentation routine in the form of an averaged STFT matrix. The blackboard contents hypotheses database, an scheduler and knowledge sources, one of which is a neural network chord recogniser with the ability to reconfigure the operation of the system, allowing it to output more than one note hypothesis at the time. Some examples are provided to illustrate the performance and the weaknesses of the current implementation. Next steps for further development are defined.",
         "zenodo_id": 1414872,
-        "dblp_key": "conf/ismir/BelloMS00"
+        "dblp_key": "conf/ismir/BelloMS00",
+        "keywords": [
+            "Automatic music transcription",
+            "Monophonic pitch tracking",
+            "Similarity between image and sound",
+            "Timbre analysis",
+            "Polyphonic track analysis",
+            "Blackboard system",
+            "Segmentation routine",
+            "Averaged STFT matrix",
+            "Hypotheses database",
+            "Scheduler"
+        ]
     },
     {
         "title": "Time Domain Extraction of Vibrato from Monophonic Instruments.",
@@ -90,7 +102,19 @@
         "ee": "https://zenodo.org/records/1415912/files/Bonardi00.pdf",
         "abstract": "Active listening is the core of musical activity Listening does not only concern receiving musical information. On the contrary, it is \u201cactive\u201d and based on a set of interactions between listeners and musical documents\u2014including automatic music information research and extraction\u2014so as to discover intentions. This recognition process is based on the observation of regularities and rules, in order to build \u201cforms\u201d from all indications, information and redundancies. The listener interprets all the signs that are meaningful for him as intentions, attributed to the composer. Features of computer assisted listening Let us specify further the active listening situation for the musicologist, taking for example the consultation of a document in such a digital library as IRCAM\u2019s. The musicologist is facing a computer screen, while handling scores and books. This terminal allows him, among many other possibilities, to listen to music, to access musical data bases and hypermedia analyses. The musicologist is handling several devices on several media at the same time. First of all, the listener needs a framework that takes him/her into account. The purpose is to set the conditions of possibility of listening by restricting the heuristics of \u201cforms\u201d. It is therefore necessary to set a listening framework for the musicologist, to assist him in discovering the \u201cintentions\u201d of music. The main feature of this listening environment is thus its capacity to enable its user to vary the music representation. In the same way that working on a musical piece leads us either to read it silently or to sol-fa, or to hum it, or to play it, the musicologist\u2019s environment must enable rapid changes of the This is very important: a critical part of the analysis work consists in associating varied representations and contexts. Its purpose is the emergence of meaning from numerous and dissimilar elements that views imagined by the musicologist manage to reconcile. Musical databases help weave these links. In such an environment as the IRCAM Digital Library, we can either: \u2022= associate various representations of music: hypermedia analyses offer sonograms as well as scores or formal schemes. \u2022= or associate various contexts: the musicologist can easily know which works are contemporary with the Marteau sans Ma\u00eetre by Boulez using roughly the same instruments, or explore the musical production of the year 1954. Musicology and contemporary music We use here the expression \u201ccontemporary music\u201d for Western art-tradition music written since 1945. However this definition is controversial, and a lot of ambiguity remains in identifying works that belong to it. But it avoids, at least provisionally, the stumbling block of the stylistic definition. To characterize it, we use the musicologist\u2019s point of view, with his/her tools, either computerized or not. The musicologist is at the same time a listener and a composer, since analyzing a piece a music leads to \u201crewriting\u201d it. The first difficulty the musicologist faces in contemporary music is the confusion in listening. Looking for reference marks, the listener is in a way considerably free, but he is deprived from the listening guiding towards intentions we evoked before. Let us examine the consequences of this confusion in terms of automatic research of musical information: \u2022= The first point is the decline of melody, which used to be the fundamental basis in musical composition. Structural objects used by composers are no longer the ones which are part of the horizontal entities perceived (cells, figures). This raises two kinds of problems: \u2217= the first one concerns the computation of the musical surface, that is to say the automatic determination of outstanding elements of a polyphonic music, by combination of structural and sound criteria (instrumental features, timbres, masking effects, etc.). \u2217= the second one deals with the research of melodic elements which play a structural role, such as mottos. \u2022= The second point concerns the difficulty of extracting and interpreting harmonic data from contemporary music works. There is no longer a reference system. This problems has arisen since Debussy: in his music, he often \u201cforgets\u201d to resolve certain dissonances, which progressively become part of his harmonic vocabulary. \u2022= The relationship to form: in his effort to recognize intentions, the listener eliminates time from movement, to get the trajectory and the form. The latter derives from a spatial conception; in its expression, it is often mistaken for its structure. The classical sonata is often described according to a rhetorical and intemporal scheme exposition/development/reexposition. Contemporary music proposes two major evolutions in that field: \u2217= form can be attached to other representations than symbolic structures: spectral music thus often uses paths through sound spectra called interpolations that contribute to the form. To our knowledge, there is no automatic tool able to interpret this kind of data at the scale of a form. \u2217= many contemporary composers do not want form to reveal itself simply, as a reducing logical scheme, for instance the ABA scheme for the aria da capo. But the possibilities of using \u201coperating filters\u201d as algorithms in automatic search, to be able to handle complex forms, are still limited. \u2022= Last but not least, we have only evoked music using traditional instruments. Electroacoustic and mixed (computer plus instruments) raise the representation problem: which information structures is it possible to extract from the audio file of such a piece as Artikulation by Ligeti? How can we handle inharmonic sounds? A synthesis of the musicologist\u2019s needs Our first remark is that the choice of the contemporary catalogue does not modify the nature of the musicologist\u2019s work nor his/her purposes. However it seems that this task is more difficult and less systematic for contemporary music. The musicologist must set together by himself \u201cformal filters\u201d enabling him to account for the composer\u2019s intention, starting from directories of simple form bearing elements and classical structures. We state that the musicologist\u2019s workstation must have the following features: \u2022= It proposes varied representations of music and circulation possibilities among them, breaking away from physical separations between their producers. It must thus propose to the musicologist the computerized tools and files uses by the composer as he/she was elaborating the piece, if possible. The representations that the musicologist will link together during his/her analysis work are: \u2217= the graphical representations (paper score, sonogram, formal scheme, etc.), \u2217= the sound representations (audio), \u2217= the symbolic representations (MIDI, computerized description of the score, etc.), \u2217= if necessary, the tool-representations that concern the working steps of the composer using the computer. \u2022= It allows for the active listening of music in a broad meaning, by consulting different musical documents, each of them being associated to one or several representations we have described. \u2022= It must allow for the reconciliation of reading and writing on the same media. In traditional music analysis, these two phases are split, since the musicologist reads a score and moreover writes a document in a literary form, without any possibility of dynamic link between the two. On a terminal, it is important that the musicologist may have possibilities of writing and annotating on musical objects represented on the screen. In the case of mixed musics, associating computer and instruments, the musicologist has to be able to use the sketch computerized environment run by the composer. \u2022= To face the difficulty of analyzing contemporary music, the system proposes to the listener/musicologist to build his own adequate structures to look for forms using specific languagues to encode the patterns, either global or local. The form bearing elements may be: \u2217= either musical , to be looked for in symbolic representations (as different kinds of intervals of notions such as the longest sequence of joint intervals, or the longest sequence of disjoint intervals, etc.), \u2217= or related to sound, to be looked for in signal representations (search for harmonic zones, peaks, etc.) \u2217= or operating processes (fractals, mathematic transformations, etc.). These form bearing elements can be hierarchically set together as trees, to build a form search profile. \u2022= It includes learning mechanisms, such as: \u2217= saving of works achieved by each musicologist, \u2217= saving of approaches lead for each of the analyzed pieces, \u2217= enriching the directories including form bearing elements and elementary structures. Examples of implementation in IRCAM projects Two European projects including IRCAM partnership answer part of these expectations: \u2022= the CUIDADO (Content-based Unified Interfaces and Descriptors for Audio/music Databases available Online) project deals with description and search of audio files, in conjunction with the proposed MPEG7 standard. Form bearing elements are here low level data extracted from signal to be statically correlated to high level descriptors such as genre information. Among proposed functionalities, let us notice: the fast search of sound files, of similarities between audio contents, the creation of user profiles, the editing and classification of sounds. \u2022= The WEDELMUSIC (Web Delivery of Music Scores) project proposes a system of online distribution of scores or fragments of scores. The musicologist has possibilities of research of musical structures, of comparison and annotation. There is still much work remaining to propose a coherent set of software and devices dedicated to contemporary music. Suggested Readings [Berio 1981] Berio, Luciano, 1983. Intervista sulla musica, a cura di Rossana Dalmonte, Roma, Bari, Laterza. [Lerdahl 1988] Lerdahl, Fred, 1988. \u00ab Structure de prolongation dans l\u2019atonalit\u00e9 \u00bb, in La musique et les sciences cognitives, Bruxelles, Mardaga, pp. 103-135. [Rousseaux 1990] Rousseaux, Francis, 1990. Une contribution de l\u2019intelligence artificielle et de l\u2019apprentissage symbolique automatique \u00e0 l\u2019\u00e9laboration d\u2019un mod\u00e8le d\u2019enseignement de l\u2019\u00e9coute musicale, Th\u00e8se de doctorat, Universit\u00e9 Paris VI.",
         "zenodo_id": 1415912,
-        "dblp_key": "conf/ismir/Bonardi00"
+        "dblp_key": "conf/ismir/Bonardi00",
+        "keywords": [
+            "active listening",
+            "musicologist",
+            "computer assisted listening",
+            "framework",
+            "heuristics",
+            "listening environment",
+            "music representation",
+            "critical part",
+            "meaning",
+            "musical databases"
+        ]
     },
     {
         "title": "Using User Models in Music Information Retrieval Systems.",
@@ -158,7 +182,19 @@
         "ee": "https://zenodo.org/records/1415730/files/ChoudhuryDDFH00.pdf",
         "abstract": "An adaptive optical music recognition system is being de- veloped as part of an experiment in creating a comprehen- sive framework of tools to manage the workflow of large- scale digitization projects. This framework will support the path from physical object and/or digitized material into a digital library repository, and offer effective tools for incorporating metadata and perusing the content of the resulting multimedia objects. 1",
         "zenodo_id": 1415730,
-        "dblp_key": "conf/ismir/ChoudhuryDDFH00"
+        "dblp_key": "conf/ismir/ChoudhuryDDFH00",
+        "keywords": [
+            "adaptive optical",
+            "music recognition",
+            "experiment",
+            "comprehensive framework",
+            "workflow",
+            "large-scale digitization",
+            "digital library repository",
+            "metadata",
+            "content",
+            "multimedia objects"
+        ]
     },
     {
         "title": "PROMS: A Web-based Tool for Searching in Polyphonic Music.",
@@ -254,7 +290,19 @@
         "ee": "https://zenodo.org/records/1415148/files/Dunn00.pdf",
         "abstract": "This presentation will focus primarily on work being done at Indiana University in the area of digital music libraries, with some discussion of related efforts.",
         "zenodo_id": 1415148,
-        "dblp_key": "conf/ismir/Dunn00"
+        "dblp_key": "conf/ismir/Dunn00",
+        "keywords": [
+            "variations",
+            "digital music library",
+            "multimedia",
+            "sound recordings",
+            "music education",
+            "intellectual property",
+            "metadata",
+            "usability",
+            "content-based ir",
+            "synchronization"
+        ]
     },
     {
         "title": "ARTHUR: Retrieving Orchestral Music by Long-Term Structure.",
@@ -294,7 +342,19 @@
         "ee": "https://zenodo.org/records/1417291/files/GeorgakiRB00.pdf",
         "abstract": "integrated in the WEDELMUSIC1 environment which is under development at ILSP2. Our scope is to facilitate the access of visually impaired  persons  to musical databases (scores, audio and MIDI files) via Internet and give them the possibility  to edit  and create musical scores.",
         "zenodo_id": 1417291,
-        "dblp_key": "conf/ismir/GeorgakiRB00"
+        "dblp_key": "conf/ismir/GeorgakiRB00",
+        "keywords": [
+            "integrated",
+            "WEDELMUSIC1",
+            "environment",
+            "under",
+            "development",
+            "ILSP",
+            "access",
+            "visually",
+            "impaired",
+            "musical"
+        ]
     },
     {
         "title": "Representing Music Using XML.",
@@ -307,7 +367,19 @@
         "ee": "https://zenodo.org/records/1415032/files/Good00.pdf",
         "abstract": "Why does the world need another music representation language? Beyond MIDI describes over 20 different languages or musical codes (Selfridge-Field, 1997). Most commercial music programs have their own internal, proprietary music representation and file format. Music's complexity has led to this proliferation of languages and formats. Sequencers, notation programs, analysis tools, and retrieval tools all need musical information optimized in different ways.",
         "zenodo_id": 1415032,
-        "dblp_key": "conf/ismir/Good00"
+        "dblp_key": "conf/ismir/Good00",
+        "keywords": [
+            "music representation language",
+            "MIDI",
+            "proliferation of languages",
+            "complexity",
+            "proprietary music representation",
+            "internal formats",
+            "Sequencers",
+            "notation programs",
+            "analysis tools",
+            "retrieval tools"
+        ]
     },
     {
         "title": "Towards Instrument Segmentation for Music Content Description: a Critical Review of Instrument Classification Techniques.",
@@ -348,7 +420,19 @@
         "ee": "https://zenodo.org/records/1414794/files/Huron00.pdf",
         "abstract": "Music librarians and cataloguers have traditionally created indexes that allow users to access musical works using standard reference information, such as the name of the composer or the title of the work. While this basic information remains important, these standard reference tags have surprisingly limited applicability in most music-related queries. Music is used for an extraordinary variety of purposes: the restaurateur seeks music that targets a certain clientele; the aerobics instructor seeks a certain tempo; the film director seeks music conveying a certain mood; an advertiser seeks a tune that is highly memorable; the physiotherapist seeks music that will motivate a patient; the truck driver seeks music that will keep him/her alert. Although there are many other uses for music, music\u2019s preeminent functions are social and psychological. The most useful retrieval indexes are those that facilitate searching according to such social and psychological functions. Typically, such indexes will focus on stylistic, mood, and similarity information. In attempting to build such musical indexes, two general questions arise: (1) What is the best taxonomic system by which to classify moods, styles, and other musical characteristics? (2) How can we create automated systems that will reliably characterize recordings or scores? Internet-based music distribution has brought these two questions to the fore. In the case of proprietary musical databases, the second problem can be centrally managed, and perhaps addressed using manual",
         "zenodo_id": 1414794,
-        "dblp_key": "conf/ismir/Huron00"
+        "dblp_key": "conf/ismir/Huron00",
+        "keywords": [
+            "music information retrieval",
+            "mood characterization",
+            "music summarization",
+            "perception",
+            "cognition",
+            "web crawlers",
+            "digital music distribution",
+            "emotional taxonomy",
+            "music indexing",
+            "arousal"
+        ]
     },
     {
         "title": "Subject Search for Music: Quantitative Analysis of Access Point Selection.",
@@ -374,7 +458,19 @@
         "ee": "https://zenodo.org/records/1416438/files/Izmirli00.pdf",
         "abstract": "A method that utilizes a spectral flatness based tonality feature for segmentation and content- based retrieval of audio is outlined. The method uses the tonality measure which is derived from the discrete bark spectrum as a means of detecting transitions between tonal and noise-like parts of the audio input. The meaning of \u2018tonal\u2019 in this context is different from the music-theoretical meaning and implies that there are dominant sinusoidal components in the spectrum, but, does not indicate that they are consonant or harmonic in any sense. Segmentation is performed by determining the times of these transitions, hence providing reference points for search purposes. Search is carried out by pivoting the query information on these reference points. The cumulative distance between the tonality pattern in successive frames of the query and the candidate sound fragments is used as a measure of similarity. In order to quantify the tonality, the input is processed as follows : the signal is sampled at 22050 Hz and a 2048-point FFT is performed on each frame using a Hanning analysis window. The window is hopped every 71 msecs. which corresponds to approximately 30 % overlap with the previous window. A pre-emphasis filter is applied to compensate for the reduced sensitivity of the human ear at low frequencies. The bark-band filter outputs are calculated from the FFT output by integration of the power spectral density within the critical bands. This is followed by a stage in which tonality determination is carried out for each critical band. The Spectral Flatness Measure (SFM) and the corresponding tonality coefficient (Johnston 1988) are used to quantify the tonal quality, i.e. how much tone-like the sound is as opposed to being noise-like. SFM is defined by the ratio of the geometric mean to the arithmetic mean of the power spectral density components in each critical band. A tonality vector is defined to be the collection of tonality coeficients for a single frame. More specifically, the tonality vector contains a tonality coeficient for each critical band. In order to perform segmentation, the tonal-to-noise and the noise-to-tonal transitions are obtained. These transitions are calculated, as a sequence bj (j is the time index), from the rate of change of the smoothed tonality vector with respect to time. The smoothing occurs due to averaging of the tonality vectors across several frames. By detecting rapid changes in the summary tonality in either direction, segmentation decisions are made. The sequence bj is an indicator for the overall tonal quality change of the input signal. Whenever tonal inputs become dominant in the input signal, for example, with the start of a vocal or solo instrument, the value of the indicator increases during the transition. That is to say, an increase in the value of b (over time) is interpreted as a transition from a noisy part to a more tonal part. Conversely, the decrease in the value of b, possibly extending to the negative extreme, indicates a transition from tonal to noisy spectra. The search for an audio fragment is done by comparing a short sequence of tonality vectors in the database with the same number of tonality vectors in the search sequence. As an exhaustive search is very costly for this purpose, a selective search that uses segments corresponding to relatively high perceptual entropy is performed. The determination of these segments is performed by the use of the b sequence. The starting times of these segments are called anchor times and are classified as either \u2018tonal-to-noise\u2019, or, \u2018noise-to-tonal\u2019. The noise-to-tonal anchor time is determined by a local maximum in b. In order for it to qualify as an anchor point, the difference between this maximum and the first minimum that precedes it must be larger than a threshold, \u03c1nt. Similarly, the tonal-to-noise anchor is found for a minimum with a threshold, \u03c1tn. As new audio files are added to the database they are processed to obtain the anchor times and tonality vectors for all frames. This information is stored, to be referenced later in the search phase. A query consists of a short audio fragment. Once a search is initiated, the query is processed to obtain the compatible form of information in the search database, i.e. tonality vectors and anchor times. The tonality vectors starting from the anchor times in the query are aligned with the anchor times of the audio in the database. The search is based on an objective of finding the minimum distance between the tonality variation pattern of the query and the variation pattern in fragments of the audio data in the database. The distance measure is simply the sum of differences of the corresponding tonality values between a candidate sound fragment and the search sequence. The search for a fragment that is already in the database leads to an exact match and therefore is found without error. An experiment carried out using 14 2-3 minute long pieces from pop, classical and jazz recordings showed that an exact match is always found. When a copy of the query does not exist in the database the most similar fragment is pulled out. The similarity determined by this method is based solely on the variation of tonality in the audio fragments. This means that characteristics such as pitch, loudness or consonance are not dealt with. Hence, the type of similarity found by this method, in general, is characterized by the unfolding of bark-band spectral envelopes and more specifically, reveals vocal or instrumental onset pattern resemblance and likeness of onset patterns of percussive perturbations to steady tonal sounds. The work described here explores the applicability of a tonality feature based on the Spectral Flatness Measure to segmentation and content-based retrieval for audio data. As explained above, audio fragments that are found to be similar in this categorization are similar in terms of tonal and noise characteristics spanning time and frequency. For various applications, multi-feature systems have been reported to perform successfully on arbitrary audio signals (Scheirer and Slaney 1997; Tzanetakis and Cook 1999). Correspondingly, the tonality feature described here could be combined with other features to further narrow down the \u2018most similar\u2019 list and make the resemblance perceptually more relevant. Author Information Ozgur Izmirli Center for Arts and Technology, Department of Mathematics and Computer Science, Connecticut College oizm@conncoll.edu",
         "zenodo_id": 1416438,
-        "dblp_key": "conf/ismir/Izmirli00"
+        "dblp_key": "conf/ismir/Izmirli00",
+        "keywords": [
+            "audio",
+            "segmentation",
+            "content-based retrieval",
+            "spectral flatness",
+            "tonality",
+            "audio input",
+            "query information",
+            "reference points",
+            "search sequence",
+            "anchor times"
+        ]
     },
     {
         "title": "Score-based Style Recognition Using Artificial Neural Networks.",
@@ -387,7 +483,19 @@
         "ee": "https://zenodo.org/records/1416626/files/Kiernan00.pdf",
         "abstract": "Overview The original idea was to develop a system for musicological analysis that was capable of assisting in the resolution of issues concerning compositional authenticity. Based on explicit rule-based interrogation of a musical score the system gathers statistical information by way of a data habitual characteristics within the composition. It must not be assumed that this system aims towards the modeling of human musical perception, as it is the author\u00d5s belief that score-based analyses cannot adequately meet this task. Initially the system was developed to explore the authenticity of flute compositions attributed to Frederick II \u00d2The Great\u00d3. Since there has long been musicological debate concerning this matter it was decided to acquire information from both performers of period instruments and musicologists concerning the characteristics and signatures required in the discrimination task. Based on free and multiple-choice reports returned a rule base was compiled that was then implemented into the system. Methodology For the purpose of this study it was decided to create a corpus of score representations in ALMA1, an antiquated and relatively forgotten format. The primary reason for this was the ease of coding without the necessity to sacrifice any of the printed score attributes. Since the system is based on intervallic difference of note relations it was not necessary to transpose the selected material to a common key-signature, which appears to be common practice in similar studies. Aside from the standard frequency of note distribution statistics, horizontal pitch-class \u00d2snapshots\u00d3 are used in order to obtain a rough image of the tonal contents of each measure. Other data is collected from functions stemming from Lerdahl & Jackendoff (1983) theories on tonal music. In a similar manner vertical pitch-class analysis is employed, this method involves the weighting of individual events based on their metric position to obtain a single vector. Weighting of importance of the vertical pitch-class data is crucial for the perceived tonality of each measure (Cook 2000). Strong-weak interplay between parts provides major individualistic cues in the identification process. Auxiliary and passing notes in this instance are not considered since the resolution is restricted to minimal values of 16th notes. Efforts to locate modulations were developed by monitoring the frequency of note occurrence over time. Having established the initial key a scan is run over the score to track any deviation, which is assumed if recurring accidental tones match \u00d2expected\u00d3 modulatory practices. For example when a piece initially established as being in C-major displays a recurring F# it is highly likely that a modulation to the dominant key of G-major has occurred. The sequence recognition algorithm involves the staggered parsing of a back-to-back pair of arrays checking sequences of intervals on the major metric points of the melody. Their function is to identify recurring interval sequences; chromatic, diatonic or pentatonic. The sequences being sought must be concurrent. Motivic interplay as yet cannot be detected.",
         "zenodo_id": 1416626,
-        "dblp_key": "conf/ismir/Kiernan00"
+        "dblp_key": "conf/ismir/Kiernan00",
+        "keywords": [
+            "system",
+            "musical",
+            "score",
+            "analysis",
+            "compositional",
+            "authenticity",
+            "rule-based",
+            "statistical",
+            "information",
+            "data"
+        ]
     },
     {
         "title": "Analysis of a Contour-based Representation for Melody.",
@@ -403,7 +511,19 @@
         "ee": "https://zenodo.org/records/1416760/files/KimCGV00.pdf",
         "abstract": "Identifying a musical work from a melodic fragment is a task that most people are able to accomplish with relative ease. For some time now researchers have worked to give computers this ability as well, as it would be the cornerstone of any query-by-humming system. To accomplish this, it is reasonable to study how humans are able to perform this task, and to assess what features we use to determine melodic similarity. Research has shown that melodic contour is an important feature in determining melodic similarity, but it is also clear that rhythmic information is important as well. The goal of this research is to explore what variation of contour and rhythmic information can result in the most efficient, robust, and scalable representation for melody. We intend for this to be the basis of a query-by-humming system that will be used to test the validity of our proposed representation. The importance of melodic contour The literature suggests that a coarse melodic contour description is more important to listeners than strict intervals in determining melodic similarity. Experiments have shown that interval direction alone (i.e. the 3-level +/-/0 contour representation) is an important element of melody recognition. There is, of course, anecdotal and experimental evidence that humans use more than just interval direction (a 3-level contour) in assessing melodic similarity. In an experiment by Lindsay (1996), subjects were asked to repeat (sing) a melody that was played for them. He found that while there was some correlation between sung interval accuracy and musical experience, even musically inexperienced subjects were able to negotiate different interval sizes fairly successfully. From a practical standpoint, a 3-level representation will generally require longer queries to arrive at a unique match. Given the perceptual and practical considerations, we chose to explore finer (5- and 7-level) contour divisions for our representation. Proposed melody representation We used a triple  to represent each melody, where T is the time signature of the song, P is the pitch contour vector, and B is the beat number vector. The range of values of P vary depending on the number of levels of contour used, but follow the pattern of 0, +, -, ++, --, +++, etc. The first value of B is the location of the first note within its measure in beats (according to the time signature). Successive values of B are incremented according to the number of beats between successive notes. Values of B are quantized to the nearest whole beat. Additionally, we used a vector Q to represent different contour resolutions and quantization boundaries. The length of Q indirectly reveals the number of levels of contour being used, and the individual values of Q indicate the absolute value of the quantization boundaries (in number of half-steps). For example, Q = [0 1] represents that we quantize interval changes into three levels, 0 for no change, + for an ascending interval (a boundary at one half-step or more), and - for a descending interval. This representation is equivalent to the popular +/-/0 or U/D/R (up/down/repeat) representation. Q = [0 1 3] represents a quantization of intervals into five levels, 0 for no change, + for an ascending half-step or whole-step (1 or 2 half-steps), ++ for ascending at least a minor third (3 or more half-steps), - for a descending half-step or whole-step, and -- for a descent of at least a minor third. Thus far, we have assembled a data set of 50 multi-track MIDI files, containing a mixture of popular and classical music. The popular music selections span a variety of different countries. All selected songs had a separate monophonic melody sound track. Results In spite of anecdotal evidence, we wanted to explicitly verify the usefulness of rhythmic information in comparing melodic similarity. To test this, we used the simplest contour (3-levels, Q=[0 1]) for queries with and without the rhythmic information vector, B. Our results clearly indicate that rhythmic information allows for much shorter (and thus more efficient) queries. For the 5- and 7-level contours, we also examined a variety of quantization boundaries (different vectors Qk). Our results showed that the performance of 5-level contours are generally better than the 3-level contour, and 7-levels is better than that. For quantization vectors, we limited our search to Qk = [0 1 x \u2026] cases only. Other values would have caused  repeated notes (no interval change) to be grouped in the same quantization level as some amount of interval change, which does not make sense perceptually. What is illuminating is that the best 5-level contour was able to equal the performance of the 7- level contour. This suggests that a 5-level contour may be an optimal tradeoff between efficiency and robustness to query variation (more levels will cause more variations in queries). Given this result, it is revealing to examine the histogram of interval occurrences in our data set. An optimal quantizer would divide the histogram into sections of equal area. This was approximately true for the Q = [0 1 3] case, which has the best performance. No interval change (0) occurs about 23% of the time. Ascending half-steps and whole-steps (+1 and +2) are about 21% of the intervals, whereas descending half- and whole-steps (-1 and -2) represent approximately 23%. Other choices for quantization boundaries clearly have less-optimal probability distributions, which is why they do not perform as well. While this result is dependant on the statistics of the data set, it is worth noting that it also correlates well with our knowledge of melody perception. Others have noted the apparent correlation of statistical independence and perceptual importance in acoustic features, which supports a theory of perception evolving from statistical efficiency. Perhaps it is not surprising that these relationships may exist in higher-level features, such as melody, as well. Some surely will argue the reverse causality: that human perception has driven the statistics of melody, resulting in a distribution of intervals that is pleasing to human perception. Either way, it is a useful relationship that perhaps has not yet been fully exploited. The statistical features of this description for melody result in an efficient representation. And since the representation correlates well with our perception of melody, the representation becomes more robust since our queries are likely to be more accurate. Author Information Youngmoo E. Kim, Wei Chai, Ricardo Garcia, Barry Vercoe Machine Listening Group MIT Media Lab {moo,chaiwei,rago,bv}@media.mit.edu Suggested Readings Lindsay, Adam T. 1996. Using contour as a mid-level representation of melody. Unpub. MS thesis. MIT Media Lab. McNab, R. J. et al. 1996. \u201cToward the digital music library: tune retrieval from acoustic input.\u201d Proc. ACM Digital Libraries, Bethesda. http://www.nzdl.org. MiDiLiB, University of Bonn, http://leon.cs.uni-bonn.de/forschungprojekte/midilib/english. Themefinder\u2122, Stanford University, http://www.ccarh. org/themefinder. TuneServer, University of Karlsruhe, http://wwwipd.ira. uka.de/tuneserver.",
         "zenodo_id": 1416760,
-        "dblp_key": "conf/ismir/KimCGV00"
+        "dblp_key": "conf/ismir/KimCGV00",
+        "keywords": [
+            "melodic contour",
+            "rhythmic information",
+            "query-by-humming system",
+            "query-by-humming system",
+            "query-by-humming system",
+            "query-by-humming system",
+            "query-by-humming system",
+            "query-by-humming system",
+            "query-by-humming system",
+            "query-by-humming system"
+        ]
     },
     {
         "title": "Searching for Meaning: Melodic Patterns, Combinations, and Embellishments.",
@@ -430,7 +550,19 @@
         "ee": "https://zenodo.org/records/1415908/files/LemstromP00.pdf",
         "abstract": "We present an efficient prototype for music information retrieval. The prototype uses bit- parallel algorithms for locating transposition invariant matches of monophonic query melodies within monophonic or polyphonic music stored in a database. When dealing with monophonic music, we employ a fast approximate bit-parallel algorithm with special edit distance metrics. The fast scanning phase is succeeded by verification where a separate metrics is used for ranking matches. We also offer the possibility to search for exact occurrences of a \u2018distributed\u2019 melody within polyphonic databases via a bit-parallel filtering technique. In our experiments with a database of 2 million musical elements (notes in a monophonic and chords in a polyphonic database) the responses were obtained within one second in both cases. Furthermore, our pro- totype is capable of using various interval classes in matching, producing more approximation when it is needed. Key words: music retrieval, bit parallelism, polyphonic databases 1",
         "zenodo_id": 1415908,
-        "dblp_key": "conf/ismir/LemstromP00"
+        "dblp_key": "conf/ismir/LemstromP00",
+        "keywords": [
+            "music information retrieval",
+            "bit parallelism",
+            "pattern matching",
+            "polyphonic search",
+            "monophonic databases",
+            "transposition invariance",
+            "query processing",
+            "midi",
+            "edit distance",
+            "music retrieval algorithms"
+        ]
     },
     {
         "title": "Intellectual Property Rights in Musical Works: Overview, Digital Library Issues and Related Initiatives.",
@@ -558,7 +690,19 @@
         "ee": "https://zenodo.org/records/1417167/files/Roland00.pdf",
         "abstract": "adoption of XML standards for music representation and meta-data to serve as the basis for music information retrieval.",
         "zenodo_id": 1417167,
-        "dblp_key": "conf/ismir/Roland00"
+        "dblp_key": "conf/ismir/Roland00",
+        "keywords": [
+            "music information retrieval",
+            "eXtensible Markup Language (XML)",
+            "music representation",
+            "information exchange",
+            "meta-data",
+            "unicode",
+            "musicat",
+            "data communication",
+            "standards",
+            "music data"
+        ]
     },
     {
         "title": "MCML - Music Contents Markup Language.",
@@ -663,7 +807,19 @@
         "ee": "https://zenodo.org/records/1414990/files/UitdenbogerdZ00.pdf",
         "abstract": "Several techniques have been proposed for matching melody queries to stored music. In previous work [2], we found that local alignment, a technique derived from bioinformatics, was more effective than the n-gram methods derived from information retrieval that are used in other work. In this paper we explore a broader range of n-gram techniques, and test them with both manual queries and queries automatically extracted from MIDI files. Our experiments show that alternative - indeed, simpler - n-gram matching techniques than those tested in earlier work can be as effective as local alignment; one highly effective technique is to simply count the number of 5-grams in common between query and stored piece of music. N-grams are particularly effective for short queries and manual queries, while local alignment is superior for the automatic queries. In our experiments we have used a database of 10 466 standard MIDI files down loaded from the internet. These were processed to extract their melodies as described in [1]. In that earlier paper, we used volunteer listeners to judge a small set of extracted melodies. We discovered that our simple algorithm that chooses notes starting at each instance to be melody notes and that we have named all mono, was the most successful in extracting melodies. However, we continued to test all of our melody extraction algorithms in our second paper [2] in the context of melodic similarity measurement. In this experiment we used three methods of melodic standardisation to produce the representations that would be used for matching. They were: contour, which uses a three-symbol alphabet to represent where a melody goes up, down or stays the same; modulo-12 interval (pitch distance between notes), which keeps the size of intervals and their direction but reduced to one octave; and exact interval, which keeps the exact interval size and direction.  All these represented pitch information only. A set of 28 automatically extracted melody queries were used to locate other versions of the same piece of music. The results were evaluated by computing the eleven-point precision average and the precision at a recall level of 20. Again the all mono method was successful, as were the entropy channel and all channels methods. The entropy channel method applies the all mono technique to each channel and then selects the melody channel based on its first order predictive entropy. The all channels technique also applies the all mono algorithm to each channel and then retains them all for the matching process. In addition, we confirmed that contour was insufficient for good matching, but that the use of interval sequences worked well.  Queries of 30 intervals produced good answers.  The similarity measurement techniques tested were local alignment, longest common subsequence, an n-gram counting technique that included the frequency of occurrence of each n-gram, and the Ukkonen n-gram measure. Local alignment was a clear winner. However, local alignment is a slow technique. It would be useful to have a good n-gram- based technique as indexes can be built to speed up matches. This led to our current exploration of n-grams. In this current set of experiments we used the same experimental framework as that used in [2], but also tested a set of manually produced queries. These manual queries were created by a classically trained pianist with perfect pitch, who listened to the source MI DI files and played a melodic fragment to represent each piece. We explored the variables of n-gram  length, n-gram counting method, song-length normalisation, melody extraction and query length.   The results clearly showed that n-grams of length five work best using the count distinct method, where term frequency is ignored. Some length normalisation was found to be best, such as dividing by the log of the number of intervals. Query lengths of 20 and 30 each gave similar results, but those of length 10 were much less effective. The all channels technique was found to be far superior to the other methods when manual queries were used. For the automatic queries the results are less distinct. It is quite clear from our experiments that an index-based approach to melody  matching using n- grams can be used to produce good answers to melody queries and we recommend  an n-gram length of five for this purpose. Term frequency should be ignored in this approach. The method of melody extraction and standardisation used within the collection is also important in implementing a successful system. Author Information Alexandra L. Uitdenbogerd, Justin Zobel Department of Computer Science, RMIT University {alu, jz}@cs.rmit.edu.au Suggested Readings Downie, Stephen J. and Nelson, Michael.  2000, \u201cEvaluation of a simple and effective music information retrieval method\u201d, Proc ACM-SIGIR Conference, Athens, Greece. Uitdenbogerd, Alexandra and Zobel, Justin. 1998. \u201cManipulation of music for melody matching\u201d, Proc. ACM International Multimedia Conference, Bristol, England. Uitdenbogerd, Alexandra and Zobel, Justin. 1999. \u201cMelodic matching techniques for large music databases\u201d, Proc. ACM International Multimedia Conference, Orlando, Florida, USA.",
         "zenodo_id": 1414990,
-        "dblp_key": "conf/ismir/UitdenbogerdZ00"
+        "dblp_key": "conf/ismir/UitdenbogerdZ00",
+        "keywords": [
+            "local alignment",
+            "n-gram methods",
+            "bioinformatics",
+            "information retrieval",
+            "MIDI files",
+            "melody queries",
+            "stored music",
+            "melodic similarity measurement",
+            "melody extraction algorithms",
+            "pitch information"
+        ]
     },
     {
         "title": "ISMIR 2000, 1st International Symposium on Music Information Retrieval, Plymouth, Massachusetts, USA, October 23-25, 2000, Proceedings",
@@ -674,6 +830,18 @@
         "ee": null,
         "abstract": "Ever since the first International Symposium on Music Information Retrieval in 2000, the proceedings have been made publicly available to interested researchers. After 20 years of annual conferences and workshops, this number has grown to an impressive amount of almost 2,000 papers. When restricted to linear search and retrieval in a document collection of this size, it becomes inherently hard to identify topics, related work and trends in scientific research. Therefore, this paper presents and evaluates a map-based user interface for exploring 20 years of ISMIR publications. The interface visualizes k-nearest neighbor subsets of semantically similar papers. Users may jump from one neighborhood to the next by selecting another paper from the current subset. Through animated transitions between local k-nn maps, the interface creates the impression of panning a large global map. Evaluations results of a small user study suggest that users are able to discover interesting links between papers. Due to its generic approach, the interface is easily applicable to other document collections as well. The search interface and its source code will be made publicly available.",
         "zenodo_id": 3527920,
-        "dblp_key": "conf/ismir/2000"
+        "dblp_key": "conf/ismir/2000",
+        "keywords": [
+            "International Symposium on Music Information Retrieval",
+            "publicly available proceedings",
+            "20 years of conferences and workshops",
+            "linear search and retrieval",
+            "document collection of size",
+            "k-nearest neighbor subsets",
+            "semantically similar papers",
+            "user interface for exploring",
+            "small user study",
+            "generic approach"
+        ]
     }
 ]
