@@ -1230,7 +1230,19 @@
         "ee": "https://zenodo.org/records/1415534/files/KostaMP12.pdf",
         "abstract": "A system is presented that generates a sound sequence from an original audio chord sequence, having the following characteristics: The generation can be arbitrarily long, pre- serves certain musical characteristics of the original and has a reasonable degree of interestingness. The proce- dure comprises the following steps: 1) chord segmentation by onset detection, 2) representation as Constant Q Pro- files, 3) multi-level clustering, 4) cluster level selection, 5) metrical analysis, 6) building of a suffix tree, 7) gen- eration heuristics. The system can be seen as a computa- tional model of the cognition of harmony consisting of an unsupervised formation of harmonic categories (via multi- level clustering) and a sequence learning module (via suf- fix trees) which in turn controls the harmonic categoriza- tion in a top-down manner (via a measure of regularity). In the final synthesis, the system recombines the audio ma- terial derived from the sample itself and it is able to learn various harmonic styles. The system is applied to various musical styles and is then evaluated subjectively by mu- sicians and non-musicians, showing that it is capable of producing sequences that maintain certain musical charac- teristics of the original.",
         "zenodo_id": 1415534,
-        "dblp_key": "conf/ismir/KostaMP12"
+        "dblp_key": "conf/ismir/KostaMP12",
+        "keywords": [
+            "sound sequence",
+            "chord sequence",
+            "arbitrarily long",
+            "musical characteristics",
+            "interestingness",
+            "chord segmentation",
+            "Constant Q Profiles",
+            "multi-level clustering",
+            "cluster level selection",
+            "metrical analysis"
+        ]
     },
     {
         "title": "Robust Singer Identification in Polyphonic Music using Melody Enhancement and Uncertainty-based Learning.",
@@ -1871,7 +1883,19 @@
         "ee": "https://zenodo.org/records/1417871/files/PeetersF12.pdf",
         "abstract": "Today, annotated MIR corpora are provided by various re- search labs or companies, each one using its own annota- tion methodology, concept definitions, and formats. This is not an issue as such. However, the lack of descriptions of the methodology used\u2014how the corpus was actually an- notated, and by whom\u2014and of the annotated concepts, i.e. what is actually described, is a problem with respect to the sustainability, usability, and sharing of the corpora. Ex- perience shows that it is essential to define precisely how annotations are supplied and described. We propose here a survey and consolidation report on the nature of the an- notated corpora used and shared in MIR, with proposals for the axis against which corpora can be described so to enable effective comparison and the inherent influence this has on tasks performed using them.",
         "zenodo_id": 1417871,
-        "dblp_key": "conf/ismir/PeetersF12"
+        "dblp_key": "conf/ismir/PeetersF12",
+        "keywords": [
+            "corpora",
+            "annotated",
+            "research",
+            "labs",
+            "companies",
+            "methodology",
+            "descriptions",
+            "sustainability",
+            "usability",
+            "sharing"
+        ]
     },
     {
         "title": "Tracking Melodic Patterns in Flamenco Singing by Analyzing Polyphonic Music Recordings.",

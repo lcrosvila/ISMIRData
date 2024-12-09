@@ -1928,7 +1928,19 @@
         "ee": "https://zenodo.org/records/1415046/files/SchreiberM17.pdf",
         "abstract": "Tempo estimation is a fundamental problem in music in- formation retrieval and has been researched extensively. One problem still unsolved is the tendency of tempo es- timation algorithms to produce results that are wrong by a small number of known factors (so-called octave errors). We propose a method that uses supervised learning to pre- dict such tempo estimation errors. In a post-processing step, these predictions can then be used to correct an algo- rithm\u2019s tempo estimates. While being simple and relying only on a small number of features, our proposed method significantly increases accuracy for state-of-the-art tempo estimation methods.",
         "zenodo_id": 1415046,
-        "dblp_key": "conf/ismir/SchreiberM17"
+        "dblp_key": "conf/ismir/SchreiberM17",
+        "keywords": [
+            "tempo estimation",
+            "fundamental problem",
+            "music information retrieval",
+            "octave errors",
+            "supervised learning",
+            "post-processing step",
+            "accuracy",
+            "state-of-the-art",
+            "features",
+            "algorithm"
+        ]
     },
     {
         "title": "Modeling Harmony with Skip-Grams.",

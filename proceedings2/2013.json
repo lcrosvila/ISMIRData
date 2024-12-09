@@ -2134,7 +2134,19 @@
         "ee": "https://zenodo.org/records/1418199/files/SebastienSC13.pdf",
         "abstract": "Web applications and mobile tablets are changing the way musicians practice their instrument. Now, they can access instantaneously thousands of musical scores online and play them while watching their tablet, put on their music stand. However musicians may have difficulties in getting appropriate tips and advice to play the chosen piece correctly. This is why we conceived a collaborative platform to annotate digital scores on tablets in previous work. However, we noticed that the current Music Ontology (MO) do not allow to tag these annotations appropriately. Thus, we present in this paper a proposition for a Musical Forms and Structures Ontology (MFSO) and a Musical Performance Ontology (MPO) based on music practice. A construction methodology and a model are first detailed. Then, a practical use case is presented. Lastly, inherent theoretical and practical difficulties encountered during the ontology framework\u2019s conception are discussed.",
         "zenodo_id": 1418199,
-        "dblp_key": "conf/ismir/SebastienSC13"
+        "dblp_key": "conf/ismir/SebastienSC13",
+        "keywords": [
+            "Web applications",
+            "mobile tablets",
+            "changing the way musicians practice",
+            "accessing musical scores",
+            "playing while watching",
+            "music stand",
+            "difficulty in getting tips",
+            "conceived a collaborative platform",
+            "Music Ontology",
+            "proposition for a Musical Forms and Structures Ontology"
+        ]
     },
     {
         "title": "Score Informed Tonic Identification for Makam Music of Turkey.",

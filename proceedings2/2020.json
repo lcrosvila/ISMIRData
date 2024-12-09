@@ -911,7 +911,19 @@
         "ee": "http://archives.ismir.net/ismir2020/paper/000239.pdf",
         "abstract": "Recent works have addressed the automatic cover detection problem from a metric learning perspective. They employ different input representations, aiming to exploit melodic or harmonic characteristics of songs and yield promising performances. In this work, we propose a comparative study of these different representations and show that systems combining melodic and harmonic features drastically outperform those relying on a single input representation. We illustrate how these features complement each other with both quantitative and qualitative analyses. We finally investigate various fusion schemes and propose methods yielding state-of-the-art performances on two publicly-available large datasets.",
         "zenodo_id": 4245424,
-        "dblp_key": "conf/ismir/DorasYSGP20"
+        "dblp_key": "conf/ismir/DorasYSGP20",
+        "keywords": [
+            "Automatic cover detection",
+            "Metric learning",
+            "Melodic characteristics",
+            "Harmonic features",
+            "Comparative study",
+            "Feature complementation",
+            "Quantitative and qualitative analyses",
+            "Fusion schemes",
+            "State-of-the-art performances",
+            "Publicly-available datasets"
+        ]
     },
     {
         "title": "Artist gender representation in music streaming.",

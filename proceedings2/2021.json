@@ -120,7 +120,19 @@
         "ee": "https://archives.ismir.net/ismir2021/paper/000003.pdf",
         "abstract": "Most of the musical heritage is only available as physical documents, given that the engraving process was carried out by handwriting or typesetting until the end of the 20th century. Their mere availability as scanned images does not enable tasks such as indexing or editing unless they are transcribed into a structured digital format. Given the cost and time required for manual transcription, Optical Music Recognition (OMR) presents itself as a promising alternative. Quite often, OMR systems show acceptable but not perfect performance, which eventually leaves them out of the transcription process. On the assumption that OMR systems might always make some errors, it is essential that the user corrects the output. This paper contributes to a better understanding of how music transcription is improved by the assistance of OMR systems that include the end-user in the recognition process. For that, we have measured the transcription time of a printed early music work under two scenarios: a manual one and a state-of-the-art OMR-assisted one, with several alternatives each. Our results demonstrate that using OMR remarkably reduces users' effort, even when its performance is far optimal, compared to the fully manual option.",
         "zenodo_id": 5625663,
-        "dblp_key": "conf/ismir/Alfaro-Contreras21"
+        "dblp_key": "conf/ismir/Alfaro-Contreras21",
+        "keywords": [
+            "Musical heritage",
+            "Engraving process",
+            "Scanned images",
+            "Indexing",
+            "Editing",
+            "Transcription",
+            "Optical Music Recognition (OMR)",
+            "Manual transcription",
+            "Cost and time",
+            "User correction"
+        ]
     },
     {
         "title": "Deeper Convolutional Neural Networks and Broad Augmentation Policies Improve Performance in Musical Key Estimation.",

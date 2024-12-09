@@ -2694,7 +2694,19 @@
         "ee": "https://zenodo.org/records/1418183/files/ProutskovaC09.pdf",
         "abstract": "The wide range of vocal styles, musical textures and recording techniques found in ethnomusicological field recordings leads us to consider the problem of automatically labeling the content to know whether a recording is a song or instrumental work. Furthermore, if it is a song, we are interested in labeling aspects of the vocal texture: e.g. solo, choral, acapella or singing with instruments. We present evidence to suggest that automatic annotation is feasible for recorded collections exhibiting a wide range of recording techniques and representing musical cultures from around the world. Our experiments used the Alan Lomax Cantometrics training tapes data set, to encourage future comparative evaluations. Experiments were conducted with a labeled subset consisting of several hundred tracks, annotated at the track and frame levels, as acapella singing, singing plus instruments or instruments only. We trained frame-by-frame SVM classifiers using MFCC features on positive and negative exemplars for two tasks: per-frame labeling of singing and acapella singing. In a further experiment, the frame-by-frame classifier outputs were integrated to estimate the predominant content of whole tracks. Our results show that frame-byframe classifiers achieved 71% frame accuracy and whole track classifier integration achieved 88% accuracy. We conclude with an analysis of classifier errors suggesting avenues for developing more robust features and classifier strategies for large ethnographically diverse collections.",
         "zenodo_id": 1418183,
-        "dblp_key": "conf/ismir/ProutskovaC09"
+        "dblp_key": "conf/ismir/ProutskovaC09",
+        "keywords": [
+            "vocal styles",
+            "musical textures",
+            "recording techniques",
+            "automatic labeling",
+            "song vs. instrumental",
+            "vocal texture",
+            "acapella singing",
+            "singing with instruments",
+            "Alan Lomax Cantometrics training tapes",
+            "whole track classification"
+        ]
     },
     {
         "title": "Learning to Control a Reverberator Using Subjective Perceptual Descriptors.",
@@ -2763,7 +2775,19 @@
         "ee": "https://zenodo.org/records/1417163/files/ReedUSUSL09.pdf",
         "abstract": "Audio chord detection is the combination of two separate tasks: recognizing what chords are played and determining when chords are played. Most current audio chord detection algorithms use hidden Markov model (HMM) classifiers because of the task similarity with automatic speech recognition. For most speech recognition algorithms, the performance is measured by word error rate; i.e., only the identity of recognized segments is considered because word boundaries in continuous speech are often ambiguous. In contrast, audio chord detection performance is typically measured in terms of frame error rate, which considers both timing and classification. This paper treats these two tasks separately and focuses on the first problem; i.e., classifying the correct chords given boundary information. The best performing chroma/HMM chord detection algorithm, as measured in the 2008 MIREX Audio Chord Detection Contest, is used as the baseline in this paper. Further improvements are made to reduce feature correlation, account for differences in tuning, and incorporate minimum classification error (MCE) training in obtaining chord HMMs. Experiments demonstrate that classification rates can be improved with tuning compensation and MCE discriminative training.",
         "zenodo_id": 1417163,
-        "dblp_key": "conf/ismir/ReedUSUSL09"
+        "dblp_key": "conf/ismir/ReedUSUSL09",
+        "keywords": [
+            "audio chord detection",
+            "hidden Markov model (HMM)",
+            "automatic speech recognition",
+            "word error rate",
+            "continuous speech",
+            "ambiguous word boundaries",
+            "frame error rate",
+            "classification rates",
+            "tuning compensation",
+            "MCE discriminative training"
+        ]
     },
     {
         "title": "Meter Class Profiles for Music Similarity and Retrieval.",

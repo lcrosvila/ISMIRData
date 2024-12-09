@@ -530,7 +530,19 @@
         "ee": "https://zenodo.org/records/1417181/files/DownieHLCCH14.pdf",
         "abstract": "The Music Information Retrieval Evaluation eXchange (MIREX) has been run annually since 2005, with the Oc- tober 2014 plenary marking its tenth iteration. By 2013, MIREX has evaluated approximately 2000 individual music information retrieval (MIR) algorithms for a wide range of tasks over 37 different test collections. MIREX has involved researchers from over 29 different countries with a median of 109 individual participants per year. This paper summarizes the history of MIREX from its earliest planning meeting in 2001 to the present. It re- flects upon the administrative, financial, and technologi- cal challenges MIREX has faced and describes how those challenges have been surmounted. We propose new fund- ing models, a distributed evaluation framework, and more holistic user experience evaluation tasks-some evolu- tionary, some revolutionary for the continued success of MIREX. We hope that this paper will inspire MIR com- munity members to contribute their ideas so MIREX can have many more successful years to come.",
         "zenodo_id": 1417181,
-        "dblp_key": "conf/ismir/DownieHLCCH14"
+        "dblp_key": "conf/ismir/DownieHLCCH14",
+        "keywords": [
+            "Music Information Retrieval Evaluation eXchange (MIREX)",
+            "annual",
+            "2005",
+            "Oc- tober 2014 plenary",
+            "tenth iteration",
+            "approximately 2000 individual music information retrieval (MIR) algorithms",
+            "wide range of tasks",
+            "37 different test collections",
+            "over 29 different countries",
+            "109 individual participants per year"
+        ]
     },
     {
         "title": "Extending Harmonic-Percussive Separation of Audio Signals.",
@@ -1532,7 +1544,19 @@
         "ee": "https://zenodo.org/records/1416150/files/MironCJ14.pdf",
         "abstract": "In this paper we propose an offline method for refining audio-to-score alignment at the note level in the context of orchestral recordings. State-of-the-art score alignment systems estimate note onsets with a low time resolution, and without detecting note offsets. For applications such as score-informed source separation we need a precise align- ment at note level. Thus, we propose a novel method that refines alignment by determining the note onsets and off- sets in complex orchestral mixtures by combining audio and image processing techniques. First, we introduce a note-wise pitch salience function that weighs the harmonic contribution according to the notes present in the score. Second, we perform image binarization and blob detection based on connectivity rules. Then, we pick the best com- bination of blobs, using dynamic programming. We finally obtain onset and offset times from the boundaries of the most salient blob. We evaluate our method on a dataset of Bach chorales, showing that the proposed approach can accurately estimate note onsets and offsets.",
         "zenodo_id": 1416150,
-        "dblp_key": "conf/ismir/MironCJ14"
+        "dblp_key": "conf/ismir/MironCJ14",
+        "keywords": [
+            "offline",
+            "audio-to-score alignment",
+            "note level",
+            "score alignment systems",
+            "note onsets",
+            "note offsets",
+            "score-informed source separation",
+            "complex orchestral mixtures",
+            "audio and image processing techniques",
+            "note-wise pitch salience function"
+        ]
     },
     {
         "title": "Evaluation Framework for Automatic Singing Transcription.",
@@ -2525,7 +2549,19 @@
         "ee": "https://zenodo.org/records/1416276/files/UrbanoBHGS14.pdf",
         "abstract": "Music Information Retrieval is largely based on descriptors computed from audio signals, and in many practical appli- cations they are to be computed on music corpora contain- ing audio files encoded in a variety of lossy formats. Such encodings distort the original signal and therefore may af- fect the computation of descriptors. This raises the ques- tion of the robustness of these descriptors across various audio encodings. We examine this assumption for the case of MFCCs and chroma features. In particular, we analyze their robustness to sampling rate, codec, bitrate, frame size and music genre. Using two different audio analysis tools over a diverse collection of music tracks, we compute sev- eral statistics to quantify the robustness of the resulting de- scriptors, and then estimate the practical effects for a sam- ple task like genre classification.",
         "zenodo_id": 1416276,
-        "dblp_key": "conf/ismir/UrbanoBHGS14"
+        "dblp_key": "conf/ismir/UrbanoBHGS14",
+        "keywords": [
+            "Music Information Retrieval",
+            "descriptors computed from audio signals",
+            "practical applications",
+            "audio corpora",
+            "audio signals",
+            "lossy formats",
+            "distort the original signal",
+            "compute descriptors",
+            "MFCCs",
+            "chroma features"
+        ]
     },
     {
         "title": "Vocal Separation using Singer-Vowel Priors Obtained from Polyphonic Audio.",
